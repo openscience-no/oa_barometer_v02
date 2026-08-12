@@ -1,0 +1,397 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// openscience.no designpalett (fra openscience_font_fargekoder_2021-10-05.txt)
+// ---------------------------------------------------------------------------
+$os-graa:      #424242;   // Grå   – header, footer, brødtekst
+$os-oransje:   #F68213;   // Oransje – aksentfarge
+$os-moerkblaa: #5E778D;   // Mørk blå – seksjonsbånd
+$os-lysblaa:   #E5EDEF;   // Lys blå – bakgrunnsflater
+
+// Typografi: Barlow (brødtekst), Merriweather (titler)
+$font-family-sans-serif: "Barlow", "Segoe UI", Arial, sans-serif;
+$headings-font-family: "Merriweather", Georgia, "Times New Roman", serif;
+$headings-font-weight: 400;
+$headings-color: $os-graa;
+$font-size-root: 17px;
+
+$body-bg: #ffffff;
+$body-color: $os-graa;
+
+$link-color: #46617a;
+$link-decoration: underline;
+$link-hover-color: darken($os-oransje, 8%);
+
+$navbar-bg: $os-graa;
+$navbar-fg: #ffffff;
+$navbar-hl: $os-oransje;
+
+$toc-active-border: $os-oransje;
+$toc-color: $os-graa;
+
+/*-- scss:rules --*/
+
+// ---------------------------------------------------------------------------
+// Fonter (selvhostet, ingen CDN)
+// ---------------------------------------------------------------------------
+@font-face {
+  font-family: "Barlow";
+  src: url("assets/fonts/barlow/Barlow-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("assets/fonts/barlow/Barlow-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("assets/fonts/barlow/Barlow-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("assets/fonts/barlow/Barlow-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("assets/fonts/barlow/Barlow-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("assets/fonts/merriweather/Merriweather-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("assets/fonts/merriweather/Merriweather-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("assets/fonts/merriweather/Merriweather-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+// ---------------------------------------------------------------------------
+// Navbar
+// ---------------------------------------------------------------------------
+.navbar {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+// SVG-logoen har kun viewBox (ingen width/height-attributter) og kollapser
+// til 0px med max-height alene – eksplisitt høyde er nødvendig
+.navbar-brand img,
+img.navbar-logo {
+  height: 46px;
+  width: auto;
+  max-height: none;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+// ---------------------------------------------------------------------------
+// Tittelblokk: Merriweather-tittel med kort oransje strek under
+// ---------------------------------------------------------------------------
+.quarto-title-banner {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+
+  .quarto-title .title {
+    font-weight: 400;
+    font-size: 2.4rem;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 56px;
+      height: 4px;
+      background: $os-oransje;
+      margin-top: 16px;
+    }
+  }
+
+  .quarto-title .description {
+    font-family: $font-family-sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 1.4rem;
+    max-width: 44em;
+  }
+}
+
+// "Endret <dato>" under tittelbanneret – liten kapitél-stil som på openscience.no
+.quarto-title-meta-heading {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem !important;
+  color: #6d6d6d;
+}
+
+.quarto-title-meta-contents {
+  font-size: 0.9rem;
+}
+
+// ---------------------------------------------------------------------------
+// Overskrifter i innhold
+// ---------------------------------------------------------------------------
+h2 {
+  font-size: 1.65rem;
+  margin-top: 2.5rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+// ---------------------------------------------------------------------------
+// Kortgrid med pil-lenkekort (som "Snarveier" på openscience.no)
+// ---------------------------------------------------------------------------
+.os-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+a.os-card {
+  display: block;
+  position: relative;
+  background: #ffffff;
+  border: 1px solid #c9d4d8;
+  padding: 1.5rem 3.2rem 1.5rem 1.5rem;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover,
+  &:focus-visible {
+    border-color: $os-oransje;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    color: inherit;
+  }
+
+  // oransje chevron til høyre
+  &::after {
+    content: "";
+    position: absolute;
+    right: 1.4rem;
+    top: 50%;
+    width: 13px;
+    height: 13px;
+    border-top: 3px solid $os-oransje;
+    border-right: 3px solid $os-oransje;
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  img.os-card-icon {
+    height: 42px;
+    width: auto;
+    margin-bottom: 0.9rem;
+  }
+
+  .os-card-title {
+    display: block;
+    font-family: $font-family-sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin: 0 0 0.4rem 0;
+    color: $os-graa;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #5a5a5a;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Merknadsboks (datagrunnlag o.l.)
+// ---------------------------------------------------------------------------
+.os-note {
+  background: $os-lysblaa;
+  border-left: 4px solid $os-moerkblaa;
+  padding: 1rem 1.3rem;
+  margin: 1.6rem 0;
+  font-size: 0.95rem;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Plassholder for figurer/tabeller (byttes ut med interaktive figurer senere)
+// ---------------------------------------------------------------------------
+.fig-placeholder {
+  border: 2px dashed #b7c6cd;
+  background: #f4f8f9;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: $os-moerkblaa;
+  margin: 1.5rem 0;
+
+  img {
+    height: 46px;
+    width: auto;
+    opacity: 0.75;
+    margin-bottom: 0.8rem;
+  }
+
+  p {
+    margin: 0;
+    font-weight: 500;
+  }
+
+  small {
+    color: #7d919f;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Mørkblått fullbredde-bånd (som "Eksterne lenker" på openscience.no)
+// ---------------------------------------------------------------------------
+.os-band {
+  background: $os-moerkblaa;
+  color: #ffffff;
+  padding: 3rem 1.5rem;
+  margin-top: 3.5rem;
+
+  .os-band-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  h2 {
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  a.os-card {
+    border: none;
+
+    .os-card-title {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Footer med Sikt-avsender (mørk, tre kolonner)
+// ---------------------------------------------------------------------------
+.os-footer {
+  background: $os-graa;
+  color: #ffffff;
+  margin-top: 4rem;
+  padding: 3.5rem 1.5rem 4rem 1.5rem;
+  font-size: 0.92rem;
+
+  .os-footer-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  h2 {
+    font-family: $font-family-sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0 0 0.4rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $os-oransje;
+    display: inline-block;
+  }
+
+  p {
+    margin: 0.9rem 0 0 0;
+    line-height: 1.55;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+
+    &:hover {
+      color: $os-oransje;
+    }
+  }
+
+  .os-footer-logo {
+    justify-self: center;
+    align-self: center;
+
+    img {
+      height: 52px;
+      width: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .os-footer-inner {
+      grid-template-columns: 1fr;
+    }
+
+    .os-footer-logo {
+      justify-self: start;
+      order: 3;
+    }
+  }
+}
+
+// Quarto-elementer som ikke skal konkurrere med egen footer
+.nav-footer {
+  display: none;
+}
+
+// ---------------------------------------------------------------------------
+// Diverse
+// ---------------------------------------------------------------------------
+#quarto-back-to-top {
+  font-weight: 500;
+}
+
+// Tabeller: Barlow, litt luft, oransje topplinje
+table.table {
+  font-size: 0.95rem;
+
+  thead th {
+    border-top: 3px solid $os-oransje;
+    border-bottom: 1px solid #c9d4d8;
+    font-weight: 600;
+  }
+}

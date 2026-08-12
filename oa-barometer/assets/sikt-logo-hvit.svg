@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 64" role="img" aria-label="Sikt">
+  <!-- PLASSHOLDER: erstatt denne filen med Sikts offisielle hvite logo (SVG) -->
+  <g fill="#ffffff">
+    <path d="M22 8 a24 24 0 0 0 0 48 h4 a20 20 0 0 1 0 -40 z"/>
+    <path d="M34 16 a16 16 0 0 1 0 32 h-4 a12 12 0 0 0 0 -24 z"/>
+    <text x="66" y="46" font-family="Barlow, Arial, sans-serif" font-size="40" font-weight="600" fill="#ffffff">Sikt</text>
+  </g>
+</svg>

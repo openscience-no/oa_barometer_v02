@@ -1,0 +1,5 @@
+Grå: #424242
+Oransje: #F68213
+Mørk blå: #5E778D
+Lys blå: #E5EDEF
+Font: Barlow(brødtekst), Merriweather (titler)

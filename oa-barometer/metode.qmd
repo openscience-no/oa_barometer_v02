@@ -1,0 +1,36 @@
+---
+title: "Metodebeskrivelse"
+description: >
+  Hvordan status for åpen tilgang blir kalkulert i OA-barometeret.
+---
+
+*Denne siden er en skjelettside. Innholdet hentes fra den eksisterende
+metodebeskrivelsen på openscience.no når innholdet flyttes over.*
+
+## Datagrunnlag
+
+Datagrunnlaget dekker artikler som er rapportert i NVI-sammenheng
+(Norsk vitenskapsindeks). Bøker, monografier, antologier og konferansebidrag
+i serier uten ISSN inngår ikke.
+
+## Kategorier for åpen tilgang
+
+| Kategori | Beskrivelse |
+|:---|:---|
+| Diamant | Publisert i åpent tidsskrift uten forfatterbetaling (APC) |
+| Gull | Publisert i åpent tidsskrift med forfatterbetaling |
+| Hybrid | Åpen artikkel i abonnementstidsskrift |
+| Hybrid (avtale) | Åpen artikkel gjennom publiseringsavtale |
+| Grønn | Egenarkivert versjon i vitenarkiv |
+| Deponert | Deponert i vitenarkiv, ikke åpent tilgjengelig |
+| Lukket | Kun tilgjengelig med abonnement |
+
+## Beregningsmåter
+
+*Kommer.*
+
+## Kildekode og data
+
+OA-barometeret genereres med [Quarto](https://quarto.org) som en del av
+Sikts årlige OA-analysepipeline. Kildekode og aggregerte data blir
+tilgjengelig i Sikts GitLab.

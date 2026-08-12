@@ -1,0 +1,14 @@
+# Bygger og publiserer OA-barometeret til GitLab Pages.
+# Krever at GitLab Pages er aktivert på instansen (sjekk med plattformteamet).
+image: ghcr.io/quarto-dev/quarto:1.10.18
+
+pages:
+  stage: deploy
+  script:
+    - quarto render
+    - mv _site public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
