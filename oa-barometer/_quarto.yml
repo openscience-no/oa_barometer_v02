@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - assets/**
+    - data/**
 
 lang: nb
 

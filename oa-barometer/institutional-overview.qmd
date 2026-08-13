@@ -1,29 +1,121 @@
 ---
 title: "Institusjonell oversikt"
 description: >
-  Tabellen viser innrapporterte artikler for 2025 fordelt på hver enkelt
-  institusjon, samt artiklenes åpen tilgang-status.
+  Tabellen viser innrapporterte artikler fordelt på hver enkelt institusjon,
+  samt artiklenes åpen tilgang-status.
 ---
 
 ::: {.os-note}
 Datagrunnlaget dekker kun artikler som er rapportert i NVI-sammenheng og
 inkluderer ikke monografier, antologier eller konferansebidrag i serier uten ISSN.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
+
+**Merk:** Tallene på denne siden er foreløpig eksempeldata, og erstattes av
+reelle tall når datagrunnlaget kobles til.
 :::
 
-## Institusjonstabell – 2025
+## Institusjonstabell
 
-Eksempeltabell med dummy-tall. Denne erstattes av en interaktiv tabell med
-søk, sortering, filtrering og nedlasting (CSV/Excel) når datagrunnlaget kobles på.
+Tabellen kan søkes, filtreres på år og sorteres ved å klikke på
+kolonneoverskriftene. «Andel åpen» er andelen artikler som er åpent
+tilgjengelige (alle kategorier unntatt deponert og lukket).
 
-| Institusjon | Artikler | Gull | Hybrid | Grønn | Lukket | Andel åpen |
-|:---|---:|---:|---:|---:|---:|---:|
-| Universitetet i Oslo | 4 200 | 1 500 | 900 | 700 | 1 100 | 74 % |
-| NTNU | 3 900 | 1 400 | 850 | 650 | 1 000 | 74 % |
-| Universitetet i Bergen | 2 600 | 950 | 540 | 430 | 680 | 74 % |
+```{ojs}
+//| echo: false
+oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
+instRaw = FileAttachment("data/oa_institutions.csv").csv({typed: true})
+instYears = [...new Set(instRaw.map((d) => d.year))].sort((a, b) => b - a)
+```
 
-::: {.fig-placeholder}
-<img src="assets/icons/publish.svg" alt="">
-<p>Institusjonstabell 2025</p>
-<small>Plassholder – her kommer interaktiv tabell med alle institusjoner</small>
+::: {.oa-controls}
+
+```{ojs}
+//| echo: false
+viewof tblYear = Inputs.select(instYears, {value: instYears[0], label: "År"})
+```
+
+```{ojs}
+//| echo: false
+viewof tblDownload = Inputs.button("Last ned CSV", {
+  label: "Eksport",
+  reduce: () => oa.downloadCsv(
+    tblRows,
+    [
+      {key: "institusjon", header: "Institusjon"},
+      ...oa.OA_ORDER.map((c) => ({key: c, header: c})),
+      {key: "total", header: "Totalt"},
+      {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
+    ],
+    `oa-barometer_institusjonstabell_${tblYear}.csv`
+  )
+})
+```
+
 :::
+
+```{ojs}
+//| echo: false
+instWide = {
+  const m = new Map();
+  for (const d of instRaw.filter((r) => r.year === tblYear)) {
+    if (!m.has(d.institution)) {
+      const row = {institusjon: d.institution};
+      for (const c of oa.OA_ORDER) row[c] = 0;
+      m.set(d.institution, row);
+    }
+    m.get(d.institution)[d.status] += d.total;
+  }
+  return [...m.values()]
+    .map((r) => {
+      const total = oa.OA_ORDER.reduce((s, c) => s + r[c], 0);
+      const open = total - r.lukket - r.deponert;
+      return {...r, total, andel: total ? (open / total) * 100 : 0};
+    })
+    .sort((a, b) => b.total - a.total);
+}
+```
+
+```{ojs}
+//| echo: false
+viewof tblRows = Inputs.search(instWide, {
+  placeholder: "Søk etter institusjon …",
+  label: "Søk",
+  datalist: instWide.map((d) => d.institusjon)
+})
+```
+
+::: {.oa-table}
+
+```{ojs}
+//| echo: false
+Inputs.table(tblRows, {
+  columns: ["institusjon", ...oa.OA_ORDER, "total", "andel"],
+  header: {
+    institusjon: "Institusjon",
+    hybrid_avtale: "hybrid avtale",
+    total: "Totalt",
+    andel: "Andel åpen"
+  },
+  format: {
+    diamant: oa.fmtNo.format,
+    gull: oa.fmtNo.format,
+    hybrid: oa.fmtNo.format,
+    hybrid_avtale: oa.fmtNo.format,
+    "grønn": oa.fmtNo.format,
+    deponert: oa.fmtNo.format,
+    lukket: oa.fmtNo.format,
+    total: oa.fmtNo.format,
+    andel: (d) => oa.pctBarCell(d)
+  },
+  width: {institusjon: 300, andel: 110},
+  sort: "total",
+  reverse: true,
+  rows: 35,
+  layout: "auto"
+})
+```
+
+:::
+
+Datagrunnlaget for tabellen kan lastes ned her:
+[oa_institutions.csv](data/oa_institutions.csv).

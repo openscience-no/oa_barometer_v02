@@ -1,7 +1,7 @@
 ---
 title: "Sektoriell oversikt"
 description: >
-  Grafene viser vekst i publikasjoner med åpen tilgang fordelt på
+  Figuren viser vekst i publikasjoner med åpen tilgang fordelt på
   universitets- og høgskolesektoren, helsesektoren og instituttsektoren.
 ---
 
@@ -9,28 +9,72 @@ description: >
 Datagrunnlaget dekker kun artikler som er rapportert i NVI-sammenheng og
 inkluderer ikke bøker, eller konferansebidrag i serier uten ISSN.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
+
+**Merk:** Tallene på denne siden er foreløpig eksempeldata, og erstattes av
+reelle tall når datagrunnlaget kobles til.
 :::
 
-## Universitets- og høgskolesektoren
+## Sammenlign sektorene
 
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang i UH-sektoren, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
+Velg én sektor for å se den alene, eller flere for å sammenligne side om side.
+
+```{ojs}
+//| echo: false
+oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
+sectorRaw = FileAttachment("data/oa_sector.csv").csv({typed: true})
+sectorRows = sectorRaw.map((d) => ({year: d.year, status: d.status, total: d.total, group: d.sector}))
+secYears = [...new Set(sectorRows.map((d) => d.year))].sort((a, b) => a - b)
+secAll = ["UH", "Institutt", "Helse"]
+```
+
+::: {.oa-controls}
+
+```{ojs}
+//| echo: false
+viewof secSel = Inputs.checkbox(secAll, {value: secAll, label: "Sektorer"})
+```
+
+```{ojs}
+//| echo: false
+viewof secMode = Inputs.radio(
+  new Map([["Antall", "abs"], ["Prosent", "pct"]]),
+  {value: "abs", label: "Visning"}
+)
+```
+
+```{ojs}
+//| echo: false
+viewof secFrom = Inputs.select(secYears, {value: secYears[0], label: "Fra år"})
+```
+
+```{ojs}
+//| echo: false
+viewof secTo = Inputs.select(secYears, {value: secYears.at(-1), label: "Til år"})
+```
+
+```{ojs}
+//| echo: false
+viewof secCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
+```
+
 :::
 
-## Helsesektoren
+```{ojs}
+//| echo: false
+oa.oaChartCard(Plot, {
+  data: sectorRows.filter((d) => secSel.includes(d.group)),
+  mode: secMode,
+  categories: secCats,
+  yearFrom: Math.min(secFrom, secTo),
+  yearTo: Math.max(secFrom, secTo),
+  facet: secSel.length > 1,
+  width: Math.min(width, 1100),
+  title: secMode === "pct"
+    ? "Distribusjon av åpen tilgang-artikler (%)"
+    : "Distribusjon av åpen tilgang-artikler",
+  subtitle: `Sektor: ${secSel.join(", ") || "ingen valgt"} – NVI ${Math.min(secFrom, secTo)}–${Math.max(secFrom, secTo)}`
+})
+```
 
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang i helsesektoren, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
-:::
-
-## Instituttsektoren
-
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang i instituttsektoren, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
-:::
+Datagrunnlaget for figuren kan lastes ned her:
+[oa_sector.csv](data/oa_sector.csv).

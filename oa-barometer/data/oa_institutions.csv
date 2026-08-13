@@ -1,0 +1,2640 @@
+institution,year,status,total
+Universitetet i Oslo,2013,diamant,62
+Norges teknisk-naturvitenskapelige universitet,2013,diamant,72
+Universitetet i Bergen,2013,diamant,44
+UiT Norges arktiske universitet,2013,diamant,40
+Norges miljø- og biovitenskapelige universitet,2013,diamant,19
+OsloMet – storbyuniversitetet,2013,diamant,20
+Universitetet i Stavanger,2013,diamant,16
+Universitetet i Agder,2013,diamant,16
+Universitetet i Sørøst-Norge,2013,diamant,13
+Nord universitet,2013,diamant,12
+Handelshøyskolen BI,2013,diamant,9
+Norges Handelshøyskole,2013,diamant,6
+Høgskulen på Vestlandet,2013,diamant,12
+Høgskolen i Innlandet,2013,diamant,9
+Høgskolen i Østfold,2013,diamant,4
+VID vitenskapelige høgskole,2013,diamant,4
+Oslo universitetssykehus HF,2013,diamant,26
+Helse Bergen HF,2013,diamant,14
+St. Olavs hospital HF,2013,diamant,9
+Universitetssykehuset Nord-Norge HF,2013,diamant,5
+Akershus universitetssykehus HF,2013,diamant,6
+Folkehelseinstituttet,2013,diamant,10
+SINTEF,2013,diamant,12
+NORCE Norsk forskningssenter,2013,diamant,9
+Norsk institutt for naturforskning,2013,diamant,6
+Norsk institutt for bioøkonomi,2013,diamant,7
+Havforskningsinstituttet,2013,diamant,6
+Transportøkonomisk institutt,2013,diamant,3
+PRIO – Institutt for fredsforskning,2013,diamant,2
+Universitetet i Oslo,2013,gull,351
+Norges teknisk-naturvitenskapelige universitet,2013,gull,287
+Universitetet i Bergen,2013,gull,210
+UiT Norges arktiske universitet,2013,gull,154
+Norges miljø- og biovitenskapelige universitet,2013,gull,82
+OsloMet – storbyuniversitetet,2013,gull,92
+Universitetet i Stavanger,2013,gull,91
+Universitetet i Agder,2013,gull,59
+Universitetet i Sørøst-Norge,2013,gull,60
+Nord universitet,2013,gull,47
+Handelshøyskolen BI,2013,gull,40
+Norges Handelshøyskole,2013,gull,28
+Høgskulen på Vestlandet,2013,gull,48
+Høgskolen i Innlandet,2013,gull,38
+Høgskolen i Østfold,2013,gull,22
+VID vitenskapelige høgskole,2013,gull,15
+Oslo universitetssykehus HF,2013,gull,103
+Helse Bergen HF,2013,gull,51
+St. Olavs hospital HF,2013,gull,35
+Universitetssykehuset Nord-Norge HF,2013,gull,27
+Akershus universitetssykehus HF,2013,gull,26
+Folkehelseinstituttet,2013,gull,47
+SINTEF,2013,gull,54
+NORCE Norsk forskningssenter,2013,gull,40
+Norsk institutt for naturforskning,2013,gull,29
+Norsk institutt for bioøkonomi,2013,gull,27
+Havforskningsinstituttet,2013,gull,31
+Transportøkonomisk institutt,2013,gull,14
+PRIO – Institutt for fredsforskning,2013,gull,11
+Universitetet i Oslo,2013,hybrid,119
+Norges teknisk-naturvitenskapelige universitet,2013,hybrid,117
+Universitetet i Bergen,2013,hybrid,84
+UiT Norges arktiske universitet,2013,hybrid,54
+Norges miljø- og biovitenskapelige universitet,2013,hybrid,30
+OsloMet – storbyuniversitetet,2013,hybrid,31
+Universitetet i Stavanger,2013,hybrid,32
+Universitetet i Agder,2013,hybrid,24
+Universitetet i Sørøst-Norge,2013,hybrid,18
+Nord universitet,2013,hybrid,15
+Handelshøyskolen BI,2013,hybrid,13
+Norges Handelshøyskole,2013,hybrid,10
+Høgskulen på Vestlandet,2013,hybrid,19
+Høgskolen i Innlandet,2013,hybrid,14
+Høgskolen i Østfold,2013,hybrid,7
+VID vitenskapelige høgskole,2013,hybrid,6
+Oslo universitetssykehus HF,2013,hybrid,43
+Helse Bergen HF,2013,hybrid,24
+St. Olavs hospital HF,2013,hybrid,15
+Universitetssykehuset Nord-Norge HF,2013,hybrid,10
+Akershus universitetssykehus HF,2013,hybrid,8
+Folkehelseinstituttet,2013,hybrid,15
+SINTEF,2013,hybrid,20
+NORCE Norsk forskningssenter,2013,hybrid,13
+Norsk institutt for naturforskning,2013,hybrid,9
+Norsk institutt for bioøkonomi,2013,hybrid,8
+Havforskningsinstituttet,2013,hybrid,12
+Transportøkonomisk institutt,2013,hybrid,5
+PRIO – Institutt for fredsforskning,2013,hybrid,4
+Universitetet i Oslo,2013,hybrid_avtale,0
+Norges teknisk-naturvitenskapelige universitet,2013,hybrid_avtale,0
+Universitetet i Bergen,2013,hybrid_avtale,0
+UiT Norges arktiske universitet,2013,hybrid_avtale,0
+Norges miljø- og biovitenskapelige universitet,2013,hybrid_avtale,0
+OsloMet – storbyuniversitetet,2013,hybrid_avtale,0
+Universitetet i Stavanger,2013,hybrid_avtale,0
+Universitetet i Agder,2013,hybrid_avtale,0
+Universitetet i Sørøst-Norge,2013,hybrid_avtale,0
+Nord universitet,2013,hybrid_avtale,0
+Handelshøyskolen BI,2013,hybrid_avtale,0
+Norges Handelshøyskole,2013,hybrid_avtale,0
+Høgskulen på Vestlandet,2013,hybrid_avtale,0
+Høgskolen i Innlandet,2013,hybrid_avtale,0
+Høgskolen i Østfold,2013,hybrid_avtale,0
+VID vitenskapelige høgskole,2013,hybrid_avtale,0
+Oslo universitetssykehus HF,2013,hybrid_avtale,0
+Helse Bergen HF,2013,hybrid_avtale,0
+St. Olavs hospital HF,2013,hybrid_avtale,0
+Universitetssykehuset Nord-Norge HF,2013,hybrid_avtale,0
+Akershus universitetssykehus HF,2013,hybrid_avtale,0
+Folkehelseinstituttet,2013,hybrid_avtale,0
+SINTEF,2013,hybrid_avtale,0
+NORCE Norsk forskningssenter,2013,hybrid_avtale,0
+Norsk institutt for naturforskning,2013,hybrid_avtale,0
+Norsk institutt for bioøkonomi,2013,hybrid_avtale,0
+Havforskningsinstituttet,2013,hybrid_avtale,0
+Transportøkonomisk institutt,2013,hybrid_avtale,0
+PRIO – Institutt for fredsforskning,2013,hybrid_avtale,0
+Universitetet i Oslo,2013,grønn,366
+Norges teknisk-naturvitenskapelige universitet,2013,grønn,404
+Universitetet i Bergen,2013,grønn,246
+UiT Norges arktiske universitet,2013,grønn,179
+Norges miljø- og biovitenskapelige universitet,2013,grønn,92
+OsloMet – storbyuniversitetet,2013,grønn,85
+Universitetet i Stavanger,2013,grønn,86
+Universitetet i Agder,2013,grønn,76
+Universitetet i Sørøst-Norge,2013,grønn,68
+Nord universitet,2013,grønn,56
+Handelshøyskolen BI,2013,grønn,39
+Norges Handelshøyskole,2013,grønn,29
+Høgskulen på Vestlandet,2013,grønn,66
+Høgskolen i Innlandet,2013,grønn,46
+Høgskolen i Østfold,2013,grønn,25
+VID vitenskapelige høgskole,2013,grønn,17
+Oslo universitetssykehus HF,2013,grønn,148
+Helse Bergen HF,2013,grønn,68
+St. Olavs hospital HF,2013,grønn,43
+Universitetssykehuset Nord-Norge HF,2013,grønn,27
+Akershus universitetssykehus HF,2013,grønn,29
+Folkehelseinstituttet,2013,grønn,57
+SINTEF,2013,grønn,58
+NORCE Norsk forskningssenter,2013,grønn,49
+Norsk institutt for naturforskning,2013,grønn,34
+Norsk institutt for bioøkonomi,2013,grønn,30
+Havforskningsinstituttet,2013,grønn,29
+Transportøkonomisk institutt,2013,grønn,16
+PRIO – Institutt for fredsforskning,2013,grønn,12
+Universitetet i Oslo,2013,deponert,1
+Norges teknisk-naturvitenskapelige universitet,2013,deponert,1
+Universitetet i Bergen,2013,deponert,0
+UiT Norges arktiske universitet,2013,deponert,0
+Norges miljø- og biovitenskapelige universitet,2013,deponert,0
+OsloMet – storbyuniversitetet,2013,deponert,0
+Universitetet i Stavanger,2013,deponert,0
+Universitetet i Agder,2013,deponert,0
+Universitetet i Sørøst-Norge,2013,deponert,0
+Nord universitet,2013,deponert,0
+Handelshøyskolen BI,2013,deponert,0
+Norges Handelshøyskole,2013,deponert,0
+Høgskulen på Vestlandet,2013,deponert,0
+Høgskolen i Innlandet,2013,deponert,0
+Høgskolen i Østfold,2013,deponert,0
+VID vitenskapelige høgskole,2013,deponert,0
+Oslo universitetssykehus HF,2013,deponert,0
+Helse Bergen HF,2013,deponert,0
+St. Olavs hospital HF,2013,deponert,0
+Universitetssykehuset Nord-Norge HF,2013,deponert,0
+Akershus universitetssykehus HF,2013,deponert,0
+Folkehelseinstituttet,2013,deponert,0
+SINTEF,2013,deponert,0
+NORCE Norsk forskningssenter,2013,deponert,0
+Norsk institutt for naturforskning,2013,deponert,0
+Norsk institutt for bioøkonomi,2013,deponert,0
+Havforskningsinstituttet,2013,deponert,0
+Transportøkonomisk institutt,2013,deponert,0
+PRIO – Institutt for fredsforskning,2013,deponert,0
+Universitetet i Oslo,2013,lukket,1585
+Norges teknisk-naturvitenskapelige universitet,2013,lukket,1469
+Universitetet i Bergen,2013,lukket,1145
+UiT Norges arktiske universitet,2013,lukket,828
+Norges miljø- og biovitenskapelige universitet,2013,lukket,398
+OsloMet – storbyuniversitetet,2013,lukket,468
+Universitetet i Stavanger,2013,lukket,354
+Universitetet i Agder,2013,lukket,348
+Universitetet i Sørøst-Norge,2013,lukket,321
+Nord universitet,2013,lukket,260
+Handelshøyskolen BI,2013,lukket,188
+Norges Handelshøyskole,2013,lukket,136
+Høgskulen på Vestlandet,2013,lukket,296
+Høgskolen i Innlandet,2013,lukket,247
+Høgskolen i Østfold,2013,lukket,108
+VID vitenskapelige høgskole,2013,lukket,74
+Oslo universitetssykehus HF,2013,lukket,595
+Helse Bergen HF,2013,lukket,311
+St. Olavs hospital HF,2013,lukket,240
+Universitetssykehuset Nord-Norge HF,2013,lukket,156
+Akershus universitetssykehus HF,2013,lukket,127
+Folkehelseinstituttet,2013,lukket,261
+SINTEF,2013,lukket,299
+NORCE Norsk forskningssenter,2013,lukket,207
+Norsk institutt for naturforskning,2013,lukket,137
+Norsk institutt for bioøkonomi,2013,lukket,147
+Havforskningsinstituttet,2013,lukket,136
+Transportøkonomisk institutt,2013,lukket,64
+PRIO – Institutt for fredsforskning,2013,lukket,62
+Universitetet i Oslo,2014,diamant,102
+Norges teknisk-naturvitenskapelige universitet,2014,diamant,110
+Universitetet i Bergen,2014,diamant,72
+UiT Norges arktiske universitet,2014,diamant,57
+Norges miljø- og biovitenskapelige universitet,2014,diamant,31
+OsloMet – storbyuniversitetet,2014,diamant,31
+Universitetet i Stavanger,2014,diamant,25
+Universitetet i Agder,2014,diamant,20
+Universitetet i Sørøst-Norge,2014,diamant,21
+Nord universitet,2014,diamant,16
+Handelshøyskolen BI,2014,diamant,14
+Norges Handelshøyskole,2014,diamant,7
+Høgskulen på Vestlandet,2014,diamant,15
+Høgskolen i Innlandet,2014,diamant,14
+Høgskolen i Østfold,2014,diamant,8
+VID vitenskapelige høgskole,2014,diamant,6
+Oslo universitetssykehus HF,2014,diamant,41
+Helse Bergen HF,2014,diamant,19
+St. Olavs hospital HF,2014,diamant,12
+Universitetssykehuset Nord-Norge HF,2014,diamant,9
+Akershus universitetssykehus HF,2014,diamant,9
+Folkehelseinstituttet,2014,diamant,16
+SINTEF,2014,diamant,20
+NORCE Norsk forskningssenter,2014,diamant,14
+Norsk institutt for naturforskning,2014,diamant,8
+Norsk institutt for bioøkonomi,2014,diamant,10
+Havforskningsinstituttet,2014,diamant,9
+Transportøkonomisk institutt,2014,diamant,4
+PRIO – Institutt for fredsforskning,2014,diamant,3
+Universitetet i Oslo,2014,gull,406
+Norges teknisk-naturvitenskapelige universitet,2014,gull,397
+Universitetet i Bergen,2014,gull,282
+UiT Norges arktiske universitet,2014,gull,175
+Norges miljø- og biovitenskapelige universitet,2014,gull,91
+OsloMet – storbyuniversitetet,2014,gull,115
+Universitetet i Stavanger,2014,gull,102
+Universitetet i Agder,2014,gull,72
+Universitetet i Sørøst-Norge,2014,gull,82
+Nord universitet,2014,gull,51
+Handelshøyskolen BI,2014,gull,46
+Norges Handelshøyskole,2014,gull,29
+Høgskulen på Vestlandet,2014,gull,60
+Høgskolen i Innlandet,2014,gull,44
+Høgskolen i Østfold,2014,gull,28
+VID vitenskapelige høgskole,2014,gull,23
+Oslo universitetssykehus HF,2014,gull,150
+Helse Bergen HF,2014,gull,65
+St. Olavs hospital HF,2014,gull,51
+Universitetssykehuset Nord-Norge HF,2014,gull,32
+Akershus universitetssykehus HF,2014,gull,32
+Folkehelseinstituttet,2014,gull,65
+SINTEF,2014,gull,71
+NORCE Norsk forskningssenter,2014,gull,43
+Norsk institutt for naturforskning,2014,gull,37
+Norsk institutt for bioøkonomi,2014,gull,31
+Havforskningsinstituttet,2014,gull,35
+Transportøkonomisk institutt,2014,gull,16
+PRIO – Institutt for fredsforskning,2014,gull,12
+Universitetet i Oslo,2014,hybrid,175
+Norges teknisk-naturvitenskapelige universitet,2014,hybrid,169
+Universitetet i Bergen,2014,hybrid,127
+UiT Norges arktiske universitet,2014,hybrid,78
+Norges miljø- og biovitenskapelige universitet,2014,hybrid,50
+OsloMet – storbyuniversitetet,2014,hybrid,46
+Universitetet i Stavanger,2014,hybrid,39
+Universitetet i Agder,2014,hybrid,34
+Universitetet i Sørøst-Norge,2014,hybrid,33
+Nord universitet,2014,hybrid,26
+Handelshøyskolen BI,2014,hybrid,17
+Norges Handelshøyskole,2014,hybrid,14
+Høgskulen på Vestlandet,2014,hybrid,28
+Høgskolen i Innlandet,2014,hybrid,25
+Høgskolen i Østfold,2014,hybrid,10
+VID vitenskapelige høgskole,2014,hybrid,10
+Oslo universitetssykehus HF,2014,hybrid,63
+Helse Bergen HF,2014,hybrid,30
+St. Olavs hospital HF,2014,hybrid,23
+Universitetssykehuset Nord-Norge HF,2014,hybrid,15
+Akershus universitetssykehus HF,2014,hybrid,14
+Folkehelseinstituttet,2014,hybrid,28
+SINTEF,2014,hybrid,32
+NORCE Norsk forskningssenter,2014,hybrid,22
+Norsk institutt for naturforskning,2014,hybrid,15
+Norsk institutt for bioøkonomi,2014,hybrid,16
+Havforskningsinstituttet,2014,hybrid,16
+Transportøkonomisk institutt,2014,hybrid,6
+PRIO – Institutt for fredsforskning,2014,hybrid,5
+Universitetet i Oslo,2014,hybrid_avtale,0
+Norges teknisk-naturvitenskapelige universitet,2014,hybrid_avtale,0
+Universitetet i Bergen,2014,hybrid_avtale,0
+UiT Norges arktiske universitet,2014,hybrid_avtale,0
+Norges miljø- og biovitenskapelige universitet,2014,hybrid_avtale,0
+OsloMet – storbyuniversitetet,2014,hybrid_avtale,0
+Universitetet i Stavanger,2014,hybrid_avtale,0
+Universitetet i Agder,2014,hybrid_avtale,0
+Universitetet i Sørøst-Norge,2014,hybrid_avtale,0
+Nord universitet,2014,hybrid_avtale,0
+Handelshøyskolen BI,2014,hybrid_avtale,0
+Norges Handelshøyskole,2014,hybrid_avtale,0
+Høgskulen på Vestlandet,2014,hybrid_avtale,0
+Høgskolen i Innlandet,2014,hybrid_avtale,0
+Høgskolen i Østfold,2014,hybrid_avtale,0
+VID vitenskapelige høgskole,2014,hybrid_avtale,0
+Oslo universitetssykehus HF,2014,hybrid_avtale,0
+Helse Bergen HF,2014,hybrid_avtale,0
+St. Olavs hospital HF,2014,hybrid_avtale,0
+Universitetssykehuset Nord-Norge HF,2014,hybrid_avtale,0
+Akershus universitetssykehus HF,2014,hybrid_avtale,0
+Folkehelseinstituttet,2014,hybrid_avtale,0
+SINTEF,2014,hybrid_avtale,0
+NORCE Norsk forskningssenter,2014,hybrid_avtale,0
+Norsk institutt for naturforskning,2014,hybrid_avtale,0
+Norsk institutt for bioøkonomi,2014,hybrid_avtale,0
+Havforskningsinstituttet,2014,hybrid_avtale,0
+Transportøkonomisk institutt,2014,hybrid_avtale,0
+PRIO – Institutt for fredsforskning,2014,hybrid_avtale,0
+Universitetet i Oslo,2014,grønn,357
+Norges teknisk-naturvitenskapelige universitet,2014,grønn,409
+Universitetet i Bergen,2014,grønn,266
+UiT Norges arktiske universitet,2014,grønn,213
+Norges miljø- og biovitenskapelige universitet,2014,grønn,113
+OsloMet – storbyuniversitetet,2014,grønn,111
+Universitetet i Stavanger,2014,grønn,112
+Universitetet i Agder,2014,grønn,92
+Universitetet i Sørøst-Norge,2014,grønn,67
+Nord universitet,2014,grønn,55
+Handelshøyskolen BI,2014,grønn,42
+Norges Handelshøyskole,2014,grønn,36
+Høgskulen på Vestlandet,2014,grønn,69
+Høgskolen i Innlandet,2014,grønn,61
+Høgskolen i Østfold,2014,grønn,25
+VID vitenskapelige høgskole,2014,grønn,19
+Oslo universitetssykehus HF,2014,grønn,163
+Helse Bergen HF,2014,grønn,85
+St. Olavs hospital HF,2014,grønn,51
+Universitetssykehuset Nord-Norge HF,2014,grønn,34
+Akershus universitetssykehus HF,2014,grønn,29
+Folkehelseinstituttet,2014,grønn,73
+SINTEF,2014,grønn,71
+NORCE Norsk forskningssenter,2014,grønn,48
+Norsk institutt for naturforskning,2014,grønn,31
+Norsk institutt for bioøkonomi,2014,grønn,39
+Havforskningsinstituttet,2014,grønn,34
+Transportøkonomisk institutt,2014,grønn,16
+PRIO – Institutt for fredsforskning,2014,grønn,14
+Universitetet i Oslo,2014,deponert,0
+Norges teknisk-naturvitenskapelige universitet,2014,deponert,1
+Universitetet i Bergen,2014,deponert,0
+UiT Norges arktiske universitet,2014,deponert,0
+Norges miljø- og biovitenskapelige universitet,2014,deponert,0
+OsloMet – storbyuniversitetet,2014,deponert,0
+Universitetet i Stavanger,2014,deponert,0
+Universitetet i Agder,2014,deponert,0
+Universitetet i Sørøst-Norge,2014,deponert,0
+Nord universitet,2014,deponert,0
+Handelshøyskolen BI,2014,deponert,0
+Norges Handelshøyskole,2014,deponert,0
+Høgskulen på Vestlandet,2014,deponert,0
+Høgskolen i Innlandet,2014,deponert,0
+Høgskolen i Østfold,2014,deponert,0
+VID vitenskapelige høgskole,2014,deponert,0
+Oslo universitetssykehus HF,2014,deponert,0
+Helse Bergen HF,2014,deponert,0
+St. Olavs hospital HF,2014,deponert,0
+Universitetssykehuset Nord-Norge HF,2014,deponert,0
+Akershus universitetssykehus HF,2014,deponert,0
+Folkehelseinstituttet,2014,deponert,0
+SINTEF,2014,deponert,0
+NORCE Norsk forskningssenter,2014,deponert,0
+Norsk institutt for naturforskning,2014,deponert,0
+Norsk institutt for bioøkonomi,2014,deponert,0
+Havforskningsinstituttet,2014,deponert,0
+Transportøkonomisk institutt,2014,deponert,0
+PRIO – Institutt for fredsforskning,2014,deponert,0
+Universitetet i Oslo,2014,lukket,1722
+Norges teknisk-naturvitenskapelige universitet,2014,lukket,1417
+Universitetet i Bergen,2014,lukket,908
+UiT Norges arktiske universitet,2014,lukket,782
+Norges miljø- og biovitenskapelige universitet,2014,lukket,356
+OsloMet – storbyuniversitetet,2014,lukket,442
+Universitetet i Stavanger,2014,lukket,355
+Universitetet i Agder,2014,lukket,281
+Universitetet i Sørøst-Norge,2014,lukket,318
+Nord universitet,2014,lukket,214
+Handelshøyskolen BI,2014,lukket,165
+Norges Handelshøyskole,2014,lukket,138
+Høgskulen på Vestlandet,2014,lukket,218
+Høgskolen i Innlandet,2014,lukket,227
+Høgskolen i Østfold,2014,lukket,91
+VID vitenskapelige høgskole,2014,lukket,73
+Oslo universitetssykehus HF,2014,lukket,521
+Helse Bergen HF,2014,lukket,258
+St. Olavs hospital HF,2014,lukket,215
+Universitetssykehuset Nord-Norge HF,2014,lukket,114
+Akershus universitetssykehus HF,2014,lukket,105
+Folkehelseinstituttet,2014,lukket,267
+SINTEF,2014,lukket,264
+NORCE Norsk forskningssenter,2014,lukket,174
+Norsk institutt for naturforskning,2014,lukket,120
+Norsk institutt for bioøkonomi,2014,lukket,115
+Havforskningsinstituttet,2014,lukket,154
+Transportøkonomisk institutt,2014,lukket,62
+PRIO – Institutt for fredsforskning,2014,lukket,55
+Universitetet i Oslo,2015,diamant,110
+Norges teknisk-naturvitenskapelige universitet,2015,diamant,117
+Universitetet i Bergen,2015,diamant,72
+UiT Norges arktiske universitet,2015,diamant,48
+Norges miljø- og biovitenskapelige universitet,2015,diamant,29
+OsloMet – storbyuniversitetet,2015,diamant,33
+Universitetet i Stavanger,2015,diamant,24
+Universitetet i Agder,2015,diamant,23
+Universitetet i Sørøst-Norge,2015,diamant,22
+Nord universitet,2015,diamant,16
+Handelshøyskolen BI,2015,diamant,13
+Norges Handelshøyskole,2015,diamant,10
+Høgskulen på Vestlandet,2015,diamant,16
+Høgskolen i Innlandet,2015,diamant,14
+Høgskolen i Østfold,2015,diamant,7
+VID vitenskapelige høgskole,2015,diamant,6
+Oslo universitetssykehus HF,2015,diamant,39
+Helse Bergen HF,2015,diamant,23
+St. Olavs hospital HF,2015,diamant,13
+Universitetssykehuset Nord-Norge HF,2015,diamant,8
+Akershus universitetssykehus HF,2015,diamant,9
+Folkehelseinstituttet,2015,diamant,15
+SINTEF,2015,diamant,19
+NORCE Norsk forskningssenter,2015,diamant,13
+Norsk institutt for naturforskning,2015,diamant,9
+Norsk institutt for bioøkonomi,2015,diamant,9
+Havforskningsinstituttet,2015,diamant,12
+Transportøkonomisk institutt,2015,diamant,4
+PRIO – Institutt for fredsforskning,2015,diamant,4
+Universitetet i Oslo,2015,gull,473
+Norges teknisk-naturvitenskapelige universitet,2015,gull,390
+Universitetet i Bergen,2015,gull,314
+UiT Norges arktiske universitet,2015,gull,245
+Norges miljø- og biovitenskapelige universitet,2015,gull,124
+OsloMet – storbyuniversitetet,2015,gull,128
+Universitetet i Stavanger,2015,gull,120
+Universitetet i Agder,2015,gull,81
+Universitetet i Sørøst-Norge,2015,gull,82
+Nord universitet,2015,gull,60
+Handelshøyskolen BI,2015,gull,51
+Norges Handelshøyskole,2015,gull,35
+Høgskulen på Vestlandet,2015,gull,72
+Høgskolen i Innlandet,2015,gull,52
+Høgskolen i Østfold,2015,gull,29
+VID vitenskapelige høgskole,2015,gull,25
+Oslo universitetssykehus HF,2015,gull,157
+Helse Bergen HF,2015,gull,74
+St. Olavs hospital HF,2015,gull,67
+Universitetssykehuset Nord-Norge HF,2015,gull,33
+Akershus universitetssykehus HF,2015,gull,39
+Folkehelseinstituttet,2015,gull,62
+SINTEF,2015,gull,73
+NORCE Norsk forskningssenter,2015,gull,57
+Norsk institutt for naturforskning,2015,gull,42
+Norsk institutt for bioøkonomi,2015,gull,39
+Havforskningsinstituttet,2015,gull,42
+Transportøkonomisk institutt,2015,gull,18
+PRIO – Institutt for fredsforskning,2015,gull,14
+Universitetet i Oslo,2015,hybrid,174
+Norges teknisk-naturvitenskapelige universitet,2015,hybrid,182
+Universitetet i Bergen,2015,hybrid,133
+UiT Norges arktiske universitet,2015,hybrid,102
+Norges miljø- og biovitenskapelige universitet,2015,hybrid,56
+OsloMet – storbyuniversitetet,2015,hybrid,54
+Universitetet i Stavanger,2015,hybrid,55
+Universitetet i Agder,2015,hybrid,39
+Universitetet i Sørøst-Norge,2015,hybrid,34
+Nord universitet,2015,hybrid,29
+Handelshøyskolen BI,2015,hybrid,21
+Norges Handelshøyskole,2015,hybrid,16
+Høgskulen på Vestlandet,2015,hybrid,29
+Høgskolen i Innlandet,2015,hybrid,22
+Høgskolen i Østfold,2015,hybrid,14
+VID vitenskapelige høgskole,2015,hybrid,10
+Oslo universitetssykehus HF,2015,hybrid,75
+Helse Bergen HF,2015,hybrid,36
+St. Olavs hospital HF,2015,hybrid,28
+Universitetssykehuset Nord-Norge HF,2015,hybrid,18
+Akershus universitetssykehus HF,2015,hybrid,17
+Folkehelseinstituttet,2015,hybrid,33
+SINTEF,2015,hybrid,37
+NORCE Norsk forskningssenter,2015,hybrid,24
+Norsk institutt for naturforskning,2015,hybrid,14
+Norsk institutt for bioøkonomi,2015,hybrid,19
+Havforskningsinstituttet,2015,hybrid,19
+Transportøkonomisk institutt,2015,hybrid,7
+PRIO – Institutt for fredsforskning,2015,hybrid,6
+Universitetet i Oslo,2015,hybrid_avtale,0
+Norges teknisk-naturvitenskapelige universitet,2015,hybrid_avtale,0
+Universitetet i Bergen,2015,hybrid_avtale,0
+UiT Norges arktiske universitet,2015,hybrid_avtale,0
+Norges miljø- og biovitenskapelige universitet,2015,hybrid_avtale,0
+OsloMet – storbyuniversitetet,2015,hybrid_avtale,0
+Universitetet i Stavanger,2015,hybrid_avtale,0
+Universitetet i Agder,2015,hybrid_avtale,0
+Universitetet i Sørøst-Norge,2015,hybrid_avtale,0
+Nord universitet,2015,hybrid_avtale,0
+Handelshøyskolen BI,2015,hybrid_avtale,0
+Norges Handelshøyskole,2015,hybrid_avtale,0
+Høgskulen på Vestlandet,2015,hybrid_avtale,0
+Høgskolen i Innlandet,2015,hybrid_avtale,0
+Høgskolen i Østfold,2015,hybrid_avtale,0
+VID vitenskapelige høgskole,2015,hybrid_avtale,0
+Oslo universitetssykehus HF,2015,hybrid_avtale,0
+Helse Bergen HF,2015,hybrid_avtale,0
+St. Olavs hospital HF,2015,hybrid_avtale,0
+Universitetssykehuset Nord-Norge HF,2015,hybrid_avtale,0
+Akershus universitetssykehus HF,2015,hybrid_avtale,0
+Folkehelseinstituttet,2015,hybrid_avtale,0
+SINTEF,2015,hybrid_avtale,0
+NORCE Norsk forskningssenter,2015,hybrid_avtale,0
+Norsk institutt for naturforskning,2015,hybrid_avtale,0
+Norsk institutt for bioøkonomi,2015,hybrid_avtale,0
+Havforskningsinstituttet,2015,hybrid_avtale,0
+Transportøkonomisk institutt,2015,hybrid_avtale,0
+PRIO – Institutt for fredsforskning,2015,hybrid_avtale,0
+Universitetet i Oslo,2015,grønn,406
+Norges teknisk-naturvitenskapelige universitet,2015,grønn,435
+Universitetet i Bergen,2015,grønn,277
+UiT Norges arktiske universitet,2015,grønn,234
+Norges miljø- og biovitenskapelige universitet,2015,grønn,118
+OsloMet – storbyuniversitetet,2015,grønn,125
+Universitetet i Stavanger,2015,grønn,97
+Universitetet i Agder,2015,grønn,86
+Universitetet i Sørøst-Norge,2015,grønn,85
+Nord universitet,2015,grønn,56
+Handelshøyskolen BI,2015,grønn,50
+Norges Handelshøyskole,2015,grønn,32
+Høgskulen på Vestlandet,2015,grønn,66
+Høgskolen i Innlandet,2015,grønn,55
+Høgskolen i Østfold,2015,grønn,28
+VID vitenskapelige høgskole,2015,grønn,20
+Oslo universitetssykehus HF,2015,grønn,175
+Helse Bergen HF,2015,grønn,75
+St. Olavs hospital HF,2015,grønn,57
+Universitetssykehuset Nord-Norge HF,2015,grønn,41
+Akershus universitetssykehus HF,2015,grønn,36
+Folkehelseinstituttet,2015,grønn,78
+SINTEF,2015,grønn,91
+NORCE Norsk forskningssenter,2015,grønn,47
+Norsk institutt for naturforskning,2015,grønn,43
+Norsk institutt for bioøkonomi,2015,grønn,33
+Havforskningsinstituttet,2015,grønn,36
+Transportøkonomisk institutt,2015,grønn,20
+PRIO – Institutt for fredsforskning,2015,grønn,16
+Universitetet i Oslo,2015,deponert,0
+Norges teknisk-naturvitenskapelige universitet,2015,deponert,0
+Universitetet i Bergen,2015,deponert,0
+UiT Norges arktiske universitet,2015,deponert,0
+Norges miljø- og biovitenskapelige universitet,2015,deponert,0
+OsloMet – storbyuniversitetet,2015,deponert,0
+Universitetet i Stavanger,2015,deponert,0
+Universitetet i Agder,2015,deponert,0
+Universitetet i Sørøst-Norge,2015,deponert,0
+Nord universitet,2015,deponert,0
+Handelshøyskolen BI,2015,deponert,0
+Norges Handelshøyskole,2015,deponert,0
+Høgskulen på Vestlandet,2015,deponert,0
+Høgskolen i Innlandet,2015,deponert,0
+Høgskolen i Østfold,2015,deponert,0
+VID vitenskapelige høgskole,2015,deponert,0
+Oslo universitetssykehus HF,2015,deponert,0
+Helse Bergen HF,2015,deponert,0
+St. Olavs hospital HF,2015,deponert,0
+Universitetssykehuset Nord-Norge HF,2015,deponert,0
+Akershus universitetssykehus HF,2015,deponert,0
+Folkehelseinstituttet,2015,deponert,0
+SINTEF,2015,deponert,0
+NORCE Norsk forskningssenter,2015,deponert,0
+Norsk institutt for naturforskning,2015,deponert,0
+Norsk institutt for bioøkonomi,2015,deponert,0
+Havforskningsinstituttet,2015,deponert,0
+Transportøkonomisk institutt,2015,deponert,0
+PRIO – Institutt for fredsforskning,2015,deponert,0
+Universitetet i Oslo,2015,lukket,1446
+Norges teknisk-naturvitenskapelige universitet,2015,lukket,1359
+Universitetet i Bergen,2015,lukket,921
+UiT Norges arktiske universitet,2015,lukket,783
+Norges miljø- og biovitenskapelige universitet,2015,lukket,437
+OsloMet – storbyuniversitetet,2015,lukket,424
+Universitetet i Stavanger,2015,lukket,348
+Universitetet i Agder,2015,lukket,329
+Universitetet i Sørøst-Norge,2015,lukket,283
+Nord universitet,2015,lukket,240
+Handelshøyskolen BI,2015,lukket,197
+Norges Handelshøyskole,2015,lukket,120
+Høgskulen på Vestlandet,2015,lukket,286
+Høgskolen i Innlandet,2015,lukket,207
+Høgskolen i Østfold,2015,lukket,105
+VID vitenskapelige høgskole,2015,lukket,84
+Oslo universitetssykehus HF,2015,lukket,618
+Helse Bergen HF,2015,lukket,295
+St. Olavs hospital HF,2015,lukket,181
+Universitetssykehuset Nord-Norge HF,2015,lukket,115
+Akershus universitetssykehus HF,2015,lukket,119
+Folkehelseinstituttet,2015,lukket,229
+SINTEF,2015,lukket,265
+NORCE Norsk forskningssenter,2015,lukket,158
+Norsk institutt for naturforskning,2015,lukket,132
+Norsk institutt for bioøkonomi,2015,lukket,124
+Havforskningsinstituttet,2015,lukket,140
+Transportøkonomisk institutt,2015,lukket,53
+PRIO – Institutt for fredsforskning,2015,lukket,56
+Universitetet i Oslo,2016,diamant,126
+Norges teknisk-naturvitenskapelige universitet,2016,diamant,155
+Universitetet i Bergen,2016,diamant,103
+UiT Norges arktiske universitet,2016,diamant,72
+Norges miljø- og biovitenskapelige universitet,2016,diamant,37
+OsloMet – storbyuniversitetet,2016,diamant,37
+Universitetet i Stavanger,2016,diamant,36
+Universitetet i Agder,2016,diamant,30
+Universitetet i Sørøst-Norge,2016,diamant,29
+Nord universitet,2016,diamant,20
+Handelshøyskolen BI,2016,diamant,18
+Norges Handelshøyskole,2016,diamant,12
+Høgskulen på Vestlandet,2016,diamant,22
+Høgskolen i Innlandet,2016,diamant,19
+Høgskolen i Østfold,2016,diamant,8
+VID vitenskapelige høgskole,2016,diamant,6
+Oslo universitetssykehus HF,2016,diamant,45
+Helse Bergen HF,2016,diamant,29
+St. Olavs hospital HF,2016,diamant,18
+Universitetssykehuset Nord-Norge HF,2016,diamant,13
+Akershus universitetssykehus HF,2016,diamant,11
+Folkehelseinstituttet,2016,diamant,20
+SINTEF,2016,diamant,24
+NORCE Norsk forskningssenter,2016,diamant,16
+Norsk institutt for naturforskning,2016,diamant,12
+Norsk institutt for bioøkonomi,2016,diamant,12
+Havforskningsinstituttet,2016,diamant,12
+Transportøkonomisk institutt,2016,diamant,5
+PRIO – Institutt for fredsforskning,2016,diamant,4
+Universitetet i Oslo,2016,gull,540
+Norges teknisk-naturvitenskapelige universitet,2016,gull,511
+Universitetet i Bergen,2016,gull,369
+UiT Norges arktiske universitet,2016,gull,292
+Norges miljø- og biovitenskapelige universitet,2016,gull,150
+OsloMet – storbyuniversitetet,2016,gull,125
+Universitetet i Stavanger,2016,gull,120
+Universitetet i Agder,2016,gull,113
+Universitetet i Sørøst-Norge,2016,gull,94
+Nord universitet,2016,gull,84
+Handelshøyskolen BI,2016,gull,67
+Norges Handelshøyskole,2016,gull,48
+Høgskulen på Vestlandet,2016,gull,100
+Høgskolen i Innlandet,2016,gull,68
+Høgskolen i Østfold,2016,gull,37
+VID vitenskapelige høgskole,2016,gull,26
+Oslo universitetssykehus HF,2016,gull,188
+Helse Bergen HF,2016,gull,114
+St. Olavs hospital HF,2016,gull,76
+Universitetssykehuset Nord-Norge HF,2016,gull,45
+Akershus universitetssykehus HF,2016,gull,44
+Folkehelseinstituttet,2016,gull,97
+SINTEF,2016,gull,95
+NORCE Norsk forskningssenter,2016,gull,62
+Norsk institutt for naturforskning,2016,gull,51
+Norsk institutt for bioøkonomi,2016,gull,51
+Havforskningsinstituttet,2016,gull,53
+Transportøkonomisk institutt,2016,gull,24
+PRIO – Institutt for fredsforskning,2016,gull,19
+Universitetet i Oslo,2016,hybrid,240
+Norges teknisk-naturvitenskapelige universitet,2016,hybrid,221
+Universitetet i Bergen,2016,hybrid,153
+UiT Norges arktiske universitet,2016,hybrid,107
+Norges miljø- og biovitenskapelige universitet,2016,hybrid,56
+OsloMet – storbyuniversitetet,2016,hybrid,56
+Universitetet i Stavanger,2016,hybrid,50
+Universitetet i Agder,2016,hybrid,40
+Universitetet i Sørøst-Norge,2016,hybrid,46
+Nord universitet,2016,hybrid,32
+Handelshøyskolen BI,2016,hybrid,24
+Norges Handelshøyskole,2016,hybrid,16
+Høgskulen på Vestlandet,2016,hybrid,32
+Høgskolen i Innlandet,2016,hybrid,32
+Høgskolen i Østfold,2016,hybrid,13
+VID vitenskapelige høgskole,2016,hybrid,13
+Oslo universitetssykehus HF,2016,hybrid,89
+Helse Bergen HF,2016,hybrid,46
+St. Olavs hospital HF,2016,hybrid,25
+Universitetssykehuset Nord-Norge HF,2016,hybrid,18
+Akershus universitetssykehus HF,2016,hybrid,19
+Folkehelseinstituttet,2016,hybrid,31
+SINTEF,2016,hybrid,39
+NORCE Norsk forskningssenter,2016,hybrid,24
+Norsk institutt for naturforskning,2016,hybrid,21
+Norsk institutt for bioøkonomi,2016,hybrid,21
+Havforskningsinstituttet,2016,hybrid,22
+Transportøkonomisk institutt,2016,hybrid,8
+PRIO – Institutt for fredsforskning,2016,hybrid,7
+Universitetet i Oslo,2016,hybrid_avtale,0
+Norges teknisk-naturvitenskapelige universitet,2016,hybrid_avtale,0
+Universitetet i Bergen,2016,hybrid_avtale,0
+UiT Norges arktiske universitet,2016,hybrid_avtale,0
+Norges miljø- og biovitenskapelige universitet,2016,hybrid_avtale,0
+OsloMet – storbyuniversitetet,2016,hybrid_avtale,0
+Universitetet i Stavanger,2016,hybrid_avtale,0
+Universitetet i Agder,2016,hybrid_avtale,0
+Universitetet i Sørøst-Norge,2016,hybrid_avtale,0
+Nord universitet,2016,hybrid_avtale,0
+Handelshøyskolen BI,2016,hybrid_avtale,0
+Norges Handelshøyskole,2016,hybrid_avtale,0
+Høgskulen på Vestlandet,2016,hybrid_avtale,0
+Høgskolen i Innlandet,2016,hybrid_avtale,0
+Høgskolen i Østfold,2016,hybrid_avtale,0
+VID vitenskapelige høgskole,2016,hybrid_avtale,0
+Oslo universitetssykehus HF,2016,hybrid_avtale,0
+Helse Bergen HF,2016,hybrid_avtale,0
+St. Olavs hospital HF,2016,hybrid_avtale,0
+Universitetssykehuset Nord-Norge HF,2016,hybrid_avtale,0
+Akershus universitetssykehus HF,2016,hybrid_avtale,0
+Folkehelseinstituttet,2016,hybrid_avtale,0
+SINTEF,2016,hybrid_avtale,0
+NORCE Norsk forskningssenter,2016,hybrid_avtale,0
+Norsk institutt for naturforskning,2016,hybrid_avtale,0
+Norsk institutt for bioøkonomi,2016,hybrid_avtale,0
+Havforskningsinstituttet,2016,hybrid_avtale,0
+Transportøkonomisk institutt,2016,hybrid_avtale,0
+PRIO – Institutt for fredsforskning,2016,hybrid_avtale,0
+Universitetet i Oslo,2016,grønn,620
+Norges teknisk-naturvitenskapelige universitet,2016,grønn,508
+Universitetet i Bergen,2016,grønn,390
+UiT Norges arktiske universitet,2016,grønn,253
+Norges miljø- og biovitenskapelige universitet,2016,grønn,162
+OsloMet – storbyuniversitetet,2016,grønn,129
+Universitetet i Stavanger,2016,grønn,135
+Universitetet i Agder,2016,grønn,123
+Universitetet i Sørøst-Norge,2016,grønn,93
+Nord universitet,2016,grønn,78
+Handelshøyskolen BI,2016,grønn,62
+Norges Handelshøyskole,2016,grønn,37
+Høgskulen på Vestlandet,2016,grønn,78
+Høgskolen i Innlandet,2016,grønn,72
+Høgskolen i Østfold,2016,grønn,33
+VID vitenskapelige høgskole,2016,grønn,33
+Oslo universitetssykehus HF,2016,grønn,191
+Helse Bergen HF,2016,grønn,87
+St. Olavs hospital HF,2016,grønn,82
+Universitetssykehuset Nord-Norge HF,2016,grønn,52
+Akershus universitetssykehus HF,2016,grønn,45
+Folkehelseinstituttet,2016,grønn,94
+SINTEF,2016,grønn,90
+NORCE Norsk forskningssenter,2016,grønn,61
+Norsk institutt for naturforskning,2016,grønn,52
+Norsk institutt for bioøkonomi,2016,grønn,50
+Havforskningsinstituttet,2016,grønn,45
+Transportøkonomisk institutt,2016,grønn,23
+PRIO – Institutt for fredsforskning,2016,grønn,18
+Universitetet i Oslo,2016,deponert,1
+Norges teknisk-naturvitenskapelige universitet,2016,deponert,1
+Universitetet i Bergen,2016,deponert,1
+UiT Norges arktiske universitet,2016,deponert,1
+Norges miljø- og biovitenskapelige universitet,2016,deponert,0
+OsloMet – storbyuniversitetet,2016,deponert,0
+Universitetet i Stavanger,2016,deponert,0
+Universitetet i Agder,2016,deponert,0
+Universitetet i Sørøst-Norge,2016,deponert,0
+Nord universitet,2016,deponert,0
+Handelshøyskolen BI,2016,deponert,0
+Norges Handelshøyskole,2016,deponert,0
+Høgskulen på Vestlandet,2016,deponert,0
+Høgskolen i Innlandet,2016,deponert,0
+Høgskolen i Østfold,2016,deponert,0
+VID vitenskapelige høgskole,2016,deponert,0
+Oslo universitetssykehus HF,2016,deponert,0
+Helse Bergen HF,2016,deponert,0
+St. Olavs hospital HF,2016,deponert,0
+Universitetssykehuset Nord-Norge HF,2016,deponert,0
+Akershus universitetssykehus HF,2016,deponert,0
+Folkehelseinstituttet,2016,deponert,0
+SINTEF,2016,deponert,0
+NORCE Norsk forskningssenter,2016,deponert,0
+Norsk institutt for naturforskning,2016,deponert,0
+Norsk institutt for bioøkonomi,2016,deponert,0
+Havforskningsinstituttet,2016,deponert,0
+Transportøkonomisk institutt,2016,deponert,0
+PRIO – Institutt for fredsforskning,2016,deponert,0
+Universitetet i Oslo,2016,lukket,1507
+Norges teknisk-naturvitenskapelige universitet,2016,lukket,1450
+Universitetet i Bergen,2016,lukket,1106
+UiT Norges arktiske universitet,2016,lukket,735
+Norges miljø- og biovitenskapelige universitet,2016,lukket,373
+OsloMet – storbyuniversitetet,2016,lukket,382
+Universitetet i Stavanger,2016,lukket,382
+Universitetet i Agder,2016,lukket,331
+Universitetet i Sørøst-Norge,2016,lukket,250
+Nord universitet,2016,lukket,181
+Handelshøyskolen BI,2016,lukket,189
+Norges Handelshøyskole,2016,lukket,110
+Høgskulen på Vestlandet,2016,lukket,258
+Høgskolen i Innlandet,2016,lukket,200
+Høgskolen i Østfold,2016,lukket,104
+VID vitenskapelige høgskole,2016,lukket,83
+Oslo universitetssykehus HF,2016,lukket,504
+Helse Bergen HF,2016,lukket,233
+St. Olavs hospital HF,2016,lukket,196
+Universitetssykehuset Nord-Norge HF,2016,lukket,137
+Akershus universitetssykehus HF,2016,lukket,104
+Folkehelseinstituttet,2016,lukket,251
+SINTEF,2016,lukket,267
+NORCE Norsk forskningssenter,2016,lukket,184
+Norsk institutt for naturforskning,2016,lukket,130
+Norsk institutt for bioøkonomi,2016,lukket,137
+Havforskningsinstituttet,2016,lukket,117
+Transportøkonomisk institutt,2016,lukket,63
+PRIO – Institutt for fredsforskning,2016,lukket,48
+Universitetet i Oslo,2017,diamant,162
+Norges teknisk-naturvitenskapelige universitet,2017,diamant,144
+Universitetet i Bergen,2017,diamant,101
+UiT Norges arktiske universitet,2017,diamant,72
+Norges miljø- og biovitenskapelige universitet,2017,diamant,50
+OsloMet – storbyuniversitetet,2017,diamant,45
+Universitetet i Stavanger,2017,diamant,49
+Universitetet i Agder,2017,diamant,34
+Universitetet i Sørøst-Norge,2017,diamant,29
+Nord universitet,2017,diamant,26
+Handelshøyskolen BI,2017,diamant,18
+Norges Handelshøyskole,2017,diamant,13
+Høgskulen på Vestlandet,2017,diamant,30
+Høgskolen i Innlandet,2017,diamant,25
+Høgskolen i Østfold,2017,diamant,11
+VID vitenskapelige høgskole,2017,diamant,8
+Oslo universitetssykehus HF,2017,diamant,59
+Helse Bergen HF,2017,diamant,35
+St. Olavs hospital HF,2017,diamant,24
+Universitetssykehuset Nord-Norge HF,2017,diamant,16
+Akershus universitetssykehus HF,2017,diamant,13
+Folkehelseinstituttet,2017,diamant,31
+SINTEF,2017,diamant,31
+NORCE Norsk forskningssenter,2017,diamant,20
+Norsk institutt for naturforskning,2017,diamant,16
+Norsk institutt for bioøkonomi,2017,diamant,15
+Havforskningsinstituttet,2017,diamant,17
+Transportøkonomisk institutt,2017,diamant,7
+PRIO – Institutt for fredsforskning,2017,diamant,5
+Universitetet i Oslo,2017,gull,679
+Norges teknisk-naturvitenskapelige universitet,2017,gull,699
+Universitetet i Bergen,2017,gull,431
+UiT Norges arktiske universitet,2017,gull,302
+Norges miljø- og biovitenskapelige universitet,2017,gull,149
+OsloMet – storbyuniversitetet,2017,gull,178
+Universitetet i Stavanger,2017,gull,152
+Universitetet i Agder,2017,gull,131
+Universitetet i Sørøst-Norge,2017,gull,116
+Nord universitet,2017,gull,99
+Handelshøyskolen BI,2017,gull,73
+Norges Handelshøyskole,2017,gull,44
+Høgskulen på Vestlandet,2017,gull,118
+Høgskolen i Innlandet,2017,gull,81
+Høgskolen i Østfold,2017,gull,49
+VID vitenskapelige høgskole,2017,gull,32
+Oslo universitetssykehus HF,2017,gull,267
+Helse Bergen HF,2017,gull,135
+St. Olavs hospital HF,2017,gull,74
+Universitetssykehuset Nord-Norge HF,2017,gull,58
+Akershus universitetssykehus HF,2017,gull,49
+Folkehelseinstituttet,2017,gull,111
+SINTEF,2017,gull,125
+NORCE Norsk forskningssenter,2017,gull,87
+Norsk institutt for naturforskning,2017,gull,49
+Norsk institutt for bioøkonomi,2017,gull,57
+Havforskningsinstituttet,2017,gull,65
+Transportøkonomisk institutt,2017,gull,22
+PRIO – Institutt for fredsforskning,2017,gull,18
+Universitetet i Oslo,2017,hybrid,279
+Norges teknisk-naturvitenskapelige universitet,2017,hybrid,240
+Universitetet i Bergen,2017,hybrid,161
+UiT Norges arktiske universitet,2017,hybrid,127
+Norges miljø- og biovitenskapelige universitet,2017,hybrid,69
+OsloMet – storbyuniversitetet,2017,hybrid,70
+Universitetet i Stavanger,2017,hybrid,72
+Universitetet i Agder,2017,hybrid,48
+Universitetet i Sørøst-Norge,2017,hybrid,50
+Nord universitet,2017,hybrid,37
+Handelshøyskolen BI,2017,hybrid,30
+Norges Handelshøyskole,2017,hybrid,19
+Høgskulen på Vestlandet,2017,hybrid,43
+Høgskolen i Innlandet,2017,hybrid,31
+Høgskolen i Østfold,2017,hybrid,15
+VID vitenskapelige høgskole,2017,hybrid,14
+Oslo universitetssykehus HF,2017,hybrid,91
+Helse Bergen HF,2017,hybrid,45
+St. Olavs hospital HF,2017,hybrid,34
+Universitetssykehuset Nord-Norge HF,2017,hybrid,20
+Akershus universitetssykehus HF,2017,hybrid,19
+Folkehelseinstituttet,2017,hybrid,39
+SINTEF,2017,hybrid,54
+NORCE Norsk forskningssenter,2017,hybrid,28
+Norsk institutt for naturforskning,2017,hybrid,24
+Norsk institutt for bioøkonomi,2017,hybrid,22
+Havforskningsinstituttet,2017,hybrid,21
+Transportøkonomisk institutt,2017,hybrid,11
+PRIO – Institutt for fredsforskning,2017,hybrid,8
+Universitetet i Oslo,2017,hybrid_avtale,0
+Norges teknisk-naturvitenskapelige universitet,2017,hybrid_avtale,0
+Universitetet i Bergen,2017,hybrid_avtale,0
+UiT Norges arktiske universitet,2017,hybrid_avtale,0
+Norges miljø- og biovitenskapelige universitet,2017,hybrid_avtale,0
+OsloMet – storbyuniversitetet,2017,hybrid_avtale,0
+Universitetet i Stavanger,2017,hybrid_avtale,0
+Universitetet i Agder,2017,hybrid_avtale,0
+Universitetet i Sørøst-Norge,2017,hybrid_avtale,0
+Nord universitet,2017,hybrid_avtale,0
+Handelshøyskolen BI,2017,hybrid_avtale,0
+Norges Handelshøyskole,2017,hybrid_avtale,0
+Høgskulen på Vestlandet,2017,hybrid_avtale,0
+Høgskolen i Innlandet,2017,hybrid_avtale,0
+Høgskolen i Østfold,2017,hybrid_avtale,0
+VID vitenskapelige høgskole,2017,hybrid_avtale,0
+Oslo universitetssykehus HF,2017,hybrid_avtale,0
+Helse Bergen HF,2017,hybrid_avtale,0
+St. Olavs hospital HF,2017,hybrid_avtale,0
+Universitetssykehuset Nord-Norge HF,2017,hybrid_avtale,0
+Akershus universitetssykehus HF,2017,hybrid_avtale,0
+Folkehelseinstituttet,2017,hybrid_avtale,0
+SINTEF,2017,hybrid_avtale,0
+NORCE Norsk forskningssenter,2017,hybrid_avtale,0
+Norsk institutt for naturforskning,2017,hybrid_avtale,0
+Norsk institutt for bioøkonomi,2017,hybrid_avtale,0
+Havforskningsinstituttet,2017,hybrid_avtale,0
+Transportøkonomisk institutt,2017,hybrid_avtale,0
+PRIO – Institutt for fredsforskning,2017,hybrid_avtale,0
+Universitetet i Oslo,2017,grønn,969
+Norges teknisk-naturvitenskapelige universitet,2017,grønn,887
+Universitetet i Bergen,2017,grønn,634
+UiT Norges arktiske universitet,2017,grønn,483
+Norges miljø- og biovitenskapelige universitet,2017,grønn,205
+OsloMet – storbyuniversitetet,2017,grønn,268
+Universitetet i Stavanger,2017,grønn,232
+Universitetet i Agder,2017,grønn,173
+Universitetet i Sørøst-Norge,2017,grønn,173
+Nord universitet,2017,grønn,123
+Handelshøyskolen BI,2017,grønn,118
+Norges Handelshøyskole,2017,grønn,76
+Høgskulen på Vestlandet,2017,grønn,153
+Høgskolen i Innlandet,2017,grønn,106
+Høgskolen i Østfold,2017,grønn,67
+VID vitenskapelige høgskole,2017,grønn,46
+Oslo universitetssykehus HF,2017,grønn,362
+Helse Bergen HF,2017,grønn,142
+St. Olavs hospital HF,2017,grønn,104
+Universitetssykehuset Nord-Norge HF,2017,grønn,68
+Akershus universitetssykehus HF,2017,grønn,63
+Folkehelseinstituttet,2017,grønn,133
+SINTEF,2017,grønn,175
+NORCE Norsk forskningssenter,2017,grønn,101
+Norsk institutt for naturforskning,2017,grønn,86
+Norsk institutt for bioøkonomi,2017,grønn,85
+Havforskningsinstituttet,2017,grønn,91
+Transportøkonomisk institutt,2017,grønn,33
+PRIO – Institutt for fredsforskning,2017,grønn,31
+Universitetet i Oslo,2017,deponert,0
+Norges teknisk-naturvitenskapelige universitet,2017,deponert,0
+Universitetet i Bergen,2017,deponert,0
+UiT Norges arktiske universitet,2017,deponert,0
+Norges miljø- og biovitenskapelige universitet,2017,deponert,0
+OsloMet – storbyuniversitetet,2017,deponert,0
+Universitetet i Stavanger,2017,deponert,0
+Universitetet i Agder,2017,deponert,0
+Universitetet i Sørøst-Norge,2017,deponert,0
+Nord universitet,2017,deponert,0
+Handelshøyskolen BI,2017,deponert,0
+Norges Handelshøyskole,2017,deponert,0
+Høgskulen på Vestlandet,2017,deponert,0
+Høgskolen i Innlandet,2017,deponert,0
+Høgskolen i Østfold,2017,deponert,0
+VID vitenskapelige høgskole,2017,deponert,0
+Oslo universitetssykehus HF,2017,deponert,0
+Helse Bergen HF,2017,deponert,0
+St. Olavs hospital HF,2017,deponert,0
+Universitetssykehuset Nord-Norge HF,2017,deponert,0
+Akershus universitetssykehus HF,2017,deponert,0
+Folkehelseinstituttet,2017,deponert,0
+SINTEF,2017,deponert,0
+NORCE Norsk forskningssenter,2017,deponert,0
+Norsk institutt for naturforskning,2017,deponert,0
+Norsk institutt for bioøkonomi,2017,deponert,0
+Havforskningsinstituttet,2017,deponert,0
+Transportøkonomisk institutt,2017,deponert,0
+PRIO – Institutt for fredsforskning,2017,deponert,0
+Universitetet i Oslo,2017,lukket,1128
+Norges teknisk-naturvitenskapelige universitet,2017,lukket,1013
+Universitetet i Bergen,2017,lukket,672
+UiT Norges arktiske universitet,2017,lukket,570
+Norges miljø- og biovitenskapelige universitet,2017,lukket,308
+OsloMet – storbyuniversitetet,2017,lukket,282
+Universitetet i Stavanger,2017,lukket,304
+Universitetet i Agder,2017,lukket,219
+Universitetet i Sørøst-Norge,2017,lukket,231
+Nord universitet,2017,lukket,182
+Handelshøyskolen BI,2017,lukket,155
+Norges Handelshøyskole,2017,lukket,106
+Høgskulen på Vestlandet,2017,lukket,172
+Høgskolen i Innlandet,2017,lukket,149
+Høgskolen i Østfold,2017,lukket,79
+VID vitenskapelige høgskole,2017,lukket,59
+Oslo universitetssykehus HF,2017,lukket,422
+Helse Bergen HF,2017,lukket,202
+St. Olavs hospital HF,2017,lukket,143
+Universitetssykehuset Nord-Norge HF,2017,lukket,89
+Akershus universitetssykehus HF,2017,lukket,87
+Folkehelseinstituttet,2017,lukket,179
+SINTEF,2017,lukket,224
+NORCE Norsk forskningssenter,2017,lukket,129
+Norsk institutt for naturforskning,2017,lukket,112
+Norsk institutt for bioøkonomi,2017,lukket,90
+Havforskningsinstituttet,2017,lukket,103
+Transportøkonomisk institutt,2017,lukket,48
+PRIO – Institutt for fredsforskning,2017,lukket,37
+Universitetet i Oslo,2018,diamant,215
+Norges teknisk-naturvitenskapelige universitet,2018,diamant,193
+Universitetet i Bergen,2018,diamant,129
+UiT Norges arktiske universitet,2018,diamant,96
+Norges miljø- og biovitenskapelige universitet,2018,diamant,48
+OsloMet – storbyuniversitetet,2018,diamant,44
+Universitetet i Stavanger,2018,diamant,55
+Universitetet i Agder,2018,diamant,39
+Universitetet i Sørøst-Norge,2018,diamant,41
+Nord universitet,2018,diamant,26
+Handelshøyskolen BI,2018,diamant,22
+Norges Handelshøyskole,2018,diamant,13
+Høgskulen på Vestlandet,2018,diamant,32
+Høgskolen i Innlandet,2018,diamant,29
+Høgskolen i Østfold,2018,diamant,13
+VID vitenskapelige høgskole,2018,diamant,10
+Oslo universitetssykehus HF,2018,diamant,72
+Helse Bergen HF,2018,diamant,40
+St. Olavs hospital HF,2018,diamant,25
+Universitetssykehuset Nord-Norge HF,2018,diamant,19
+Akershus universitetssykehus HF,2018,diamant,16
+Folkehelseinstituttet,2018,diamant,33
+SINTEF,2018,diamant,35
+NORCE Norsk forskningssenter,2018,diamant,22
+Norsk institutt for naturforskning,2018,diamant,17
+Norsk institutt for bioøkonomi,2018,diamant,15
+Havforskningsinstituttet,2018,diamant,18
+Transportøkonomisk institutt,2018,diamant,7
+PRIO – Institutt for fredsforskning,2018,diamant,6
+Universitetet i Oslo,2018,gull,737
+Norges teknisk-naturvitenskapelige universitet,2018,gull,617
+Universitetet i Bergen,2018,gull,505
+UiT Norges arktiske universitet,2018,gull,348
+Norges miljø- og biovitenskapelige universitet,2018,gull,156
+OsloMet – storbyuniversitetet,2018,gull,201
+Universitetet i Stavanger,2018,gull,162
+Universitetet i Agder,2018,gull,144
+Universitetet i Sørøst-Norge,2018,gull,117
+Nord universitet,2018,gull,110
+Handelshøyskolen BI,2018,gull,85
+Norges Handelshøyskole,2018,gull,48
+Høgskulen på Vestlandet,2018,gull,110
+Høgskolen i Innlandet,2018,gull,88
+Høgskolen i Østfold,2018,gull,38
+VID vitenskapelige høgskole,2018,gull,31
+Oslo universitetssykehus HF,2018,gull,230
+Helse Bergen HF,2018,gull,122
+St. Olavs hospital HF,2018,gull,87
+Universitetssykehuset Nord-Norge HF,2018,gull,59
+Akershus universitetssykehus HF,2018,gull,53
+Folkehelseinstituttet,2018,gull,100
+SINTEF,2018,gull,127
+NORCE Norsk forskningssenter,2018,gull,71
+Norsk institutt for naturforskning,2018,gull,66
+Norsk institutt for bioøkonomi,2018,gull,61
+Havforskningsinstituttet,2018,gull,58
+Transportøkonomisk institutt,2018,gull,25
+PRIO – Institutt for fredsforskning,2018,gull,24
+Universitetet i Oslo,2018,hybrid,308
+Norges teknisk-naturvitenskapelige universitet,2018,hybrid,314
+Universitetet i Bergen,2018,hybrid,185
+UiT Norges arktiske universitet,2018,hybrid,161
+Norges miljø- og biovitenskapelige universitet,2018,hybrid,76
+OsloMet – storbyuniversitetet,2018,hybrid,83
+Universitetet i Stavanger,2018,hybrid,86
+Universitetet i Agder,2018,hybrid,60
+Universitetet i Sørøst-Norge,2018,hybrid,60
+Nord universitet,2018,hybrid,46
+Handelshøyskolen BI,2018,hybrid,37
+Norges Handelshøyskole,2018,hybrid,20
+Høgskulen på Vestlandet,2018,hybrid,49
+Høgskolen i Innlandet,2018,hybrid,45
+Høgskolen i Østfold,2018,hybrid,21
+VID vitenskapelige høgskole,2018,hybrid,17
+Oslo universitetssykehus HF,2018,hybrid,111
+Helse Bergen HF,2018,hybrid,59
+St. Olavs hospital HF,2018,hybrid,40
+Universitetssykehuset Nord-Norge HF,2018,hybrid,23
+Akershus universitetssykehus HF,2018,hybrid,25
+Folkehelseinstituttet,2018,hybrid,49
+SINTEF,2018,hybrid,61
+NORCE Norsk forskningssenter,2018,hybrid,32
+Norsk institutt for naturforskning,2018,hybrid,27
+Norsk institutt for bioøkonomi,2018,hybrid,22
+Havforskningsinstituttet,2018,hybrid,31
+Transportøkonomisk institutt,2018,hybrid,10
+PRIO – Institutt for fredsforskning,2018,hybrid,8
+Universitetet i Oslo,2018,hybrid_avtale,0
+Norges teknisk-naturvitenskapelige universitet,2018,hybrid_avtale,0
+Universitetet i Bergen,2018,hybrid_avtale,0
+UiT Norges arktiske universitet,2018,hybrid_avtale,0
+Norges miljø- og biovitenskapelige universitet,2018,hybrid_avtale,0
+OsloMet – storbyuniversitetet,2018,hybrid_avtale,0
+Universitetet i Stavanger,2018,hybrid_avtale,0
+Universitetet i Agder,2018,hybrid_avtale,0
+Universitetet i Sørøst-Norge,2018,hybrid_avtale,0
+Nord universitet,2018,hybrid_avtale,0
+Handelshøyskolen BI,2018,hybrid_avtale,0
+Norges Handelshøyskole,2018,hybrid_avtale,0
+Høgskulen på Vestlandet,2018,hybrid_avtale,0
+Høgskolen i Innlandet,2018,hybrid_avtale,0
+Høgskolen i Østfold,2018,hybrid_avtale,0
+VID vitenskapelige høgskole,2018,hybrid_avtale,0
+Oslo universitetssykehus HF,2018,hybrid_avtale,0
+Helse Bergen HF,2018,hybrid_avtale,0
+St. Olavs hospital HF,2018,hybrid_avtale,0
+Universitetssykehuset Nord-Norge HF,2018,hybrid_avtale,0
+Akershus universitetssykehus HF,2018,hybrid_avtale,0
+Folkehelseinstituttet,2018,hybrid_avtale,0
+SINTEF,2018,hybrid_avtale,0
+NORCE Norsk forskningssenter,2018,hybrid_avtale,0
+Norsk institutt for naturforskning,2018,hybrid_avtale,0
+Norsk institutt for bioøkonomi,2018,hybrid_avtale,0
+Havforskningsinstituttet,2018,hybrid_avtale,0
+Transportøkonomisk institutt,2018,hybrid_avtale,0
+PRIO – Institutt for fredsforskning,2018,hybrid_avtale,0
+Universitetet i Oslo,2018,grønn,970
+Norges teknisk-naturvitenskapelige universitet,2018,grønn,936
+Universitetet i Bergen,2018,grønn,608
+UiT Norges arktiske universitet,2018,grønn,530
+Norges miljø- og biovitenskapelige universitet,2018,grønn,252
+OsloMet – storbyuniversitetet,2018,grønn,254
+Universitetet i Stavanger,2018,grønn,286
+Universitetet i Agder,2018,grønn,218
+Universitetet i Sørøst-Norge,2018,grønn,174
+Nord universitet,2018,grønn,130
+Handelshøyskolen BI,2018,grønn,126
+Norges Handelshøyskole,2018,grønn,77
+Høgskulen på Vestlandet,2018,grønn,190
+Høgskolen i Innlandet,2018,grønn,146
+Høgskolen i Østfold,2018,grønn,76
+VID vitenskapelige høgskole,2018,grønn,58
+Oslo universitetssykehus HF,2018,grønn,343
+Helse Bergen HF,2018,grønn,175
+St. Olavs hospital HF,2018,grønn,142
+Universitetssykehuset Nord-Norge HF,2018,grønn,83
+Akershus universitetssykehus HF,2018,grønn,79
+Folkehelseinstituttet,2018,grønn,148
+SINTEF,2018,grønn,185
+NORCE Norsk forskningssenter,2018,grønn,109
+Norsk institutt for naturforskning,2018,grønn,88
+Norsk institutt for bioøkonomi,2018,grønn,98
+Havforskningsinstituttet,2018,grønn,99
+Transportøkonomisk institutt,2018,grønn,36
+PRIO – Institutt for fredsforskning,2018,grønn,34
+Universitetet i Oslo,2018,deponert,2
+Norges teknisk-naturvitenskapelige universitet,2018,deponert,2
+Universitetet i Bergen,2018,deponert,1
+UiT Norges arktiske universitet,2018,deponert,1
+Norges miljø- og biovitenskapelige universitet,2018,deponert,0
+OsloMet – storbyuniversitetet,2018,deponert,0
+Universitetet i Stavanger,2018,deponert,0
+Universitetet i Agder,2018,deponert,0
+Universitetet i Sørøst-Norge,2018,deponert,0
+Nord universitet,2018,deponert,0
+Handelshøyskolen BI,2018,deponert,0
+Norges Handelshøyskole,2018,deponert,0
+Høgskulen på Vestlandet,2018,deponert,0
+Høgskolen i Innlandet,2018,deponert,0
+Høgskolen i Østfold,2018,deponert,0
+VID vitenskapelige høgskole,2018,deponert,0
+Oslo universitetssykehus HF,2018,deponert,1
+Helse Bergen HF,2018,deponert,0
+St. Olavs hospital HF,2018,deponert,0
+Universitetssykehuset Nord-Norge HF,2018,deponert,0
+Akershus universitetssykehus HF,2018,deponert,0
+Folkehelseinstituttet,2018,deponert,0
+SINTEF,2018,deponert,0
+NORCE Norsk forskningssenter,2018,deponert,0
+Norsk institutt for naturforskning,2018,deponert,0
+Norsk institutt for bioøkonomi,2018,deponert,0
+Havforskningsinstituttet,2018,deponert,0
+Transportøkonomisk institutt,2018,deponert,0
+PRIO – Institutt for fredsforskning,2018,deponert,0
+Universitetet i Oslo,2018,lukket,1225
+Norges teknisk-naturvitenskapelige universitet,2018,lukket,960
+Universitetet i Bergen,2018,lukket,798
+UiT Norges arktiske universitet,2018,lukket,611
+Norges miljø- og biovitenskapelige universitet,2018,lukket,275
+OsloMet – storbyuniversitetet,2018,lukket,283
+Universitetet i Stavanger,2018,lukket,305
+Universitetet i Agder,2018,lukket,242
+Universitetet i Sørøst-Norge,2018,lukket,224
+Nord universitet,2018,lukket,174
+Handelshøyskolen BI,2018,lukket,109
+Norges Handelshøyskole,2018,lukket,87
+Høgskulen på Vestlandet,2018,lukket,156
+Høgskolen i Innlandet,2018,lukket,162
+Høgskolen i Østfold,2018,lukket,66
+VID vitenskapelige høgskole,2018,lukket,65
+Oslo universitetssykehus HF,2018,lukket,395
+Helse Bergen HF,2018,lukket,198
+St. Olavs hospital HF,2018,lukket,160
+Universitetssykehuset Nord-Norge HF,2018,lukket,102
+Akershus universitetssykehus HF,2018,lukket,84
+Folkehelseinstituttet,2018,lukket,154
+SINTEF,2018,lukket,175
+NORCE Norsk forskningssenter,2018,lukket,115
+Norsk institutt for naturforskning,2018,lukket,91
+Norsk institutt for bioøkonomi,2018,lukket,85
+Havforskningsinstituttet,2018,lukket,90
+Transportøkonomisk institutt,2018,lukket,46
+PRIO – Institutt for fredsforskning,2018,lukket,39
+Universitetet i Oslo,2019,diamant,208
+Norges teknisk-naturvitenskapelige universitet,2019,diamant,212
+Universitetet i Bergen,2019,diamant,119
+UiT Norges arktiske universitet,2019,diamant,109
+Norges miljø- og biovitenskapelige universitet,2019,diamant,59
+OsloMet – storbyuniversitetet,2019,diamant,58
+Universitetet i Stavanger,2019,diamant,50
+Universitetet i Agder,2019,diamant,35
+Universitetet i Sørøst-Norge,2019,diamant,39
+Nord universitet,2019,diamant,26
+Handelshøyskolen BI,2019,diamant,21
+Norges Handelshøyskole,2019,diamant,15
+Høgskulen på Vestlandet,2019,diamant,30
+Høgskolen i Innlandet,2019,diamant,24
+Høgskolen i Østfold,2019,diamant,12
+VID vitenskapelige høgskole,2019,diamant,11
+Oslo universitetssykehus HF,2019,diamant,82
+Helse Bergen HF,2019,diamant,35
+St. Olavs hospital HF,2019,diamant,28
+Universitetssykehuset Nord-Norge HF,2019,diamant,15
+Akershus universitetssykehus HF,2019,diamant,16
+Folkehelseinstituttet,2019,diamant,33
+SINTEF,2019,diamant,32
+NORCE Norsk forskningssenter,2019,diamant,21
+Norsk institutt for naturforskning,2019,diamant,16
+Norsk institutt for bioøkonomi,2019,diamant,17
+Havforskningsinstituttet,2019,diamant,18
+Transportøkonomisk institutt,2019,diamant,9
+PRIO – Institutt for fredsforskning,2019,diamant,7
+Universitetet i Oslo,2019,gull,810
+Norges teknisk-naturvitenskapelige universitet,2019,gull,736
+Universitetet i Bergen,2019,gull,623
+UiT Norges arktiske universitet,2019,gull,390
+Norges miljø- og biovitenskapelige universitet,2019,gull,229
+OsloMet – storbyuniversitetet,2019,gull,203
+Universitetet i Stavanger,2019,gull,187
+Universitetet i Agder,2019,gull,149
+Universitetet i Sørøst-Norge,2019,gull,167
+Nord universitet,2019,gull,126
+Handelshøyskolen BI,2019,gull,97
+Norges Handelshøyskole,2019,gull,67
+Høgskulen på Vestlandet,2019,gull,137
+Høgskolen i Innlandet,2019,gull,112
+Høgskolen i Østfold,2019,gull,58
+VID vitenskapelige høgskole,2019,gull,41
+Oslo universitetssykehus HF,2019,gull,282
+Helse Bergen HF,2019,gull,167
+St. Olavs hospital HF,2019,gull,123
+Universitetssykehuset Nord-Norge HF,2019,gull,63
+Akershus universitetssykehus HF,2019,gull,65
+Folkehelseinstituttet,2019,gull,141
+SINTEF,2019,gull,136
+NORCE Norsk forskningssenter,2019,gull,102
+Norsk institutt for naturforskning,2019,gull,63
+Norsk institutt for bioøkonomi,2019,gull,73
+Havforskningsinstituttet,2019,gull,78
+Transportøkonomisk institutt,2019,gull,34
+PRIO – Institutt for fredsforskning,2019,gull,25
+Universitetet i Oslo,2019,hybrid,295
+Norges teknisk-naturvitenskapelige universitet,2019,hybrid,303
+Universitetet i Bergen,2019,hybrid,178
+UiT Norges arktiske universitet,2019,hybrid,137
+Norges miljø- og biovitenskapelige universitet,2019,hybrid,82
+OsloMet – storbyuniversitetet,2019,hybrid,70
+Universitetet i Stavanger,2019,hybrid,77
+Universitetet i Agder,2019,hybrid,66
+Universitetet i Sørøst-Norge,2019,hybrid,55
+Nord universitet,2019,hybrid,44
+Handelshøyskolen BI,2019,hybrid,36
+Norges Handelshøyskole,2019,hybrid,21
+Høgskulen på Vestlandet,2019,hybrid,50
+Høgskolen i Innlandet,2019,hybrid,44
+Høgskolen i Østfold,2019,hybrid,21
+VID vitenskapelige høgskole,2019,hybrid,16
+Oslo universitetssykehus HF,2019,hybrid,121
+Helse Bergen HF,2019,hybrid,60
+St. Olavs hospital HF,2019,hybrid,41
+Universitetssykehuset Nord-Norge HF,2019,hybrid,23
+Akershus universitetssykehus HF,2019,hybrid,23
+Folkehelseinstituttet,2019,hybrid,42
+SINTEF,2019,hybrid,65
+NORCE Norsk forskningssenter,2019,hybrid,41
+Norsk institutt for naturforskning,2019,hybrid,23
+Norsk institutt for bioøkonomi,2019,hybrid,29
+Havforskningsinstituttet,2019,hybrid,24
+Transportøkonomisk institutt,2019,hybrid,12
+PRIO – Institutt for fredsforskning,2019,hybrid,11
+Universitetet i Oslo,2019,hybrid_avtale,207
+Norges teknisk-naturvitenskapelige universitet,2019,hybrid_avtale,212
+Universitetet i Bergen,2019,hybrid_avtale,129
+UiT Norges arktiske universitet,2019,hybrid_avtale,90
+Norges miljø- og biovitenskapelige universitet,2019,hybrid_avtale,57
+OsloMet – storbyuniversitetet,2019,hybrid_avtale,48
+Universitetet i Stavanger,2019,hybrid_avtale,52
+Universitetet i Agder,2019,hybrid_avtale,42
+Universitetet i Sørøst-Norge,2019,hybrid_avtale,33
+Nord universitet,2019,hybrid_avtale,29
+Handelshøyskolen BI,2019,hybrid_avtale,23
+Norges Handelshøyskole,2019,hybrid_avtale,15
+Høgskulen på Vestlandet,2019,hybrid_avtale,32
+Høgskolen i Innlandet,2019,hybrid_avtale,24
+Høgskolen i Østfold,2019,hybrid_avtale,11
+VID vitenskapelige høgskole,2019,hybrid_avtale,10
+Oslo universitetssykehus HF,2019,hybrid_avtale,69
+Helse Bergen HF,2019,hybrid_avtale,37
+St. Olavs hospital HF,2019,hybrid_avtale,23
+Universitetssykehuset Nord-Norge HF,2019,hybrid_avtale,14
+Akershus universitetssykehus HF,2019,hybrid_avtale,13
+Folkehelseinstituttet,2019,hybrid_avtale,28
+SINTEF,2019,hybrid_avtale,36
+NORCE Norsk forskningssenter,2019,hybrid_avtale,23
+Norsk institutt for naturforskning,2019,hybrid_avtale,16
+Norsk institutt for bioøkonomi,2019,hybrid_avtale,18
+Havforskningsinstituttet,2019,hybrid_avtale,16
+Transportøkonomisk institutt,2019,hybrid_avtale,7
+PRIO – Institutt for fredsforskning,2019,hybrid_avtale,6
+Universitetet i Oslo,2019,grønn,1194
+Norges teknisk-naturvitenskapelige universitet,2019,grønn,1090
+Universitetet i Bergen,2019,grønn,602
+UiT Norges arktiske universitet,2019,grønn,558
+Norges miljø- og biovitenskapelige universitet,2019,grønn,266
+OsloMet – storbyuniversitetet,2019,grønn,294
+Universitetet i Stavanger,2019,grønn,289
+Universitetet i Agder,2019,grønn,175
+Universitetet i Sørøst-Norge,2019,grønn,174
+Nord universitet,2019,grønn,132
+Handelshøyskolen BI,2019,grønn,105
+Norges Handelshøyskole,2019,grønn,84
+Høgskulen på Vestlandet,2019,grønn,181
+Høgskolen i Innlandet,2019,grønn,118
+Høgskolen i Østfold,2019,grønn,73
+VID vitenskapelige høgskole,2019,grønn,53
+Oslo universitetssykehus HF,2019,grønn,345
+Helse Bergen HF,2019,grønn,175
+St. Olavs hospital HF,2019,grønn,151
+Universitetssykehuset Nord-Norge HF,2019,grønn,77
+Akershus universitetssykehus HF,2019,grønn,82
+Folkehelseinstituttet,2019,grønn,153
+SINTEF,2019,grønn,209
+NORCE Norsk forskningssenter,2019,grønn,131
+Norsk institutt for naturforskning,2019,grønn,84
+Norsk institutt for bioøkonomi,2019,grønn,91
+Havforskningsinstituttet,2019,grønn,100
+Transportøkonomisk institutt,2019,grønn,39
+PRIO – Institutt for fredsforskning,2019,grønn,32
+Universitetet i Oslo,2019,deponert,1
+Norges teknisk-naturvitenskapelige universitet,2019,deponert,1
+Universitetet i Bergen,2019,deponert,1
+UiT Norges arktiske universitet,2019,deponert,0
+Norges miljø- og biovitenskapelige universitet,2019,deponert,0
+OsloMet – storbyuniversitetet,2019,deponert,0
+Universitetet i Stavanger,2019,deponert,0
+Universitetet i Agder,2019,deponert,0
+Universitetet i Sørøst-Norge,2019,deponert,0
+Nord universitet,2019,deponert,0
+Handelshøyskolen BI,2019,deponert,0
+Norges Handelshøyskole,2019,deponert,0
+Høgskulen på Vestlandet,2019,deponert,0
+Høgskolen i Innlandet,2019,deponert,0
+Høgskolen i Østfold,2019,deponert,0
+VID vitenskapelige høgskole,2019,deponert,0
+Oslo universitetssykehus HF,2019,deponert,0
+Helse Bergen HF,2019,deponert,0
+St. Olavs hospital HF,2019,deponert,0
+Universitetssykehuset Nord-Norge HF,2019,deponert,0
+Akershus universitetssykehus HF,2019,deponert,0
+Folkehelseinstituttet,2019,deponert,0
+SINTEF,2019,deponert,0
+NORCE Norsk forskningssenter,2019,deponert,0
+Norsk institutt for naturforskning,2019,deponert,0
+Norsk institutt for bioøkonomi,2019,deponert,0
+Havforskningsinstituttet,2019,deponert,0
+Transportøkonomisk institutt,2019,deponert,0
+PRIO – Institutt for fredsforskning,2019,deponert,0
+Universitetet i Oslo,2019,lukket,799
+Norges teknisk-naturvitenskapelige universitet,2019,lukket,802
+Universitetet i Bergen,2019,lukket,528
+UiT Norges arktiske universitet,2019,lukket,454
+Norges miljø- og biovitenskapelige universitet,2019,lukket,261
+OsloMet – storbyuniversitetet,2019,lukket,256
+Universitetet i Stavanger,2019,lukket,193
+Universitetet i Agder,2019,lukket,185
+Universitetet i Sørøst-Norge,2019,lukket,147
+Nord universitet,2019,lukket,119
+Handelshøyskolen BI,2019,lukket,110
+Norges Handelshøyskole,2019,lukket,72
+Høgskulen på Vestlandet,2019,lukket,161
+Høgskolen i Innlandet,2019,lukket,105
+Høgskolen i Østfold,2019,lukket,62
+VID vitenskapelige høgskole,2019,lukket,49
+Oslo universitetssykehus HF,2019,lukket,324
+Helse Bergen HF,2019,lukket,161
+St. Olavs hospital HF,2019,lukket,129
+Universitetssykehuset Nord-Norge HF,2019,lukket,72
+Akershus universitetssykehus HF,2019,lukket,79
+Folkehelseinstituttet,2019,lukket,119
+SINTEF,2019,lukket,183
+NORCE Norsk forskningssenter,2019,lukket,119
+Norsk institutt for naturforskning,2019,lukket,67
+Norsk institutt for bioøkonomi,2019,lukket,87
+Havforskningsinstituttet,2019,lukket,81
+Transportøkonomisk institutt,2019,lukket,32
+PRIO – Institutt for fredsforskning,2019,lukket,30
+Universitetet i Oslo,2020,diamant,208
+Norges teknisk-naturvitenskapelige universitet,2020,diamant,249
+Universitetet i Bergen,2020,diamant,150
+UiT Norges arktiske universitet,2020,diamant,120
+Norges miljø- og biovitenskapelige universitet,2020,diamant,57
+OsloMet – storbyuniversitetet,2020,diamant,60
+Universitetet i Stavanger,2020,diamant,54
+Universitetet i Agder,2020,diamant,41
+Universitetet i Sørøst-Norge,2020,diamant,41
+Nord universitet,2020,diamant,32
+Handelshøyskolen BI,2020,diamant,23
+Norges Handelshøyskole,2020,diamant,20
+Høgskulen på Vestlandet,2020,diamant,37
+Høgskolen i Innlandet,2020,diamant,33
+Høgskolen i Østfold,2020,diamant,17
+VID vitenskapelige høgskole,2020,diamant,11
+Oslo universitetssykehus HF,2020,diamant,79
+Helse Bergen HF,2020,diamant,42
+St. Olavs hospital HF,2020,diamant,27
+Universitetssykehuset Nord-Norge HF,2020,diamant,17
+Akershus universitetssykehus HF,2020,diamant,16
+Folkehelseinstituttet,2020,diamant,40
+SINTEF,2020,diamant,42
+NORCE Norsk forskningssenter,2020,diamant,26
+Norsk institutt for naturforskning,2020,diamant,17
+Norsk institutt for bioøkonomi,2020,diamant,18
+Havforskningsinstituttet,2020,diamant,20
+Transportøkonomisk institutt,2020,diamant,10
+PRIO – Institutt for fredsforskning,2020,diamant,7
+Universitetet i Oslo,2020,gull,1070
+Norges teknisk-naturvitenskapelige universitet,2020,gull,1045
+Universitetet i Bergen,2020,gull,612
+UiT Norges arktiske universitet,2020,gull,543
+Norges miljø- og biovitenskapelige universitet,2020,gull,301
+OsloMet – storbyuniversitetet,2020,gull,275
+Universitetet i Stavanger,2020,gull,250
+Universitetet i Agder,2020,gull,178
+Universitetet i Sørøst-Norge,2020,gull,201
+Nord universitet,2020,gull,131
+Handelshøyskolen BI,2020,gull,127
+Norges Handelshøyskole,2020,gull,79
+Høgskulen på Vestlandet,2020,gull,186
+Høgskolen i Innlandet,2020,gull,134
+Høgskolen i Østfold,2020,gull,69
+VID vitenskapelige høgskole,2020,gull,46
+Oslo universitetssykehus HF,2020,gull,312
+Helse Bergen HF,2020,gull,204
+St. Olavs hospital HF,2020,gull,150
+Universitetssykehuset Nord-Norge HF,2020,gull,90
+Akershus universitetssykehus HF,2020,gull,85
+Folkehelseinstituttet,2020,gull,154
+SINTEF,2020,gull,204
+NORCE Norsk forskningssenter,2020,gull,109
+Norsk institutt for naturforskning,2020,gull,91
+Norsk institutt for bioøkonomi,2020,gull,73
+Havforskningsinstituttet,2020,gull,93
+Transportøkonomisk institutt,2020,gull,38
+PRIO – Institutt for fredsforskning,2020,gull,34
+Universitetet i Oslo,2020,hybrid,368
+Norges teknisk-naturvitenskapelige universitet,2020,hybrid,351
+Universitetet i Bergen,2020,hybrid,225
+UiT Norges arktiske universitet,2020,hybrid,169
+Norges miljø- og biovitenskapelige universitet,2020,hybrid,77
+OsloMet – storbyuniversitetet,2020,hybrid,92
+Universitetet i Stavanger,2020,hybrid,73
+Universitetet i Agder,2020,hybrid,68
+Universitetet i Sørøst-Norge,2020,hybrid,59
+Nord universitet,2020,hybrid,57
+Handelshøyskolen BI,2020,hybrid,35
+Norges Handelshøyskole,2020,hybrid,30
+Høgskulen på Vestlandet,2020,hybrid,59
+Høgskolen i Innlandet,2020,hybrid,49
+Høgskolen i Østfold,2020,hybrid,25
+VID vitenskapelige høgskole,2020,hybrid,16
+Oslo universitetssykehus HF,2020,hybrid,109
+Helse Bergen HF,2020,hybrid,57
+St. Olavs hospital HF,2020,hybrid,41
+Universitetssykehuset Nord-Norge HF,2020,hybrid,30
+Akershus universitetssykehus HF,2020,hybrid,30
+Folkehelseinstituttet,2020,hybrid,50
+SINTEF,2020,hybrid,61
+NORCE Norsk forskningssenter,2020,hybrid,39
+Norsk institutt for naturforskning,2020,hybrid,29
+Norsk institutt for bioøkonomi,2020,hybrid,30
+Havforskningsinstituttet,2020,hybrid,36
+Transportøkonomisk institutt,2020,hybrid,12
+PRIO – Institutt for fredsforskning,2020,hybrid,12
+Universitetet i Oslo,2020,hybrid_avtale,654
+Norges teknisk-naturvitenskapelige universitet,2020,hybrid_avtale,599
+Universitetet i Bergen,2020,hybrid_avtale,423
+UiT Norges arktiske universitet,2020,hybrid_avtale,309
+Norges miljø- og biovitenskapelige universitet,2020,hybrid_avtale,134
+OsloMet – storbyuniversitetet,2020,hybrid_avtale,147
+Universitetet i Stavanger,2020,hybrid_avtale,147
+Universitetet i Agder,2020,hybrid_avtale,99
+Universitetet i Sørøst-Norge,2020,hybrid_avtale,91
+Nord universitet,2020,hybrid_avtale,76
+Handelshøyskolen BI,2020,hybrid_avtale,69
+Norges Handelshøyskole,2020,hybrid_avtale,45
+Høgskulen på Vestlandet,2020,hybrid_avtale,104
+Høgskolen i Innlandet,2020,hybrid_avtale,78
+Høgskolen i Østfold,2020,hybrid_avtale,42
+VID vitenskapelige høgskole,2020,hybrid_avtale,27
+Oslo universitetssykehus HF,2020,hybrid_avtale,212
+Helse Bergen HF,2020,hybrid_avtale,92
+St. Olavs hospital HF,2020,hybrid_avtale,70
+Universitetssykehuset Nord-Norge HF,2020,hybrid_avtale,55
+Akershus universitetssykehus HF,2020,hybrid_avtale,51
+Folkehelseinstituttet,2020,hybrid_avtale,91
+SINTEF,2020,hybrid_avtale,92
+NORCE Norsk forskningssenter,2020,hybrid_avtale,60
+Norsk institutt for naturforskning,2020,hybrid_avtale,56
+Norsk institutt for bioøkonomi,2020,hybrid_avtale,56
+Havforskningsinstituttet,2020,hybrid_avtale,54
+Transportøkonomisk institutt,2020,hybrid_avtale,20
+PRIO – Institutt for fredsforskning,2020,hybrid_avtale,22
+Universitetet i Oslo,2020,grønn,793
+Norges teknisk-naturvitenskapelige universitet,2020,grønn,925
+Universitetet i Bergen,2020,grønn,556
+UiT Norges arktiske universitet,2020,grønn,437
+Norges miljø- og biovitenskapelige universitet,2020,grønn,231
+OsloMet – storbyuniversitetet,2020,grønn,210
+Universitetet i Stavanger,2020,grønn,180
+Universitetet i Agder,2020,grønn,146
+Universitetet i Sørøst-Norge,2020,grønn,140
+Nord universitet,2020,grønn,131
+Handelshøyskolen BI,2020,grønn,94
+Norges Handelshøyskole,2020,grønn,73
+Høgskulen på Vestlandet,2020,grønn,129
+Høgskolen i Innlandet,2020,grønn,117
+Høgskolen i Østfold,2020,grønn,48
+VID vitenskapelige høgskole,2020,grønn,50
+Oslo universitetssykehus HF,2020,grønn,318
+Helse Bergen HF,2020,grønn,152
+St. Olavs hospital HF,2020,grønn,124
+Universitetssykehuset Nord-Norge HF,2020,grønn,61
+Akershus universitetssykehus HF,2020,grønn,64
+Folkehelseinstituttet,2020,grønn,143
+SINTEF,2020,grønn,144
+NORCE Norsk forskningssenter,2020,grønn,105
+Norsk institutt for naturforskning,2020,grønn,80
+Norsk institutt for bioøkonomi,2020,grønn,68
+Havforskningsinstituttet,2020,grønn,82
+Transportøkonomisk institutt,2020,grønn,28
+PRIO – Institutt for fredsforskning,2020,grønn,25
+Universitetet i Oslo,2020,deponert,6
+Norges teknisk-naturvitenskapelige universitet,2020,deponert,5
+Universitetet i Bergen,2020,deponert,3
+UiT Norges arktiske universitet,2020,deponert,3
+Norges miljø- og biovitenskapelige universitet,2020,deponert,1
+OsloMet – storbyuniversitetet,2020,deponert,1
+Universitetet i Stavanger,2020,deponert,1
+Universitetet i Agder,2020,deponert,1
+Universitetet i Sørøst-Norge,2020,deponert,1
+Nord universitet,2020,deponert,1
+Handelshøyskolen BI,2020,deponert,1
+Norges Handelshøyskole,2020,deponert,0
+Høgskulen på Vestlandet,2020,deponert,1
+Høgskolen i Innlandet,2020,deponert,1
+Høgskolen i Østfold,2020,deponert,0
+VID vitenskapelige høgskole,2020,deponert,0
+Oslo universitetssykehus HF,2020,deponert,2
+Helse Bergen HF,2020,deponert,1
+St. Olavs hospital HF,2020,deponert,1
+Universitetssykehuset Nord-Norge HF,2020,deponert,0
+Akershus universitetssykehus HF,2020,deponert,0
+Folkehelseinstituttet,2020,deponert,1
+SINTEF,2020,deponert,1
+NORCE Norsk forskningssenter,2020,deponert,1
+Norsk institutt for naturforskning,2020,deponert,0
+Norsk institutt for bioøkonomi,2020,deponert,0
+Havforskningsinstituttet,2020,deponert,0
+Transportøkonomisk institutt,2020,deponert,0
+PRIO – Institutt for fredsforskning,2020,deponert,0
+Universitetet i Oslo,2020,lukket,658
+Norges teknisk-naturvitenskapelige universitet,2020,lukket,747
+Universitetet i Bergen,2020,lukket,458
+UiT Norges arktiske universitet,2020,lukket,350
+Norges miljø- og biovitenskapelige universitet,2020,lukket,181
+OsloMet – storbyuniversitetet,2020,lukket,187
+Universitetet i Stavanger,2020,lukket,161
+Universitetet i Agder,2020,lukket,163
+Universitetet i Sørøst-Norge,2020,lukket,152
+Nord universitet,2020,lukket,122
+Handelshøyskolen BI,2020,lukket,89
+Norges Handelshøyskole,2020,lukket,52
+Høgskulen på Vestlandet,2020,lukket,117
+Høgskolen i Innlandet,2020,lukket,86
+Høgskolen i Østfold,2020,lukket,45
+VID vitenskapelige høgskole,2020,lukket,39
+Oslo universitetssykehus HF,2020,lukket,231
+Helse Bergen HF,2020,lukket,133
+St. Olavs hospital HF,2020,lukket,94
+Universitetssykehuset Nord-Norge HF,2020,lukket,63
+Akershus universitetssykehus HF,2020,lukket,51
+Folkehelseinstituttet,2020,lukket,107
+SINTEF,2020,lukket,125
+NORCE Norsk forskningssenter,2020,lukket,90
+Norsk institutt for naturforskning,2020,lukket,65
+Norsk institutt for bioøkonomi,2020,lukket,57
+Havforskningsinstituttet,2020,lukket,60
+Transportøkonomisk institutt,2020,lukket,27
+PRIO – Institutt for fredsforskning,2020,lukket,27
+Universitetet i Oslo,2021,diamant,222
+Norges teknisk-naturvitenskapelige universitet,2021,diamant,234
+Universitetet i Bergen,2021,diamant,165
+UiT Norges arktiske universitet,2021,diamant,107
+Norges miljø- og biovitenskapelige universitet,2021,diamant,57
+OsloMet – storbyuniversitetet,2021,diamant,66
+Universitetet i Stavanger,2021,diamant,63
+Universitetet i Agder,2021,diamant,52
+Universitetet i Sørøst-Norge,2021,diamant,38
+Nord universitet,2021,diamant,31
+Handelshøyskolen BI,2021,diamant,31
+Norges Handelshøyskole,2021,diamant,16
+Høgskulen på Vestlandet,2021,diamant,36
+Høgskolen i Innlandet,2021,diamant,34
+Høgskolen i Østfold,2021,diamant,17
+VID vitenskapelige høgskole,2021,diamant,11
+Oslo universitetssykehus HF,2021,diamant,88
+Helse Bergen HF,2021,diamant,42
+St. Olavs hospital HF,2021,diamant,31
+Universitetssykehuset Nord-Norge HF,2021,diamant,18
+Akershus universitetssykehus HF,2021,diamant,17
+Folkehelseinstituttet,2021,diamant,40
+SINTEF,2021,diamant,41
+NORCE Norsk forskningssenter,2021,diamant,24
+Norsk institutt for naturforskning,2021,diamant,20
+Norsk institutt for bioøkonomi,2021,diamant,20
+Havforskningsinstituttet,2021,diamant,21
+Transportøkonomisk institutt,2021,diamant,10
+PRIO – Institutt for fredsforskning,2021,diamant,8
+Universitetet i Oslo,2021,gull,1418
+Norges teknisk-naturvitenskapelige universitet,2021,gull,1194
+Universitetet i Bergen,2021,gull,856
+UiT Norges arktiske universitet,2021,gull,593
+Norges miljø- og biovitenskapelige universitet,2021,gull,302
+OsloMet – storbyuniversitetet,2021,gull,341
+Universitetet i Stavanger,2021,gull,335
+Universitetet i Agder,2021,gull,263
+Universitetet i Sørøst-Norge,2021,gull,219
+Nord universitet,2021,gull,177
+Handelshøyskolen BI,2021,gull,151
+Norges Handelshøyskole,2021,gull,89
+Høgskulen på Vestlandet,2021,gull,211
+Høgskolen i Innlandet,2021,gull,172
+Høgskolen i Østfold,2021,gull,88
+VID vitenskapelige høgskole,2021,gull,56
+Oslo universitetssykehus HF,2021,gull,508
+Helse Bergen HF,2021,gull,224
+St. Olavs hospital HF,2021,gull,156
+Universitetssykehuset Nord-Norge HF,2021,gull,105
+Akershus universitetssykehus HF,2021,gull,109
+Folkehelseinstituttet,2021,gull,204
+SINTEF,2021,gull,228
+NORCE Norsk forskningssenter,2021,gull,158
+Norsk institutt for naturforskning,2021,gull,100
+Norsk institutt for bioøkonomi,2021,gull,117
+Havforskningsinstituttet,2021,gull,114
+Transportøkonomisk institutt,2021,gull,50
+PRIO – Institutt for fredsforskning,2021,gull,35
+Universitetet i Oslo,2021,hybrid,502
+Norges teknisk-naturvitenskapelige universitet,2021,hybrid,470
+Universitetet i Bergen,2021,hybrid,286
+UiT Norges arktiske universitet,2021,hybrid,234
+Norges miljø- og biovitenskapelige universitet,2021,hybrid,103
+OsloMet – storbyuniversitetet,2021,hybrid,137
+Universitetet i Stavanger,2021,hybrid,120
+Universitetet i Agder,2021,hybrid,87
+Universitetet i Sørøst-Norge,2021,hybrid,90
+Nord universitet,2021,hybrid,75
+Handelshøyskolen BI,2021,hybrid,53
+Norges Handelshøyskole,2021,hybrid,31
+Høgskulen på Vestlandet,2021,hybrid,69
+Høgskolen i Innlandet,2021,hybrid,60
+Høgskolen i Østfold,2021,hybrid,30
+VID vitenskapelige høgskole,2021,hybrid,25
+Oslo universitetssykehus HF,2021,hybrid,168
+Helse Bergen HF,2021,hybrid,82
+St. Olavs hospital HF,2021,hybrid,58
+Universitetssykehuset Nord-Norge HF,2021,hybrid,42
+Akershus universitetssykehus HF,2021,hybrid,37
+Folkehelseinstituttet,2021,hybrid,72
+SINTEF,2021,hybrid,80
+NORCE Norsk forskningssenter,2021,hybrid,46
+Norsk institutt for naturforskning,2021,hybrid,34
+Norsk institutt for bioøkonomi,2021,hybrid,38
+Havforskningsinstituttet,2021,hybrid,48
+Transportøkonomisk institutt,2021,hybrid,16
+PRIO – Institutt for fredsforskning,2021,hybrid,17
+Universitetet i Oslo,2021,hybrid_avtale,642
+Norges teknisk-naturvitenskapelige universitet,2021,hybrid_avtale,656
+Universitetet i Bergen,2021,hybrid_avtale,458
+UiT Norges arktiske universitet,2021,hybrid_avtale,317
+Norges miljø- og biovitenskapelige universitet,2021,hybrid_avtale,185
+OsloMet – storbyuniversitetet,2021,hybrid_avtale,184
+Universitetet i Stavanger,2021,hybrid_avtale,173
+Universitetet i Agder,2021,hybrid_avtale,147
+Universitetet i Sørøst-Norge,2021,hybrid_avtale,123
+Nord universitet,2021,hybrid_avtale,96
+Handelshøyskolen BI,2021,hybrid_avtale,91
+Norges Handelshøyskole,2021,hybrid_avtale,49
+Høgskulen på Vestlandet,2021,hybrid_avtale,128
+Høgskolen i Innlandet,2021,hybrid_avtale,97
+Høgskolen i Østfold,2021,hybrid_avtale,49
+VID vitenskapelige høgskole,2021,hybrid_avtale,33
+Oslo universitetssykehus HF,2021,hybrid_avtale,292
+Helse Bergen HF,2021,hybrid_avtale,120
+St. Olavs hospital HF,2021,hybrid_avtale,84
+Universitetssykehuset Nord-Norge HF,2021,hybrid_avtale,54
+Akershus universitetssykehus HF,2021,hybrid_avtale,57
+Folkehelseinstituttet,2021,hybrid_avtale,127
+SINTEF,2021,hybrid_avtale,119
+NORCE Norsk forskningssenter,2021,hybrid_avtale,81
+Norsk institutt for naturforskning,2021,hybrid_avtale,55
+Norsk institutt for bioøkonomi,2021,hybrid_avtale,63
+Havforskningsinstituttet,2021,hybrid_avtale,64
+Transportøkonomisk institutt,2021,hybrid_avtale,24
+PRIO – Institutt for fredsforskning,2021,hybrid_avtale,24
+Universitetet i Oslo,2021,grønn,674
+Norges teknisk-naturvitenskapelige universitet,2021,grønn,737
+Universitetet i Bergen,2021,grønn,462
+UiT Norges arktiske universitet,2021,grønn,381
+Norges miljø- og biovitenskapelige universitet,2021,grønn,174
+OsloMet – storbyuniversitetet,2021,grønn,206
+Universitetet i Stavanger,2021,grønn,199
+Universitetet i Agder,2021,grønn,125
+Universitetet i Sørøst-Norge,2021,grønn,118
+Nord universitet,2021,grønn,117
+Handelshøyskolen BI,2021,grønn,78
+Norges Handelshøyskole,2021,grønn,54
+Høgskulen på Vestlandet,2021,grønn,118
+Høgskolen i Innlandet,2021,grønn,89
+Høgskolen i Østfold,2021,grønn,53
+VID vitenskapelige høgskole,2021,grønn,39
+Oslo universitetssykehus HF,2021,grønn,274
+Helse Bergen HF,2021,grønn,138
+St. Olavs hospital HF,2021,grønn,99
+Universitetssykehuset Nord-Norge HF,2021,grønn,64
+Akershus universitetssykehus HF,2021,grønn,55
+Folkehelseinstituttet,2021,grønn,127
+SINTEF,2021,grønn,139
+NORCE Norsk forskningssenter,2021,grønn,94
+Norsk institutt for naturforskning,2021,grønn,66
+Norsk institutt for bioøkonomi,2021,grønn,58
+Havforskningsinstituttet,2021,grønn,69
+Transportøkonomisk institutt,2021,grønn,25
+PRIO – Institutt for fredsforskning,2021,grønn,21
+Universitetet i Oslo,2021,deponert,4
+Norges teknisk-naturvitenskapelige universitet,2021,deponert,5
+Universitetet i Bergen,2021,deponert,3
+UiT Norges arktiske universitet,2021,deponert,3
+Norges miljø- og biovitenskapelige universitet,2021,deponert,1
+OsloMet – storbyuniversitetet,2021,deponert,1
+Universitetet i Stavanger,2021,deponert,1
+Universitetet i Agder,2021,deponert,1
+Universitetet i Sørøst-Norge,2021,deponert,1
+Nord universitet,2021,deponert,1
+Handelshøyskolen BI,2021,deponert,1
+Norges Handelshøyskole,2021,deponert,0
+Høgskulen på Vestlandet,2021,deponert,1
+Høgskolen i Innlandet,2021,deponert,1
+Høgskolen i Østfold,2021,deponert,0
+VID vitenskapelige høgskole,2021,deponert,0
+Oslo universitetssykehus HF,2021,deponert,2
+Helse Bergen HF,2021,deponert,1
+St. Olavs hospital HF,2021,deponert,1
+Universitetssykehuset Nord-Norge HF,2021,deponert,0
+Akershus universitetssykehus HF,2021,deponert,0
+Folkehelseinstituttet,2021,deponert,1
+SINTEF,2021,deponert,1
+NORCE Norsk forskningssenter,2021,deponert,1
+Norsk institutt for naturforskning,2021,deponert,0
+Norsk institutt for bioøkonomi,2021,deponert,0
+Havforskningsinstituttet,2021,deponert,0
+Transportøkonomisk institutt,2021,deponert,0
+PRIO – Institutt for fredsforskning,2021,deponert,0
+Universitetet i Oslo,2021,lukket,738
+Norges teknisk-naturvitenskapelige universitet,2021,lukket,627
+Universitetet i Bergen,2021,lukket,411
+UiT Norges arktiske universitet,2021,lukket,386
+Norges miljø- og biovitenskapelige universitet,2021,lukket,179
+OsloMet – storbyuniversitetet,2021,lukket,178
+Universitetet i Stavanger,2021,lukket,184
+Universitetet i Agder,2021,lukket,129
+Universitetet i Sørøst-Norge,2021,lukket,132
+Nord universitet,2021,lukket,113
+Handelshøyskolen BI,2021,lukket,93
+Norges Handelshøyskole,2021,lukket,58
+Høgskulen på Vestlandet,2021,lukket,106
+Høgskolen i Innlandet,2021,lukket,85
+Høgskolen i Østfold,2021,lukket,52
+VID vitenskapelige høgskole,2021,lukket,42
+Oslo universitetssykehus HF,2021,lukket,252
+Helse Bergen HF,2021,lukket,147
+St. Olavs hospital HF,2021,lukket,82
+Universitetssykehuset Nord-Norge HF,2021,lukket,66
+Akershus universitetssykehus HF,2021,lukket,58
+Folkehelseinstituttet,2021,lukket,132
+SINTEF,2021,lukket,118
+NORCE Norsk forskningssenter,2021,lukket,95
+Norsk institutt for naturforskning,2021,lukket,67
+Norsk institutt for bioøkonomi,2021,lukket,58
+Havforskningsinstituttet,2021,lukket,77
+Transportøkonomisk institutt,2021,lukket,28
+PRIO – Institutt for fredsforskning,2021,lukket,23
+Universitetet i Oslo,2022,diamant,254
+Norges teknisk-naturvitenskapelige universitet,2022,diamant,220
+Universitetet i Bergen,2022,diamant,172
+UiT Norges arktiske universitet,2022,diamant,121
+Norges miljø- og biovitenskapelige universitet,2022,diamant,55
+OsloMet – storbyuniversitetet,2022,diamant,65
+Universitetet i Stavanger,2022,diamant,58
+Universitetet i Agder,2022,diamant,43
+Universitetet i Sørøst-Norge,2022,diamant,44
+Nord universitet,2022,diamant,34
+Handelshøyskolen BI,2022,diamant,24
+Norges Handelshøyskole,2022,diamant,16
+Høgskulen på Vestlandet,2022,diamant,34
+Høgskolen i Innlandet,2022,diamant,27
+Høgskolen i Østfold,2022,diamant,13
+VID vitenskapelige høgskole,2022,diamant,11
+Oslo universitetssykehus HF,2022,diamant,77
+Helse Bergen HF,2022,diamant,42
+St. Olavs hospital HF,2022,diamant,28
+Universitetssykehuset Nord-Norge HF,2022,diamant,21
+Akershus universitetssykehus HF,2022,diamant,17
+Folkehelseinstituttet,2022,diamant,33
+SINTEF,2022,diamant,46
+NORCE Norsk forskningssenter,2022,diamant,31
+Norsk institutt for naturforskning,2022,diamant,20
+Norsk institutt for bioøkonomi,2022,diamant,17
+Havforskningsinstituttet,2022,diamant,24
+Transportøkonomisk institutt,2022,diamant,10
+PRIO – Institutt for fredsforskning,2022,diamant,8
+Universitetet i Oslo,2022,gull,1477
+Norges teknisk-naturvitenskapelige universitet,2022,gull,1382
+Universitetet i Bergen,2022,gull,737
+UiT Norges arktiske universitet,2022,gull,691
+Norges miljø- og biovitenskapelige universitet,2022,gull,307
+OsloMet – storbyuniversitetet,2022,gull,353
+Universitetet i Stavanger,2022,gull,347
+Universitetet i Agder,2022,gull,269
+Universitetet i Sørøst-Norge,2022,gull,245
+Nord universitet,2022,gull,182
+Handelshøyskolen BI,2022,gull,153
+Norges Handelshøyskole,2022,gull,93
+Høgskulen på Vestlandet,2022,gull,202
+Høgskolen i Innlandet,2022,gull,164
+Høgskolen i Østfold,2022,gull,86
+VID vitenskapelige høgskole,2022,gull,74
+Oslo universitetssykehus HF,2022,gull,401
+Helse Bergen HF,2022,gull,234
+St. Olavs hospital HF,2022,gull,155
+Universitetssykehuset Nord-Norge HF,2022,gull,122
+Akershus universitetssykehus HF,2022,gull,96
+Folkehelseinstituttet,2022,gull,226
+SINTEF,2022,gull,220
+NORCE Norsk forskningssenter,2022,gull,127
+Norsk institutt for naturforskning,2022,gull,117
+Norsk institutt for bioøkonomi,2022,gull,115
+Havforskningsinstituttet,2022,gull,124
+Transportøkonomisk institutt,2022,gull,49
+PRIO – Institutt for fredsforskning,2022,gull,44
+Universitetet i Oslo,2022,hybrid,479
+Norges teknisk-naturvitenskapelige universitet,2022,hybrid,421
+Universitetet i Bergen,2022,hybrid,326
+UiT Norges arktiske universitet,2022,hybrid,222
+Norges miljø- og biovitenskapelige universitet,2022,hybrid,126
+OsloMet – storbyuniversitetet,2022,hybrid,118
+Universitetet i Stavanger,2022,hybrid,114
+Universitetet i Agder,2022,hybrid,106
+Universitetet i Sørøst-Norge,2022,hybrid,86
+Nord universitet,2022,hybrid,73
+Handelshøyskolen BI,2022,hybrid,59
+Norges Handelshøyskole,2022,hybrid,39
+Høgskulen på Vestlandet,2022,hybrid,77
+Høgskolen i Innlandet,2022,hybrid,68
+Høgskolen i Østfold,2022,hybrid,28
+VID vitenskapelige høgskole,2022,hybrid,23
+Oslo universitetssykehus HF,2022,hybrid,193
+Helse Bergen HF,2022,hybrid,89
+St. Olavs hospital HF,2022,hybrid,57
+Universitetssykehuset Nord-Norge HF,2022,hybrid,46
+Akershus universitetssykehus HF,2022,hybrid,38
+Folkehelseinstituttet,2022,hybrid,66
+SINTEF,2022,hybrid,103
+NORCE Norsk forskningssenter,2022,hybrid,53
+Norsk institutt for naturforskning,2022,hybrid,44
+Norsk institutt for bioøkonomi,2022,hybrid,37
+Havforskningsinstituttet,2022,hybrid,47
+Transportøkonomisk institutt,2022,hybrid,17
+PRIO – Institutt for fredsforskning,2022,hybrid,18
+Universitetet i Oslo,2022,hybrid_avtale,639
+Norges teknisk-naturvitenskapelige universitet,2022,hybrid_avtale,694
+Universitetet i Bergen,2022,hybrid_avtale,409
+UiT Norges arktiske universitet,2022,hybrid_avtale,319
+Norges miljø- og biovitenskapelige universitet,2022,hybrid_avtale,198
+OsloMet – storbyuniversitetet,2022,hybrid_avtale,159
+Universitetet i Stavanger,2022,hybrid_avtale,163
+Universitetet i Agder,2022,hybrid_avtale,125
+Universitetet i Sørøst-Norge,2022,hybrid_avtale,131
+Nord universitet,2022,hybrid_avtale,89
+Handelshøyskolen BI,2022,hybrid_avtale,83
+Norges Handelshøyskole,2022,hybrid_avtale,56
+Høgskulen på Vestlandet,2022,hybrid_avtale,94
+Høgskolen i Innlandet,2022,hybrid_avtale,88
+Høgskolen i Østfold,2022,hybrid_avtale,39
+VID vitenskapelige høgskole,2022,hybrid_avtale,32
+Oslo universitetssykehus HF,2022,hybrid_avtale,256
+Helse Bergen HF,2022,hybrid_avtale,106
+St. Olavs hospital HF,2022,hybrid_avtale,94
+Universitetssykehuset Nord-Norge HF,2022,hybrid_avtale,63
+Akershus universitetssykehus HF,2022,hybrid_avtale,61
+Folkehelseinstituttet,2022,hybrid_avtale,104
+SINTEF,2022,hybrid_avtale,110
+NORCE Norsk forskningssenter,2022,hybrid_avtale,69
+Norsk institutt for naturforskning,2022,hybrid_avtale,55
+Norsk institutt for bioøkonomi,2022,hybrid_avtale,61
+Havforskningsinstituttet,2022,hybrid_avtale,54
+Transportøkonomisk institutt,2022,hybrid_avtale,25
+PRIO – Institutt for fredsforskning,2022,hybrid_avtale,25
+Universitetet i Oslo,2022,grønn,524
+Norges teknisk-naturvitenskapelige universitet,2022,grønn,616
+Universitetet i Bergen,2022,grønn,408
+UiT Norges arktiske universitet,2022,grønn,253
+Norges miljø- og biovitenskapelige universitet,2022,grønn,174
+OsloMet – storbyuniversitetet,2022,grønn,136
+Universitetet i Stavanger,2022,grønn,146
+Universitetet i Agder,2022,grønn,97
+Universitetet i Sørøst-Norge,2022,grønn,111
+Nord universitet,2022,grønn,82
+Handelshøyskolen BI,2022,grønn,73
+Norges Handelshøyskole,2022,grønn,47
+Høgskulen på Vestlandet,2022,grønn,85
+Høgskolen i Innlandet,2022,grønn,74
+Høgskolen i Østfold,2022,grønn,40
+VID vitenskapelige høgskole,2022,grønn,34
+Oslo universitetssykehus HF,2022,grønn,183
+Helse Bergen HF,2022,grønn,94
+St. Olavs hospital HF,2022,grønn,82
+Universitetssykehuset Nord-Norge HF,2022,grønn,51
+Akershus universitetssykehus HF,2022,grønn,44
+Folkehelseinstituttet,2022,grønn,104
+SINTEF,2022,grønn,100
+NORCE Norsk forskningssenter,2022,grønn,61
+Norsk institutt for naturforskning,2022,grønn,46
+Norsk institutt for bioøkonomi,2022,grønn,43
+Havforskningsinstituttet,2022,grønn,54
+Transportøkonomisk institutt,2022,grønn,23
+PRIO – Institutt for fredsforskning,2022,grønn,20
+Universitetet i Oslo,2022,deponert,8
+Norges teknisk-naturvitenskapelige universitet,2022,deponert,7
+Universitetet i Bergen,2022,deponert,5
+UiT Norges arktiske universitet,2022,deponert,4
+Norges miljø- og biovitenskapelige universitet,2022,deponert,2
+OsloMet – storbyuniversitetet,2022,deponert,2
+Universitetet i Stavanger,2022,deponert,2
+Universitetet i Agder,2022,deponert,2
+Universitetet i Sørøst-Norge,2022,deponert,1
+Nord universitet,2022,deponert,1
+Handelshøyskolen BI,2022,deponert,1
+Norges Handelshøyskole,2022,deponert,1
+Høgskulen på Vestlandet,2022,deponert,1
+Høgskolen i Innlandet,2022,deponert,1
+Høgskolen i Østfold,2022,deponert,0
+VID vitenskapelige høgskole,2022,deponert,0
+Oslo universitetssykehus HF,2022,deponert,3
+Helse Bergen HF,2022,deponert,2
+St. Olavs hospital HF,2022,deponert,1
+Universitetssykehuset Nord-Norge HF,2022,deponert,1
+Akershus universitetssykehus HF,2022,deponert,1
+Folkehelseinstituttet,2022,deponert,1
+SINTEF,2022,deponert,1
+NORCE Norsk forskningssenter,2022,deponert,1
+Norsk institutt for naturforskning,2022,deponert,1
+Norsk institutt for bioøkonomi,2022,deponert,1
+Havforskningsinstituttet,2022,deponert,1
+Transportøkonomisk institutt,2022,deponert,0
+PRIO – Institutt for fredsforskning,2022,deponert,0
+Universitetet i Oslo,2022,lukket,545
+Norges teknisk-naturvitenskapelige universitet,2022,lukket,563
+Universitetet i Bergen,2022,lukket,348
+UiT Norges arktiske universitet,2022,lukket,263
+Norges miljø- og biovitenskapelige universitet,2022,lukket,176
+OsloMet – storbyuniversitetet,2022,lukket,162
+Universitetet i Stavanger,2022,lukket,160
+Universitetet i Agder,2022,lukket,121
+Universitetet i Sørøst-Norge,2022,lukket,110
+Nord universitet,2022,lukket,94
+Handelshøyskolen BI,2022,lukket,64
+Norges Handelshøyskole,2022,lukket,49
+Høgskulen på Vestlandet,2022,lukket,105
+Høgskolen i Innlandet,2022,lukket,75
+Høgskolen i Østfold,2022,lukket,38
+VID vitenskapelige høgskole,2022,lukket,32
+Oslo universitetssykehus HF,2022,lukket,203
+Helse Bergen HF,2022,lukket,124
+St. Olavs hospital HF,2022,lukket,82
+Universitetssykehuset Nord-Norge HF,2022,lukket,51
+Akershus universitetssykehus HF,2022,lukket,50
+Folkehelseinstituttet,2022,lukket,107
+SINTEF,2022,lukket,119
+NORCE Norsk forskningssenter,2022,lukket,63
+Norsk institutt for naturforskning,2022,lukket,56
+Norsk institutt for bioøkonomi,2022,lukket,56
+Havforskningsinstituttet,2022,lukket,62
+Transportøkonomisk institutt,2022,lukket,21
+PRIO – Institutt for fredsforskning,2022,lukket,18
+Universitetet i Oslo,2023,diamant,257
+Norges teknisk-naturvitenskapelige universitet,2023,diamant,250
+Universitetet i Bergen,2023,diamant,175
+UiT Norges arktiske universitet,2023,diamant,120
+Norges miljø- og biovitenskapelige universitet,2023,diamant,73
+OsloMet – storbyuniversitetet,2023,diamant,73
+Universitetet i Stavanger,2023,diamant,57
+Universitetet i Agder,2023,diamant,54
+Universitetet i Sørøst-Norge,2023,diamant,50
+Nord universitet,2023,diamant,33
+Handelshøyskolen BI,2023,diamant,35
+Norges Handelshøyskole,2023,diamant,20
+Høgskulen på Vestlandet,2023,diamant,46
+Høgskolen i Innlandet,2023,diamant,36
+Høgskolen i Østfold,2023,diamant,15
+VID vitenskapelige høgskole,2023,diamant,12
+Oslo universitetssykehus HF,2023,diamant,101
+Helse Bergen HF,2023,diamant,44
+St. Olavs hospital HF,2023,diamant,38
+Universitetssykehuset Nord-Norge HF,2023,diamant,24
+Akershus universitetssykehus HF,2023,diamant,17
+Folkehelseinstituttet,2023,diamant,44
+SINTEF,2023,diamant,44
+NORCE Norsk forskningssenter,2023,diamant,26
+Norsk institutt for naturforskning,2023,diamant,23
+Norsk institutt for bioøkonomi,2023,diamant,23
+Havforskningsinstituttet,2023,diamant,21
+Transportøkonomisk institutt,2023,diamant,10
+PRIO – Institutt for fredsforskning,2023,diamant,8
+Universitetet i Oslo,2023,gull,1283
+Norges teknisk-naturvitenskapelige universitet,2023,gull,1267
+Universitetet i Bergen,2023,gull,795
+UiT Norges arktiske universitet,2023,gull,575
+Norges miljø- og biovitenskapelige universitet,2023,gull,292
+OsloMet – storbyuniversitetet,2023,gull,339
+Universitetet i Stavanger,2023,gull,336
+Universitetet i Agder,2023,gull,228
+Universitetet i Sørøst-Norge,2023,gull,232
+Nord universitet,2023,gull,157
+Handelshøyskolen BI,2023,gull,165
+Norges Handelshøyskole,2023,gull,92
+Høgskulen på Vestlandet,2023,gull,205
+Høgskolen i Innlandet,2023,gull,160
+Høgskolen i Østfold,2023,gull,74
+VID vitenskapelige høgskole,2023,gull,75
+Oslo universitetssykehus HF,2023,gull,504
+Helse Bergen HF,2023,gull,236
+St. Olavs hospital HF,2023,gull,186
+Universitetssykehuset Nord-Norge HF,2023,gull,115
+Akershus universitetssykehus HF,2023,gull,97
+Folkehelseinstituttet,2023,gull,188
+SINTEF,2023,gull,226
+NORCE Norsk forskningssenter,2023,gull,159
+Norsk institutt for naturforskning,2023,gull,100
+Norsk institutt for bioøkonomi,2023,gull,94
+Havforskningsinstituttet,2023,gull,112
+Transportøkonomisk institutt,2023,gull,50
+PRIO – Institutt for fredsforskning,2023,gull,46
+Universitetet i Oslo,2023,hybrid,507
+Norges teknisk-naturvitenskapelige universitet,2023,hybrid,593
+Universitetet i Bergen,2023,hybrid,415
+UiT Norges arktiske universitet,2023,hybrid,309
+Norges miljø- og biovitenskapelige universitet,2023,hybrid,126
+OsloMet – storbyuniversitetet,2023,hybrid,143
+Universitetet i Stavanger,2023,hybrid,129
+Universitetet i Agder,2023,hybrid,120
+Universitetet i Sørøst-Norge,2023,hybrid,96
+Nord universitet,2023,hybrid,81
+Handelshøyskolen BI,2023,hybrid,56
+Norges Handelshøyskole,2023,hybrid,40
+Høgskulen på Vestlandet,2023,hybrid,92
+Høgskolen i Innlandet,2023,hybrid,68
+Høgskolen i Østfold,2023,hybrid,38
+VID vitenskapelige høgskole,2023,hybrid,29
+Oslo universitetssykehus HF,2023,hybrid,205
+Helse Bergen HF,2023,hybrid,101
+St. Olavs hospital HF,2023,hybrid,78
+Universitetssykehuset Nord-Norge HF,2023,hybrid,43
+Akershus universitetssykehus HF,2023,hybrid,49
+Folkehelseinstituttet,2023,hybrid,94
+SINTEF,2023,hybrid,94
+NORCE Norsk forskningssenter,2023,hybrid,56
+Norsk institutt for naturforskning,2023,hybrid,46
+Norsk institutt for bioøkonomi,2023,hybrid,43
+Havforskningsinstituttet,2023,hybrid,48
+Transportøkonomisk institutt,2023,hybrid,24
+PRIO – Institutt for fredsforskning,2023,hybrid,20
+Universitetet i Oslo,2023,hybrid_avtale,850
+Norges teknisk-naturvitenskapelige universitet,2023,hybrid_avtale,616
+Universitetet i Bergen,2023,hybrid_avtale,506
+UiT Norges arktiske universitet,2023,hybrid_avtale,400
+Norges miljø- og biovitenskapelige universitet,2023,hybrid_avtale,206
+OsloMet – storbyuniversitetet,2023,hybrid_avtale,170
+Universitetet i Stavanger,2023,hybrid_avtale,185
+Universitetet i Agder,2023,hybrid_avtale,133
+Universitetet i Sørøst-Norge,2023,hybrid_avtale,135
+Nord universitet,2023,hybrid_avtale,92
+Handelshøyskolen BI,2023,hybrid_avtale,100
+Norges Handelshøyskole,2023,hybrid_avtale,62
+Høgskulen på Vestlandet,2023,hybrid_avtale,106
+Høgskolen i Innlandet,2023,hybrid_avtale,109
+Høgskolen i Østfold,2023,hybrid_avtale,54
+VID vitenskapelige høgskole,2023,hybrid_avtale,39
+Oslo universitetssykehus HF,2023,hybrid_avtale,282
+Helse Bergen HF,2023,hybrid_avtale,130
+St. Olavs hospital HF,2023,hybrid_avtale,110
+Universitetssykehuset Nord-Norge HF,2023,hybrid_avtale,55
+Akershus universitetssykehus HF,2023,hybrid_avtale,51
+Folkehelseinstituttet,2023,hybrid_avtale,103
+SINTEF,2023,hybrid_avtale,148
+NORCE Norsk forskningssenter,2023,hybrid_avtale,76
+Norsk institutt for naturforskning,2023,hybrid_avtale,64
+Norsk institutt for bioøkonomi,2023,hybrid_avtale,62
+Havforskningsinstituttet,2023,hybrid_avtale,77
+Transportøkonomisk institutt,2023,hybrid_avtale,27
+PRIO – Institutt for fredsforskning,2023,hybrid_avtale,22
+Universitetet i Oslo,2023,grønn,468
+Norges teknisk-naturvitenskapelige universitet,2023,grønn,523
+Universitetet i Bergen,2023,grønn,339
+UiT Norges arktiske universitet,2023,grønn,257
+Norges miljø- og biovitenskapelige universitet,2023,grønn,121
+OsloMet – storbyuniversitetet,2023,grønn,119
+Universitetet i Stavanger,2023,grønn,106
+Universitetet i Agder,2023,grønn,87
+Universitetet i Sørøst-Norge,2023,grønn,97
+Nord universitet,2023,grønn,72
+Handelshøyskolen BI,2023,grønn,52
+Norges Handelshøyskole,2023,grønn,34
+Høgskulen på Vestlandet,2023,grønn,79
+Høgskolen i Innlandet,2023,grønn,62
+Høgskolen i Østfold,2023,grønn,32
+VID vitenskapelige høgskole,2023,grønn,29
+Oslo universitetssykehus HF,2023,grønn,160
+Helse Bergen HF,2023,grønn,84
+St. Olavs hospital HF,2023,grønn,59
+Universitetssykehuset Nord-Norge HF,2023,grønn,37
+Akershus universitetssykehus HF,2023,grønn,34
+Folkehelseinstituttet,2023,grønn,81
+SINTEF,2023,grønn,98
+NORCE Norsk forskningssenter,2023,grønn,61
+Norsk institutt for naturforskning,2023,grønn,36
+Norsk institutt for bioøkonomi,2023,grønn,46
+Havforskningsinstituttet,2023,grønn,42
+Transportøkonomisk institutt,2023,grønn,17
+PRIO – Institutt for fredsforskning,2023,grønn,15
+Universitetet i Oslo,2023,deponert,12
+Norges teknisk-naturvitenskapelige universitet,2023,deponert,12
+Universitetet i Bergen,2023,deponert,8
+UiT Norges arktiske universitet,2023,deponert,6
+Norges miljø- og biovitenskapelige universitet,2023,deponert,4
+OsloMet – storbyuniversitetet,2023,deponert,3
+Universitetet i Stavanger,2023,deponert,3
+Universitetet i Agder,2023,deponert,2
+Universitetet i Sørøst-Norge,2023,deponert,2
+Nord universitet,2023,deponert,2
+Handelshøyskolen BI,2023,deponert,1
+Norges Handelshøyskole,2023,deponert,1
+Høgskulen på Vestlandet,2023,deponert,2
+Høgskolen i Innlandet,2023,deponert,1
+Høgskolen i Østfold,2023,deponert,1
+VID vitenskapelige høgskole,2023,deponert,1
+Oslo universitetssykehus HF,2023,deponert,4
+Helse Bergen HF,2023,deponert,2
+St. Olavs hospital HF,2023,deponert,2
+Universitetssykehuset Nord-Norge HF,2023,deponert,1
+Akershus universitetssykehus HF,2023,deponert,1
+Folkehelseinstituttet,2023,deponert,2
+SINTEF,2023,deponert,2
+NORCE Norsk forskningssenter,2023,deponert,2
+Norsk institutt for naturforskning,2023,deponert,1
+Norsk institutt for bioøkonomi,2023,deponert,1
+Havforskningsinstituttet,2023,deponert,1
+Transportøkonomisk institutt,2023,deponert,0
+PRIO – Institutt for fredsforskning,2023,deponert,0
+Universitetet i Oslo,2023,lukket,625
+Norges teknisk-naturvitenskapelige universitet,2023,lukket,593
+Universitetet i Bergen,2023,lukket,342
+UiT Norges arktiske universitet,2023,lukket,233
+Norges miljø- og biovitenskapelige universitet,2023,lukket,142
+OsloMet – storbyuniversitetet,2023,lukket,130
+Universitetet i Stavanger,2023,lukket,140
+Universitetet i Agder,2023,lukket,118
+Universitetet i Sørøst-Norge,2023,lukket,98
+Nord universitet,2023,lukket,68
+Handelshøyskolen BI,2023,lukket,68
+Norges Handelshøyskole,2023,lukket,39
+Høgskulen på Vestlandet,2023,lukket,82
+Høgskolen i Innlandet,2023,lukket,65
+Høgskolen i Østfold,2023,lukket,34
+VID vitenskapelige høgskole,2023,lukket,32
+Oslo universitetssykehus HF,2023,lukket,170
+Helse Bergen HF,2023,lukket,104
+St. Olavs hospital HF,2023,lukket,66
+Universitetssykehuset Nord-Norge HF,2023,lukket,44
+Akershus universitetssykehus HF,2023,lukket,42
+Folkehelseinstituttet,2023,lukket,88
+SINTEF,2023,lukket,87
+NORCE Norsk forskningssenter,2023,lukket,60
+Norsk institutt for naturforskning,2023,lukket,42
+Norsk institutt for bioøkonomi,2023,lukket,43
+Havforskningsinstituttet,2023,lukket,56
+Transportøkonomisk institutt,2023,lukket,22
+PRIO – Institutt for fredsforskning,2023,lukket,19
+Universitetet i Oslo,2024,diamant,294
+Norges teknisk-naturvitenskapelige universitet,2024,diamant,284
+Universitetet i Bergen,2024,diamant,200
+UiT Norges arktiske universitet,2024,diamant,142
+Norges miljø- og biovitenskapelige universitet,2024,diamant,67
+OsloMet – storbyuniversitetet,2024,diamant,71
+Universitetet i Stavanger,2024,diamant,66
+Universitetet i Agder,2024,diamant,59
+Universitetet i Sørøst-Norge,2024,diamant,49
+Nord universitet,2024,diamant,37
+Handelshøyskolen BI,2024,diamant,28
+Norges Handelshøyskole,2024,diamant,20
+Høgskulen på Vestlandet,2024,diamant,40
+Høgskolen i Innlandet,2024,diamant,39
+Høgskolen i Østfold,2024,diamant,19
+VID vitenskapelige høgskole,2024,diamant,12
+Oslo universitetssykehus HF,2024,diamant,110
+Helse Bergen HF,2024,diamant,49
+St. Olavs hospital HF,2024,diamant,38
+Universitetssykehuset Nord-Norge HF,2024,diamant,26
+Akershus universitetssykehus HF,2024,diamant,24
+Folkehelseinstituttet,2024,diamant,37
+SINTEF,2024,diamant,51
+NORCE Norsk forskningssenter,2024,diamant,29
+Norsk institutt for naturforskning,2024,diamant,25
+Norsk institutt for bioøkonomi,2024,diamant,25
+Havforskningsinstituttet,2024,diamant,21
+Transportøkonomisk institutt,2024,diamant,12
+PRIO – Institutt for fredsforskning,2024,diamant,8
+Universitetet i Oslo,2024,gull,1405
+Norges teknisk-naturvitenskapelige universitet,2024,gull,1342
+Universitetet i Bergen,2024,gull,785
+UiT Norges arktiske universitet,2024,gull,678
+Norges miljø- og biovitenskapelige universitet,2024,gull,362
+OsloMet – storbyuniversitetet,2024,gull,297
+Universitetet i Stavanger,2024,gull,321
+Universitetet i Agder,2024,gull,269
+Universitetet i Sørøst-Norge,2024,gull,244
+Nord universitet,2024,gull,203
+Handelshøyskolen BI,2024,gull,127
+Norges Handelshøyskole,2024,gull,104
+Høgskulen på Vestlandet,2024,gull,233
+Høgskolen i Innlandet,2024,gull,167
+Høgskolen i Østfold,2024,gull,84
+VID vitenskapelige høgskole,2024,gull,60
+Oslo universitetssykehus HF,2024,gull,518
+Helse Bergen HF,2024,gull,256
+St. Olavs hospital HF,2024,gull,164
+Universitetssykehuset Nord-Norge HF,2024,gull,101
+Akershus universitetssykehus HF,2024,gull,98
+Folkehelseinstituttet,2024,gull,173
+SINTEF,2024,gull,211
+NORCE Norsk forskningssenter,2024,gull,135
+Norsk institutt for naturforskning,2024,gull,108
+Norsk institutt for bioøkonomi,2024,gull,91
+Havforskningsinstituttet,2024,gull,129
+Transportøkonomisk institutt,2024,gull,45
+PRIO – Institutt for fredsforskning,2024,gull,37
+Universitetet i Oslo,2024,hybrid,629
+Norges teknisk-naturvitenskapelige universitet,2024,hybrid,644
+Universitetet i Bergen,2024,hybrid,421
+UiT Norges arktiske universitet,2024,hybrid,271
+Norges miljø- og biovitenskapelige universitet,2024,hybrid,131
+OsloMet – storbyuniversitetet,2024,hybrid,156
+Universitetet i Stavanger,2024,hybrid,163
+Universitetet i Agder,2024,hybrid,124
+Universitetet i Sørøst-Norge,2024,hybrid,118
+Nord universitet,2024,hybrid,93
+Handelshøyskolen BI,2024,hybrid,78
+Norges Handelshøyskole,2024,hybrid,44
+Høgskulen på Vestlandet,2024,hybrid,108
+Høgskolen i Innlandet,2024,hybrid,74
+Høgskolen i Østfold,2024,hybrid,34
+VID vitenskapelige høgskole,2024,hybrid,29
+Oslo universitetssykehus HF,2024,hybrid,187
+Helse Bergen HF,2024,hybrid,96
+St. Olavs hospital HF,2024,hybrid,87
+Universitetssykehuset Nord-Norge HF,2024,hybrid,54
+Akershus universitetssykehus HF,2024,hybrid,52
+Folkehelseinstituttet,2024,hybrid,96
+SINTEF,2024,hybrid,96
+NORCE Norsk forskningssenter,2024,hybrid,78
+Norsk institutt for naturforskning,2024,hybrid,52
+Norsk institutt for bioøkonomi,2024,hybrid,56
+Havforskningsinstituttet,2024,hybrid,58
+Transportøkonomisk institutt,2024,hybrid,21
+PRIO – Institutt for fredsforskning,2024,hybrid,20
+Universitetet i Oslo,2024,hybrid_avtale,717
+Norges teknisk-naturvitenskapelige universitet,2024,hybrid_avtale,724
+Universitetet i Bergen,2024,hybrid_avtale,541
+UiT Norges arktiske universitet,2024,hybrid_avtale,341
+Norges miljø- og biovitenskapelige universitet,2024,hybrid_avtale,219
+OsloMet – storbyuniversitetet,2024,hybrid_avtale,233
+Universitetet i Stavanger,2024,hybrid_avtale,221
+Universitetet i Agder,2024,hybrid_avtale,149
+Universitetet i Sørøst-Norge,2024,hybrid_avtale,165
+Nord universitet,2024,hybrid_avtale,128
+Handelshøyskolen BI,2024,hybrid_avtale,79
+Norges Handelshøyskole,2024,hybrid_avtale,63
+Høgskulen på Vestlandet,2024,hybrid_avtale,144
+Høgskolen i Innlandet,2024,hybrid_avtale,117
+Høgskolen i Østfold,2024,hybrid_avtale,47
+VID vitenskapelige høgskole,2024,hybrid_avtale,42
+Oslo universitetssykehus HF,2024,hybrid_avtale,319
+Helse Bergen HF,2024,hybrid_avtale,128
+St. Olavs hospital HF,2024,hybrid_avtale,110
+Universitetssykehuset Nord-Norge HF,2024,hybrid_avtale,61
+Akershus universitetssykehus HF,2024,hybrid_avtale,70
+Folkehelseinstituttet,2024,hybrid_avtale,111
+SINTEF,2024,hybrid_avtale,160
+NORCE Norsk forskningssenter,2024,hybrid_avtale,81
+Norsk institutt for naturforskning,2024,hybrid_avtale,71
+Norsk institutt for bioøkonomi,2024,hybrid_avtale,69
+Havforskningsinstituttet,2024,hybrid_avtale,80
+Transportøkonomisk institutt,2024,hybrid_avtale,30
+PRIO – Institutt for fredsforskning,2024,hybrid_avtale,24
+Universitetet i Oslo,2024,grønn,373
+Norges teknisk-naturvitenskapelige universitet,2024,grønn,340
+Universitetet i Bergen,2024,grønn,241
+UiT Norges arktiske universitet,2024,grønn,172
+Norges miljø- og biovitenskapelige universitet,2024,grønn,89
+OsloMet – storbyuniversitetet,2024,grønn,101
+Universitetet i Stavanger,2024,grønn,106
+Universitetet i Agder,2024,grønn,89
+Universitetet i Sørøst-Norge,2024,grønn,81
+Nord universitet,2024,grønn,57
+Handelshøyskolen BI,2024,grønn,45
+Norges Handelshøyskole,2024,grønn,32
+Høgskulen på Vestlandet,2024,grønn,57
+Høgskolen i Innlandet,2024,grønn,52
+Høgskolen i Østfold,2024,grønn,29
+VID vitenskapelige høgskole,2024,grønn,22
+Oslo universitetssykehus HF,2024,grønn,151
+Helse Bergen HF,2024,grønn,66
+St. Olavs hospital HF,2024,grønn,45
+Universitetssykehuset Nord-Norge HF,2024,grønn,37
+Akershus universitetssykehus HF,2024,grønn,29
+Folkehelseinstituttet,2024,grønn,59
+SINTEF,2024,grønn,83
+NORCE Norsk forskningssenter,2024,grønn,41
+Norsk institutt for naturforskning,2024,grønn,31
+Norsk institutt for bioøkonomi,2024,grønn,33
+Havforskningsinstituttet,2024,grønn,39
+Transportøkonomisk institutt,2024,grønn,16
+PRIO – Institutt for fredsforskning,2024,grønn,15
+Universitetet i Oslo,2024,deponert,13
+Norges teknisk-naturvitenskapelige universitet,2024,deponert,15
+Universitetet i Bergen,2024,deponert,10
+UiT Norges arktiske universitet,2024,deponert,7
+Norges miljø- og biovitenskapelige universitet,2024,deponert,3
+OsloMet – storbyuniversitetet,2024,deponert,4
+Universitetet i Stavanger,2024,deponert,3
+Universitetet i Agder,2024,deponert,3
+Universitetet i Sørøst-Norge,2024,deponert,2
+Nord universitet,2024,deponert,2
+Handelshøyskolen BI,2024,deponert,2
+Norges Handelshøyskole,2024,deponert,1
+Høgskulen på Vestlandet,2024,deponert,3
+Høgskolen i Innlandet,2024,deponert,2
+Høgskolen i Østfold,2024,deponert,1
+VID vitenskapelige høgskole,2024,deponert,1
+Oslo universitetssykehus HF,2024,deponert,5
+Helse Bergen HF,2024,deponert,3
+St. Olavs hospital HF,2024,deponert,2
+Universitetssykehuset Nord-Norge HF,2024,deponert,1
+Akershus universitetssykehus HF,2024,deponert,1
+Folkehelseinstituttet,2024,deponert,2
+SINTEF,2024,deponert,3
+NORCE Norsk forskningssenter,2024,deponert,2
+Norsk institutt for naturforskning,2024,deponert,1
+Norsk institutt for bioøkonomi,2024,deponert,1
+Havforskningsinstituttet,2024,deponert,1
+Transportøkonomisk institutt,2024,deponert,1
+PRIO – Institutt for fredsforskning,2024,deponert,0
+Universitetet i Oslo,2024,lukket,491
+Norges teknisk-naturvitenskapelige universitet,2024,lukket,494
+Universitetet i Bergen,2024,lukket,307
+UiT Norges arktiske universitet,2024,lukket,291
+Norges miljø- og biovitenskapelige universitet,2024,lukket,133
+OsloMet – storbyuniversitetet,2024,lukket,136
+Universitetet i Stavanger,2024,lukket,133
+Universitetet i Agder,2024,lukket,111
+Universitetet i Sørøst-Norge,2024,lukket,86
+Nord universitet,2024,lukket,78
+Handelshøyskolen BI,2024,lukket,57
+Norges Handelshøyskole,2024,lukket,47
+Høgskulen på Vestlandet,2024,lukket,84
+Høgskolen i Innlandet,2024,lukket,69
+Høgskolen i Østfold,2024,lukket,33
+VID vitenskapelige høgskole,2024,lukket,28
+Oslo universitetssykehus HF,2024,lukket,177
+Helse Bergen HF,2024,lukket,92
+St. Olavs hospital HF,2024,lukket,61
+Universitetssykehuset Nord-Norge HF,2024,lukket,49
+Akershus universitetssykehus HF,2024,lukket,44
+Folkehelseinstituttet,2024,lukket,74
+SINTEF,2024,lukket,94
+NORCE Norsk forskningssenter,2024,lukket,64
+Norsk institutt for naturforskning,2024,lukket,52
+Norsk institutt for bioøkonomi,2024,lukket,47
+Havforskningsinstituttet,2024,lukket,50
+Transportøkonomisk institutt,2024,lukket,23
+PRIO – Institutt for fredsforskning,2024,lukket,19
+Universitetet i Oslo,2025,diamant,280
+Norges teknisk-naturvitenskapelige universitet,2025,diamant,280
+Universitetet i Bergen,2025,diamant,205
+UiT Norges arktiske universitet,2025,diamant,138
+Norges miljø- og biovitenskapelige universitet,2025,diamant,82
+OsloMet – storbyuniversitetet,2025,diamant,73
+Universitetet i Stavanger,2025,diamant,61
+Universitetet i Agder,2025,diamant,62
+Universitetet i Sørøst-Norge,2025,diamant,55
+Nord universitet,2025,diamant,41
+Handelshøyskolen BI,2025,diamant,37
+Norges Handelshøyskole,2025,diamant,24
+Høgskulen på Vestlandet,2025,diamant,49
+Høgskolen i Innlandet,2025,diamant,38
+Høgskolen i Østfold,2025,diamant,16
+VID vitenskapelige høgskole,2025,diamant,16
+Oslo universitetssykehus HF,2025,diamant,92
+Helse Bergen HF,2025,diamant,59
+St. Olavs hospital HF,2025,diamant,42
+Universitetssykehuset Nord-Norge HF,2025,diamant,26
+Akershus universitetssykehus HF,2025,diamant,20
+Folkehelseinstituttet,2025,diamant,43
+SINTEF,2025,diamant,59
+NORCE Norsk forskningssenter,2025,diamant,33
+Norsk institutt for naturforskning,2025,diamant,28
+Norsk institutt for bioøkonomi,2025,diamant,25
+Havforskningsinstituttet,2025,diamant,28
+Transportøkonomisk institutt,2025,diamant,10
+PRIO – Institutt for fredsforskning,2025,diamant,10
+Universitetet i Oslo,2025,gull,1466
+Norges teknisk-naturvitenskapelige universitet,2025,gull,1098
+Universitetet i Bergen,2025,gull,813
+UiT Norges arktiske universitet,2025,gull,611
+Norges miljø- og biovitenskapelige universitet,2025,gull,319
+OsloMet – storbyuniversitetet,2025,gull,314
+Universitetet i Stavanger,2025,gull,316
+Universitetet i Agder,2025,gull,281
+Universitetet i Sørøst-Norge,2025,gull,256
+Nord universitet,2025,gull,192
+Handelshøyskolen BI,2025,gull,152
+Norges Handelshøyskole,2025,gull,98
+Høgskulen på Vestlandet,2025,gull,205
+Høgskolen i Innlandet,2025,gull,150
+Høgskolen i Østfold,2025,gull,86
+VID vitenskapelige høgskole,2025,gull,72
+Oslo universitetssykehus HF,2025,gull,524
+Helse Bergen HF,2025,gull,265
+St. Olavs hospital HF,2025,gull,171
+Universitetssykehuset Nord-Norge HF,2025,gull,96
+Akershus universitetssykehus HF,2025,gull,94
+Folkehelseinstituttet,2025,gull,204
+SINTEF,2025,gull,224
+NORCE Norsk forskningssenter,2025,gull,147
+Norsk institutt for naturforskning,2025,gull,105
+Norsk institutt for bioøkonomi,2025,gull,109
+Havforskningsinstituttet,2025,gull,122
+Transportøkonomisk institutt,2025,gull,43
+PRIO – Institutt for fredsforskning,2025,gull,39
+Universitetet i Oslo,2025,hybrid,575
+Norges teknisk-naturvitenskapelige universitet,2025,hybrid,643
+Universitetet i Bergen,2025,hybrid,439
+UiT Norges arktiske universitet,2025,hybrid,268
+Norges miljø- og biovitenskapelige universitet,2025,hybrid,186
+OsloMet – storbyuniversitetet,2025,hybrid,158
+Universitetet i Stavanger,2025,hybrid,145
+Universitetet i Agder,2025,hybrid,134
+Universitetet i Sørøst-Norge,2025,hybrid,131
+Nord universitet,2025,hybrid,102
+Handelshøyskolen BI,2025,hybrid,64
+Norges Handelshøyskole,2025,hybrid,55
+Høgskulen på Vestlandet,2025,hybrid,98
+Høgskolen i Innlandet,2025,hybrid,78
+Høgskolen i Østfold,2025,hybrid,41
+VID vitenskapelige høgskole,2025,hybrid,35
+Oslo universitetssykehus HF,2025,hybrid,201
+Helse Bergen HF,2025,hybrid,129
+St. Olavs hospital HF,2025,hybrid,74
+Universitetssykehuset Nord-Norge HF,2025,hybrid,62
+Akershus universitetssykehus HF,2025,hybrid,49
+Folkehelseinstituttet,2025,hybrid,109
+SINTEF,2025,hybrid,108
+NORCE Norsk forskningssenter,2025,hybrid,73
+Norsk institutt for naturforskning,2025,hybrid,56
+Norsk institutt for bioøkonomi,2025,hybrid,49
+Havforskningsinstituttet,2025,hybrid,53
+Transportøkonomisk institutt,2025,hybrid,27
+PRIO – Institutt for fredsforskning,2025,hybrid,22
+Universitetet i Oslo,2025,hybrid_avtale,746
+Norges teknisk-naturvitenskapelige universitet,2025,hybrid_avtale,744
+Universitetet i Bergen,2025,hybrid_avtale,490
+UiT Norges arktiske universitet,2025,hybrid_avtale,337
+Norges miljø- og biovitenskapelige universitet,2025,hybrid_avtale,160
+OsloMet – storbyuniversitetet,2025,hybrid_avtale,169
+Universitetet i Stavanger,2025,hybrid_avtale,170
+Universitetet i Agder,2025,hybrid_avtale,119
+Universitetet i Sørøst-Norge,2025,hybrid_avtale,138
+Nord universitet,2025,hybrid_avtale,109
+Handelshøyskolen BI,2025,hybrid_avtale,69
+Norges Handelshøyskole,2025,hybrid_avtale,49
+Høgskulen på Vestlandet,2025,hybrid_avtale,123
+Høgskolen i Innlandet,2025,hybrid_avtale,98
+Høgskolen i Østfold,2025,hybrid_avtale,41
+VID vitenskapelige høgskole,2025,hybrid_avtale,35
+Oslo universitetssykehus HF,2025,hybrid_avtale,276
+Helse Bergen HF,2025,hybrid_avtale,133
+St. Olavs hospital HF,2025,hybrid_avtale,83
+Universitetssykehuset Nord-Norge HF,2025,hybrid_avtale,64
+Akershus universitetssykehus HF,2025,hybrid_avtale,54
+Folkehelseinstituttet,2025,hybrid_avtale,112
+SINTEF,2025,hybrid_avtale,111
+NORCE Norsk forskningssenter,2025,hybrid_avtale,69
+Norsk institutt for naturforskning,2025,hybrid_avtale,56
+Norsk institutt for bioøkonomi,2025,hybrid_avtale,60
+Havforskningsinstituttet,2025,hybrid_avtale,56
+Transportøkonomisk institutt,2025,hybrid_avtale,30
+PRIO – Institutt for fredsforskning,2025,hybrid_avtale,23
+Universitetet i Oslo,2025,grønn,404
+Norges teknisk-naturvitenskapelige universitet,2025,grønn,368
+Universitetet i Bergen,2025,grønn,305
+UiT Norges arktiske universitet,2025,grønn,220
+Norges miljø- og biovitenskapelige universitet,2025,grønn,115
+OsloMet – storbyuniversitetet,2025,grønn,102
+Universitetet i Stavanger,2025,grønn,100
+Universitetet i Agder,2025,grønn,74
+Universitetet i Sørøst-Norge,2025,grønn,78
+Nord universitet,2025,grønn,68
+Handelshøyskolen BI,2025,grønn,54
+Norges Handelshøyskole,2025,grønn,34
+Høgskulen på Vestlandet,2025,grønn,72
+Høgskolen i Innlandet,2025,grønn,51
+Høgskolen i Østfold,2025,grønn,27
+VID vitenskapelige høgskole,2025,grønn,19
+Oslo universitetssykehus HF,2025,grønn,163
+Helse Bergen HF,2025,grønn,83
+St. Olavs hospital HF,2025,grønn,47
+Universitetssykehuset Nord-Norge HF,2025,grønn,40
+Akershus universitetssykehus HF,2025,grønn,34
+Folkehelseinstituttet,2025,grønn,68
+SINTEF,2025,grønn,65
+NORCE Norsk forskningssenter,2025,grønn,46
+Norsk institutt for naturforskning,2025,grønn,39
+Norsk institutt for bioøkonomi,2025,grønn,33
+Havforskningsinstituttet,2025,grønn,44
+Transportøkonomisk institutt,2025,grønn,17
+PRIO – Institutt for fredsforskning,2025,grønn,13
+Universitetet i Oslo,2025,deponert,112
+Norges teknisk-naturvitenskapelige universitet,2025,deponert,107
+Universitetet i Bergen,2025,deponert,69
+UiT Norges arktiske universitet,2025,deponert,56
+Norges miljø- og biovitenskapelige universitet,2025,deponert,32
+OsloMet – storbyuniversitetet,2025,deponert,33
+Universitetet i Stavanger,2025,deponert,28
+Universitetet i Agder,2025,deponert,20
+Universitetet i Sørøst-Norge,2025,deponert,21
+Nord universitet,2025,deponert,17
+Handelshøyskolen BI,2025,deponert,15
+Norges Handelshøyskole,2025,deponert,9
+Høgskulen på Vestlandet,2025,deponert,20
+Høgskolen i Innlandet,2025,deponert,15
+Høgskolen i Østfold,2025,deponert,7
+VID vitenskapelige høgskole,2025,deponert,5
+Oslo universitetssykehus HF,2025,deponert,36
+Helse Bergen HF,2025,deponert,24
+St. Olavs hospital HF,2025,deponert,16
+Universitetssykehuset Nord-Norge HF,2025,deponert,11
+Akershus universitetssykehus HF,2025,deponert,8
+Folkehelseinstituttet,2025,deponert,19
+SINTEF,2025,deponert,23
+NORCE Norsk forskningssenter,2025,deponert,13
+Norsk institutt for naturforskning,2025,deponert,9
+Norsk institutt for bioøkonomi,2025,deponert,11
+Havforskningsinstituttet,2025,deponert,12
+Transportøkonomisk institutt,2025,deponert,5
+PRIO – Institutt for fredsforskning,2025,deponert,4
+Universitetet i Oslo,2025,lukket,537
+Norges teknisk-naturvitenskapelige universitet,2025,lukket,529
+Universitetet i Bergen,2025,lukket,355
+UiT Norges arktiske universitet,2025,lukket,269
+Norges miljø- og biovitenskapelige universitet,2025,lukket,141
+OsloMet – storbyuniversitetet,2025,lukket,155
+Universitetet i Stavanger,2025,lukket,119
+Universitetet i Agder,2025,lukket,98
+Universitetet i Sørøst-Norge,2025,lukket,91
+Nord universitet,2025,lukket,64
+Handelshøyskolen BI,2025,lukket,64
+Norges Handelshøyskole,2025,lukket,41
+Høgskulen på Vestlandet,2025,lukket,76
+Høgskolen i Innlandet,2025,lukket,72
+Høgskolen i Østfold,2025,lukket,31
+VID vitenskapelige høgskole,2025,lukket,27
+Oslo universitetssykehus HF,2025,lukket,201
+Helse Bergen HF,2025,lukket,106
+St. Olavs hospital HF,2025,lukket,71
+Universitetssykehuset Nord-Norge HF,2025,lukket,44
+Akershus universitetssykehus HF,2025,lukket,45
+Folkehelseinstituttet,2025,lukket,89
+SINTEF,2025,lukket,105
+NORCE Norsk forskningssenter,2025,lukket,55
+Norsk institutt for naturforskning,2025,lukket,38
+Norsk institutt for bioøkonomi,2025,lukket,39
+Havforskningsinstituttet,2025,lukket,44
+Transportøkonomisk institutt,2025,lukket,22
+PRIO – Institutt for fredsforskning,2025,lukket,18

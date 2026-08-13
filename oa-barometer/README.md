@@ -9,16 +9,34 @@ at openscience.no/oa-barometer.
 ```
 _quarto.yml                  Site configuration (navigation, theme, grid)
 index.qmd                    Front page (OA-barometeret)
-national-overview.qmd        Section page with figure placeholders
-sectoral-overview.qmd        Section page with figure placeholders
-disciplinary-overview.qmd    Section page with figure placeholders
-institutional-overview.qmd   Table page with placeholder
+national-overview.qmd        Interactive stacked-bar figure (national)
+sectoral-overview.qmd        Interactive figure with sector comparison (facets)
+disciplinary-overview.qmd    Interactive figure with discipline comparison (facets)
+institutional-overview.qmd   Interactive institution table (search/sort/CSV)
 methodology.qmd              Method description (skeleton)
 styles/theme.scss            openscience.no theme: colors, fonts, cards, footer
 partials/footer.html         Sikt footer (included on every page)
 assets/                      Logos, icons and self-hosted fonts
+assets/js/oa-chart.js        Chart/table helpers (Observable Plot, bbplot look)
+data/                        Aggregated CSVs consumed client-side (see data/README.md)
+pipeline/export-site-data.R  Exports the data/ CSVs from the annual OA pipeline
 .gitlab-ci.yml               Build + publish to GitLab Pages
 ```
+
+## How the figures work
+
+The pages use Observable JS (OJS) cells rendered entirely client-side - no R
+or server is needed to build or serve the site. The figures replicate the
+bbplot look of the previous static plots (same category colors and stacking
+order as `nva_oa_barometer_output_v01.R`) and add interactivity: absolute/
+percent toggle, category filtering, year range, hover tooltips, optional
+in-bar value labels, and side-by-side sector/discipline comparison.
+
+Annual update flow:
+
+1. Run the annual pipeline as usual (produces `tilstandsrapport`).
+2. `source("pipeline/export-site-data.R"); export_oa_site_data(tilstandsrapport, "<this repo>/data")`
+3. Commit + push. GitLab CI rebuilds and republishes the site.
 
 ## Design elements (from openscience.no)
 
@@ -47,8 +65,9 @@ Checklist for the platform team:
 
 ## To do / next steps
 
-- [ ] Hook up data from the annual OA analytics pipeline
-- [ ] Replace figure placeholders with interactive figures (Plotly/OJS)
-- [ ] Replace the table placeholder with an interactive table (reactable/DT)
+- [ ] Replace dummy data with real exports (`pipeline/export-site-data.R`):
+      sector, discipline and institution CSVs are dummy; national is
+      transcribed from the published 2025 figures (see `data/README.md`)
+- [ ] Remove the "eksempeldata" notes from the pages once real data is in
 - [ ] Methodology: migrate content from openscience.no
 - [ ] Possibly English pages (Quarto has built-in multilingual support via profiles)

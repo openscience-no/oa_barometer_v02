@@ -1,7 +1,7 @@
 ---
 title: "Disiplinær oversikt"
 description: >
-  Grafene viser vekst i publikasjoner med åpen tilgang fordelt på de fire
+  Figuren viser vekst i publikasjoner med åpen tilgang fordelt på de fire
   hoveddisiplinene.
 ---
 
@@ -9,36 +9,72 @@ description: >
 Datagrunnlaget dekker kun artikler som er rapportert i NVI-sammenheng og
 inkluderer ikke bøker, eller konferansebidrag i serier uten ISSN.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
+
+**Merk:** Tallene på denne siden er foreløpig eksempeldata, og erstattes av
+reelle tall når datagrunnlaget kobles til.
 :::
 
-## Humaniora
+## Sammenlign fagområdene
 
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang innen humaniora, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
+Velg ett fagområde for å se det alene, eller flere for å sammenligne side om side.
+
+```{ojs}
+//| echo: false
+oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
+discRaw = FileAttachment("data/oa_discipline.csv").csv({typed: true})
+discRows = discRaw.map((d) => ({year: d.year, status: d.status, total: d.total, group: d.discipline}))
+discYears = [...new Set(discRows.map((d) => d.year))].sort((a, b) => a - b)
+discAll = ["Realfag og teknologi", "Medisin og helsefag", "Samfunnsvitenskap", "Humaniora"]
+```
+
+::: {.oa-controls}
+
+```{ojs}
+//| echo: false
+viewof discSel = Inputs.checkbox(discAll, {value: ["Realfag og teknologi", "Humaniora"], label: "Fagområder"})
+```
+
+```{ojs}
+//| echo: false
+viewof discMode = Inputs.radio(
+  new Map([["Antall", "abs"], ["Prosent", "pct"]]),
+  {value: "abs", label: "Visning"}
+)
+```
+
+```{ojs}
+//| echo: false
+viewof discFrom = Inputs.select(discYears, {value: discYears[0], label: "Fra år"})
+```
+
+```{ojs}
+//| echo: false
+viewof discTo = Inputs.select(discYears, {value: discYears.at(-1), label: "Til år"})
+```
+
+```{ojs}
+//| echo: false
+viewof discCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
+```
+
 :::
 
-## Medisin og helsefag
+```{ojs}
+//| echo: false
+oa.oaChartCard(Plot, {
+  data: discRows.filter((d) => discSel.includes(d.group)),
+  mode: discMode,
+  categories: discCats,
+  yearFrom: Math.min(discFrom, discTo),
+  yearTo: Math.max(discFrom, discTo),
+  facet: discSel.length > 1,
+  width: Math.min(width, 1100),
+  title: discMode === "pct"
+    ? "Distribusjon av åpen tilgang-artikler (%)"
+    : "Distribusjon av åpen tilgang-artikler",
+  subtitle: `NPI fagområde: ${discSel.join(", ") || "ingen valgt"} – NVI ${Math.min(discFrom, discTo)}–${Math.max(discFrom, discTo)}`
+})
+```
 
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang innen medisin og helsefag, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
-:::
-
-## Realfag og teknologi
-
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang innen realfag og teknologi, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
-:::
-
-## Samfunnsvitenskap
-
-::: {.fig-placeholder}
-<img src="assets/icons/barometer.svg" alt="">
-<p>Åpen tilgang innen samfunnsvitenskap, NVI 2013–2025</p>
-<small>Plassholder – her kommer interaktiv figur</small>
-:::
+Datagrunnlaget for figuren kan lastes ned her:
+[oa_discipline.csv](data/oa_discipline.csv).
