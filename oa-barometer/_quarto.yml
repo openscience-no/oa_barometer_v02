@@ -13,13 +13,14 @@ website:
   title: "OA-barometeret"
   favicon: assets/icons/barometer.svg
   navbar:
-    title: false
-    logo: assets/openscience-logo-hvit.svg
+    title: '<span class="os-brand"><span class="os-brand-name">openscience.no</span><span class="os-brand-sub">åpenforskning.no | openforsking.no</span></span>'
+    logo: assets/openscience-icon.svg
     logo-alt: "openscience.no – åpenforskning.no | openforsking.no"
-    logo-href: index.qmd
+    logo-href: https://www.openscience.no
     background: "#424242"
     foreground: "#ffffff"
     search: true
+    pinned: true
     left:
       - text: "Nasjonal oversikt"
         href: nasjonal-oversikt.qmd
@@ -32,8 +33,8 @@ website:
       - text: "Metode"
         href: metode.qmd
     right:
-      - text: "openscience.no"
-        href: https://www.openscience.no
+      - text: "OA-barometer"
+        href: index.qmd
   page-navigation: true
   back-to-top-navigation: true
 
