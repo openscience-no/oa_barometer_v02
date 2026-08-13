@@ -33,7 +33,7 @@ website:
       - text: "Metode"
         href: methodology.qmd
     right:
-      - text: "OA-barometer"
+      - text: "OA-barometeret"
         href: index.qmd
   page-navigation: true
   back-to-top-navigation: true
