@@ -21,22 +21,22 @@ på data fra Nasjonalt vitenarkiv.
 
 ```{=html}
 <div class="os-cards">
-  <a class="os-card" href="nasjonal-oversikt.html">
+  <a class="os-card" href="national-overview.html">
     <img class="os-card-icon" src="assets/icons/geo.svg" alt="">
     <span class="os-card-title">Nasjonal oversikt</span>
     <p>Tall for alle sektorer samlet.</p>
   </a>
-  <a class="os-card" href="sektoriell-oversikt.html">
+  <a class="os-card" href="sectoral-overview.html">
     <img class="os-card-icon" src="assets/icons/aktivitet.svg" alt="">
     <span class="os-card-title">Sektoriell oversikt</span>
     <p>Tall for universitets- og høgskolesektoren, helsesektoren og instituttsektoren.</p>
   </a>
-  <a class="os-card" href="disiplinaer-oversikt.html">
+  <a class="os-card" href="disciplinary-overview.html">
     <img class="os-card-icon" src="assets/icons/glasses.svg" alt="">
     <span class="os-card-title">Disiplinær oversikt</span>
     <p>Inndelt i de fire hoveddisiplinene.</p>
   </a>
-  <a class="os-card" href="institusjonell-oversikt.html">
+  <a class="os-card" href="institutional-overview.html">
     <img class="os-card-icon" src="assets/icons/publish.svg" alt="">
     <span class="os-card-title">Institusjonell oversikt</span>
     <p>Oversikt over norske forskningsutførende institusjoner (tabell).</p>
@@ -45,7 +45,7 @@ på data fra Nasjonalt vitenarkiv.
 ```
 
 Les mer om hvordan status for åpen tilgang blir kalkulert i vår
-[metodebeskrivelse](metode.html).
+[metodebeskrivelse](methodology.html).
 
 ::: {.os-band .column-screen}
 ::: {.os-band-inner}

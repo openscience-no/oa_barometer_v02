@@ -1,38 +1,38 @@
 /*-- scss:defaults --*/
 
 // ---------------------------------------------------------------------------
-// openscience.no designpalett (fra openscience_font_fargekoder_2021-10-05.txt)
+// openscience.no design palette (from openscience_font_fargekoder_2021-10-05.txt)
 // ---------------------------------------------------------------------------
-$os-graa:      #424242;   // Grå   – header, footer, brødtekst
-$os-oransje:   #F68213;   // Oransje – aksentfarge
-$os-moerkblaa: #5E778D;   // Mørk blå – seksjonsbånd
-$os-lysblaa:   #E5EDEF;   // Lys blå – bakgrunnsflater
+$os-gray:      #424242;   // Gray   - header, footer, body text
+$os-orange:   #F68213;   // Orange - accent color
+$os-darkblue: #5E778D;   // Dark blue - section bands
+$os-lightblue:   #E5EDEF;   // Light blue - background surfaces
 
-// Typografi: Barlow (brødtekst), Merriweather (titler)
+// Typography: Barlow (body text), Merriweather (titles)
 $font-family-sans-serif: "Barlow", "Segoe UI", Arial, sans-serif;
 $headings-font-family: "Merriweather", Georgia, "Times New Roman", serif;
 $headings-font-weight: 400;
-$headings-color: $os-graa;
+$headings-color: $os-gray;
 $font-size-root: 17px;
 
 $body-bg: #ffffff;
-$body-color: $os-graa;
+$body-color: $os-gray;
 
 $link-color: #46617a;
 $link-decoration: underline;
-$link-hover-color: darken($os-oransje, 8%);
+$link-hover-color: darken($os-orange, 8%);
 
-$navbar-bg: $os-graa;
+$navbar-bg: $os-gray;
 $navbar-fg: #ffffff;
-$navbar-hl: $os-oransje;
+$navbar-hl: $os-orange;
 
-$toc-active-border: $os-oransje;
-$toc-color: $os-graa;
+$toc-active-border: $os-orange;
+$toc-color: $os-gray;
 
 /*-- scss:rules --*/
 
 // ---------------------------------------------------------------------------
-// Fonter (selvhostet, ingen CDN)
+// Fonts (self-hosted, no CDN)
 // ---------------------------------------------------------------------------
 @font-face {
   font-family: "Barlow";
@@ -99,8 +99,8 @@ $toc-color: $os-graa;
   padding-bottom: 0.9rem;
 }
 
-// SVG-logoen har kun viewBox (ingen width/height-attributter) og kollapser
-// til 0px med max-height alene – eksplisitt høyde er nødvendig
+// The SVG logo only has a viewBox (no width/height attributes) and collapses
+// to 0px with max-height alone - an explicit height is required
 .navbar-brand img,
 img.navbar-logo {
   height: 51px;
@@ -108,8 +108,8 @@ img.navbar-logo {
   max-height: none;
 }
 
-// Merkevaretekst ved siden av logoikonet (som på openscience.no):
-// navn over, åpenforskning.no | openforsking.no under
+// Brand text next to the logo icon (as on openscience.no):
+// site name on top, åpenforskning.no | openforsking.no below
 .navbar-brand {
   align-items: center;
 }
@@ -137,7 +137,7 @@ img.navbar-logo {
   letter-spacing: 0.01em;
 }
 
-// Luft mellom merkevaren og navigasjonslenkene, vertikalt midtstilt
+// Space between the brand and the navigation links, vertically centered
 .navbar .navbar-container {
   align-items: center;
 }
@@ -152,7 +152,7 @@ img.navbar-logo {
 }
 
 // ---------------------------------------------------------------------------
-// Tittelblokk: Merriweather-tittel med kort oransje strek under
+// Title block: Merriweather title with a short orange rule underneath
 // ---------------------------------------------------------------------------
 .quarto-title-banner {
   padding-top: 3rem;
@@ -167,7 +167,7 @@ img.navbar-logo {
       display: block;
       width: 56px;
       height: 4px;
-      background: $os-oransje;
+      background: $os-orange;
       margin-top: 16px;
     }
   }
@@ -182,7 +182,7 @@ img.navbar-logo {
   }
 }
 
-// "Endret <dato>" under tittelbanneret – liten kapitél-stil som på openscience.no
+// "Endret <date>" below the title banner - small-caps style as on openscience.no
 .quarto-title-meta-heading {
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -195,7 +195,7 @@ img.navbar-logo {
 }
 
 // ---------------------------------------------------------------------------
-// Overskrifter i innhold
+// Content headings
 // ---------------------------------------------------------------------------
 h2 {
   font-size: 1.65rem;
@@ -210,7 +210,7 @@ h3 {
 }
 
 // ---------------------------------------------------------------------------
-// Kortgrid med pil-lenkekort (som "Snarveier" på openscience.no)
+// Card grid with arrow link cards (like "Snarveier" on openscience.no)
 // ---------------------------------------------------------------------------
 .os-cards {
   display: grid;
@@ -231,12 +231,12 @@ a.os-card {
 
   &:hover,
   &:focus-visible {
-    border-color: $os-oransje;
+    border-color: $os-orange;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
     color: inherit;
   }
 
-  // oransje chevron til høyre
+  // orange chevron on the right
   &::after {
     content: "";
     position: absolute;
@@ -244,8 +244,8 @@ a.os-card {
     top: 50%;
     width: 13px;
     height: 13px;
-    border-top: 3px solid $os-oransje;
-    border-right: 3px solid $os-oransje;
+    border-top: 3px solid $os-orange;
+    border-right: 3px solid $os-orange;
     transform: translateY(-50%) rotate(45deg);
   }
 
@@ -261,7 +261,7 @@ a.os-card {
     font-weight: 500;
     font-size: 1.15rem;
     margin: 0 0 0.4rem 0;
-    color: $os-graa;
+    color: $os-gray;
   }
 
   p {
@@ -272,11 +272,11 @@ a.os-card {
 }
 
 // ---------------------------------------------------------------------------
-// Merknadsboks (datagrunnlag o.l.)
+// Note box (data basis notes etc.)
 // ---------------------------------------------------------------------------
 .os-note {
-  background: $os-lysblaa;
-  border-left: 4px solid $os-moerkblaa;
+  background: $os-lightblue;
+  border-left: 4px solid $os-darkblue;
   padding: 1rem 1.3rem;
   margin: 1.6rem 0;
   font-size: 0.95rem;
@@ -287,14 +287,14 @@ a.os-card {
 }
 
 // ---------------------------------------------------------------------------
-// Plassholder for figurer/tabeller (byttes ut med interaktive figurer senere)
+// Placeholder for figures/tables (replaced by interactive figures later)
 // ---------------------------------------------------------------------------
 .fig-placeholder {
   border: 2px dashed #b7c6cd;
   background: #f4f8f9;
   padding: 3rem 1.5rem;
   text-align: center;
-  color: $os-moerkblaa;
+  color: $os-darkblue;
   margin: 1.5rem 0;
 
   img {
@@ -315,10 +315,10 @@ a.os-card {
 }
 
 // ---------------------------------------------------------------------------
-// Mørkblått fullbredde-bånd (som "Eksterne lenker" på openscience.no)
+// Dark blue full-width band (like "Eksterne lenker" on openscience.no)
 // ---------------------------------------------------------------------------
 .os-band {
-  background: $os-moerkblaa;
+  background: $os-darkblue;
   color: #ffffff;
   padding: 3rem 1.5rem;
   margin-top: 3.5rem;
@@ -344,10 +344,10 @@ a.os-card {
 }
 
 // ---------------------------------------------------------------------------
-// Footer med Sikt-avsender (mørk, tre kolonner)
+// Footer with Sikt sender identity (dark, three columns)
 // ---------------------------------------------------------------------------
 .os-footer {
-  background: $os-graa;
+  background: $os-gray;
   color: #ffffff;
   margin-top: 4rem;
   padding: 3.5rem 1.5rem 4rem 1.5rem;
@@ -371,7 +371,7 @@ a.os-card {
     color: #ffffff;
     margin: 0 0 0.4rem 0;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid $os-oransje;
+    border-bottom: 2px solid $os-orange;
     display: inline-block;
   }
 
@@ -385,7 +385,7 @@ a.os-card {
     text-decoration: underline;
 
     &:hover {
-      color: $os-oransje;
+      color: $os-orange;
     }
   }
 
@@ -411,24 +411,24 @@ a.os-card {
   }
 }
 
-// Quarto-elementer som ikke skal konkurrere med egen footer
+// Quarto elements that should not compete with the custom footer
 .nav-footer {
   display: none;
 }
 
 // ---------------------------------------------------------------------------
-// Diverse
+// Miscellaneous
 // ---------------------------------------------------------------------------
 #quarto-back-to-top {
   font-weight: 500;
 }
 
-// Tabeller: Barlow, litt luft, oransje topplinje
+// Tables: Barlow, some breathing room, orange top border
 table.table {
   font-size: 0.95rem;
 
   thead th {
-    border-top: 3px solid $os-oransje;
+    border-top: 3px solid $os-orange;
     border-bottom: 1px solid #c9d4d8;
     font-weight: 600;
   }

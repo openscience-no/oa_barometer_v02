@@ -1,5 +1,5 @@
-# Bygger og publiserer OA-barometeret til GitLab Pages.
-# Krever at GitLab Pages er aktivert på instansen (sjekk med plattformteamet).
+# Builds and publishes the OA-barometer to GitLab Pages.
+# Requires GitLab Pages to be enabled on the instance (check with the platform team).
 image: ghcr.io/quarto-dev/quarto:1.10.18
 
 pages:

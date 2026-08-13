@@ -1,57 +1,54 @@
-# OA-barometeret (v2)
+# OA-barometer (v2)
 
-Quarto-basert nettsted for OA-barometeret, med design og layout basert på
-[openscience.no](https://www.openscience.no). Erstatter de Drupal-baserte
-sidene på openscience.no/oa-barometer.
+Quarto-based website for the OA-barometer, with design and layout based on
+[openscience.no](https://www.openscience.no). Replaces the Drupal-based pages
+at openscience.no/oa-barometer.
 
-## Struktur
+## Structure
 
 ```
-_quarto.yml              Nettstedskonfigurasjon (navigasjon, tema, grid)
-index.qmd                Forside (OA-barometeret)
-nasjonal-oversikt.qmd    Seksjonsside med figur-plassholdere
-sektoriell-oversikt.qmd  Seksjonsside med figur-plassholdere
-disiplinaer-oversikt.qmd Seksjonsside med figur-plassholdere
-institusjonell-oversikt.qmd  Tabellside med plassholder
-metode.qmd               Metodebeskrivelse (skjelett)
-styles/theme.scss        openscience.no-tema: farger, fonter, kort, footer
-partials/footer.html     Sikt-footer (inkluderes på alle sider)
-assets/                  Logoer, ikoner og selvhostede fonter
-.gitlab-ci.yml           Bygg + publisering til GitLab Pages
+_quarto.yml                  Site configuration (navigation, theme, grid)
+index.qmd                    Front page (OA-barometeret)
+national-overview.qmd        Section page with figure placeholders
+sectoral-overview.qmd        Section page with figure placeholders
+disciplinary-overview.qmd    Section page with figure placeholders
+institutional-overview.qmd   Table page with placeholder
+methodology.qmd              Method description (skeleton)
+styles/theme.scss            openscience.no theme: colors, fonts, cards, footer
+partials/footer.html         Sikt footer (included on every page)
+assets/                      Logos, icons and self-hosted fonts
+.gitlab-ci.yml               Build + publish to GitLab Pages
 ```
 
-## Designelementer (fra openscience.no)
+## Design elements (from openscience.no)
 
-- Farger: grå `#424242`, oransje `#F68213`, mørk blå `#5E778D`, lys blå `#E5EDEF`
-- Fonter: Barlow (brødtekst), Merriweather (titler) – selvhostet, ingen CDN
-- Mørk header med openscience.no-logo, lyseblått tittelbånd med oransje strek,
-  pil-lenkekort, mørkblått fullbredde-bånd, mørk Sikt-footer
+- Colors: gray `#424242`, orange `#F68213`, dark blue `#5E778D`, light blue `#E5EDEF`
+- Fonts: Barlow (body text), Merriweather (titles) - self-hosted, no CDN
+- Dark header with openscience.no branding (sticky), light blue title banner
+  with an orange rule, arrow link cards, dark blue full-width band, dark Sikt footer
 
-## Lokal forhåndsvisning
+## Local preview
 
 ```bash
-quarto preview    # live-oppdatert forhåndsvisning
-quarto render     # bygger til _site/
+quarto preview    # live-reloading preview
+quarto render     # builds to _site/
 ```
 
-## Publisering
+## Publishing
 
-`.gitlab-ci.yml` bygger nettstedet med Quartos offisielle container-image og
-publiserer til GitLab Pages ved push til default-branch.
+`.gitlab-ci.yml` builds the site with Quarto's official container image and
+publishes to GitLab Pages on push to the default branch.
 
-Sjekkliste mot plattformteamet:
+Checklist for the platform team:
 
-1. Er GitLab Pages aktivert på Sikts instans?
-2. Kan Pages-sider gjøres offentlig tilgjengelige (uten innlogging)?
-3. Eget domene (f.eks. `barometer.openscience.no`)? Krever DNS + TLS-oppsett.
+1. Is GitLab Pages enabled on Sikt's instance?
+2. Can Pages sites be made publicly accessible (without login)?
+3. Custom domain (e.g. `barometer.openscience.no`)? Requires DNS + TLS setup.
 
-## Gjøremål / neste steg
+## To do / next steps
 
-- [ ] **Bytt ut `assets/sikt-logo-hvit.svg`** – dagens fil er en plassholder,
-      hent Sikts offisielle hvite logo (SVG)
-- [ ] Riktig e-postadresse i `partials/footer.html` (redaktør openscience.no)
-- [ ] Koble på data fra den årlige OA-analysepipelinen
-- [ ] Erstatt figur-plassholdere med interaktive figurer (Plotly/OJS)
-- [ ] Erstatt tabell-plassholder med interaktiv tabell (reactable/DT)
-- [ ] Metodebeskrivelse: flytt innhold fra openscience.no
-- [ ] Ev. engelske sider (Quarto har innebygd flerspråksstøtte via profiler)
+- [ ] Hook up data from the annual OA analytics pipeline
+- [ ] Replace figure placeholders with interactive figures (Plotly/OJS)
+- [ ] Replace the table placeholder with an interactive table (reactable/DT)
+- [ ] Methodology: migrate content from openscience.no
+- [ ] Possibly English pages (Quarto has built-in multilingual support via profiles)

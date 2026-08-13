@@ -6,7 +6,7 @@ project:
 
 lang: nb
 
-# Vises som "Endret <dato>" på hver side, hentes fra filens endringstidspunkt
+# Shown as "Endret <date>" on every page, taken from the file's modification time
 date-modified: last-modified
 
 website:
@@ -23,15 +23,15 @@ website:
     pinned: true
     left:
       - text: "Nasjonal oversikt"
-        href: nasjonal-oversikt.qmd
+        href: national-overview.qmd
       - text: "Sektoriell oversikt"
-        href: sektoriell-oversikt.qmd
+        href: sectoral-overview.qmd
       - text: "Disiplinær oversikt"
-        href: disiplinaer-oversikt.qmd
+        href: disciplinary-overview.qmd
       - text: "Institusjonell oversikt"
-        href: institusjonell-oversikt.qmd
+        href: institutional-overview.qmd
       - text: "Metode"
-        href: metode.qmd
+        href: methodology.qmd
     right:
       - text: "OA-barometer"
         href: index.qmd

@@ -8,7 +8,7 @@ description: >
 ::: {.os-note}
 Datagrunnlaget dekker kun artikler som er rapportert i NVI-sammenheng og
 inkluderer ikke monografier, antologier eller konferansebidrag i serier uten ISSN.
-For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](metode.html).
+For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
 :::
 
 ## Institusjonstabell – 2025
