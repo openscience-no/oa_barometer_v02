@@ -44,7 +44,7 @@ format:
     smooth-scroll: true
     link-external-newwindow: true
     title-block-banner: "#E5EDEF"
-    title-block-banner-color: "#424242"
+    title-block-banner-color: "#000000"
     include-after-body: partials/footer.html
     grid:
       sidebar-width: 220px

@@ -81,5 +81,5 @@ Checklist for the platform team:
 - [ ] Comparison page: side-by-side comparison of sectors/disciplines/
       institutions (removed from the explorer pages for readability)
 - [ ] Methodology: content migrated from openscience.no (2023 version) -
-      review for NVA-era updates (text still describes Cristin as the source)
+      review for NVA-era updates
 - [ ] Possibly English pages (Quarto has built-in multilingual support via profiles)

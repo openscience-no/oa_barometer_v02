@@ -12,11 +12,15 @@ $os-lightblue:   #E5EDEF;   // Light blue - background surfaces
 $font-family-sans-serif: "Barlow", "Segoe UI", Arial, sans-serif;
 $headings-font-family: "Merriweather", Georgia, "Times New Roman", serif;
 $headings-font-weight: 400;
-$headings-color: $os-gray;
-$font-size-root: 17px;
+$headings-color: #000000;
+
+// body text matches openscience.no article text: Barlow 16px/1.4, black
+// (the #424242 gray from the token file is used on surfaces, not body text)
+$font-size-root: 16px;
+$line-height-base: 1.4;
 
 $body-bg: #ffffff;
-$body-color: $os-gray;
+$body-color: #000000;
 
 $link-color: #46617a;
 $link-decoration: underline;
@@ -192,6 +196,18 @@ img.navbar-logo {
 
 .quarto-title-meta-contents {
   font-size: 0.9rem;
+}
+
+// ---------------------------------------------------------------------------
+// Prose measure: cap running text at a readable line length (~70 chars),
+// as on openscience.no - figures, tables and cards keep the full width
+// ---------------------------------------------------------------------------
+main {
+  p,
+  ul,
+  ol {
+    max-width: 44em;
+  }
 }
 
 // ---------------------------------------------------------------------------
