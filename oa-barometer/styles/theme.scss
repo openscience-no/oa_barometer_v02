@@ -343,6 +343,19 @@ a.os-card {
   }
 }
 
+// A band that ends the page content sits flush against the dark footer:
+// collapse the white gap that normally separates content from the footer
+body:has(.os-band--flush) {
+  main,
+  #quarto-document-content {
+    margin-bottom: 0;
+  }
+
+  .os-footer {
+    margin-top: 0;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Footer with Sikt sender identity (dark, three columns)
 // ---------------------------------------------------------------------------

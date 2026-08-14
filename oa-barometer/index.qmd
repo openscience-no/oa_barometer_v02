@@ -37,7 +37,7 @@ på data fra [Nasjonalt vitenarkiv (NVA)](https://nva.sikt.no).
 Les mer om hvordan status for åpen tilgang blir kalkulert i vår
 [metodebeskrivelse](methodology.html).
 
-::: {.os-band .column-screen}
+::: {.os-band .os-band--flush .column-screen}
 ::: {.os-band-inner}
 ## Eksterne lenker
 
