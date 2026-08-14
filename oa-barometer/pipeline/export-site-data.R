@@ -4,10 +4,10 @@ library("tidyverse")
 #//////////////////////////////////////////////////////#
 #
 #  oa barometer @ GitLab Pages (Quarto site)
-#    exports the aggregated CSV files consumed by the
+#    exports the aggregated .csv files consumed by the
 #    interactive figures and the institution table
 #
-#  usage: run at the end of the annual pipeline, after
+#  usage: run at the end of the oa-data pipeline, after
 #  the `tilstandsrapport` df has been prepared in
 #  nva_oa_barometer_output_v01.R:
 #
