@@ -150,8 +150,10 @@ img.navbar-logo {
   margin-left: 3rem;
 }
 
+// nav link size matches the original site (~21px), independent of root size
 .navbar .nav-link {
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
@@ -196,18 +198,6 @@ img.navbar-logo {
 
 .quarto-title-meta-contents {
   font-size: 0.9rem;
-}
-
-// ---------------------------------------------------------------------------
-// Prose measure: cap running text at a readable line length (~70 chars),
-// as on openscience.no - figures, tables and cards keep the full width
-// ---------------------------------------------------------------------------
-main {
-  p,
-  ul,
-  ol {
-    max-width: 44em;
-  }
 }
 
 // ---------------------------------------------------------------------------
@@ -426,6 +416,11 @@ body:has(.os-band--flush) {
       height: 52px;
       width: auto;
     }
+  }
+
+  // right column ("Om nettstedet") hugs the right edge, mirroring "Kontakt"
+  .os-footer-col:last-child {
+    justify-self: end;
   }
 
   @media (max-width: 768px) {
