@@ -80,5 +80,6 @@ Checklist for the platform team:
 - [ ] Remove the "eksempeldata" notes from the pages once real data is in
 - [ ] Comparison page: side-by-side comparison of sectors/disciplines/
       institutions (removed from the explorer pages for readability)
-- [ ] Methodology: migrate content from openscience.no
+- [ ] Methodology: content migrated from openscience.no (2023 version) -
+      review for NVA-era updates (text still describes Cristin as the source)
 - [ ] Possibly English pages (Quarto has built-in multilingual support via profiles)
