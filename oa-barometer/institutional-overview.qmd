@@ -1,95 +1,149 @@
 ---
 title: "Institusjonell oversikt"
 description: >
-  Tabellen viser innrapporterte artikler fordelt på hver enkelt institusjon,
-  samt artiklenes åpen tilgang-status.
+  Utforsk åpen tilgang per institusjon. Søk opp en institusjon for å se
+  utviklingen over tid – tabellen og figuren speiler filtrene.
 ---
 
 ::: {.os-note}
 Datagrunnlaget dekker kun artikler som er rapportert i NVI-sammenheng og
 inkluderer ikke monografier, antologier eller konferansebidrag i serier uten ISSN.
+Publikasjoner telles unikt per institusjon. En artikkel med forfattere fra
+flere institusjoner telles én gang hos hver av dem, så summen på tvers av
+institusjoner er høyere enn det nasjonale totaltallet.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
 
 **Merk:** Tallene på denne siden er foreløpig eksempeldata, og erstattes av
 reelle tall når datagrunnlaget kobles til.
 :::
 
-## Institusjonstabell
+## Utforsk institusjonene
 
-Tabellen kan søkes, filtreres på år og sorteres ved å klikke på
-kolonneoverskriftene. «Andel åpen» er andelen artikler som er åpent
+Skriv i søkefeltet for å filtrere tabellen. Velg en institusjon fra
+forslagslisten for også å se utviklingen over tid som figur. Tabellen viser
+summen for valgt årsperiode, og «Andel åpen» er andelen artikler som er åpent
 tilgjengelige (alle kategorier unntatt deponert og lukket).
 
 ```{ojs}
 //| echo: false
 oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
 instRaw = FileAttachment("data/oa_institutions.csv").csv({typed: true})
-instYears = [...new Set(instRaw.map((d) => d.year))].sort((a, b) => b - a)
+instNames = [...new Set(instRaw.map((d) => d.institution))].sort((a, b) => a.localeCompare(b, "nb"))
+instYearsAll = [...new Set(instRaw.map((d) => d.year))].sort((a, b) => a - b)
 ```
 
 ::: {.oa-controls}
 
 ```{ojs}
 //| echo: false
-viewof tblYear = Inputs.select(instYears, {value: instYears[0], label: "År"})
+viewof instQuery = oa.comboboxInput({
+  options: instNames,
+  label: "Institusjon",
+  placeholder: "Søk etter institusjon …"
+})
 ```
 
 ```{ojs}
 //| echo: false
-viewof tblDownload = Inputs.button("Last ned CSV", {
-  label: "Eksport",
-  reduce: () => oa.downloadCsv(
-    tblRows,
-    [
-      {key: "institusjon", header: "Institusjon"},
-      ...oa.OA_ORDER.map((c) => ({key: c, header: c})),
-      {key: "total", header: "Totalt"},
-      {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
-    ],
-    `oa-barometer_institusjonstabell_${tblYear}.csv`
-  )
+viewof instYears = oa.yearRangeInput({
+  min: instYearsAll[0],
+  max: instYearsAll.at(-1),
+  label: "År"
 })
+```
+
+```{ojs}
+//| echo: false
+viewof instMode = Inputs.radio(
+  new Map([["Antall", "abs"], ["Prosent", "pct"]]),
+  {value: "abs", label: "Visning"}
+)
+```
+
+```{ojs}
+//| echo: false
+viewof instCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
 ```
 
 :::
 
 ```{ojs}
 //| echo: false
-instWide = {
+selectedInst = instNames.find((n) => n.toLowerCase() === instQuery.toLowerCase()) ?? null
+```
+
+```{ojs}
+//| echo: false
+selectedInst
+  ? oa.oaChartCard(Plot, {
+      data: instRaw.filter((d) => d.institution === selectedInst),
+      mode: instMode,
+      categories: instCats,
+      yearFrom: instYears[0],
+      yearTo: instYears[1],
+      width: Math.min(width, 960),
+      title: selectedInst,
+      subtitle: `NVI ${instYears[0]}–${instYears[1]}`
+    })
+  : html`<div class="oa-hint">Velg en institusjon fra forslagslisten i søkefeltet
+      for å se utviklingen over tid som figur.</div>`
+```
+
+### Tabell
+
+```{ojs}
+//| echo: false
+instTable = {
+  const cats = oa.OA_ORDER.filter((c) => instCats.includes(c));
+  const q = instQuery.toLowerCase();
   const m = new Map();
-  for (const d of instRaw.filter((r) => r.year === tblYear)) {
+  for (const d of instRaw) {
+    if (d.year < instYears[0] || d.year > instYears[1] || !cats.includes(d.status)) continue;
+    if (q && !d.institution.toLowerCase().includes(q)) continue;
     if (!m.has(d.institution)) {
       const row = {institusjon: d.institution};
-      for (const c of oa.OA_ORDER) row[c] = 0;
+      for (const c of cats) row[c] = 0;
       m.set(d.institution, row);
     }
     m.get(d.institution)[d.status] += d.total;
   }
   return [...m.values()]
     .map((r) => {
-      const total = oa.OA_ORDER.reduce((s, c) => s + r[c], 0);
-      const open = total - r.lukket - r.deponert;
+      const total = cats.reduce((s, c) => s + r[c], 0);
+      const open = total - (r.lukket ?? 0) - (r.deponert ?? 0);
       return {...r, total, andel: total ? (open / total) * 100 : 0};
     })
     .sort((a, b) => b.total - a.total);
 }
 ```
 
+::: {.oa-controls}
+
 ```{ojs}
 //| echo: false
-viewof tblRows = Inputs.search(instWide, {
-  placeholder: "Søk etter institusjon …",
-  label: "Søk",
-  datalist: instWide.map((d) => d.institusjon)
+viewof instTblDownload = Inputs.button("Last ned CSV", {
+  label: "Eksport",
+  reduce: () => oa.downloadCsv(
+    instTable,
+    [
+      {key: "institusjon", header: "Institusjon"},
+      ...oa.OA_ORDER.filter((c) => instCats.includes(c)).map((c) => ({key: c, header: c})),
+      {key: "total", header: "Totalt"},
+      {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
+    ],
+    `oa-barometer_institusjoner_${instYears[0]}-${instYears[1]}.csv`
+  )
 })
 ```
+
+:::
 
 ::: {.oa-table}
 
 ```{ojs}
 //| echo: false
-Inputs.table(tblRows, {
-  columns: ["institusjon", ...oa.OA_ORDER, "total", "andel"],
+Inputs.table(instTable, {
+  columns: ["institusjon", ...oa.OA_ORDER.filter((c) => instCats.includes(c)), "total", "andel"],
   header: {
     institusjon: "Institusjon",
     hybrid_avtale: "hybrid avtale",
@@ -97,13 +151,7 @@ Inputs.table(tblRows, {
     andel: "Andel åpen"
   },
   format: {
-    diamant: oa.fmtNo.format,
-    gull: oa.fmtNo.format,
-    hybrid: oa.fmtNo.format,
-    hybrid_avtale: oa.fmtNo.format,
-    "grønn": oa.fmtNo.format,
-    deponert: oa.fmtNo.format,
-    lukket: oa.fmtNo.format,
+    ...Object.fromEntries(oa.OA_ORDER.map((c) => [c, oa.fmtNo.format])),
     total: oa.fmtNo.format,
     andel: (d) => oa.pctBarCell(d)
   },
@@ -117,5 +165,5 @@ Inputs.table(tblRows, {
 
 :::
 
-Datagrunnlaget for tabellen kan lastes ned her:
+Datagrunnlaget kan lastes ned her:
 [oa_institutions.csv](data/oa_institutions.csv).

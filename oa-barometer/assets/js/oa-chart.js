@@ -189,6 +189,91 @@ export function oaChartCard(Plot, {
   return card;
 }
 
+// Dual-thumb year range slider (NVI reporting year). Works as an OJS viewof:
+// element.value = [from, to], emits bubbling "input" events on change.
+export function yearRangeInput({ min, max, value = [min, max], label = "År" } = {}) {
+  const wrap = document.createElement("div");
+  wrap.className = "oa-year-slider";
+
+  const lab = document.createElement("label");
+  lab.textContent = label;
+
+  const box = document.createElement("div");
+  box.className = "oa-year-sliders";
+  const track = document.createElement("div");
+  track.className = "oa-year-track";
+  const fill = document.createElement("div");
+  fill.className = "oa-year-fill";
+
+  const mk = (v) => {
+    const r = document.createElement("input");
+    r.type = "range";
+    r.min = min;
+    r.max = max;
+    r.step = 1;
+    r.value = v;
+    return r;
+  };
+  const lo = mk(value[0]);
+  const hi = mk(value[1]);
+  box.append(track, fill, lo, hi);
+
+  const readout = document.createElement("span");
+  readout.className = "oa-year-readout";
+
+  const pct = (v) => ((v - min) / Math.max(1, max - min)) * 100;
+  const update = () => {
+    const a = Math.min(+lo.value, +hi.value);
+    const b = Math.max(+lo.value, +hi.value);
+    fill.style.left = pct(a) + "%";
+    fill.style.width = pct(b) - pct(a) + "%";
+    readout.textContent = a === b ? String(a) : `${a}–${b}`;
+    wrap.value = [a, b];
+  };
+  // native "input" events bubble from the range inputs to the wrapper, so
+  // Observable's viewof listener fires after value has been updated here
+  lo.addEventListener("input", update);
+  hi.addEventListener("input", update);
+  update();
+
+  wrap.append(lab, box, readout);
+  return wrap;
+}
+
+// Search/autocomplete combobox (input + datalist). Works as an OJS viewof:
+// element.value = current text (trimmed), emits bubbling "input" events.
+export function comboboxInput({ options, label = "", placeholder = "" } = {}) {
+  const wrap = document.createElement("div");
+  wrap.className = "oa-combobox";
+
+  const lab = document.createElement("label");
+  lab.textContent = label;
+
+  const listId = "oa-list-" + Math.random().toString(36).slice(2, 9);
+  const input = document.createElement("input");
+  input.type = "search";
+  input.placeholder = placeholder;
+  input.setAttribute("list", listId);
+
+  const dl = document.createElement("datalist");
+  dl.id = listId;
+  for (const o of options) {
+    const opt = document.createElement("option");
+    opt.value = o;
+    dl.append(opt);
+  }
+
+  Object.defineProperty(wrap, "value", {
+    get: () => input.value.trim(),
+    set: (v) => {
+      input.value = v;
+    },
+  });
+
+  wrap.append(lab, input, dl);
+  return wrap;
+}
+
 // Table cell for "andel åpen": percent text over a proportional mini-bar
 export function pctBarCell(pct) {
   const div = document.createElement("div");

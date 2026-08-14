@@ -1,26 +1,35 @@
 ---
 title: "Nasjonal oversikt"
 description: >
-  Figuren viser vekst i publikasjoner med åpen tilgang i Norge i perioden
-  2013–2025, i absolutte tall og prosent.
+  Utforsk utviklingen i åpen tilgang i Norge 2013–2025. Filtrer på sektor,
+  fagområde, kategori og år – figuren og tabellen speiler hverandre.
 ---
 
 ::: {.os-note}
 Datagrunnlaget dekker kun artikler som er rapportert i NVI-sammenheng og
 inkluderer ikke bøker, eller konferansebidrag i serier uten ISSN.
+Publikasjoner telles unikt innenfor valgt sektor og fagområde. En artikkel
+med forfattere fra flere sektorer telles derfor én gang i hver sektor, men
+bare én gang i totalen for hele Norge.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
+
+**Merk:** Tall for enkeltsektorer og fagområder er foreløpig eksempeldata, og
+erstattes av reelle tall når datagrunnlaget kobles til. Totaltallene for hele
+Norge er reelle.
 :::
 
-## Utvikling i åpen tilgang
+## Utforsk utviklingen
 
-Figuren er interaktiv: velg mellom antall og prosent, filtrer kategorier og
-årsperiode, og hold musepekeren over søylene for detaljer.
+Filtrene styrer både figuren og tabellen. Hold musepekeren over søylene for
+detaljer.
 
 ```{ojs}
 //| echo: false
 oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
-national = FileAttachment("data/oa_national.csv").csv({typed: true})
-natYears = [...new Set(national.map((d) => d.year))].sort((a, b) => a - b)
+cube = FileAttachment("data/oa_national_cube.csv").csv({typed: true})
+cubeYears = [...new Set(cube.map((d) => d.year))].sort((a, b) => a - b)
+sectorOptions = ["Alle", "UH", "Institutt", "Helse"]
+disciplineOptions = ["Alle", "Realfag og teknologi", "Medisin og helsefag", "Samfunnsvitenskap", "Humaniora"]
 ```
 
 ::: {.oa-controls}
@@ -35,12 +44,21 @@ viewof natMode = Inputs.radio(
 
 ```{ojs}
 //| echo: false
-viewof natFrom = Inputs.select(natYears, {value: natYears[0], label: "Fra år"})
+viewof natSector = Inputs.select(sectorOptions, {value: "Alle", label: "Sektor"})
 ```
 
 ```{ojs}
 //| echo: false
-viewof natTo = Inputs.select(natYears, {value: natYears.at(-1), label: "Til år"})
+viewof natDisc = Inputs.select(disciplineOptions, {value: "Alle", label: "Fagområde"})
+```
+
+```{ojs}
+//| echo: false
+viewof natYears = oa.yearRangeInput({
+  min: cubeYears[0],
+  max: cubeYears.at(-1),
+  label: "År"
+})
 ```
 
 ```{ojs}
@@ -57,20 +75,115 @@ viewof natCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kateg
 
 ```{ojs}
 //| echo: false
+natRows = cube.filter((d) => d.sector === natSector && d.discipline === natDisc)
+natSubtitle = [
+  `NVI ${natYears[0]}–${natYears[1]}`,
+  natSector === "Alle" ? null : `Sektor: ${natSector}`,
+  natDisc === "Alle" ? null : `Fagområde: ${natDisc}`
+].filter(Boolean).join(" · ")
+```
+
+```{ojs}
+//| echo: false
 oa.oaChartCard(Plot, {
-  data: national,
+  data: natRows,
   mode: natMode,
   categories: natCats,
-  yearFrom: Math.min(natFrom, natTo),
-  yearTo: Math.max(natFrom, natTo),
+  yearFrom: natYears[0],
+  yearTo: natYears[1],
   showLabels: natLabels,
   width: Math.min(width, 960),
   title: natMode === "pct"
     ? "Distribusjon av åpen tilgang-artikler (%)"
     : "Distribusjon av åpen tilgang-artikler",
-  subtitle: `NVI – ${Math.min(natFrom, natTo)}–${Math.max(natFrom, natTo)}`
+  subtitle: natSubtitle
 })
 ```
 
-Datagrunnlaget for figuren kan lastes ned her:
-[oa_national.csv](data/oa_national.csv).
+### Tabell
+
+```{ojs}
+//| echo: false
+natTable = {
+  const cats = oa.OA_ORDER.filter((c) => natCats.includes(c));
+  const byYear = new Map();
+  for (const d of natRows) {
+    if (d.year < natYears[0] || d.year > natYears[1] || !cats.includes(d.status)) continue;
+    if (!byYear.has(d.year)) {
+      const row = {"år": d.year};
+      for (const c of cats) row[c] = 0;
+      byYear.set(d.year, row);
+    }
+    byYear.get(d.year)[d.status] += d.total;
+  }
+  return [...byYear.values()]
+    .map((r) => {
+      const total = cats.reduce((s, c) => s + r[c], 0);
+      const open = total - (r.lukket ?? 0) - (r.deponert ?? 0);
+      const out = {"år": r["år"]};
+      for (const c of cats) {
+        out[c] = natMode === "pct"
+          ? (total ? Math.round((r[c] / total) * 1000) / 10 : 0)
+          : r[c];
+      }
+      out.total = total;
+      out.andel = total ? (open / total) * 100 : 0;
+      return out;
+    })
+    .sort((a, b) => a["år"] - b["år"]);
+}
+```
+
+::: {.oa-controls}
+
+```{ojs}
+//| echo: false
+viewof natTblDownload = Inputs.button("Last ned CSV", {
+  label: "Eksport",
+  reduce: () => oa.downloadCsv(
+    natTable,
+    [
+      {key: "år", header: "År"},
+      ...oa.OA_ORDER.filter((c) => natCats.includes(c)).map((c) => ({key: c, header: c})),
+      {key: "total", header: "Totalt"},
+      {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
+    ],
+    `oa-barometer_nasjonal_${natYears[0]}-${natYears[1]}.csv`
+  )
+})
+```
+
+:::
+
+::: {.oa-table}
+
+```{ojs}
+//| echo: false
+Inputs.table(natTable, {
+  columns: ["år", ...oa.OA_ORDER.filter((c) => natCats.includes(c)), "total", "andel"],
+  header: {
+    "år": "År",
+    hybrid_avtale: "hybrid avtale",
+    total: "Totalt",
+    andel: "Andel åpen"
+  },
+  format: {
+    "år": (d) => String(d),
+    ...Object.fromEntries(oa.OA_ORDER.map((c) => [
+      c,
+      natMode === "pct" ? (d) => `${oa.fmtPct1.format(d)} %` : oa.fmtNo.format
+    ])),
+    total: oa.fmtNo.format,
+    andel: (d) => oa.pctBarCell(d)
+  },
+  width: {andel: 110},
+  sort: "år",
+  rows: 20,
+  layout: "auto"
+})
+```
+
+:::
+
+Datagrunnlaget kan lastes ned her:
+[oa_national_cube.csv](data/oa_national_cube.csv).

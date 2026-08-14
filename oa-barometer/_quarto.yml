@@ -25,10 +25,6 @@ website:
     left:
       - text: "Nasjonal oversikt"
         href: national-overview.qmd
-      - text: "Sektoriell oversikt"
-        href: sectoral-overview.qmd
-      - text: "Disiplinær oversikt"
-        href: disciplinary-overview.qmd
       - text: "Institusjonell oversikt"
         href: institutional-overview.qmd
       - text: "Metode"

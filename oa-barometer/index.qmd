@@ -17,29 +17,19 @@ Tallene for åpen tilgang er knyttet til rapporteringstidspunktet for Norsk
 vitenskapsindeks (NVI), som er klart i april hvert år. Barometeret er basert
 på data fra Nasjonalt vitenarkiv.
 
-## OA-barometeret er delt inn i fire seksjoner
+## OA-barometeret er delt inn i to seksjoner
 
 ```{=html}
 <div class="os-cards">
   <a class="os-card" href="national-overview.html">
     <img class="os-card-icon" src="assets/icons/geo.svg" alt="">
     <span class="os-card-title">Nasjonal oversikt</span>
-    <p>Tall for alle sektorer samlet.</p>
-  </a>
-  <a class="os-card" href="sectoral-overview.html">
-    <img class="os-card-icon" src="assets/icons/aktivitet.svg" alt="">
-    <span class="os-card-title">Sektoriell oversikt</span>
-    <p>Tall for universitets- og høgskolesektoren, helsesektoren og instituttsektoren.</p>
-  </a>
-  <a class="os-card" href="disciplinary-overview.html">
-    <img class="os-card-icon" src="assets/icons/glasses.svg" alt="">
-    <span class="os-card-title">Disiplinær oversikt</span>
-    <p>Inndelt i de fire hoveddisiplinene.</p>
+    <p>Utforsk utviklingen nasjonalt – filtrer på sektor, fagområde, kategori og år.</p>
   </a>
   <a class="os-card" href="institutional-overview.html">
     <img class="os-card-icon" src="assets/icons/publish.svg" alt="">
     <span class="os-card-title">Institusjonell oversikt</span>
-    <p>Oversikt over norske forskningsutførende institusjoner (tabell).</p>
+    <p>Utforsk norske forskningsutførende institusjoner – søk, filtrer og sammenlign over tid.</p>
   </a>
 </div>
 ```
