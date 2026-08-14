@@ -62,6 +62,11 @@ viewof instMode = Inputs.radio(
 
 ```{ojs}
 //| echo: false
+viewof instLabels = Inputs.toggle({label: "Vis verdier", value: true})
+```
+
+```{ojs}
+//| echo: false
 viewof instCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
 ```
 
@@ -81,6 +86,7 @@ selectedInst
       categories: instCats,
       yearFrom: instYears[0],
       yearTo: instYears[1],
+      showLabels: instLabels,
       width: Math.min(width, 960),
       title: selectedInst,
       subtitle: `NVI ${instYears[0]}–${instYears[1]}`

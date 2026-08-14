@@ -63,7 +63,7 @@ viewof natYears = oa.yearRangeInput({
 
 ```{ojs}
 //| echo: false
-viewof natLabels = Inputs.toggle({label: "Vis verdier", value: false})
+viewof natLabels = Inputs.toggle({label: "Vis verdier", value: true})
 ```
 
 ```{ojs}
