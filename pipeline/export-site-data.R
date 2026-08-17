@@ -14,7 +14,7 @@ library("tidyverse")
 #    source("./pipeline/export-site-data.R", encoding = "UTF-8")
 #    export_oa_site_data(
 #      tilstandsrapport,
-#      site_data_folder = "<path to oa-barometer repo>/data"
+#      site_data_folder = "<path to this repo's root>/data"
 #    )
 #
 #  then commit + push the updated data/ folder - GitLab

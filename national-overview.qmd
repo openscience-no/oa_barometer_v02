@@ -12,10 +12,6 @@ Publikasjoner telles unikt innenfor valgt sektor og fagområde. En artikkel
 med forfattere fra flere sektorer telles derfor én gang i hver sektor, men
 bare én gang i totalen for hele Norge.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
-
-**Merk:** Tall for enkeltsektorer og fagområder er foreløpig eksempeldata, og
-erstattes av reelle tall når datagrunnlaget kobles til. Totaltallene for hele
-Norge er reelle.
 :::
 
 ## Utforsk utviklingen
@@ -28,8 +24,20 @@ detaljer.
 oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
 cube = FileAttachment("data/oa_national_cube.csv").csv({typed: true})
 cubeYears = [...new Set(cube.map((d) => d.year))].sort((a, b) => a - b)
-sectorOptions = ["Alle", "UH", "Institutt", "Helse"]
-disciplineOptions = ["Alle", "Realfag og teknologi", "Medisin og helsefag", "Samfunnsvitenskap", "Humaniora"]
+// options derived from the data: known levels in preferred order first,
+// then anything new the pipeline export may add
+sectorOptions = {
+  const known = ["Alle", "UH", "Institutt", "Helse", "ABM"];
+  const inData = [...new Set(cube.map((d) => d.sector))];
+  return [...known.filter((s) => inData.includes(s)),
+          ...inData.filter((s) => !known.includes(s)).sort()];
+}
+disciplineOptions = {
+  const known = ["Alle", "Realfag og teknologi", "Medisin og helsefag", "Samfunnsvitenskap", "Humaniora"];
+  const inData = [...new Set(cube.map((d) => d.discipline))];
+  return [...known.filter((s) => inData.includes(s)),
+          ...inData.filter((s) => !known.includes(s)).sort()];
+}
 ```
 
 ::: {.oa-controls}

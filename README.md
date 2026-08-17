@@ -65,6 +65,10 @@ quarto render     # builds to _site/
 `.gitlab-ci.yml` builds the site with Quarto's official container image and
 publishes to GitLab Pages on push to the default branch.
 
+`.github/workflows/publish.yml` does the same for GitHub Pages if the repo is
+hosted on GitHub (requires repo Settings -> Pages -> Source: "GitHub
+Actions"). The two CI configs coexist; each platform only reads its own.
+
 Checklist for the platform team:
 
 1. Is GitLab Pages enabled on Sikt's instance?
@@ -73,11 +77,9 @@ Checklist for the platform team:
 
 ## To do / next steps
 
-- [ ] Replace dummy data with real exports (`pipeline/export-site-data.R`):
-      sector/discipline cells in the cube and the institution CSV are dummy;
-      the national Alle×Alle cells are transcribed from the published 2025
-      figures (see `data/README.md`)
-- [ ] Remove the "eksempeldata" notes from the pages once real data is in
+- [x] Replace dummy data with real exports - done, `data/` now holds real
+      pipeline exports (see `data/README.md`)
+- [x] Remove the "eksempeldata" notes from the pages
 - [ ] Comparison page: side-by-side comparison of sectors/disciplines/
       institutions (removed from the explorer pages for readability)
 - [ ] Methodology: content migrated from openscience.no (2023 version) -

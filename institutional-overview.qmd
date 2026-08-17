@@ -12,9 +12,6 @@ Publikasjoner telles unikt per institusjon. En artikkel med forfattere fra
 flere institusjoner telles én gang hos hver av dem, så summen på tvers av
 institusjoner er høyere enn det nasjonale totaltallet.
 For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodology.html).
-
-**Merk:** Tallene på denne siden er foreløpig eksempeldata, og erstattes av
-reelle tall når datagrunnlaget kobles til.
 :::
 
 ## Utforsk institusjonene
