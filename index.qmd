@@ -1,7 +1,7 @@
 ---
 title: "OA-barometeret"
 description: >
-  OA-barometeret viser vekst i åpen tilgang (open access) totalt for Norge
+  OA-barometeret viser trender i åpen tilgang (open access) totalt for Norge
   og innen de forskjellige sektorer og disipliner. Barometeret er oppdatert
   for perioden 2013–2025.
 toc: false
@@ -10,36 +10,26 @@ toc: false
 Her vises statistikk og vekst for åpen tilgang i Norge. Tjenesten viser primært
 nasjonal, sektoriell og disiplinær vekst over tid fordelt på de forskjellige
 typene åpen tilgang som finnes. Det samme tallgrunnlaget ligger til grunn for
-[Tilstandsrapporten for høyere utdanning](https://www.regjeringen.no/no/tema/utdanning/hoyere-utdanning/tilstandsrapport-for-hoyere-utdanning/id2600317/)
+[Tilstandsrapporten for høyere utdanning](https://vedlegg.hkdir.no/TRHU/2026/)
 og [Indikatorrapporten](https://www.forskningsradet.no/indikatorrapporten/), som publiseres årlig.
 
 Tallene for åpen tilgang er knyttet til rapporteringstidspunktet for Norsk
-vitenskapsindeks (NVI), som er klart i april hvert år. Barometeret er basert
-på data fra Nasjonalt vitenarkiv.
+vitenskapsindeks (NVI), som er klart i april hvert år. OA-barometeret er basert
+på data fra [Nasjonalt vitenarkiv (NVA)](https://nva.sikt.no).
 
-## OA-barometeret er delt inn i fire seksjoner
+## OA-barometeret er delt inn i to seksjoner
 
 ```{=html}
 <div class="os-cards">
   <a class="os-card" href="national-overview.html">
     <img class="os-card-icon" src="assets/icons/geo.svg" alt="">
     <span class="os-card-title">Nasjonal oversikt</span>
-    <p>Tall for alle sektorer samlet.</p>
-  </a>
-  <a class="os-card" href="sectoral-overview.html">
-    <img class="os-card-icon" src="assets/icons/aktivitet.svg" alt="">
-    <span class="os-card-title">Sektoriell oversikt</span>
-    <p>Tall for universitets- og høgskolesektoren, helsesektoren og instituttsektoren.</p>
-  </a>
-  <a class="os-card" href="disciplinary-overview.html">
-    <img class="os-card-icon" src="assets/icons/glasses.svg" alt="">
-    <span class="os-card-title">Disiplinær oversikt</span>
-    <p>Inndelt i de fire hoveddisiplinene.</p>
+    <p>Utforsk utviklingen nasjonalt – filtrer på sektor, fagområde, kategori og år.</p>
   </a>
   <a class="os-card" href="institutional-overview.html">
     <img class="os-card-icon" src="assets/icons/publish.svg" alt="">
     <span class="os-card-title">Institusjonell oversikt</span>
-    <p>Oversikt over norske forskningsutførende institusjoner (tabell).</p>
+    <p>Utforsk norske forskningsutførende institusjoner – søk, filtrer og sammenlign over tid.</p>
   </a>
 </div>
 ```
@@ -47,13 +37,13 @@ på data fra Nasjonalt vitenarkiv.
 Les mer om hvordan status for åpen tilgang blir kalkulert i vår
 [metodebeskrivelse](methodology.html).
 
-::: {.os-band .column-screen}
+::: {.os-band .os-band--flush .column-screen}
 ::: {.os-band-inner}
 ## Eksterne lenker
 
 ```{=html}
 <div class="os-cards">
-  <a class="os-card" href="https://www.regjeringen.no/no/tema/utdanning/hoyere-utdanning/tilstandsrapport-for-hoyere-utdanning/id2600317/">
+  <a class="os-card" href="https://vedlegg.hkdir.no/TRHU/2026/">
     <span class="os-card-title">Tilstandsrapport for høyere utdanning</span>
   </a>
   <a class="os-card" href="https://www.forskningsradet.no/indikatorrapporten/">

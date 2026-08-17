@@ -12,11 +12,15 @@ $os-lightblue:   #E5EDEF;   // Light blue - background surfaces
 $font-family-sans-serif: "Barlow", "Segoe UI", Arial, sans-serif;
 $headings-font-family: "Merriweather", Georgia, "Times New Roman", serif;
 $headings-font-weight: 400;
-$headings-color: $os-gray;
-$font-size-root: 17px;
+$headings-color: #000000;
+
+// body text matches openscience.no article text: Barlow 16px/1.4, black
+// (the #424242 gray from the token file is used on surfaces, not body text)
+$font-size-root: 16px;
+$line-height-base: 1.4;
 
 $body-bg: #ffffff;
-$body-color: $os-gray;
+$body-color: #000000;
 
 $link-color: #46617a;
 $link-decoration: underline;
@@ -146,8 +150,10 @@ img.navbar-logo {
   margin-left: 3rem;
 }
 
+// nav link size matches the original site (~21px), independent of root size
 .navbar .nav-link {
-  font-weight: 500;
+  font-size: 1.3rem;
+  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
@@ -343,6 +349,19 @@ a.os-card {
   }
 }
 
+// A band that ends the page content sits flush against the dark footer:
+// collapse the white gap that normally separates content from the footer
+body:has(.os-band--flush) {
+  main,
+  #quarto-document-content {
+    margin-bottom: 0;
+  }
+
+  .os-footer {
+    margin-top: 0;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Footer with Sikt sender identity (dark, three columns)
 // ---------------------------------------------------------------------------
@@ -399,6 +418,11 @@ a.os-card {
     }
   }
 
+  // right column ("Om nettstedet") hugs the right edge, mirroring "Kontakt"
+  .os-footer-col:last-child {
+    justify-self: end;
+  }
+
   @media (max-width: 768px) {
     .os-footer-inner {
       grid-template-columns: 1fr;
@@ -432,4 +456,252 @@ table.table {
     border-bottom: 1px solid #c9d4d8;
     font-weight: 600;
   }
+}
+
+// ---------------------------------------------------------------------------
+// Interactive figures: control panel, chart card, institution table (OJS)
+// ---------------------------------------------------------------------------
+.oa-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 2.2rem;
+  align-items: center;
+  background: $os-lightblue;
+  border-left: 4px solid $os-orange;
+  padding: 0.9rem 1.25rem;
+  margin: 1.4rem 0;
+
+  .cell {
+    margin: 0;
+  }
+
+  form {
+    margin: 0;
+    font-family: $font-family-sans-serif;
+    align-items: center;
+  }
+
+  label {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  select,
+  input[type="text"] {
+    font-family: $font-family-sans-serif;
+  }
+}
+
+.oa-chart {
+  margin: 1.2rem 0 2.5rem 0;
+
+  .oa-chart-title {
+    font-family: $font-family-sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: $os-gray;
+    margin: 0;
+  }
+
+  .oa-chart-subtitle {
+    font-family: $font-family-sans-serif;
+    color: #6d6d6d;
+    font-size: 0.95rem;
+    margin: 0.1rem 0 0.6rem 0;
+  }
+
+  svg,
+  figure {
+    font-family: $font-family-sans-serif;
+    margin: 0;
+  }
+
+  // Plot's color legend (class name carries a generated hash suffix)
+  [class*="-swatches"] {
+    font-family: $font-family-sans-serif !important;
+    font-size: 0.85rem !important;
+    margin: 0.15rem 0 0.35rem 0;
+  }
+
+  .oa-chart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #8a8a8a;
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid #e2e8ea;
+
+    img {
+      height: 26px;
+      width: auto;
+      opacity: 0.9;
+    }
+  }
+}
+
+.oa-table {
+  form {
+    font-family: $font-family-sans-serif;
+  }
+
+  table {
+    font-size: 0.92rem;
+
+    thead th {
+      border-top: 3px solid $os-orange;
+      border-bottom: 1px solid #c9d4d8;
+      font-weight: 600;
+      color: $os-gray;
+    }
+
+    td,
+    th {
+      padding: 0.4rem 0.55rem;
+    }
+
+    tbody tr:hover {
+      background: #f4f8f9;
+    }
+  }
+
+  // hide the row-selection checkbox column added by Inputs.table
+  table th:first-child,
+  table td:first-child {
+    display: none;
+  }
+}
+
+.oa-pct-bar {
+  padding: 0.1rem 0.4rem;
+  min-width: 90px;
+  font-variant-numeric: tabular-nums;
+  border-radius: 2px;
+}
+
+// Dual-thumb year range slider (oa-chart.js: yearRangeInput)
+.oa-year-slider {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  label {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  .oa-year-sliders {
+    position: relative;
+    width: 200px;
+    height: 22px;
+  }
+
+  .oa-year-track {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: #c9d4d8;
+    border-radius: 2px;
+  }
+
+  .oa-year-fill {
+    position: absolute;
+    top: 9px;
+    height: 4px;
+    background: $os-orange;
+    border-radius: 2px;
+  }
+
+  input[type="range"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 22px;
+    margin: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    pointer-events: none;
+
+    &::-webkit-slider-runnable-track {
+      background: transparent;
+      height: 22px;
+    }
+
+    &::-moz-range-track {
+      background: transparent;
+    }
+
+    &::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      pointer-events: auto;
+      width: 16px;
+      height: 16px;
+      margin-top: 3px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 3px solid $os-orange;
+      cursor: pointer;
+    }
+
+    &::-moz-range-thumb {
+      pointer-events: auto;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 3px solid $os-orange;
+      cursor: pointer;
+    }
+  }
+
+  .oa-year-readout {
+    font-weight: 600;
+    font-size: 0.9rem;
+    min-width: 4.6em;
+    color: $os-gray;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+// Search/autocomplete combobox (oa-chart.js: comboboxInput)
+.oa-combobox {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+
+  label {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  input {
+    font-family: $font-family-sans-serif;
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+    border: 1px solid #c9d4d8;
+    background: #ffffff;
+    min-width: 260px;
+
+    &:focus {
+      outline: 2px solid $os-orange;
+      outline-offset: -1px;
+      border-color: $os-orange;
+    }
+  }
+}
+
+// Hint shown where the institution figure appears once one is selected
+.oa-hint {
+  background: #f4f8f9;
+  border: 2px dashed #b7c6cd;
+  color: $os-darkblue;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin: 1.2rem 0 2rem 0;
 }

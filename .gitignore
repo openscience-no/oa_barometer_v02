@@ -4,3 +4,10 @@
 .RData
 .Rproj.user/
 .claude/
+
+/_site/
+/.quarto/
+/site_libs/
+*.html.md
+
+**/*.quarto_ipynb

@@ -1,0 +1,115 @@
+---
+title: "Metode for beregning av åpen tilgang"
+description: >
+  Her beskrives kilder og metode som brukes for å identifisere status for
+  åpen tilgang.
+---
+
+## Åpen tilgang-varianter
+
+Statistikken fokuserer på følgende varianter av åpen tilgang.
+
+- Diamant
+- Gull
+- Grønn
+- Hybrid (ordinær)
+- Hybrid (innenfor norske publiser-og-les-avtaler)
+
+I tillegg telles deponerte og lukkede artikler. Se
+[ordlisten](https://www.openscience.no/ordliste) for en forklaring på
+forskjellene av disse variantene.
+
+## Grunndata
+
+Datagrunnlaget til OA-barometeret er basert på NVI-rapporterte poster i
+[NVA (Nasjonalt vitenarkiv)](https://nva.sikt.no) av typen vitenskaplige artikler. Foreløpig er tidsintervallet fra og
+med rapporteringsår 2013 til og med siste fullførte rapportering, med mindre
+annet er spesifisert. Rapporterte poster av typen «monografi» og
+«antologiartikkel» er utelatt siden det kan være svært utfordrende å
+identifisere deres åpen tilgang-status. Et viktig element i sammenkoblingen
+av data fra ulike kilder er unike identifikatorer som f.eks. DOI. Det
+endelige resultatet er derfor avhengig av datakvaliteten på den enkelte post.
+
+## Supplerende kilder for åpen tilgang
+
+Hver post (artikkel) berikes med informasjon fra en eller flere av følgende
+kilder.
+
+- **Unpaywall** – En sentral tjeneste som leverer data om OA-status på
+  artikkelnivå. Datakvaliteten vurderes i skrivende stund til å være god,
+  selv om feil forekommer.
+- **NVA** – I tillegg til listen over poster (rapporterte artikler),
+  hentes også data om opplastede dokumenter fra NVA. Dette brukes for å
+  kalkulere deponert status, med den antagelsen om at dette er et lovlig
+  dokument som er lastet opp med tanke på tilgjengeliggjøring på et senere
+  tidspunkt.
+- **Forlagsdata** – Sikt innhenter artikkeloversikter fra ulike forlag som
+  har en avtale med Sikt-konsortiene, f.eks. OA-avtaler (publiser og les).
+  Disse oversiktene kan f.eks. inneholde lister med hybrid- og
+  gullpublikasjoner fra institusjoner som er med på avtalen.
+- **Directory of Open Access Journals** – DOAJ regnes for å være den mest
+  autoritative oversikten over gulltidsskrift. Den er imidlertid ikke
+  komplett, og er heller ikke oppdatert for tidspunkt i tilfelle tidsskriftet
+  konverterte fra abonnement til gull. Det betyr at det er fare for å
+  feilklassifisere artikler i NVA som er publisert før konvertering.
+  Siden DOAJ leverer data på tidsskriftsnivå, er forutsetningen for videre
+  bruk at alle artikler arver statusen til tidsskriftet.
+- **Scopus tidsskriftliste** – Scopus har en egen liste over tidsskrift som
+  brukes til å komplettere DOAJ.
+
+Det finnes uregelmessigheter i alle disse kildene som i prinsippet medfører
+en usikkerhet i tallene.
+
+## Kalkulasjon av status
+
+OA-barometeret avgjør OA-status til den enkelte artikkel i en trinnvis
+prosess. I hvert trinn vurderes om artikkelen er kvalifisert for en spesifikk
+OA-status. Straks en status er blitt tildelt stopper prosessen, som betyr at
+de påfølgende trinnene ikke blir gjennomført – hver enkelt artikkel vil
+dermed kun få én OA-status.
+Merk at dette er en forenklet forklaring ment for å gi en illustrerende
+oversikt.
+
+1. Om artikkelen finnes i forlagsrapportene settes status etter disse
+   rapportene (gull/hybrid innenfor publiser-og-les-avtale)
+2. Om artikkelens tidsskrift er gull ifølge DOAJ eller Scopus, så settes
+   status til «gull»
+3. Om artikkelens tidsskrift er gull og opererer uten artikkelavgift ifølge
+   DOAJ, så settes status til «diamant»
+4. Om artikkelen finnes i Unpaywall, settes statusen til henholdsvis
+   - «gull»,
+   - «grønn»
+   - «hybrid» (ordinær)
+5. Om artikkelen har en lenke til et norsk vitenarkiv, settes status til
+   «grønn»
+6. Om artikkelen er deponert i NVA (lastet opp), men ikke har lenke til
+   norsk vitenarkiv, settes status til «deponert»
+7. Om artikkelen er kategorisert som enten «bronse», «ukjent» eller «lukket»
+   vil status settes til «lukket».
+
+Dette siste trinnet skjuler informasjon; i tilfellet bronse begrunnes det med
+at bronse er en diskutabel kategori i open access-sammenheng. Bronse
+innebærer at artikkelen er åpent tilgjengelig, men artiklene er uten lisens
+og finnes kun på forlagets sider og kan forsvinne etter forlagets
+forgodtbefinnende. Artiklene kan heller ikke på lovlig vis prosesseres
+maskinelt eller deponeres i arkiv.
+
+## Konsekvenser av prosedyren
+
+At kun én OA-status settes pr. artikkel fører til at innholdet i norske
+vitenarkiv ikke nødvendigvis synliggjøres i statistikken. I tillegg må
+artikler med status «deponert» anses som en mellomkategori da artikkelen enda
+ikke har blitt gjort åpent tilgjengelig. Denne kategorien rapporteres likevel
+for å synliggjøre de mange artikler som er avlevert med et eksplisitt
+potensial for tilgjengeliggjøring. Siden de fleste artikler har en sperrefrist
+på mindre enn 12 måneder, vil det være forholdsvis få artikler med
+deponert-status som automatisk vil bli grønne forut for de to siste
+rapporteringsår.
+
+OA-barometeret tar sikte på å videreutvikle og utvide innholdet med statistikk og analyser i
+tiden fremover.
+
+## Kildekode og data
+
+OA-barometeret genereres som en del av Sikts årlige OA-analysepipeline. 
+Datagrunnlaget for figurene og tabellene kan lastes ned fra de enkelte sidene.
