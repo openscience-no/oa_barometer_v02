@@ -87,10 +87,16 @@ function oaPlot(Plot, {
 
   const groups = facet ? [...new Set(rows.map((d) => d.group))] : null;
 
+  // left margin sized to the widest tick label (Plot's 40px default clips
+  // five-digit labels like "28 000", which reads as a repeating axis)
+  const yMaxLabel = isPct ? "100 %" : fmtNo.format(Math.ceil(maxStack));
+  const marginLeft = Math.max(44, 16 + yMaxLabel.length * 7.5);
+
   return Plot.plot({
     width,
     height,
     marginTop: 10,
+    marginLeft,
     style: {
       fontFamily: "Barlow, 'Segoe UI', Arial, sans-serif",
       fontSize: "13px",
