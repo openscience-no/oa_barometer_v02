@@ -3,6 +3,7 @@ title: "Institusjonell oversikt"
 description: >
   Utforsk åpen tilgang per institusjon. Søk opp en institusjon for å se
   utviklingen over tid – tabellen og figuren speiler filtrene.
+toc: false
 ---
 
 ::: {.os-note}
@@ -18,8 +19,9 @@ For å lese mer om utvalg og beregningsmåter, se [metodebeskrivelsen](methodolo
 
 Skriv i søkefeltet for å filtrere tabellen. Velg en institusjon fra
 forslagslisten for også å se utviklingen over tid som figur. Tabellen viser
-summen for valgt årsperiode, og «Andel åpen» er andelen artikler som er åpent
-tilgjengelige (alle kategorier unntatt deponert og lukket).
+én rad per institusjon og år innenfor valgt årsperiode, og «Andel åpen» er
+andelen artikler som er åpent tilgjengelige (alle kategorier unntatt
+deponert og lukket).
 
 ```{ojs}
 //| echo: false
@@ -97,18 +99,20 @@ selectedInst
 ```{ojs}
 //| echo: false
 instTable = {
+  // tidy format: one row per institution + year
   const cats = oa.OA_ORDER.filter((c) => instCats.includes(c));
   const q = instQuery.toLowerCase();
   const m = new Map();
   for (const d of instRaw) {
     if (d.year < instYears[0] || d.year > instYears[1] || !cats.includes(d.status)) continue;
     if (q && !d.institution.toLowerCase().includes(q)) continue;
-    if (!m.has(d.institution)) {
-      const row = {institusjon: d.institution};
+    const key = `${d.institution}|${d.year}`;
+    if (!m.has(key)) {
+      const row = {"år": d.year, institusjon: d.institution};
       for (const c of cats) row[c] = 0;
-      m.set(d.institution, row);
+      m.set(key, row);
     }
-    m.get(d.institution)[d.status] += d.total;
+    m.get(key)[d.status] += d.total;
   }
   return [...m.values()]
     .map((r) => {
@@ -116,7 +120,8 @@ instTable = {
       const open = total - (r.lukket ?? 0) - (r.deponert ?? 0);
       return {...r, total, andel: total ? (open / total) * 100 : 0};
     })
-    .sort((a, b) => b.total - a.total);
+    .sort((a, b) =>
+      a.institusjon.localeCompare(b.institusjon, "nb") || b["år"] - a["år"]);
 }
 ```
 
@@ -129,6 +134,7 @@ viewof instTblDownload = Inputs.button("Last ned CSV", {
   reduce: () => oa.downloadCsv(
     instTable,
     [
+      {key: "år", header: "År"},
       {key: "institusjon", header: "Institusjon"},
       ...oa.OA_ORDER.filter((c) => instCats.includes(c)).map((c) => ({key: c, header: c})),
       {key: "total", header: "Totalt"},
@@ -141,26 +147,26 @@ viewof instTblDownload = Inputs.button("Last ned CSV", {
 
 :::
 
-::: {.oa-table}
+::: {.oa-table .column-page}
 
 ```{ojs}
 //| echo: false
 Inputs.table(instTable, {
-  columns: ["institusjon", ...oa.OA_ORDER.filter((c) => instCats.includes(c)), "total", "andel"],
+  columns: ["år", "institusjon", ...oa.OA_ORDER.filter((c) => instCats.includes(c)), "total", "andel"],
   header: {
+    "år": "År",
     institusjon: "Institusjon",
     hybrid_avtale: "hybrid avtale",
     total: "Totalt",
     andel: "Andel åpen"
   },
   format: {
+    "år": (d) => String(d),
     ...Object.fromEntries(oa.OA_ORDER.map((c) => [c, oa.fmtNo.format])),
     total: oa.fmtNo.format,
     andel: (d) => oa.pctBarCell(d)
   },
-  width: {institusjon: 300, andel: 110},
-  sort: "total",
-  reverse: true,
+  width: {"år": 55, institusjon: 320, andel: 110},
   rows: 35,
   layout: "auto"
 })
