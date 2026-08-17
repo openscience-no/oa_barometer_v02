@@ -1,6 +1,0 @@
-/_site/
-/.quarto/
-/site_libs/
-*.html.md
-
-**/*.quarto_ipynb
