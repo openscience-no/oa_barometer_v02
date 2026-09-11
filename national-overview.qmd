@@ -40,7 +40,19 @@ disciplineOptions = {
 }
 ```
 
-::: {.oa-controls}
+:::: {.oa-controls}
+
+```{ojs}
+//| echo: false
+viewof natSector = Inputs.select(sectorOptions, {value: "Alle", label: "Sektor"})
+```
+
+```{ojs}
+//| echo: false
+viewof natDisc = Inputs.select(disciplineOptions, {value: "Alle", label: "Fagområde"})
+```
+
+::: {.oa-group}
 
 ```{ojs}
 //| echo: false
@@ -52,13 +64,10 @@ viewof natMode = Inputs.radio(
 
 ```{ojs}
 //| echo: false
-viewof natSector = Inputs.select(sectorOptions, {value: "Alle", label: "Sektor"})
+viewof natLabels = Inputs.toggle({label: "Vis verdier", value: true})
 ```
 
-```{ojs}
-//| echo: false
-viewof natDisc = Inputs.select(disciplineOptions, {value: "Alle", label: "Fagområde"})
-```
+:::
 
 ```{ojs}
 //| echo: false
@@ -71,15 +80,10 @@ viewof natYears = oa.yearRangeInput({
 
 ```{ojs}
 //| echo: false
-viewof natLabels = Inputs.toggle({label: "Vis verdier", value: true})
-```
-
-```{ojs}
-//| echo: false
 viewof natCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
 ```
 
-:::
+::::
 
 ```{ojs}
 //| echo: false

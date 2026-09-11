@@ -31,7 +31,7 @@ instNames = [...new Set(instRaw.map((d) => d.institution))].sort((a, b) => a.loc
 instYearsAll = [...new Set(instRaw.map((d) => d.year))].sort((a, b) => a - b)
 ```
 
-::: {.oa-controls}
+:::: {.oa-controls}
 
 ```{ojs}
 //| echo: false
@@ -42,14 +42,7 @@ viewof instQuery = oa.comboboxInput({
 })
 ```
 
-```{ojs}
-//| echo: false
-viewof instYears = oa.yearRangeInput({
-  min: instYearsAll[0],
-  max: instYearsAll.at(-1),
-  label: "År"
-})
-```
+::: {.oa-group}
 
 ```{ojs}
 //| echo: false
@@ -64,12 +57,23 @@ viewof instMode = Inputs.radio(
 viewof instLabels = Inputs.toggle({label: "Vis verdier", value: true})
 ```
 
+:::
+
+```{ojs}
+//| echo: false
+viewof instYears = oa.yearRangeInput({
+  min: instYearsAll[0],
+  max: instYearsAll.at(-1),
+  label: "År"
+})
+```
+
 ```{ojs}
 //| echo: false
 viewof instCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
 ```
 
-:::
+::::
 
 ```{ojs}
 //| echo: false
