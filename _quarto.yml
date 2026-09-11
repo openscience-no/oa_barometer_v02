@@ -12,7 +12,7 @@ date-modified: last-modified
 
 website:
   title: "OA-barometeret"
-  favicon: assets/icons/barometer.svg
+  favicon: assets/icons/favicon-keyhole.svg
   navbar:
     title: '<span class="os-brand"><span class="os-brand-name">openscience.no</span><span class="os-brand-sub">åpenforskning.no | openforsking.no</span></span>'
     logo: assets/openscience-icon.svg
