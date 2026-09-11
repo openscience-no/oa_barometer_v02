@@ -157,6 +157,40 @@ img.navbar-logo {
   letter-spacing: 0.02em;
 }
 
+// The site's home link: barometer mark + wordmark, carrying a little more
+// weight than the section links so it reads as the way back rather than as a
+// fourth section. Selected via :has() rather than :first-child so reordering
+// the navbar in _quarto.yml cannot silently move the styling elsewhere.
+.navbar .nav-item:has(.nav-home-icon) .menu-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+img.nav-home-icon {
+  height: 30px;
+  width: auto;
+  flex: none;
+}
+
+// Horizontal spacing only while the navbar is actually horizontal; below the
+// lg breakpoint the items stack inside the collapsed menu and margins there
+// would just read as stray indentation.
+@media (min-width: 992px) {
+  // sets the home link apart from the section group; combines with the 1.1rem
+  // sibling margin below for a ~6.6rem gap, twice the separation of the links
+  // within the section group
+  .navbar .nav-item:has(.nav-home-icon) {
+    margin-right: 5.5rem;
+  }
+
+  // breathing room between the section links
+  .navbar #navbarCollapse .navbar-nav .nav-item + .nav-item {
+    margin-left: 1.1rem;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Title block: Merriweather title with a short orange rule underneath
 // ---------------------------------------------------------------------------
@@ -289,34 +323,6 @@ a.os-card {
 
   p:last-child {
     margin-bottom: 0;
-  }
-}
-
-// ---------------------------------------------------------------------------
-// Placeholder for figures/tables (replaced by interactive figures later)
-// ---------------------------------------------------------------------------
-.fig-placeholder {
-  border: 2px dashed #b7c6cd;
-  background: #f4f8f9;
-  padding: 3rem 1.5rem;
-  text-align: center;
-  color: $os-darkblue;
-  margin: 1.5rem 0;
-
-  img {
-    height: 46px;
-    width: auto;
-    opacity: 0.75;
-    margin-bottom: 0.8rem;
-  }
-
-  p {
-    margin: 0;
-    font-weight: 500;
-  }
-
-  small {
-    color: #7d919f;
   }
 }
 
@@ -461,11 +467,18 @@ table.table {
 // ---------------------------------------------------------------------------
 // Interactive figures: control panel, chart card, institution table (OJS)
 // ---------------------------------------------------------------------------
+// Observable Inputs lays each control out as a fixed label column followed by
+// the control itself. The hand-built inputs in oa-chart.js (year slider,
+// institution combobox) have to match these two numbers to line up with them.
+$oa-label-width: 120px;   // Observable's --label-width default
+$oa-label-gap: 6.5px;     // margin Observable leaves after the label
+
 .oa-controls {
+  // one control per row; only an .oa-group puts several on a shared row
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem 2.2rem;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
   background: $os-lightblue;
   border-left: 4px solid $os-orange;
   padding: 0.9rem 1.25rem;
@@ -481,6 +494,14 @@ table.table {
     align-items: center;
   }
 
+  // Observable injects `form.oi-<hash>-checkbox { max-width: 640px }` at
+  // runtime, which wraps the last category ("lukket") onto a line of its own.
+  // That rule has the same specificity as `.oa-controls form` and lands later
+  // in the document, so the override needs one extra class to win.
+  .cell form {
+    max-width: none;
+  }
+
   label {
     font-weight: 600;
     font-size: 0.85rem;
@@ -489,6 +510,24 @@ table.table {
   select,
   input[type="text"] {
     font-family: $font-family-sans-serif;
+  }
+
+  // Related controls (e.g. "Visning" + "Vis verdier") read as one unit: the
+  // spacing inside a group is tighter than the column gap that separates the
+  // controls around it, so proximity alone does the grouping
+  .oa-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.6rem 1rem;
+
+    // Observable Inputs gives every label a fixed 120px column, which is what
+    // lines up "Visning" / "Sektor" / "År" / "Kategorier" down the left edge.
+    // A trailing control in a group is a companion to the first one, so its
+    // label hugs its input instead of claiming a column of its own.
+    > .cell:not(:first-child) form {
+      --label-width: auto;
+    }
   }
 }
 
@@ -584,11 +623,18 @@ table.table {
 .oa-year-slider {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0;
 
   label {
     font-weight: 600;
     font-size: 0.85rem;
+  }
+
+  // same label column as the Observable inputs, so the slider starts on the
+  // same vertical edge as the selects and radio groups above it
+  > label {
+    flex: 0 0 $oa-label-width;
+    margin-right: $oa-label-gap;
   }
 
   .oa-year-sliders {
@@ -662,6 +708,7 @@ table.table {
   .oa-year-readout {
     font-weight: 600;
     font-size: 0.9rem;
+    margin-left: 0.6rem;   // the wrapper gap is 0 so the label can own its column
     min-width: 4.6em;
     color: $os-gray;
     font-variant-numeric: tabular-nums;
@@ -672,11 +719,17 @@ table.table {
 .oa-combobox {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0;
 
   label {
     font-weight: 600;
     font-size: 0.85rem;
+  }
+
+  // same label column as the Observable inputs (see $oa-label-width)
+  > label {
+    flex: 0 0 $oa-label-width;
+    margin-right: $oa-label-gap;
   }
 
   input {

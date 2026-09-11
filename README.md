@@ -16,8 +16,11 @@ institutional-overview.qmd   Institution explorer: search/autocomplete,
 methodology.qmd              Method description (skeleton)
 styles/theme.scss            openscience.no theme: colors, fonts, cards, footer
 partials/footer.html         Sikt footer (included on every page)
-assets/                      Logos, icons and self-hosted fonts
+assets/                      Logos, icons and self-hosted fonts used by the site
 assets/js/oa-chart.js        Chart/table/input helpers (Observable Plot, bbplot look)
+design-source/               openscience.no design originals, reference only - NOT
+                             published (kept outside assets/ so the resources glob
+                             does not pick it up); copy what the site needs into assets/
 data/                        Aggregated CSVs consumed client-side (see data/README.md)
 pipeline/export-site-data.R  Exports the data/ CSVs from the annual OA pipeline
 .gitlab-ci.yml               Build + publish to GitLab Pages

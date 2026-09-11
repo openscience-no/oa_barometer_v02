@@ -22,7 +22,7 @@ forskjellene av disse variantene.
 ## Grunndata
 
 Datagrunnlaget til OA-barometeret er basert på NVI-rapporterte poster i
-[NVA (Nasjonalt vitenarkiv)](https://nva.sikt.no) av typen vitenskaplige artikler. Foreløpig er tidsintervallet fra og
+[NVA (Nasjonalt vitenarkiv)](https://nva.sikt.no) av typen vitenskapelige artikler. Foreløpig er tidsintervallet fra og
 med rapporteringsår 2013 til og med siste fullførte rapportering, med mindre
 annet er spesifisert. Rapporterte poster av typen «monografi» og
 «antologiartikkel» er utelatt siden det kan være svært utfordrende å
