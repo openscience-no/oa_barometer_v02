@@ -293,34 +293,6 @@ a.os-card {
 }
 
 // ---------------------------------------------------------------------------
-// Placeholder for figures/tables (replaced by interactive figures later)
-// ---------------------------------------------------------------------------
-.fig-placeholder {
-  border: 2px dashed #b7c6cd;
-  background: #f4f8f9;
-  padding: 3rem 1.5rem;
-  text-align: center;
-  color: $os-darkblue;
-  margin: 1.5rem 0;
-
-  img {
-    height: 46px;
-    width: auto;
-    opacity: 0.75;
-    margin-bottom: 0.8rem;
-  }
-
-  p {
-    margin: 0;
-    font-weight: 500;
-  }
-
-  small {
-    color: #7d919f;
-  }
-}
-
-// ---------------------------------------------------------------------------
 // Dark blue full-width band (like "Eksterne lenker" on openscience.no)
 // ---------------------------------------------------------------------------
 .os-band {
