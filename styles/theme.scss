@@ -157,6 +157,40 @@ img.navbar-logo {
   letter-spacing: 0.02em;
 }
 
+// The site's home link: barometer mark + wordmark, carrying a little more
+// weight than the section links so it reads as the way back rather than as a
+// fourth section. Selected via :has() rather than :first-child so reordering
+// the navbar in _quarto.yml cannot silently move the styling elsewhere.
+.navbar .nav-item:has(.nav-home-icon) .menu-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+}
+
+img.nav-home-icon {
+  height: 30px;
+  width: auto;
+  flex: none;
+}
+
+// Horizontal spacing only while the navbar is actually horizontal; below the
+// lg breakpoint the items stack inside the collapsed menu and margins there
+// would just read as stray indentation.
+@media (min-width: 992px) {
+  // sets the home link apart from the section group; combines with the 1.1rem
+  // sibling margin below for a ~6.6rem gap, twice the separation of the links
+  // within the section group
+  .navbar .nav-item:has(.nav-home-icon) {
+    margin-right: 5.5rem;
+  }
+
+  // breathing room between the section links
+  .navbar #navbarCollapse .navbar-nav .nav-item + .nav-item {
+    margin-left: 1.1rem;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Title block: Merriweather title with a short orange rule underneath
 // ---------------------------------------------------------------------------

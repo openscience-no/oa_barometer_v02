@@ -23,15 +23,16 @@ website:
     search: true
     pinned: true
     left:
+      # Home link for the whole site: first in the bar, with the barometer mark
+      # (white variant - the source icon is drawn in the navbar's own #424242)
+      - text: '<img class="nav-home-icon" src="assets/icons/barometer-hvit.svg" alt=""><span>OA-barometeret</span>'
+        href: index.qmd
       - text: "Nasjonal oversikt"
         href: national-overview.qmd
       - text: "Institusjonell oversikt"
         href: institutional-overview.qmd
       - text: "Metode"
         href: methodology.qmd
-    right:
-      - text: "OA-barometeret"
-        href: index.qmd
   page-navigation: true
   back-to-top-navigation: true
 
