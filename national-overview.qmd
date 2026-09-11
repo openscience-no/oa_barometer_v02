@@ -152,7 +152,13 @@ viewof natTblDownload = Inputs.button("Last ned CSV", {
     natTable,
     [
       {key: "år", header: "År"},
-      ...oa.OA_ORDER.filter((c) => natCats.includes(c)).map((c) => ({key: c, header: c})),
+      ...oa.OA_ORDER.filter((c) => natCats.includes(c)).map((c) => ({
+        key: c,
+        header: natMode === "pct" ? `${c} (%)` : c,
+        ...(natMode === "pct"
+          ? {value: (r) => r[c].toFixed(1).replace(".", ",")}
+          : {})
+      })),
       {key: "total", header: "Totalt"},
       {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
     ],
