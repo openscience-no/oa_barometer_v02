@@ -161,7 +161,9 @@ export function oaChartCard(Plot, {
   title = "",
   subtitle = "",
   source = "Kilde: Sikt / LÅT",
-  logo = "assets/openscience-logo-graa.svg",
+  // resolved against this module's own URL (assets/js/), not against the page,
+  // so the logo keeps working for pages rendered into a subdirectory
+  logo = new URL("../openscience-logo-graa.svg", import.meta.url).href,
   ...plotOpts
 }) {
   const card = document.createElement("figure");
