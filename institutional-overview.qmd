@@ -118,7 +118,15 @@ instTable = {
     .map((r) => {
       const total = cats.reduce((s, c) => s + r[c], 0);
       const open = total - (r.lukket ?? 0) - (r.deponert ?? 0);
-      return {...r, total, andel: total ? (open / total) * 100 : 0};
+      const out = {"år": r["år"], institusjon: r.institusjon};
+      for (const c of cats) {
+        out[c] = instMode === "pct"
+          ? (total ? Math.round((r[c] / total) * 1000) / 10 : 0)
+          : r[c];
+      }
+      out.total = total;
+      out.andel = total ? (open / total) * 100 : 0;
+      return out;
     })
     .sort((a, b) =>
       a.institusjon.localeCompare(b.institusjon, "nb") || b["år"] - a["år"]);
@@ -136,7 +144,13 @@ viewof instTblDownload = Inputs.button("Last ned CSV", {
     [
       {key: "år", header: "År"},
       {key: "institusjon", header: "Institusjon"},
-      ...oa.OA_ORDER.filter((c) => instCats.includes(c)).map((c) => ({key: c, header: c})),
+      ...oa.OA_ORDER.filter((c) => instCats.includes(c)).map((c) => ({
+        key: c,
+        header: instMode === "pct" ? `${c} (%)` : c,
+        ...(instMode === "pct"
+          ? {value: (r) => r[c].toFixed(1).replace(".", ",")}
+          : {})
+      })),
       {key: "total", header: "Totalt"},
       {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
     ],
@@ -162,7 +176,10 @@ Inputs.table(instTable, {
   },
   format: {
     "år": (d) => String(d),
-    ...Object.fromEntries(oa.OA_ORDER.map((c) => [c, oa.fmtNo.format])),
+    ...Object.fromEntries(oa.OA_ORDER.map((c) => [
+      c,
+      instMode === "pct" ? (d) => `${oa.fmtPct1.format(d)} %` : oa.fmtNo.format
+    ])),
     total: oa.fmtNo.format,
     andel: (d) => oa.pctBarCell(d)
   },
