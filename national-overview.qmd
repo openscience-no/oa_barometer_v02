@@ -70,11 +70,6 @@ viewof natMode = Inputs.radio(
 )
 ```
 
-```{ojs}
-//| echo: false
-viewof natLabels = Inputs.toggle({label: "Vis verdier", value: true})
-```
-
 :::
 
 ```{ojs}
@@ -86,16 +81,29 @@ viewof natYears = oa.yearRangeInput({
 })
 ```
 
+::::
+
 ```{ojs}
 //| echo: false
-viewof natCats = Inputs.checkbox(oa.OA_ORDER, {
-  value: oa.OA_ORDER,
-  label: "Kategorier",
-  format: oa.labelFor(oa.OA_LABELS)
-})
+// Disabled for now. To re-enable: move this cell back inside the
+// ::: {.oa-controls} block above, uncomment the input and delete the
+// constant - the constant holds the input's former default.
+// viewof natLabels = Inputs.toggle({label: "Vis verdier", value: true})
+natLabels = true
 ```
 
-::::
+```{ojs}
+//| echo: false
+// Disabled for now. To re-enable: move this cell back inside the
+// ::: {.oa-controls} block above, uncomment the input and delete the
+// constant - the constant holds the input's former default.
+// viewof natCats = Inputs.checkbox(oa.OA_ORDER, {
+//   value: oa.OA_ORDER,
+//   label: "Kategorier",
+//   format: oa.labelFor(oa.OA_LABELS)
+// })
+natCats = oa.OA_ORDER
+```
 
 ```{ojs}
 //| echo: false
