@@ -70,7 +70,11 @@ viewof instYears = oa.yearRangeInput({
 
 ```{ojs}
 //| echo: false
-viewof instCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
+viewof instCats = Inputs.checkbox(oa.OA_ORDER, {
+  value: oa.OA_ORDER,
+  label: "Kategorier",
+  format: oa.labelFor(oa.OA_LABELS)
+})
 ```
 
 ::::
@@ -112,7 +116,7 @@ instTable = {
     if (q && !d.institution.toLowerCase().includes(q)) continue;
     const key = `${d.institution}|${d.year}`;
     if (!m.has(key)) {
-      const row = {"år": d.year, institusjon: d.institution};
+      const row = {year: d.year, institution: d.institution};
       for (const c of cats) row[c] = 0;
       m.set(key, row);
     }
@@ -121,19 +125,19 @@ instTable = {
   return [...m.values()]
     .map((r) => {
       const total = cats.reduce((s, c) => s + r[c], 0);
-      const open = total - (r.lukket ?? 0) - (r.deponert ?? 0);
-      const out = {"år": r["år"], institusjon: r.institusjon};
+      const open = total - (r.closed ?? 0) - (r.deposited ?? 0);
+      const out = {year: r.year, institution: r.institution};
       for (const c of cats) {
         out[c] = instMode === "pct"
           ? (total ? Math.round((r[c] / total) * 1000) / 10 : 0)
           : r[c];
       }
       out.total = total;
-      out.andel = total ? (open / total) * 100 : 0;
+      out.open_share = total ? (open / total) * 100 : 0;
       return out;
     })
     .sort((a, b) =>
-      a.institusjon.localeCompare(b.institusjon, "nb") || b["år"] - a["år"]);
+      a.institution.localeCompare(b.institution, "nb") || b.year - a.year);
 }
 ```
 
@@ -146,19 +150,19 @@ viewof instTblDownload = Inputs.button("Last ned CSV", {
   reduce: () => oa.downloadCsv(
     instTable,
     [
-      {key: "år", header: "År"},
-      {key: "institusjon", header: "Institusjon"},
+      {key: "year", header: "year"},
+      {key: "institution", header: "institution"},
       ...oa.OA_ORDER.filter((c) => instCats.includes(c)).map((c) => ({
         key: c,
-        header: instMode === "pct" ? `${c} (%)` : c,
+        header: instMode === "pct" ? `${c}_pct` : c,
         ...(instMode === "pct"
           ? {value: (r) => r[c].toFixed(1).replace(".", ",")}
           : {})
       })),
-      {key: "total", header: "Totalt"},
-      {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
+      {key: "total", header: "total"},
+      {key: "open_share", header: "open_share_pct", value: (r) => r.open_share.toFixed(1).replace(".", ",")},
     ],
-    `oa-barometer_institusjoner_${instYears[0]}-${instYears[1]}.csv`
+    `oa-barometer_institutions_${instYears[0]}-${instYears[1]}.csv`
   )
 })
 ```
@@ -170,24 +174,24 @@ viewof instTblDownload = Inputs.button("Last ned CSV", {
 ```{ojs}
 //| echo: false
 Inputs.table(instTable, {
-  columns: ["år", "institusjon", ...oa.OA_ORDER.filter((c) => instCats.includes(c)), "total", "andel"],
+  columns: ["year", "institution", ...oa.OA_ORDER.filter((c) => instCats.includes(c)), "total", "open_share"],
   header: {
-    "år": "År",
-    institusjon: "Institusjon",
-    hybrid_avtale: "hybrid avtale",
+    year: "År",
+    institution: "Institusjon",
+    ...Object.fromEntries(oa.OA_ORDER.map((c) => [c, oa.OA_LABELS[c]])),
     total: "Totalt",
-    andel: "Andel åpen"
+    open_share: "Andel åpen"
   },
   format: {
-    "år": (d) => String(d),
+    year: (d) => String(d),
     ...Object.fromEntries(oa.OA_ORDER.map((c) => [
       c,
       instMode === "pct" ? (d) => `${oa.fmtPct1.format(d)} %` : oa.fmtNo.format
     ])),
     total: oa.fmtNo.format,
-    andel: (d) => oa.pctBarCell(d)
+    open_share: (d) => oa.pctBarCell(d)
   },
-  width: {"år": 55, institusjon: 320, andel: 110},
+  width: {year: 55, institution: 320, open_share: 110},
   rows: 35,
   layout: "auto"
 })

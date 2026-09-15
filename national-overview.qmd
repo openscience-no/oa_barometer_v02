@@ -27,13 +27,13 @@ cubeYears = [...new Set(cube.map((d) => d.year))].sort((a, b) => a - b)
 // options derived from the data: known levels in preferred order first,
 // then anything new the pipeline export may add
 sectorOptions = {
-  const known = ["Alle", "UH", "Institutt", "Helse", "ABM"];
+  const known = ["all", "higher_education", "institute", "health", "archives_libraries_museums"];
   const inData = [...new Set(cube.map((d) => d.sector))];
   return [...known.filter((s) => inData.includes(s)),
           ...inData.filter((s) => !known.includes(s)).sort()];
 }
 disciplineOptions = {
-  const known = ["Alle", "Realfag og teknologi", "Medisin og helsefag", "Samfunnsvitenskap", "Humaniora"];
+  const known = ["all", "natural_sciences_engineering", "health_sciences", "social_science", "humanities"];
   const inData = [...new Set(cube.map((d) => d.discipline))];
   return [...known.filter((s) => inData.includes(s)),
           ...inData.filter((s) => !known.includes(s)).sort()];
@@ -44,12 +44,20 @@ disciplineOptions = {
 
 ```{ojs}
 //| echo: false
-viewof natSector = Inputs.select(sectorOptions, {value: "Alle", label: "Sektor"})
+viewof natSector = Inputs.select(sectorOptions, {
+  value: "all",
+  label: "Sektor",
+  format: oa.labelFor(oa.SECTOR_LABELS)
+})
 ```
 
 ```{ojs}
 //| echo: false
-viewof natDisc = Inputs.select(disciplineOptions, {value: "Alle", label: "Fagområde"})
+viewof natDisc = Inputs.select(disciplineOptions, {
+  value: "all",
+  label: "Fagområde",
+  format: oa.labelFor(oa.DISCIPLINE_LABELS)
+})
 ```
 
 ::: {.oa-group}
@@ -80,7 +88,11 @@ viewof natYears = oa.yearRangeInput({
 
 ```{ojs}
 //| echo: false
-viewof natCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kategorier"})
+viewof natCats = Inputs.checkbox(oa.OA_ORDER, {
+  value: oa.OA_ORDER,
+  label: "Kategorier",
+  format: oa.labelFor(oa.OA_LABELS)
+})
 ```
 
 ::::
@@ -90,8 +102,8 @@ viewof natCats = Inputs.checkbox(oa.OA_ORDER, {value: oa.OA_ORDER, label: "Kateg
 natRows = cube.filter((d) => d.sector === natSector && d.discipline === natDisc)
 natSubtitle = [
   `NVI ${natYears[0]}–${natYears[1]}`,
-  natSector === "Alle" ? null : `Sektor: ${natSector}`,
-  natDisc === "Alle" ? null : `Fagområde: ${natDisc}`
+  natSector === "all" ? null : `Sektor: ${oa.SECTOR_LABELS[natSector] ?? natSector}`,
+  natDisc === "all" ? null : `Fagområde: ${oa.DISCIPLINE_LABELS[natDisc] ?? natDisc}`
 ].filter(Boolean).join(" · ")
 ```
 
@@ -122,7 +134,7 @@ natTable = {
   for (const d of natRows) {
     if (d.year < natYears[0] || d.year > natYears[1] || !cats.includes(d.status)) continue;
     if (!byYear.has(d.year)) {
-      const row = {"år": d.year};
+      const row = {year: d.year};
       for (const c of cats) row[c] = 0;
       byYear.set(d.year, row);
     }
@@ -131,18 +143,18 @@ natTable = {
   return [...byYear.values()]
     .map((r) => {
       const total = cats.reduce((s, c) => s + r[c], 0);
-      const open = total - (r.lukket ?? 0) - (r.deponert ?? 0);
-      const out = {"år": r["år"]};
+      const open = total - (r.closed ?? 0) - (r.deposited ?? 0);
+      const out = {year: r.year};
       for (const c of cats) {
         out[c] = natMode === "pct"
           ? (total ? Math.round((r[c] / total) * 1000) / 10 : 0)
           : r[c];
       }
       out.total = total;
-      out.andel = total ? (open / total) * 100 : 0;
+      out.open_share = total ? (open / total) * 100 : 0;
       return out;
     })
-    .sort((a, b) => a["år"] - b["år"]);
+    .sort((a, b) => a.year - b.year);
 }
 ```
 
@@ -155,18 +167,18 @@ viewof natTblDownload = Inputs.button("Last ned CSV", {
   reduce: () => oa.downloadCsv(
     natTable,
     [
-      {key: "år", header: "År"},
+      {key: "year", header: "year"},
       ...oa.OA_ORDER.filter((c) => natCats.includes(c)).map((c) => ({
         key: c,
-        header: natMode === "pct" ? `${c} (%)` : c,
+        header: natMode === "pct" ? `${c}_pct` : c,
         ...(natMode === "pct"
           ? {value: (r) => r[c].toFixed(1).replace(".", ",")}
           : {})
       })),
-      {key: "total", header: "Totalt"},
-      {key: "andel", header: "Andel åpen (%)", value: (r) => r.andel.toFixed(1).replace(".", ",")},
+      {key: "total", header: "total"},
+      {key: "open_share", header: "open_share_pct", value: (r) => r.open_share.toFixed(1).replace(".", ",")},
     ],
-    `oa-barometer_nasjonal_${natYears[0]}-${natYears[1]}.csv`
+    `oa-barometer_national_${natYears[0]}-${natYears[1]}.csv`
   )
 })
 ```
@@ -178,24 +190,24 @@ viewof natTblDownload = Inputs.button("Last ned CSV", {
 ```{ojs}
 //| echo: false
 Inputs.table(natTable, {
-  columns: ["år", ...oa.OA_ORDER.filter((c) => natCats.includes(c)), "total", "andel"],
+  columns: ["year", ...oa.OA_ORDER.filter((c) => natCats.includes(c)), "total", "open_share"],
   header: {
-    "år": "År",
-    hybrid_avtale: "hybrid avtale",
+    year: "År",
+    ...Object.fromEntries(oa.OA_ORDER.map((c) => [c, oa.OA_LABELS[c]])),
     total: "Totalt",
-    andel: "Andel åpen"
+    open_share: "Andel åpen"
   },
   format: {
-    "år": (d) => String(d),
+    year: (d) => String(d),
     ...Object.fromEntries(oa.OA_ORDER.map((c) => [
       c,
       natMode === "pct" ? (d) => `${oa.fmtPct1.format(d)} %` : oa.fmtNo.format
     ])),
     total: oa.fmtNo.format,
-    andel: (d) => oa.pctBarCell(d)
+    open_share: (d) => oa.pctBarCell(d)
   },
-  width: {andel: 110},
-  sort: "år",
+  width: {open_share: 110},
+  sort: "year",
   rows: 20,
   layout: "auto"
 })

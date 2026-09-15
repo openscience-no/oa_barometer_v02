@@ -1,1834 +1,1834 @@
 year,sector,discipline,status,total
-2013,ABM,Alle,lukket,2
-2013,ABM,Humaniora,lukket,2
-2013,Alle,Alle,diamant,472
-2013,Alle,Alle,gull,2084
-2013,Alle,Alle,hybrid,742
-2013,Alle,Alle,grønn,2351
-2013,Alle,Alle,deponert,4
-2013,Alle,Alle,lukket,10805
-2013,Alle,Humaniora,diamant,119
-2013,Alle,Humaniora,gull,39
-2013,Alle,Humaniora,hybrid,12
-2013,Alle,Humaniora,grønn,101
-2013,Alle,Humaniora,deponert,1
-2013,Alle,Humaniora,lukket,738
-2013,Alle,Medisin og helsefag,diamant,136
-2013,Alle,Medisin og helsefag,gull,888
-2013,Alle,Medisin og helsefag,hybrid,294
-2013,Alle,Medisin og helsefag,grønn,608
-2013,Alle,Medisin og helsefag,lukket,3630
-2013,Alle,Realfag og teknologi,diamant,71
-2013,Alle,Realfag og teknologi,gull,994
-2013,Alle,Realfag og teknologi,hybrid,366
-2013,Alle,Realfag og teknologi,grønn,1120
-2013,Alle,Realfag og teknologi,deponert,2
-2013,Alle,Realfag og teknologi,lukket,3986
-2013,Alle,Samfunnsvitenskap,diamant,146
-2013,Alle,Samfunnsvitenskap,gull,140
-2013,Alle,Samfunnsvitenskap,hybrid,47
-2013,Alle,Samfunnsvitenskap,grønn,398
-2013,Alle,Samfunnsvitenskap,deponert,1
-2013,Alle,Samfunnsvitenskap,lukket,1802
-2013,Helse,Alle,diamant,80
-2013,Helse,Alle,gull,680
-2013,Helse,Alle,hybrid,194
-2013,Helse,Alle,grønn,271
-2013,Helse,Alle,lukket,2056
-2013,Helse,Humaniora,lukket,3
-2013,Helse,Medisin og helsefag,diamant,74
-2013,Helse,Medisin og helsefag,gull,471
-2013,Helse,Medisin og helsefag,hybrid,174
-2013,Helse,Medisin og helsefag,grønn,260
-2013,Helse,Medisin og helsefag,lukket,1901
-2013,Helse,Realfag og teknologi,diamant,4
-2013,Helse,Realfag og teknologi,gull,194
-2013,Helse,Realfag og teknologi,hybrid,13
-2013,Helse,Realfag og teknologi,grønn,9
-2013,Helse,Realfag og teknologi,lukket,104
-2013,Helse,Samfunnsvitenskap,diamant,2
-2013,Helse,Samfunnsvitenskap,gull,13
-2013,Helse,Samfunnsvitenskap,hybrid,4
-2013,Helse,Samfunnsvitenskap,grønn,1
-2013,Helse,Samfunnsvitenskap,lukket,40
-2013,Institutt,Alle,diamant,69
-2013,Institutt,Alle,gull,592
-2013,Institutt,Alle,hybrid,154
-2013,Institutt,Alle,grønn,596
-2013,Institutt,Alle,deponert,1
-2013,Institutt,Alle,lukket,2312
-2013,Institutt,Humaniora,diamant,5
-2013,Institutt,Humaniora,gull,2
-2013,Institutt,Humaniora,hybrid,1
-2013,Institutt,Humaniora,grønn,10
-2013,Institutt,Humaniora,lukket,39
-2013,Institutt,Medisin og helsefag,diamant,37
-2013,Institutt,Medisin og helsefag,gull,175
-2013,Institutt,Medisin og helsefag,hybrid,70
-2013,Institutt,Medisin og helsefag,grønn,105
-2013,Institutt,Medisin og helsefag,lukket,661
-2013,Institutt,Realfag og teknologi,diamant,17
-2013,Institutt,Realfag og teknologi,gull,375
-2013,Institutt,Realfag og teknologi,hybrid,64
-2013,Institutt,Realfag og teknologi,grønn,346
-2013,Institutt,Realfag og teknologi,deponert,1
-2013,Institutt,Realfag og teknologi,lukket,1123
-2013,Institutt,Samfunnsvitenskap,diamant,10
-2013,Institutt,Samfunnsvitenskap,gull,36
-2013,Institutt,Samfunnsvitenskap,hybrid,17
-2013,Institutt,Samfunnsvitenskap,grønn,111
-2013,Institutt,Samfunnsvitenskap,lukket,373
-2013,UH,Alle,diamant,400
-2013,UH,Alle,gull,1694
-2013,UH,Alle,hybrid,653
-2013,UH,Alle,grønn,2021
-2013,UH,Alle,deponert,4
-2013,UH,Alle,lukket,9191
-2013,UH,Humaniora,diamant,115
-2013,UH,Humaniora,gull,38
-2013,UH,Humaniora,hybrid,11
-2013,UH,Humaniora,grønn,95
-2013,UH,Humaniora,deponert,1
-2013,UH,Humaniora,lukket,706
-2013,UH,Medisin og helsefag,diamant,89
-2013,UH,Medisin og helsefag,gull,747
-2013,UH,Medisin og helsefag,hybrid,241
-2013,UH,Medisin og helsefag,grønn,515
-2013,UH,Medisin og helsefag,lukket,3000
-2013,UH,Realfag og teknologi,diamant,59
-2013,UH,Realfag og teknologi,gull,772
-2013,UH,Realfag og teknologi,hybrid,340
-2013,UH,Realfag og teknologi,grønn,969
-2013,UH,Realfag og teknologi,deponert,2
-2013,UH,Realfag og teknologi,lukket,3368
-2013,UH,Samfunnsvitenskap,diamant,137
-2013,UH,Samfunnsvitenskap,gull,119
-2013,UH,Samfunnsvitenskap,hybrid,39
-2013,UH,Samfunnsvitenskap,grønn,329
-2013,UH,Samfunnsvitenskap,deponert,1
-2013,UH,Samfunnsvitenskap,lukket,1529
-2014,ABM,Alle,lukket,1
-2014,ABM,Humaniora,lukket,1
-2014,Alle,Alle,diamant,691
-2014,Alle,Alle,gull,2597
-2014,Alle,Alle,hybrid,1103
-2014,Alle,Alle,grønn,2696
-2014,Alle,Alle,deponert,3
-2014,Alle,Alle,lukket,10231
-2014,Alle,Humaniora,diamant,215
-2014,Alle,Humaniora,gull,68
-2014,Alle,Humaniora,hybrid,22
-2014,Alle,Humaniora,grønn,134
-2014,Alle,Humaniora,lukket,698
-2014,Alle,Medisin og helsefag,diamant,133
-2014,Alle,Medisin og helsefag,gull,1100
-2014,Alle,Medisin og helsefag,hybrid,491
-2014,Alle,Medisin og helsefag,grønn,691
-2014,Alle,Medisin og helsefag,lukket,3416
-2014,Alle,Realfag og teknologi,diamant,155
-2014,Alle,Realfag og teknologi,gull,1224
-2014,Alle,Realfag og teknologi,hybrid,446
-2014,Alle,Realfag og teknologi,grønn,1261
-2014,Alle,Realfag og teknologi,deponert,2
-2014,Alle,Realfag og teknologi,lukket,3659
-2014,Alle,Samfunnsvitenskap,diamant,188
-2014,Alle,Samfunnsvitenskap,gull,183
-2014,Alle,Samfunnsvitenskap,hybrid,114
-2014,Alle,Samfunnsvitenskap,grønn,481
-2014,Alle,Samfunnsvitenskap,deponert,1
-2014,Alle,Samfunnsvitenskap,lukket,1731
-2014,Helse,Alle,diamant,80
-2014,Helse,Alle,gull,807
-2014,Helse,Alle,hybrid,329
-2014,Helse,Alle,grønn,308
-2014,Helse,Alle,lukket,2045
-2014,Helse,Humaniora,gull,1
-2014,Helse,Humaniora,grønn,2
-2014,Helse,Humaniora,lukket,2
-2014,Helse,Medisin og helsefag,diamant,72
-2014,Helse,Medisin og helsefag,gull,563
-2014,Helse,Medisin og helsefag,hybrid,296
-2014,Helse,Medisin og helsefag,grønn,282
-2014,Helse,Medisin og helsefag,lukket,1872
-2014,Helse,Realfag og teknologi,diamant,5
-2014,Helse,Realfag og teknologi,gull,222
-2014,Helse,Realfag og teknologi,hybrid,20
-2014,Helse,Realfag og teknologi,grønn,13
-2014,Helse,Realfag og teknologi,lukket,110
-2014,Helse,Samfunnsvitenskap,diamant,3
-2014,Helse,Samfunnsvitenskap,gull,21
-2014,Helse,Samfunnsvitenskap,hybrid,7
-2014,Helse,Samfunnsvitenskap,grønn,4
-2014,Helse,Samfunnsvitenskap,lukket,34
-2014,Institutt,Alle,diamant,78
-2014,Institutt,Alle,gull,702
-2014,Institutt,Alle,hybrid,279
-2014,Institutt,Alle,grønn,663
-2014,Institutt,Alle,lukket,2191
-2014,Institutt,Humaniora,diamant,7
-2014,Institutt,Humaniora,gull,5
-2014,Institutt,Humaniora,grønn,7
-2014,Institutt,Humaniora,lukket,34
-2014,Institutt,Medisin og helsefag,diamant,40
-2014,Institutt,Medisin og helsefag,gull,239
-2014,Institutt,Medisin og helsefag,hybrid,100
-2014,Institutt,Medisin og helsefag,grønn,156
-2014,Institutt,Medisin og helsefag,lukket,530
-2014,Institutt,Realfag og teknologi,diamant,13
-2014,Institutt,Realfag og teknologi,gull,427
-2014,Institutt,Realfag og teknologi,hybrid,144
-2014,Institutt,Realfag og teknologi,grønn,351
-2014,Institutt,Realfag og teknologi,lukket,1119
-2014,Institutt,Samfunnsvitenskap,diamant,18
-2014,Institutt,Samfunnsvitenskap,gull,29
-2014,Institutt,Samfunnsvitenskap,hybrid,29
-2014,Institutt,Samfunnsvitenskap,grønn,126
-2014,Institutt,Samfunnsvitenskap,lukket,338
-2014,UH,Alle,diamant,616
-2014,UH,Alle,gull,2145
-2014,UH,Alle,hybrid,919
-2014,UH,Alle,grønn,2338
-2014,UH,Alle,deponert,3
-2014,UH,Alle,lukket,8624
-2014,UH,Humaniora,diamant,210
-2014,UH,Humaniora,gull,65
-2014,UH,Humaniora,hybrid,22
-2014,UH,Humaniora,grønn,129
-2014,UH,Humaniora,lukket,675
-2014,UH,Medisin og helsefag,diamant,87
-2014,UH,Medisin og helsefag,gull,938
-2014,UH,Medisin og helsefag,hybrid,395
-2014,UH,Medisin og helsefag,grønn,579
-2014,UH,Medisin og helsefag,lukket,2789
-2014,UH,Realfag og teknologi,diamant,144
-2014,UH,Realfag og teknologi,gull,959
-2014,UH,Realfag og teknologi,hybrid,380
-2014,UH,Realfag og teknologi,grønn,1104
-2014,UH,Realfag og teknologi,deponert,2
-2014,UH,Realfag og teknologi,lukket,3033
-2014,UH,Samfunnsvitenskap,diamant,175
-2014,UH,Samfunnsvitenskap,gull,162
-2014,UH,Samfunnsvitenskap,hybrid,98
-2014,UH,Samfunnsvitenskap,grønn,404
-2014,UH,Samfunnsvitenskap,deponert,1
-2014,UH,Samfunnsvitenskap,lukket,1504
-2015,ABM,Alle,diamant,1
-2015,ABM,Alle,lukket,2
-2015,ABM,Humaniora,diamant,1
-2015,ABM,Humaniora,lukket,2
-2015,Alle,Alle,diamant,718
-2015,Alle,Alle,gull,2957
-2015,Alle,Alle,hybrid,1266
-2015,Alle,Alle,grønn,2965
-2015,Alle,Alle,deponert,3
-2015,Alle,Alle,lukket,10133
-2015,Alle,Humaniora,diamant,203
-2015,Alle,Humaniora,gull,75
-2015,Alle,Humaniora,hybrid,22
-2015,Alle,Humaniora,grønn,145
-2015,Alle,Humaniora,deponert,1
-2015,Alle,Humaniora,lukket,712
-2015,Alle,Medisin og helsefag,diamant,150
-2015,Alle,Medisin og helsefag,gull,1196
-2015,Alle,Medisin og helsefag,hybrid,565
-2015,Alle,Medisin og helsefag,grønn,753
-2015,Alle,Medisin og helsefag,deponert,1
-2015,Alle,Medisin og helsefag,lukket,3269
-2015,Alle,Realfag og teknologi,diamant,184
-2015,Alle,Realfag og teknologi,gull,1372
-2015,Alle,Realfag og teknologi,hybrid,513
-2015,Alle,Realfag og teknologi,grønn,1413
-2015,Alle,Realfag og teknologi,deponert,1
-2015,Alle,Realfag og teknologi,lukket,3718
-2015,Alle,Samfunnsvitenskap,diamant,181
-2015,Alle,Samfunnsvitenskap,gull,279
-2015,Alle,Samfunnsvitenskap,hybrid,140
-2015,Alle,Samfunnsvitenskap,grønn,504
-2015,Alle,Samfunnsvitenskap,lukket,1726
-2015,Helse,Alle,diamant,84
-2015,Helse,Alle,gull,892
-2015,Helse,Alle,hybrid,376
-2015,Helse,Alle,grønn,344
-2015,Helse,Alle,lukket,2035
-2015,Helse,Humaniora,diamant,1
-2015,Helse,Humaniora,gull,1
-2015,Helse,Humaniora,grønn,1
-2015,Helse,Humaniora,lukket,5
-2015,Helse,Medisin og helsefag,diamant,74
-2015,Helse,Medisin og helsefag,gull,631
-2015,Helse,Medisin og helsefag,hybrid,347
-2015,Helse,Medisin og helsefag,grønn,314
-2015,Helse,Medisin og helsefag,lukket,1858
-2015,Helse,Realfag og teknologi,diamant,8
-2015,Helse,Realfag og teknologi,gull,236
-2015,Helse,Realfag og teknologi,hybrid,19
-2015,Helse,Realfag og teknologi,grønn,23
-2015,Helse,Realfag og teknologi,lukket,116
-2015,Helse,Samfunnsvitenskap,diamant,1
-2015,Helse,Samfunnsvitenskap,gull,23
-2015,Helse,Samfunnsvitenskap,hybrid,9
-2015,Helse,Samfunnsvitenskap,grønn,5
-2015,Helse,Samfunnsvitenskap,lukket,35
-2015,Institutt,Alle,diamant,90
-2015,Institutt,Alle,gull,698
-2015,Institutt,Alle,hybrid,317
-2015,Institutt,Alle,grønn,727
-2015,Institutt,Alle,deponert,1
-2015,Institutt,Alle,lukket,1945
-2015,Institutt,Humaniora,diamant,8
-2015,Institutt,Humaniora,gull,4
-2015,Institutt,Humaniora,hybrid,2
-2015,Institutt,Humaniora,grønn,12
-2015,Institutt,Humaniora,lukket,39
-2015,Institutt,Medisin og helsefag,diamant,39
-2015,Institutt,Medisin og helsefag,gull,211
-2015,Institutt,Medisin og helsefag,hybrid,114
-2015,Institutt,Medisin og helsefag,grønn,160
-2015,Institutt,Medisin og helsefag,lukket,474
-2015,Institutt,Realfag og teknologi,diamant,19
-2015,Institutt,Realfag og teknologi,gull,424
-2015,Institutt,Realfag og teknologi,hybrid,156
-2015,Institutt,Realfag og teknologi,grønn,411
-2015,Institutt,Realfag og teknologi,deponert,1
-2015,Institutt,Realfag og teknologi,lukket,1011
-2015,Institutt,Samfunnsvitenskap,diamant,24
-2015,Institutt,Samfunnsvitenskap,gull,53
-2015,Institutt,Samfunnsvitenskap,hybrid,45
-2015,Institutt,Samfunnsvitenskap,grønn,118
-2015,Institutt,Samfunnsvitenskap,lukket,292
-2015,UH,Alle,diamant,637
-2015,UH,Alle,gull,2538
-2015,UH,Alle,hybrid,1065
-2015,UH,Alle,grønn,2534
-2015,UH,Alle,deponert,3
-2015,UH,Alle,lukket,8645
-2015,UH,Humaniora,diamant,195
-2015,UH,Humaniora,gull,73
-2015,UH,Humaniora,hybrid,20
-2015,UH,Humaniora,grønn,135
-2015,UH,Humaniora,deponert,1
-2015,UH,Humaniora,lukket,684
-2015,UH,Medisin og helsefag,diamant,112
-2015,UH,Medisin og helsefag,gull,1042
-2015,UH,Medisin og helsefag,hybrid,479
-2015,UH,Medisin og helsefag,grønn,630
-2015,UH,Medisin og helsefag,deponert,1
-2015,UH,Medisin og helsefag,lukket,2703
-2015,UH,Realfag og teknologi,diamant,165
-2015,UH,Realfag og teknologi,gull,1140
-2015,UH,Realfag og teknologi,hybrid,427
-2015,UH,Realfag og teknologi,grønn,1205
-2015,UH,Realfag og teknologi,deponert,1
-2015,UH,Realfag og teknologi,lukket,3099
-2015,UH,Samfunnsvitenskap,diamant,165
-2015,UH,Samfunnsvitenskap,gull,249
-2015,UH,Samfunnsvitenskap,hybrid,113
-2015,UH,Samfunnsvitenskap,grønn,426
-2015,UH,Samfunnsvitenskap,lukket,1523
-2016,ABM,Alle,lukket,1
-2016,ABM,Humaniora,lukket,1
-2016,Alle,Alle,diamant,934
-2016,Alle,Alle,gull,3581
-2016,Alle,Alle,hybrid,1464
-2016,Alle,Alle,grønn,3617
-2016,Alle,Alle,deponert,7
-2016,Alle,Alle,lukket,9648
-2016,Alle,Humaniora,diamant,199
-2016,Alle,Humaniora,gull,82
-2016,Alle,Humaniora,hybrid,29
-2016,Alle,Humaniora,grønn,197
-2016,Alle,Humaniora,deponert,1
-2016,Alle,Humaniora,lukket,677
-2016,Alle,Medisin og helsefag,diamant,158
-2016,Alle,Medisin og helsefag,gull,1485
-2016,Alle,Medisin og helsefag,hybrid,661
-2016,Alle,Medisin og helsefag,grønn,929
-2016,Alle,Medisin og helsefag,deponert,1
-2016,Alle,Medisin og helsefag,lukket,3103
-2016,Alle,Realfag og teknologi,diamant,237
-2016,Alle,Realfag og teknologi,gull,1688
-2016,Alle,Realfag og teknologi,hybrid,581
-2016,Alle,Realfag og teknologi,grønn,1679
-2016,Alle,Realfag og teknologi,deponert,2
-2016,Alle,Realfag og teknologi,lukket,3678
-2016,Alle,Samfunnsvitenskap,diamant,340
-2016,Alle,Samfunnsvitenskap,gull,305
-2016,Alle,Samfunnsvitenskap,hybrid,153
-2016,Alle,Samfunnsvitenskap,grønn,655
-2016,Alle,Samfunnsvitenskap,deponert,3
-2016,Alle,Samfunnsvitenskap,lukket,1705
-2016,Helse,Alle,diamant,89
-2016,Helse,Alle,gull,1054
-2016,Helse,Alle,hybrid,414
-2016,Helse,Alle,grønn,449
-2016,Helse,Alle,lukket,1894
-2016,Helse,Humaniora,gull,1
-2016,Helse,Humaniora,hybrid,1
-2016,Helse,Humaniora,lukket,5
-2016,Helse,Medisin og helsefag,diamant,77
-2016,Helse,Medisin og helsefag,gull,779
-2016,Helse,Medisin og helsefag,hybrid,387
-2016,Helse,Medisin og helsefag,grønn,418
-2016,Helse,Medisin og helsefag,lukket,1718
-2016,Helse,Realfag og teknologi,diamant,6
-2016,Helse,Realfag og teknologi,gull,246
-2016,Helse,Realfag og teknologi,hybrid,24
-2016,Helse,Realfag og teknologi,grønn,19
-2016,Helse,Realfag og teknologi,lukket,109
-2016,Helse,Samfunnsvitenskap,diamant,6
-2016,Helse,Samfunnsvitenskap,gull,28
-2016,Helse,Samfunnsvitenskap,hybrid,2
-2016,Helse,Samfunnsvitenskap,grønn,12
-2016,Helse,Samfunnsvitenskap,lukket,49
-2016,Institutt,Alle,diamant,114
-2016,Institutt,Alle,gull,886
-2016,Institutt,Alle,hybrid,412
-2016,Institutt,Alle,grønn,817
-2016,Institutt,Alle,deponert,1
-2016,Institutt,Alle,lukket,1875
-2016,Institutt,Humaniora,diamant,10
-2016,Institutt,Humaniora,gull,9
-2016,Institutt,Humaniora,hybrid,3
-2016,Institutt,Humaniora,grønn,10
-2016,Institutt,Humaniora,lukket,26
-2016,Institutt,Medisin og helsefag,diamant,32
-2016,Institutt,Medisin og helsefag,gull,260
-2016,Institutt,Medisin og helsefag,hybrid,148
-2016,Institutt,Medisin og helsefag,grønn,155
-2016,Institutt,Medisin og helsefag,lukket,478
-2016,Institutt,Realfag og teknologi,diamant,19
-2016,Institutt,Realfag og teknologi,gull,549
-2016,Institutt,Realfag og teknologi,hybrid,206
-2016,Institutt,Realfag og teknologi,grønn,482
-2016,Institutt,Realfag og teknologi,lukket,989
-2016,Institutt,Samfunnsvitenskap,diamant,53
-2016,Institutt,Samfunnsvitenskap,gull,66
-2016,Institutt,Samfunnsvitenskap,hybrid,52
-2016,Institutt,Samfunnsvitenskap,grønn,146
-2016,Institutt,Samfunnsvitenskap,deponert,1
-2016,Institutt,Samfunnsvitenskap,lukket,267
-2016,UH,Alle,diamant,840
-2016,UH,Alle,gull,3012
-2016,UH,Alle,hybrid,1205
-2016,UH,Alle,grønn,3164
-2016,UH,Alle,deponert,7
-2016,UH,Alle,lukket,8258
-2016,UH,Humaniora,diamant,192
-2016,UH,Humaniora,gull,78
-2016,UH,Humaniora,hybrid,28
-2016,UH,Humaniora,grønn,190
-2016,UH,Humaniora,deponert,1
-2016,UH,Humaniora,lukket,656
-2016,UH,Medisin og helsefag,diamant,115
-2016,UH,Medisin og helsefag,gull,1295
-2016,UH,Medisin og helsefag,hybrid,555
-2016,UH,Medisin og helsefag,grønn,799
-2016,UH,Medisin og helsefag,deponert,1
-2016,UH,Medisin og helsefag,lukket,2556
-2016,UH,Realfag og teknologi,diamant,226
-2016,UH,Realfag og teknologi,gull,1353
-2016,UH,Realfag og teknologi,hybrid,468
-2016,UH,Realfag og teknologi,grønn,1450
-2016,UH,Realfag og teknologi,deponert,2
-2016,UH,Realfag og teknologi,lukket,3097
-2016,UH,Samfunnsvitenskap,diamant,307
-2016,UH,Samfunnsvitenskap,gull,265
-2016,UH,Samfunnsvitenskap,hybrid,117
-2016,UH,Samfunnsvitenskap,grønn,578
-2016,UH,Samfunnsvitenskap,deponert,3
-2016,UH,Samfunnsvitenskap,lukket,1528
-2017,Alle,Alle,diamant,1115
-2017,Alle,Alle,gull,4250
-2017,Alle,Alle,hybrid,1664
-2017,Alle,Alle,grønn,5866
-2017,Alle,Alle,deponert,3
-2017,Alle,Alle,lukket,7747
-2017,Alle,Humaniora,diamant,283
-2017,Alle,Humaniora,gull,100
-2017,Alle,Humaniora,hybrid,39
-2017,Alle,Humaniora,grønn,324
-2017,Alle,Humaniora,deponert,1
-2017,Alle,Humaniora,lukket,456
-2017,Alle,Medisin og helsefag,diamant,182
-2017,Alle,Medisin og helsefag,gull,1635
-2017,Alle,Medisin og helsefag,hybrid,714
-2017,Alle,Medisin og helsefag,grønn,1442
-2017,Alle,Medisin og helsefag,deponert,1
-2017,Alle,Medisin og helsefag,lukket,2631
-2017,Alle,Realfag og teknologi,diamant,249
-2017,Alle,Realfag og teknologi,gull,2160
-2017,Alle,Realfag og teknologi,hybrid,679
-2017,Alle,Realfag og teknologi,grønn,2638
-2017,Alle,Realfag og teknologi,lukket,2931
-2017,Alle,Samfunnsvitenskap,diamant,401
-2017,Alle,Samfunnsvitenskap,gull,322
-2017,Alle,Samfunnsvitenskap,hybrid,189
-2017,Alle,Samfunnsvitenskap,grønn,1079
-2017,Alle,Samfunnsvitenskap,deponert,1
-2017,Alle,Samfunnsvitenskap,lukket,1224
-2017,Helse,Alle,diamant,104
-2017,Helse,Alle,gull,1202
-2017,Helse,Alle,hybrid,434
-2017,Helse,Alle,grønn,700
-2017,Helse,Alle,deponert,1
-2017,Helse,Alle,lukket,1649
-2017,Helse,Humaniora,diamant,3
-2017,Helse,Humaniora,grønn,5
-2017,Helse,Humaniora,lukket,3
-2017,Helse,Medisin og helsefag,diamant,88
-2017,Helse,Medisin og helsefag,gull,870
-2017,Helse,Medisin og helsefag,hybrid,407
-2017,Helse,Medisin og helsefag,grønn,628
-2017,Helse,Medisin og helsefag,deponert,1
-2017,Helse,Medisin og helsefag,lukket,1527
-2017,Helse,Realfag og teknologi,diamant,7
-2017,Helse,Realfag og teknologi,gull,312
-2017,Helse,Realfag og teknologi,hybrid,20
-2017,Helse,Realfag og teknologi,grønn,46
-2017,Helse,Realfag og teknologi,lukket,85
-2017,Helse,Samfunnsvitenskap,diamant,6
-2017,Helse,Samfunnsvitenskap,gull,20
-2017,Helse,Samfunnsvitenskap,hybrid,6
-2017,Helse,Samfunnsvitenskap,grønn,16
-2017,Helse,Samfunnsvitenskap,lukket,31
-2017,Institutt,Alle,diamant,167
-2017,Institutt,Alle,gull,1028
-2017,Institutt,Alle,hybrid,516
-2017,Institutt,Alle,grønn,1359
-2017,Institutt,Alle,deponert,1
-2017,Institutt,Alle,lukket,1425
-2017,Institutt,Humaniora,diamant,19
-2017,Institutt,Humaniora,gull,4
-2017,Institutt,Humaniora,hybrid,7
-2017,Institutt,Humaniora,grønn,26
-2017,Institutt,Humaniora,lukket,19
-2017,Institutt,Medisin og helsefag,diamant,43
-2017,Institutt,Medisin og helsefag,gull,267
-2017,Institutt,Medisin og helsefag,hybrid,173
-2017,Institutt,Medisin og helsefag,grønn,268
-2017,Institutt,Medisin og helsefag,lukket,404
-2017,Institutt,Realfag og teknologi,diamant,38
-2017,Institutt,Realfag og teknologi,gull,694
-2017,Institutt,Realfag og teknologi,hybrid,251
-2017,Institutt,Realfag og teknologi,grønn,733
-2017,Institutt,Realfag og teknologi,lukket,724
-2017,Institutt,Samfunnsvitenskap,diamant,67
-2017,Institutt,Samfunnsvitenskap,gull,60
-2017,Institutt,Samfunnsvitenskap,hybrid,70
-2017,Institutt,Samfunnsvitenskap,grønn,194
-2017,Institutt,Samfunnsvitenskap,deponert,1
-2017,Institutt,Samfunnsvitenskap,lukket,201
-2017,UH,Alle,diamant,976
-2017,UH,Alle,gull,3609
-2017,UH,Alle,hybrid,1335
-2017,UH,Alle,grønn,5179
-2017,UH,Alle,deponert,3
-2017,UH,Alle,lukket,6507
-2017,UH,Humaniora,diamant,271
-2017,UH,Humaniora,gull,97
-2017,UH,Humaniora,hybrid,34
-2017,UH,Humaniora,grønn,311
-2017,UH,Humaniora,deponert,1
-2017,UH,Humaniora,lukket,442
-2017,UH,Medisin og helsefag,diamant,132
-2017,UH,Medisin og helsefag,gull,1424
-2017,UH,Medisin og helsefag,hybrid,584
-2017,UH,Medisin og helsefag,grønn,1284
-2017,UH,Medisin og helsefag,deponert,1
-2017,UH,Medisin og helsefag,lukket,2080
-2017,UH,Realfag og teknologi,diamant,216
-2017,UH,Realfag og teknologi,gull,1768
-2017,UH,Realfag og teknologi,hybrid,546
-2017,UH,Realfag og teknologi,grønn,2298
-2017,UH,Realfag og teknologi,lukket,2436
-2017,UH,Samfunnsvitenskap,diamant,357
-2017,UH,Samfunnsvitenskap,gull,287
-2017,UH,Samfunnsvitenskap,hybrid,137
-2017,UH,Samfunnsvitenskap,grønn,973
-2017,UH,Samfunnsvitenskap,deponert,1
-2017,UH,Samfunnsvitenskap,lukket,1093
-2018,ABM,Alle,diamant,2
-2018,ABM,Alle,lukket,1
-2018,ABM,Humaniora,diamant,2
-2018,ABM,Humaniora,lukket,1
-2018,Alle,Alle,diamant,1286
-2018,Alle,Alle,gull,4404
-2018,Alle,Alle,hybrid,1967
-2018,Alle,Alle,grønn,6660
-2018,Alle,Alle,deponert,11
-2018,Alle,Alle,lukket,7090
-2018,Alle,Humaniora,diamant,342
-2018,Alle,Humaniora,gull,91
-2018,Alle,Humaniora,hybrid,36
-2018,Alle,Humaniora,grønn,328
-2018,Alle,Humaniora,deponert,5
-2018,Alle,Humaniora,lukket,447
-2018,Alle,Medisin og helsefag,diamant,157
-2018,Alle,Medisin og helsefag,gull,1738
-2018,Alle,Medisin og helsefag,hybrid,782
-2018,Alle,Medisin og helsefag,grønn,1577
-2018,Alle,Medisin og helsefag,deponert,3
-2018,Alle,Medisin og helsefag,lukket,2523
-2018,Alle,Realfag og teknologi,diamant,316
-2018,Alle,Realfag og teknologi,gull,2175
-2018,Alle,Realfag og teknologi,hybrid,870
-2018,Alle,Realfag og teknologi,grønn,3264
-2018,Alle,Realfag og teknologi,deponert,2
-2018,Alle,Realfag og teknologi,lukket,2499
-2018,Alle,Samfunnsvitenskap,diamant,471
-2018,Alle,Samfunnsvitenskap,gull,380
-2018,Alle,Samfunnsvitenskap,hybrid,258
-2018,Alle,Samfunnsvitenskap,grønn,1139
-2018,Alle,Samfunnsvitenskap,deponert,1
-2018,Alle,Samfunnsvitenskap,lukket,1186
-2018,Helse,Alle,diamant,94
-2018,Helse,Alle,gull,1236
-2018,Helse,Alle,hybrid,475
-2018,Helse,Alle,grønn,887
-2018,Helse,Alle,deponert,3
-2018,Helse,Alle,lukket,1553
-2018,Helse,Humaniora,diamant,4
-2018,Helse,Humaniora,gull,1
-2018,Helse,Humaniora,hybrid,1
-2018,Helse,Humaniora,grønn,3
-2018,Helse,Humaniora,lukket,3
-2018,Helse,Medisin og helsefag,diamant,78
-2018,Helse,Medisin og helsefag,gull,916
-2018,Helse,Medisin og helsefag,hybrid,443
-2018,Helse,Medisin og helsefag,grønn,810
-2018,Helse,Medisin og helsefag,deponert,3
-2018,Helse,Medisin og helsefag,lukket,1436
-2018,Helse,Realfag og teknologi,diamant,6
-2018,Helse,Realfag og teknologi,gull,292
-2018,Helse,Realfag og teknologi,hybrid,20
-2018,Helse,Realfag og teknologi,grønn,56
-2018,Helse,Realfag og teknologi,lukket,85
-2018,Helse,Samfunnsvitenskap,diamant,6
-2018,Helse,Samfunnsvitenskap,gull,27
-2018,Helse,Samfunnsvitenskap,hybrid,9
-2018,Helse,Samfunnsvitenskap,grønn,16
-2018,Helse,Samfunnsvitenskap,lukket,26
-2018,Institutt,Alle,diamant,176
-2018,Institutt,Alle,gull,945
-2018,Institutt,Alle,hybrid,546
-2018,Institutt,Alle,grønn,1436
-2018,Institutt,Alle,deponert,2
-2018,Institutt,Alle,lukket,1097
-2018,Institutt,Humaniora,diamant,19
-2018,Institutt,Humaniora,gull,6
-2018,Institutt,Humaniora,hybrid,5
-2018,Institutt,Humaniora,grønn,27
-2018,Institutt,Humaniora,deponert,1
-2018,Institutt,Humaniora,lukket,28
-2018,Institutt,Medisin og helsefag,diamant,45
-2018,Institutt,Medisin og helsefag,gull,293
-2018,Institutt,Medisin og helsefag,hybrid,169
-2018,Institutt,Medisin og helsefag,grønn,273
-2018,Institutt,Medisin og helsefag,deponert,1
-2018,Institutt,Medisin og helsefag,lukket,292
-2018,Institutt,Realfag og teknologi,diamant,60
-2018,Institutt,Realfag og teknologi,gull,574
-2018,Institutt,Realfag og teknologi,hybrid,269
-2018,Institutt,Realfag og teknologi,grønn,847
-2018,Institutt,Realfag og teknologi,lukket,554
-2018,Institutt,Samfunnsvitenskap,diamant,52
-2018,Institutt,Samfunnsvitenskap,gull,69
-2018,Institutt,Samfunnsvitenskap,hybrid,99
-2018,Institutt,Samfunnsvitenskap,grønn,204
-2018,Institutt,Samfunnsvitenskap,lukket,149
-2018,UH,Alle,diamant,1161
-2018,UH,Alle,gull,3823
-2018,UH,Alle,hybrid,1597
-2018,UH,Alle,grønn,5972
-2018,UH,Alle,deponert,10
-2018,UH,Alle,lukket,6005
-2018,UH,Humaniora,diamant,328
-2018,UH,Humaniora,gull,88
-2018,UH,Humaniora,hybrid,32
-2018,UH,Humaniora,grønn,309
-2018,UH,Humaniora,deponert,5
-2018,UH,Humaniora,lukket,424
-2018,UH,Medisin og helsefag,diamant,111
-2018,UH,Medisin og helsefag,gull,1510
-2018,UH,Medisin og helsefag,hybrid,637
-2018,UH,Medisin og helsefag,grønn,1396
-2018,UH,Medisin og helsefag,deponert,2
-2018,UH,Medisin og helsefag,lukket,2013
-2018,UH,Realfag og teknologi,diamant,283
-2018,UH,Realfag og teknologi,gull,1865
-2018,UH,Realfag og teknologi,hybrid,723
-2018,UH,Realfag og teknologi,grønn,2916
-2018,UH,Realfag og teknologi,deponert,2
-2018,UH,Realfag og teknologi,lukket,2110
-2018,UH,Samfunnsvitenskap,diamant,439
-2018,UH,Samfunnsvitenskap,gull,343
-2018,UH,Samfunnsvitenskap,hybrid,185
-2018,UH,Samfunnsvitenskap,grønn,1035
-2018,UH,Samfunnsvitenskap,deponert,1
-2018,UH,Samfunnsvitenskap,lukket,1073
-2019,ABM,Alle,diamant,5
-2019,ABM,Alle,gull,2
-2019,ABM,Alle,grønn,6
-2019,ABM,Alle,lukket,8
-2019,ABM,Humaniora,diamant,5
-2019,ABM,Humaniora,gull,2
-2019,ABM,Humaniora,grønn,2
-2019,ABM,Humaniora,lukket,2
-2019,ABM,Realfag og teknologi,grønn,2
-2019,ABM,Samfunnsvitenskap,grønn,1
-2019,Alle,Alle,diamant,1314
-2019,Alle,Alle,gull,5543
-2019,Alle,Alle,hybrid,2007
-2019,Alle,Alle,hybrid_avtale,1235
-2019,Alle,Alle,grønn,6810
-2019,Alle,Alle,deponert,7
-2019,Alle,Alle,lukket,5793
-2019,Alle,Humaniora,diamant,371
-2019,Alle,Humaniora,gull,139
-2019,Alle,Humaniora,hybrid,49
-2019,Alle,Humaniora,hybrid_avtale,25
-2019,Alle,Humaniora,grønn,394
-2019,Alle,Humaniora,deponert,1
-2019,Alle,Humaniora,lukket,386
-2019,Alle,Medisin og helsefag,diamant,175
-2019,Alle,Medisin og helsefag,gull,2108
-2019,Alle,Medisin og helsefag,hybrid,772
-2019,Alle,Medisin og helsefag,hybrid_avtale,370
-2019,Alle,Medisin og helsefag,grønn,1755
-2019,Alle,Medisin og helsefag,deponert,4
-2019,Alle,Medisin og helsefag,lukket,1795
-2019,Alle,Realfag og teknologi,diamant,311
-2019,Alle,Realfag og teknologi,gull,2800
-2019,Alle,Realfag og teknologi,hybrid,897
-2019,Alle,Realfag og teknologi,hybrid_avtale,649
-2019,Alle,Realfag og teknologi,grønn,3083
-2019,Alle,Realfag og teknologi,deponert,1
-2019,Alle,Realfag og teknologi,lukket,2191
-2019,Alle,Samfunnsvitenskap,diamant,457
-2019,Alle,Samfunnsvitenskap,gull,433
-2019,Alle,Samfunnsvitenskap,hybrid,259
-2019,Alle,Samfunnsvitenskap,hybrid_avtale,189
-2019,Alle,Samfunnsvitenskap,grønn,1215
-2019,Alle,Samfunnsvitenskap,deponert,1
-2019,Alle,Samfunnsvitenskap,lukket,1035
-2019,Helse,Alle,diamant,116
-2019,Helse,Alle,gull,1424
-2019,Helse,Alle,hybrid,453
-2019,Helse,Alle,hybrid_avtale,209
-2019,Helse,Alle,grønn,1072
-2019,Helse,Alle,deponert,3
-2019,Helse,Alle,lukket,1138
-2019,Helse,Humaniora,diamant,3
-2019,Helse,Humaniora,gull,3
-2019,Helse,Humaniora,grønn,1
-2019,Helse,Humaniora,lukket,5
-2019,Helse,Medisin og helsefag,diamant,100
-2019,Helse,Medisin og helsefag,gull,1055
-2019,Helse,Medisin og helsefag,hybrid,416
-2019,Helse,Medisin og helsefag,hybrid_avtale,188
-2019,Helse,Medisin og helsefag,grønn,977
-2019,Helse,Medisin og helsefag,deponert,3
-2019,Helse,Medisin og helsefag,lukket,1014
-2019,Helse,Realfag og teknologi,diamant,6
-2019,Helse,Realfag og teknologi,gull,327
-2019,Helse,Realfag og teknologi,hybrid,28
-2019,Helse,Realfag og teknologi,hybrid_avtale,13
-2019,Helse,Realfag og teknologi,grønn,67
-2019,Helse,Realfag og teknologi,lukket,76
-2019,Helse,Samfunnsvitenskap,diamant,7
-2019,Helse,Samfunnsvitenskap,gull,37
-2019,Helse,Samfunnsvitenskap,hybrid,8
-2019,Helse,Samfunnsvitenskap,hybrid_avtale,8
-2019,Helse,Samfunnsvitenskap,grønn,25
-2019,Helse,Samfunnsvitenskap,lukket,34
-2019,Institutt,Alle,diamant,176
-2019,Institutt,Alle,gull,1265
-2019,Institutt,Alle,hybrid,496
-2019,Institutt,Alle,hybrid_avtale,342
-2019,Institutt,Alle,grønn,1310
-2019,Institutt,Alle,deponert,1
-2019,Institutt,Alle,lukket,947
-2019,Institutt,Humaniora,diamant,16
-2019,Institutt,Humaniora,gull,6
-2019,Institutt,Humaniora,hybrid,7
-2019,Institutt,Humaniora,hybrid_avtale,3
-2019,Institutt,Humaniora,grønn,8
-2019,Institutt,Humaniora,lukket,16
-2019,Institutt,Medisin og helsefag,diamant,36
-2019,Institutt,Medisin og helsefag,gull,350
-2019,Institutt,Medisin og helsefag,hybrid,140
-2019,Institutt,Medisin og helsefag,hybrid_avtale,65
-2019,Institutt,Medisin og helsefag,grønn,296
-2019,Institutt,Medisin og helsefag,deponert,1
-2019,Institutt,Medisin og helsefag,lukket,206
-2019,Institutt,Realfag og teknologi,diamant,56
-2019,Institutt,Realfag og teknologi,gull,822
-2019,Institutt,Realfag og teknologi,hybrid,259
-2019,Institutt,Realfag og teknologi,hybrid_avtale,249
-2019,Institutt,Realfag og teknologi,grønn,737
-2019,Institutt,Realfag og teknologi,lukket,500
-2019,Institutt,Samfunnsvitenskap,diamant,68
-2019,Institutt,Samfunnsvitenskap,gull,84
-2019,Institutt,Samfunnsvitenskap,hybrid,86
-2019,Institutt,Samfunnsvitenskap,hybrid_avtale,25
-2019,Institutt,Samfunnsvitenskap,grønn,170
-2019,Institutt,Samfunnsvitenskap,lukket,170
-2019,OTHER,Alle,diamant,7
-2019,OTHER,Alle,gull,3
-2019,OTHER,Alle,hybrid,3
-2019,OTHER,Alle,hybrid_avtale,5
-2019,OTHER,Alle,grønn,21
-2019,OTHER,Alle,lukket,14
-2019,OTHER,Humaniora,grønn,1
-2019,OTHER,Medisin og helsefag,gull,1
-2019,OTHER,Medisin og helsefag,grønn,2
-2019,OTHER,Medisin og helsefag,lukket,1
-2019,OTHER,Realfag og teknologi,gull,1
-2019,OTHER,Realfag og teknologi,grønn,3
-2019,OTHER,Samfunnsvitenskap,diamant,7
-2019,OTHER,Samfunnsvitenskap,gull,1
-2019,OTHER,Samfunnsvitenskap,hybrid,3
-2019,OTHER,Samfunnsvitenskap,hybrid_avtale,5
-2019,OTHER,Samfunnsvitenskap,grønn,15
-2019,OTHER,Samfunnsvitenskap,lukket,13
-2019,UH,Alle,diamant,1176
-2019,UH,Alle,gull,4775
-2019,UH,Alle,hybrid,1634
-2019,UH,Alle,hybrid_avtale,1120
-2019,UH,Alle,grønn,6157
-2019,UH,Alle,deponert,7
-2019,UH,Alle,lukket,4783
-2019,UH,Humaniora,diamant,354
-2019,UH,Humaniora,gull,135
-2019,UH,Humaniora,hybrid,46
-2019,UH,Humaniora,hybrid_avtale,24
-2019,UH,Humaniora,grønn,388
-2019,UH,Humaniora,deponert,1
-2019,UH,Humaniora,lukket,369
-2019,UH,Medisin og helsefag,diamant,133
-2019,UH,Medisin og helsefag,gull,1847
-2019,UH,Medisin og helsefag,hybrid,619
-2019,UH,Medisin og helsefag,hybrid_avtale,351
-2019,UH,Medisin og helsefag,grønn,1583
-2019,UH,Medisin og helsefag,deponert,4
-2019,UH,Medisin og helsefag,lukket,1367
-2019,UH,Realfag og teknologi,diamant,282
-2019,UH,Realfag og teknologi,gull,2354
-2019,UH,Realfag og teknologi,hybrid,742
-2019,UH,Realfag og teknologi,hybrid_avtale,564
-2019,UH,Realfag og teknologi,grønn,2736
-2019,UH,Realfag og teknologi,deponert,1
-2019,UH,Realfag og teknologi,lukket,1801
-2019,UH,Samfunnsvitenskap,diamant,407
-2019,UH,Samfunnsvitenskap,gull,378
-2019,UH,Samfunnsvitenskap,hybrid,198
-2019,UH,Samfunnsvitenskap,hybrid_avtale,179
-2019,UH,Samfunnsvitenskap,grønn,1124
-2019,UH,Samfunnsvitenskap,deponert,1
-2019,UH,Samfunnsvitenskap,lukket,903
-2020,ABM,Alle,diamant,8
-2020,ABM,Alle,hybrid,1
-2020,ABM,Alle,hybrid_avtale,1
-2020,ABM,Alle,grønn,2
-2020,ABM,Alle,lukket,8
-2020,ABM,Humaniora,diamant,7
-2020,ABM,Humaniora,hybrid,1
-2020,ABM,Humaniora,grønn,1
-2020,ABM,Humaniora,lukket,2
-2020,ABM,Samfunnsvitenskap,diamant,1
-2020,ABM,Samfunnsvitenskap,hybrid_avtale,1
-2020,ABM,Samfunnsvitenskap,lukket,2
-2020,Alle,Alle,diamant,1475
-2020,Alle,Alle,gull,6600
-2020,Alle,Alle,hybrid,2261
-2020,Alle,Alle,hybrid_avtale,3820
-2020,Alle,Alle,grønn,5417
-2020,Alle,Alle,deponert,34
-2020,Alle,Alle,lukket,4838
-2020,Alle,Humaniora,diamant,396
-2020,Alle,Humaniora,gull,160
-2020,Alle,Humaniora,hybrid,58
-2020,Alle,Humaniora,hybrid_avtale,202
-2020,Alle,Humaniora,grønn,253
-2020,Alle,Humaniora,deponert,2
-2020,Alle,Humaniora,lukket,338
-2020,Alle,Medisin og helsefag,diamant,187
-2020,Alle,Medisin og helsefag,gull,2470
-2020,Alle,Medisin og helsefag,hybrid,854
-2020,Alle,Medisin og helsefag,hybrid_avtale,1171
-2020,Alle,Medisin og helsefag,grønn,1304
-2020,Alle,Medisin og helsefag,deponert,2
-2020,Alle,Medisin og helsefag,lukket,1417
-2020,Alle,Realfag og teknologi,diamant,317
-2020,Alle,Realfag og teknologi,gull,3369
-2020,Alle,Realfag og teknologi,hybrid,1021
-2020,Alle,Realfag og teknologi,hybrid_avtale,1611
-2020,Alle,Realfag og teknologi,grønn,2522
-2020,Alle,Realfag og teknologi,deponert,12
-2020,Alle,Realfag og teknologi,lukket,1854
-2020,Alle,Samfunnsvitenskap,diamant,575
-2020,Alle,Samfunnsvitenskap,gull,498
-2020,Alle,Samfunnsvitenskap,hybrid,297
-2020,Alle,Samfunnsvitenskap,hybrid_avtale,836
-2020,Alle,Samfunnsvitenskap,grønn,876
-2020,Alle,Samfunnsvitenskap,deponert,4
-2020,Alle,Samfunnsvitenskap,lukket,819
-2020,Helse,Alle,diamant,94
-2020,Helse,Alle,gull,1686
-2020,Helse,Alle,hybrid,507
-2020,Helse,Alle,hybrid_avtale,723
-2020,Helse,Alle,grønn,710
-2020,Helse,Alle,deponert,2
-2020,Helse,Alle,lukket,826
-2020,Helse,Humaniora,diamant,2
-2020,Helse,Humaniora,gull,1
-2020,Helse,Humaniora,hybrid_avtale,1
-2020,Helse,Humaniora,lukket,2
-2020,Helse,Medisin og helsefag,diamant,88
-2020,Helse,Medisin og helsefag,gull,1285
-2020,Helse,Medisin og helsefag,hybrid,461
-2020,Helse,Medisin og helsefag,hybrid_avtale,669
-2020,Helse,Medisin og helsefag,grønn,641
-2020,Helse,Medisin og helsefag,deponert,1
-2020,Helse,Medisin og helsefag,lukket,750
-2020,Helse,Realfag og teknologi,diamant,2
-2020,Helse,Realfag og teknologi,gull,358
-2020,Helse,Realfag og teknologi,hybrid,40
-2020,Helse,Realfag og teknologi,hybrid_avtale,29
-2020,Helse,Realfag og teknologi,grønn,52
-2020,Helse,Realfag og teknologi,lukket,45
-2020,Helse,Samfunnsvitenskap,diamant,2
-2020,Helse,Samfunnsvitenskap,gull,42
-2020,Helse,Samfunnsvitenskap,hybrid,6
-2020,Helse,Samfunnsvitenskap,hybrid_avtale,24
-2020,Helse,Samfunnsvitenskap,grønn,7
-2020,Helse,Samfunnsvitenskap,lukket,19
-2020,Institutt,Alle,diamant,230
-2020,Institutt,Alle,gull,1453
-2020,Institutt,Alle,hybrid,575
-2020,Institutt,Alle,hybrid_avtale,899
-2020,Institutt,Alle,grønn,1013
-2020,Institutt,Alle,deponert,2
-2020,Institutt,Alle,lukket,871
-2020,Institutt,Humaniora,diamant,24
-2020,Institutt,Humaniora,gull,4
-2020,Institutt,Humaniora,hybrid,6
-2020,Institutt,Humaniora,hybrid_avtale,10
-2020,Institutt,Humaniora,grønn,20
-2020,Institutt,Humaniora,lukket,20
-2020,Institutt,Medisin og helsefag,diamant,53
-2020,Institutt,Medisin og helsefag,gull,389
-2020,Institutt,Medisin og helsefag,hybrid,144
-2020,Institutt,Medisin og helsefag,hybrid_avtale,196
-2020,Institutt,Medisin og helsefag,grønn,208
-2020,Institutt,Medisin og helsefag,lukket,137
-2020,Institutt,Realfag og teknologi,diamant,85
-2020,Institutt,Realfag og teknologi,gull,977
-2020,Institutt,Realfag og teknologi,hybrid,329
-2020,Institutt,Realfag og teknologi,hybrid_avtale,585
-2020,Institutt,Realfag og teknologi,grønn,522
-2020,Institutt,Realfag og teknologi,deponert,1
-2020,Institutt,Realfag og teknologi,lukket,499
-2020,Institutt,Samfunnsvitenskap,diamant,68
-2020,Institutt,Samfunnsvitenskap,gull,77
-2020,Institutt,Samfunnsvitenskap,hybrid,92
-2020,Institutt,Samfunnsvitenskap,hybrid_avtale,108
-2020,Institutt,Samfunnsvitenskap,grønn,139
-2020,Institutt,Samfunnsvitenskap,deponert,1
-2020,Institutt,Samfunnsvitenskap,lukket,124
-2020,OTHER,Alle,diamant,3
-2020,OTHER,Alle,gull,1
-2020,OTHER,Alle,hybrid,6
-2020,OTHER,Alle,hybrid_avtale,13
-2020,OTHER,Alle,grønn,14
-2020,OTHER,Alle,lukket,23
-2020,OTHER,Medisin og helsefag,hybrid_avtale,2
-2020,OTHER,Medisin og helsefag,grønn,2
-2020,OTHER,Realfag og teknologi,hybrid,1
-2020,OTHER,Realfag og teknologi,hybrid_avtale,1
-2020,OTHER,Realfag og teknologi,grønn,4
-2020,OTHER,Realfag og teknologi,lukket,3
-2020,OTHER,Samfunnsvitenskap,diamant,3
-2020,OTHER,Samfunnsvitenskap,gull,1
-2020,OTHER,Samfunnsvitenskap,hybrid,5
-2020,OTHER,Samfunnsvitenskap,hybrid_avtale,10
-2020,OTHER,Samfunnsvitenskap,grønn,8
-2020,OTHER,Samfunnsvitenskap,lukket,19
-2020,UH,Alle,diamant,1317
-2020,UH,Alle,gull,5662
-2020,UH,Alle,hybrid,1811
-2020,UH,Alle,hybrid_avtale,3502
-2020,UH,Alle,grønn,4853
-2020,UH,Alle,deponert,34
-2020,UH,Alle,lukket,3913
-2020,UH,Humaniora,diamant,377
-2020,UH,Humaniora,gull,158
-2020,UH,Humaniora,hybrid,54
-2020,UH,Humaniora,hybrid_avtale,197
-2020,UH,Humaniora,grønn,242
-2020,UH,Humaniora,deponert,2
-2020,UH,Humaniora,lukket,320
-2020,UH,Medisin og helsefag,diamant,145
-2020,UH,Medisin og helsefag,gull,2159
-2020,UH,Medisin og helsefag,hybrid,688
-2020,UH,Medisin og helsefag,hybrid_avtale,1094
-2020,UH,Medisin og helsefag,grønn,1109
-2020,UH,Medisin og helsefag,deponert,2
-2020,UH,Medisin og helsefag,lukket,1075
-2020,UH,Realfag og teknologi,diamant,265
-2020,UH,Realfag og teknologi,gull,2796
-2020,UH,Realfag og teknologi,hybrid,811
-2020,UH,Realfag og teknologi,hybrid_avtale,1417
-2020,UH,Realfag og teknologi,grønn,2288
-2020,UH,Realfag og teknologi,deponert,12
-2020,UH,Realfag og teknologi,lukket,1470
-2020,UH,Samfunnsvitenskap,diamant,530
-2020,UH,Samfunnsvitenskap,gull,448
-2020,UH,Samfunnsvitenskap,hybrid,227
-2020,UH,Samfunnsvitenskap,hybrid_avtale,794
-2020,UH,Samfunnsvitenskap,grønn,805
-2020,UH,Samfunnsvitenskap,deponert,4
-2020,UH,Samfunnsvitenskap,lukket,713
-2021,ABM,Alle,diamant,20
-2021,ABM,Alle,gull,4
-2021,ABM,Alle,hybrid_avtale,3
-2021,ABM,Alle,grønn,5
-2021,ABM,Alle,lukket,13
-2021,ABM,Humaniora,diamant,16
-2021,ABM,Humaniora,gull,1
-2021,ABM,Humaniora,hybrid_avtale,1
-2021,ABM,Humaniora,grønn,3
-2021,ABM,Humaniora,lukket,6
-2021,ABM,Medisin og helsefag,diamant,1
-2021,ABM,Medisin og helsefag,gull,2
-2021,ABM,Realfag og teknologi,diamant,1
-2021,ABM,Realfag og teknologi,gull,1
-2021,ABM,Realfag og teknologi,hybrid_avtale,2
-2021,ABM,Realfag og teknologi,grønn,1
-2021,ABM,Samfunnsvitenskap,diamant,2
-2021,ABM,Samfunnsvitenskap,grønn,1
-2021,Alle,Alle,diamant,1508
-2021,Alle,Alle,gull,8055
-2021,Alle,Alle,hybrid,2994
-2021,Alle,Alle,hybrid_avtale,4638
-2021,Alle,Alle,grønn,4783
-2021,Alle,Alle,deponert,32
-2021,Alle,Alle,lukket,4779
-2021,Alle,Humaniora,diamant,432
-2021,Alle,Humaniora,gull,178
-2021,Alle,Humaniora,hybrid,65
-2021,Alle,Humaniora,hybrid_avtale,280
-2021,Alle,Humaniora,grønn,256
-2021,Alle,Humaniora,deponert,1
-2021,Alle,Humaniora,lukket,297
-2021,Alle,Medisin og helsefag,diamant,193
-2021,Alle,Medisin og helsefag,gull,3151
-2021,Alle,Medisin og helsefag,hybrid,1061
-2021,Alle,Medisin og helsefag,hybrid_avtale,1397
-2021,Alle,Medisin og helsefag,grønn,1098
-2021,Alle,Medisin og helsefag,deponert,5
-2021,Alle,Medisin og helsefag,lukket,1404
-2021,Alle,Realfag og teknologi,diamant,335
-2021,Alle,Realfag og teknologi,gull,3988
-2021,Alle,Realfag og teknologi,hybrid,1455
-2021,Alle,Realfag og teknologi,hybrid_avtale,1876
-2021,Alle,Realfag og teknologi,grønn,2213
-2021,Alle,Realfag og teknologi,deponert,19
-2021,Alle,Realfag og teknologi,lukket,1843
-2021,Alle,Samfunnsvitenskap,diamant,548
-2021,Alle,Samfunnsvitenskap,gull,696
-2021,Alle,Samfunnsvitenskap,hybrid,366
-2021,Alle,Samfunnsvitenskap,hybrid_avtale,1085
-2021,Alle,Samfunnsvitenskap,grønn,820
-2021,Alle,Samfunnsvitenskap,deponert,1
-2021,Alle,Samfunnsvitenskap,lukket,838
-2021,Helse,Alle,diamant,122
-2021,Helse,Alle,gull,2059
-2021,Helse,Alle,hybrid,614
-2021,Helse,Alle,hybrid_avtale,911
-2021,Helse,Alle,grønn,552
-2021,Helse,Alle,deponert,2
-2021,Helse,Alle,lukket,831
-2021,Helse,Humaniora,diamant,6
-2021,Helse,Humaniora,gull,4
-2021,Helse,Humaniora,hybrid,1
-2021,Helse,Humaniora,hybrid_avtale,3
-2021,Helse,Humaniora,grønn,2
-2021,Helse,Humaniora,lukket,2
-2021,Helse,Medisin og helsefag,diamant,99
-2021,Helse,Medisin og helsefag,gull,1595
-2021,Helse,Medisin og helsefag,hybrid,559
-2021,Helse,Medisin og helsefag,hybrid_avtale,834
-2021,Helse,Medisin og helsefag,grønn,500
-2021,Helse,Medisin og helsefag,deponert,2
-2021,Helse,Medisin og helsefag,lukket,778
-2021,Helse,Realfag og teknologi,diamant,7
-2021,Helse,Realfag og teknologi,gull,406
-2021,Helse,Realfag og teknologi,hybrid,48
-2021,Helse,Realfag og teknologi,hybrid_avtale,34
-2021,Helse,Realfag og teknologi,grønn,36
-2021,Helse,Realfag og teknologi,lukket,28
-2021,Helse,Samfunnsvitenskap,diamant,10
-2021,Helse,Samfunnsvitenskap,gull,54
-2021,Helse,Samfunnsvitenskap,hybrid,6
-2021,Helse,Samfunnsvitenskap,hybrid_avtale,40
-2021,Helse,Samfunnsvitenskap,grønn,10
-2021,Helse,Samfunnsvitenskap,lukket,23
-2021,Institutt,Alle,diamant,189
-2021,Institutt,Alle,gull,1862
-2021,Institutt,Alle,hybrid,717
-2021,Institutt,Alle,hybrid_avtale,1089
-2021,Institutt,Alle,grønn,869
-2021,Institutt,Alle,deponert,4
-2021,Institutt,Alle,lukket,782
-2021,Institutt,Humaniora,diamant,16
-2021,Institutt,Humaniora,gull,5
-2021,Institutt,Humaniora,hybrid,5
-2021,Institutt,Humaniora,hybrid_avtale,13
-2021,Institutt,Humaniora,grønn,15
-2021,Institutt,Humaniora,lukket,11
-2021,Institutt,Medisin og helsefag,diamant,41
-2021,Institutt,Medisin og helsefag,gull,529
-2021,Institutt,Medisin og helsefag,hybrid,162
-2021,Institutt,Medisin og helsefag,hybrid_avtale,252
-2021,Institutt,Medisin og helsefag,grønn,157
-2021,Institutt,Medisin og helsefag,deponert,3
-2021,Institutt,Medisin og helsefag,lukket,128
-2021,Institutt,Realfag og teknologi,diamant,64
-2021,Institutt,Realfag og teknologi,gull,1186
-2021,Institutt,Realfag og teknologi,hybrid,447
-2021,Institutt,Realfag og teknologi,hybrid_avtale,665
-2021,Institutt,Realfag og teknologi,grønn,455
-2021,Institutt,Realfag og teknologi,deponert,1
-2021,Institutt,Realfag og teknologi,lukket,455
-2021,Institutt,Samfunnsvitenskap,diamant,68
-2021,Institutt,Samfunnsvitenskap,gull,140
-2021,Institutt,Samfunnsvitenskap,hybrid,92
-2021,Institutt,Samfunnsvitenskap,hybrid_avtale,159
-2021,Institutt,Samfunnsvitenskap,grønn,128
-2021,Institutt,Samfunnsvitenskap,lukket,117
-2021,OTHER,Alle,diamant,2
-2021,OTHER,Alle,gull,4
-2021,OTHER,Alle,hybrid,5
-2021,OTHER,Alle,hybrid_avtale,19
-2021,OTHER,Alle,grønn,22
-2021,OTHER,Alle,lukket,5
-2021,OTHER,Humaniora,grønn,1
-2021,OTHER,Medisin og helsefag,gull,1
-2021,OTHER,Medisin og helsefag,hybrid,1
-2021,OTHER,Medisin og helsefag,hybrid_avtale,2
-2021,OTHER,Realfag og teknologi,hybrid_avtale,1
-2021,OTHER,Realfag og teknologi,grønn,2
-2021,OTHER,Samfunnsvitenskap,diamant,2
-2021,OTHER,Samfunnsvitenskap,gull,3
-2021,OTHER,Samfunnsvitenskap,hybrid,4
-2021,OTHER,Samfunnsvitenskap,hybrid_avtale,16
-2021,OTHER,Samfunnsvitenskap,grønn,19
-2021,OTHER,Samfunnsvitenskap,lukket,5
-2021,UH,Alle,diamant,1355
-2021,UH,Alle,gull,6838
-2021,UH,Alle,hybrid,2425
-2021,UH,Alle,hybrid_avtale,4247
-2021,UH,Alle,grønn,4263
-2021,UH,Alle,deponert,31
-2021,UH,Alle,lukket,3836
-2021,UH,Humaniora,diamant,409
-2021,UH,Humaniora,gull,174
-2021,UH,Humaniora,hybrid,62
-2021,UH,Humaniora,hybrid_avtale,277
-2021,UH,Humaniora,grønn,247
-2021,UH,Humaniora,deponert,1
-2021,UH,Humaniora,lukket,282
-2021,UH,Medisin og helsefag,diamant,149
-2021,UH,Medisin og helsefag,gull,2733
-2021,UH,Medisin og helsefag,hybrid,825
-2021,UH,Medisin og helsefag,hybrid_avtale,1307
-2021,UH,Medisin og helsefag,grønn,946
-2021,UH,Medisin og helsefag,deponert,4
-2021,UH,Medisin og helsefag,lukket,1001
-2021,UH,Realfag og teknologi,diamant,288
-2021,UH,Realfag og teknologi,gull,3281
-2021,UH,Realfag og teknologi,hybrid,1203
-2021,UH,Realfag og teknologi,hybrid_avtale,1642
-2021,UH,Realfag og teknologi,grønn,1989
-2021,UH,Realfag og teknologi,deponert,19
-2021,UH,Realfag og teknologi,lukket,1477
-2021,UH,Samfunnsvitenskap,diamant,509
-2021,UH,Samfunnsvitenskap,gull,608
-2021,UH,Samfunnsvitenskap,hybrid,295
-2021,UH,Samfunnsvitenskap,hybrid_avtale,1021
-2021,UH,Samfunnsvitenskap,grønn,736
-2021,UH,Samfunnsvitenskap,deponert,1
-2021,UH,Samfunnsvitenskap,lukket,746
-2022,ABM,Alle,diamant,14
-2022,ABM,Alle,gull,2
-2022,ABM,Alle,hybrid,3
-2022,ABM,Alle,hybrid_avtale,1
-2022,ABM,Alle,grønn,6
-2022,ABM,Alle,lukket,17
-2022,ABM,Humaniora,diamant,12
-2022,ABM,Humaniora,hybrid,1
-2022,ABM,Humaniora,hybrid_avtale,1
-2022,ABM,Humaniora,grønn,6
-2022,ABM,Humaniora,lukket,8
-2022,ABM,Realfag og teknologi,gull,1
-2022,ABM,Realfag og teknologi,hybrid,1
-2022,ABM,Realfag og teknologi,lukket,1
-2022,ABM,Samfunnsvitenskap,diamant,2
-2022,ABM,Samfunnsvitenskap,gull,1
-2022,ABM,Samfunnsvitenskap,lukket,1
-2022,Alle,Alle,diamant,1494
-2022,Alle,Alle,gull,8302
-2022,Alle,Alle,hybrid,3228
-2022,Alle,Alle,hybrid_avtale,4419
-2022,Alle,Alle,grønn,3795
-2022,Alle,Alle,deponert,47
-2022,Alle,Alle,lukket,4042
-2022,Alle,Humaniora,diamant,406
-2022,Alle,Humaniora,gull,171
-2022,Alle,Humaniora,hybrid,87
-2022,Alle,Humaniora,hybrid_avtale,297
-2022,Alle,Humaniora,grønn,205
-2022,Alle,Humaniora,deponert,7
-2022,Alle,Humaniora,lukket,289
-2022,Alle,Medisin og helsefag,diamant,174
-2022,Alle,Medisin og helsefag,gull,3275
-2022,Alle,Medisin og helsefag,hybrid,1119
-2022,Alle,Medisin og helsefag,hybrid_avtale,1311
-2022,Alle,Medisin og helsefag,grønn,898
-2022,Alle,Medisin og helsefag,deponert,2
-2022,Alle,Medisin og helsefag,lukket,971
-2022,Alle,Realfag og teknologi,diamant,331
-2022,Alle,Realfag og teknologi,gull,4009
-2022,Alle,Realfag og teknologi,hybrid,1416
-2022,Alle,Realfag og teknologi,hybrid_avtale,1716
-2022,Alle,Realfag og teknologi,grønn,1720
-2022,Alle,Realfag og teknologi,deponert,27
-2022,Alle,Realfag og teknologi,lukket,1656
-2022,Alle,Samfunnsvitenskap,diamant,583
-2022,Alle,Samfunnsvitenskap,gull,770
-2022,Alle,Samfunnsvitenskap,hybrid,532
-2022,Alle,Samfunnsvitenskap,hybrid_avtale,1094
-2022,Alle,Samfunnsvitenskap,grønn,651
-2022,Alle,Samfunnsvitenskap,deponert,4
-2022,Alle,Samfunnsvitenskap,lukket,703
-2022,Helse,Alle,diamant,96
-2022,Helse,Alle,gull,2109
-2022,Helse,Alle,hybrid,636
-2022,Helse,Alle,hybrid_avtale,863
-2022,Helse,Alle,grønn,512
-2022,Helse,Alle,deponert,2
-2022,Helse,Alle,lukket,615
-2022,Helse,Humaniora,diamant,3
-2022,Helse,Humaniora,gull,3
-2022,Helse,Humaniora,hybrid,2
-2022,Helse,Humaniora,hybrid_avtale,5
-2022,Helse,Humaniora,grønn,3
-2022,Helse,Humaniora,lukket,1
-2022,Helse,Medisin og helsefag,diamant,78
-2022,Helse,Medisin og helsefag,gull,1650
-2022,Helse,Medisin og helsefag,hybrid,558
-2022,Helse,Medisin og helsefag,hybrid_avtale,787
-2022,Helse,Medisin og helsefag,grønn,454
-2022,Helse,Medisin og helsefag,deponert,1
-2022,Helse,Medisin og helsefag,lukket,558
-2022,Helse,Realfag og teknologi,diamant,2
-2022,Helse,Realfag og teknologi,gull,410
-2022,Helse,Realfag og teknologi,hybrid,64
-2022,Helse,Realfag og teknologi,hybrid_avtale,43
-2022,Helse,Realfag og teknologi,grønn,43
-2022,Helse,Realfag og teknologi,lukket,27
-2022,Helse,Samfunnsvitenskap,diamant,13
-2022,Helse,Samfunnsvitenskap,gull,45
-2022,Helse,Samfunnsvitenskap,hybrid,6
-2022,Helse,Samfunnsvitenskap,hybrid_avtale,28
-2022,Helse,Samfunnsvitenskap,grønn,10
-2022,Helse,Samfunnsvitenskap,deponert,1
-2022,Helse,Samfunnsvitenskap,lukket,18
-2022,Institutt,Alle,diamant,197
-2022,Institutt,Alle,gull,1858
-2022,Institutt,Alle,hybrid,748
-2022,Institutt,Alle,hybrid_avtale,1035
-2022,Institutt,Alle,grønn,697
-2022,Institutt,Alle,deponert,1
-2022,Institutt,Alle,lukket,646
-2022,Institutt,Humaniora,diamant,23
-2022,Institutt,Humaniora,gull,9
-2022,Institutt,Humaniora,hybrid,6
-2022,Institutt,Humaniora,hybrid_avtale,15
-2022,Institutt,Humaniora,grønn,10
-2022,Institutt,Humaniora,lukket,12
-2022,Institutt,Medisin og helsefag,diamant,35
-2022,Institutt,Medisin og helsefag,gull,584
-2022,Institutt,Medisin og helsefag,hybrid,196
-2022,Institutt,Medisin og helsefag,hybrid_avtale,248
-2022,Institutt,Medisin og helsefag,grønn,139
-2022,Institutt,Medisin og helsefag,lukket,96
-2022,Institutt,Realfag og teknologi,diamant,54
-2022,Institutt,Realfag og teknologi,gull,1119
-2022,Institutt,Realfag og teknologi,hybrid,428
-2022,Institutt,Realfag og teknologi,hybrid_avtale,595
-2022,Institutt,Realfag og teknologi,grønn,361
-2022,Institutt,Realfag og teknologi,lukket,360
-2022,Institutt,Samfunnsvitenskap,diamant,85
-2022,Institutt,Samfunnsvitenskap,gull,134
-2022,Institutt,Samfunnsvitenskap,hybrid,104
-2022,Institutt,Samfunnsvitenskap,hybrid_avtale,177
-2022,Institutt,Samfunnsvitenskap,grønn,102
-2022,Institutt,Samfunnsvitenskap,deponert,1
-2022,Institutt,Samfunnsvitenskap,lukket,109
-2022,OTHER,Alle,diamant,6
-2022,OTHER,Alle,gull,5
-2022,OTHER,Alle,hybrid,5
-2022,OTHER,Alle,hybrid_avtale,10
-2022,OTHER,Alle,grønn,18
-2022,OTHER,Alle,lukket,14
-2022,OTHER,Medisin og helsefag,gull,2
-2022,OTHER,Medisin og helsefag,hybrid_avtale,1
-2022,OTHER,Medisin og helsefag,lukket,1
-2022,OTHER,Realfag og teknologi,hybrid,1
-2022,OTHER,Realfag og teknologi,hybrid_avtale,1
-2022,OTHER,Realfag og teknologi,grønn,4
-2022,OTHER,Realfag og teknologi,lukket,2
-2022,OTHER,Samfunnsvitenskap,diamant,6
-2022,OTHER,Samfunnsvitenskap,gull,3
-2022,OTHER,Samfunnsvitenskap,hybrid,3
-2022,OTHER,Samfunnsvitenskap,hybrid_avtale,8
-2022,OTHER,Samfunnsvitenskap,grønn,14
-2022,OTHER,Samfunnsvitenskap,lukket,11
-2022,UH,Alle,diamant,1358
-2022,UH,Alle,gull,7140
-2022,UH,Alle,hybrid,2604
-2022,UH,Alle,hybrid_avtale,4109
-2022,UH,Alle,grønn,3372
-2022,UH,Alle,deponert,47
-2022,UH,Alle,lukket,3321
-2022,UH,Humaniora,diamant,383
-2022,UH,Humaniora,gull,167
-2022,UH,Humaniora,hybrid,80
-2022,UH,Humaniora,hybrid_avtale,293
-2022,UH,Humaniora,grønn,198
-2022,UH,Humaniora,deponert,7
-2022,UH,Humaniora,lukket,277
-2022,UH,Medisin og helsefag,diamant,136
-2022,UH,Medisin og helsefag,gull,2848
-2022,UH,Medisin og helsefag,hybrid,853
-2022,UH,Medisin og helsefag,hybrid_avtale,1243
-2022,UH,Medisin og helsefag,grønn,753
-2022,UH,Medisin og helsefag,deponert,2
-2022,UH,Medisin og helsefag,lukket,685
-2022,UH,Realfag og teknologi,diamant,301
-2022,UH,Realfag og teknologi,gull,3366
-2022,UH,Realfag og teknologi,hybrid,1159
-2022,UH,Realfag og teknologi,hybrid_avtale,1536
-2022,UH,Realfag og teknologi,grønn,1550
-2022,UH,Realfag og teknologi,deponert,27
-2022,UH,Realfag og teknologi,lukket,1369
-2022,UH,Samfunnsvitenskap,diamant,538
-2022,UH,Samfunnsvitenskap,gull,692
-2022,UH,Samfunnsvitenskap,hybrid,448
-2022,UH,Samfunnsvitenskap,hybrid_avtale,1036
-2022,UH,Samfunnsvitenskap,grønn,584
-2022,UH,Samfunnsvitenskap,deponert,4
-2022,UH,Samfunnsvitenskap,lukket,618
-2023,ABM,Alle,diamant,25
-2023,ABM,Alle,gull,5
-2023,ABM,Alle,hybrid_avtale,4
-2023,ABM,Alle,grønn,12
-2023,ABM,Alle,deponert,1
-2023,ABM,Alle,lukket,16
-2023,ABM,Humaniora,diamant,24
-2023,ABM,Humaniora,gull,3
-2023,ABM,Humaniora,hybrid_avtale,2
-2023,ABM,Humaniora,grønn,6
-2023,ABM,Humaniora,deponert,1
-2023,ABM,Humaniora,lukket,5
-2023,ABM,Medisin og helsefag,gull,1
-2023,ABM,Realfag og teknologi,gull,1
-2023,ABM,Realfag og teknologi,hybrid_avtale,1
-2023,ABM,Realfag og teknologi,grønn,1
-2023,ABM,Realfag og teknologi,lukket,1
-2023,ABM,Samfunnsvitenskap,diamant,1
-2023,ABM,Samfunnsvitenskap,hybrid_avtale,1
-2023,ABM,Samfunnsvitenskap,lukket,2
-2023,Alle,Alle,diamant,1693
-2023,Alle,Alle,gull,8281
-2023,Alle,Alle,hybrid,3622
-2023,Alle,Alle,hybrid_avtale,4829
-2023,Alle,Alle,grønn,3196
-2023,Alle,Alle,deponert,80
-2023,Alle,Alle,lukket,3597
-2023,Alle,Humaniora,diamant,465
-2023,Alle,Humaniora,gull,217
-2023,Alle,Humaniora,hybrid,135
-2023,Alle,Humaniora,hybrid_avtale,283
-2023,Alle,Humaniora,grønn,192
-2023,Alle,Humaniora,deponert,2
-2023,Alle,Humaniora,lukket,293
-2023,Alle,Medisin og helsefag,diamant,166
-2023,Alle,Medisin og helsefag,gull,3098
-2023,Alle,Medisin og helsefag,hybrid,1333
-2023,Alle,Medisin og helsefag,hybrid_avtale,1464
-2023,Alle,Medisin og helsefag,grønn,693
-2023,Alle,Medisin og helsefag,deponert,2
-2023,Alle,Medisin og helsefag,lukket,797
-2023,Alle,Realfag og teknologi,diamant,487
-2023,Alle,Realfag og teknologi,gull,4106
-2023,Alle,Realfag og teknologi,hybrid,1478
-2023,Alle,Realfag og teknologi,hybrid_avtale,1845
-2023,Alle,Realfag og teknologi,grønn,1437
-2023,Alle,Realfag og teknologi,deponert,54
-2023,Alle,Realfag og teknologi,lukket,1469
-2023,Alle,Samfunnsvitenskap,diamant,575
-2023,Alle,Samfunnsvitenskap,gull,778
-2023,Alle,Samfunnsvitenskap,hybrid,596
-2023,Alle,Samfunnsvitenskap,hybrid_avtale,1236
-2023,Alle,Samfunnsvitenskap,grønn,517
-2023,Alle,Samfunnsvitenskap,deponert,8
-2023,Alle,Samfunnsvitenskap,lukket,583
-2023,Helse,Alle,diamant,108
-2023,Helse,Alle,gull,2031
-2023,Helse,Alle,hybrid,729
-2023,Helse,Alle,hybrid_avtale,906
-2023,Helse,Alle,grønn,399
-2023,Helse,Alle,lukket,449
-2023,Helse,Humaniora,diamant,5
-2023,Helse,Humaniora,gull,1
-2023,Helse,Humaniora,hybrid,1
-2023,Helse,Humaniora,hybrid_avtale,2
-2023,Helse,Humaniora,lukket,3
-2023,Helse,Medisin og helsefag,diamant,82
-2023,Helse,Medisin og helsefag,gull,1587
-2023,Helse,Medisin og helsefag,hybrid,668
-2023,Helse,Medisin og helsefag,hybrid_avtale,845
-2023,Helse,Medisin og helsefag,grønn,351
-2023,Helse,Medisin og helsefag,lukket,404
-2023,Helse,Realfag og teknologi,diamant,6
-2023,Helse,Realfag og teknologi,gull,385
-2023,Helse,Realfag og teknologi,hybrid,46
-2023,Helse,Realfag og teknologi,hybrid_avtale,24
-2023,Helse,Realfag og teknologi,grønn,35
-2023,Helse,Realfag og teknologi,lukket,24
-2023,Helse,Samfunnsvitenskap,diamant,15
-2023,Helse,Samfunnsvitenskap,gull,58
-2023,Helse,Samfunnsvitenskap,hybrid,14
-2023,Helse,Samfunnsvitenskap,hybrid_avtale,35
-2023,Helse,Samfunnsvitenskap,grønn,9
-2023,Helse,Samfunnsvitenskap,lukket,13
-2023,Institutt,Alle,diamant,208
-2023,Institutt,Alle,gull,1846
-2023,Institutt,Alle,hybrid,818
-2023,Institutt,Alle,hybrid_avtale,1107
-2023,Institutt,Alle,grønn,603
-2023,Institutt,Alle,deponert,14
-2023,Institutt,Alle,lukket,559
-2023,Institutt,Humaniora,diamant,22
-2023,Institutt,Humaniora,gull,19
-2023,Institutt,Humaniora,hybrid,10
-2023,Institutt,Humaniora,hybrid_avtale,15
-2023,Institutt,Humaniora,grønn,9
-2023,Institutt,Humaniora,lukket,10
-2023,Institutt,Medisin og helsefag,diamant,38
-2023,Institutt,Medisin og helsefag,gull,476
-2023,Institutt,Medisin og helsefag,hybrid,208
-2023,Institutt,Medisin og helsefag,hybrid_avtale,285
-2023,Institutt,Medisin og helsefag,grønn,98
-2023,Institutt,Medisin og helsefag,lukket,73
-2023,Institutt,Realfag og teknologi,diamant,62
-2023,Institutt,Realfag og teknologi,gull,1197
-2023,Institutt,Realfag og teknologi,hybrid,435
-2023,Institutt,Realfag og teknologi,hybrid_avtale,622
-2023,Institutt,Realfag og teknologi,grønn,330
-2023,Institutt,Realfag og teknologi,deponert,8
-2023,Institutt,Realfag og teknologi,lukket,327
-2023,Institutt,Samfunnsvitenskap,diamant,86
-2023,Institutt,Samfunnsvitenskap,gull,138
-2023,Institutt,Samfunnsvitenskap,hybrid,149
-2023,Institutt,Samfunnsvitenskap,hybrid_avtale,185
-2023,Institutt,Samfunnsvitenskap,grønn,74
-2023,Institutt,Samfunnsvitenskap,deponert,3
-2023,Institutt,Samfunnsvitenskap,lukket,84
-2023,OTHER,Alle,gull,6
-2023,OTHER,Alle,hybrid,4
-2023,OTHER,Alle,hybrid_avtale,21
-2023,OTHER,Alle,grønn,16
-2023,OTHER,Alle,lukket,7
-2023,OTHER,Humaniora,hybrid_avtale,1
-2023,OTHER,Medisin og helsefag,gull,3
-2023,OTHER,Medisin og helsefag,hybrid,1
-2023,OTHER,Medisin og helsefag,hybrid_avtale,1
-2023,OTHER,Medisin og helsefag,grønn,1
-2023,OTHER,Realfag og teknologi,gull,1
-2023,OTHER,Realfag og teknologi,hybrid_avtale,3
-2023,OTHER,Realfag og teknologi,grønn,1
-2023,OTHER,Samfunnsvitenskap,gull,2
-2023,OTHER,Samfunnsvitenskap,hybrid,3
-2023,OTHER,Samfunnsvitenskap,hybrid_avtale,16
-2023,OTHER,Samfunnsvitenskap,grønn,13
-2023,OTHER,Samfunnsvitenskap,lukket,7
-2023,UH,Alle,diamant,1524
-2023,UH,Alle,gull,7092
-2023,UH,Alle,hybrid,2898
-2023,UH,Alle,hybrid_avtale,4462
-2023,UH,Alle,grønn,2821
-2023,UH,Alle,deponert,80
-2023,UH,Alle,lukket,3036
-2023,UH,Humaniora,diamant,433
-2023,UH,Humaniora,gull,210
-2023,UH,Humaniora,hybrid,128
-2023,UH,Humaniora,hybrid_avtale,273
-2023,UH,Humaniora,grønn,182
-2023,UH,Humaniora,deponert,2
-2023,UH,Humaniora,lukket,282
-2023,UH,Medisin og helsefag,diamant,130
-2023,UH,Medisin og helsefag,gull,2717
-2023,UH,Medisin og helsefag,hybrid,1037
-2023,UH,Medisin og helsefag,hybrid_avtale,1387
-2023,UH,Medisin og helsefag,grønn,579
-2023,UH,Medisin og helsefag,deponert,2
-2023,UH,Medisin og helsefag,lukket,612
-2023,UH,Realfag og teknologi,diamant,437
-2023,UH,Realfag og teknologi,gull,3405
-2023,UH,Realfag og teknologi,hybrid,1175
-2023,UH,Realfag og teknologi,hybrid_avtale,1643
-2023,UH,Realfag og teknologi,grønn,1287
-2023,UH,Realfag og teknologi,deponert,54
-2023,UH,Realfag og teknologi,lukket,1231
-2023,UH,Samfunnsvitenskap,diamant,524
-2023,UH,Samfunnsvitenskap,gull,687
-2023,UH,Samfunnsvitenskap,hybrid,487
-2023,UH,Samfunnsvitenskap,hybrid_avtale,1158
-2023,UH,Samfunnsvitenskap,grønn,464
-2023,UH,Samfunnsvitenskap,deponert,8
-2023,UH,Samfunnsvitenskap,lukket,512
-2024,ABM,Alle,diamant,17
-2024,ABM,Alle,gull,4
-2024,ABM,Alle,hybrid,3
-2024,ABM,Alle,hybrid_avtale,2
-2024,ABM,Alle,grønn,9
-2024,ABM,Alle,lukket,8
-2024,ABM,Humaniora,diamant,16
-2024,ABM,Humaniora,gull,1
-2024,ABM,Humaniora,hybrid,3
-2024,ABM,Humaniora,hybrid_avtale,1
-2024,ABM,Humaniora,grønn,3
-2024,ABM,Humaniora,lukket,5
-2024,ABM,Medisin og helsefag,hybrid_avtale,1
-2024,ABM,Realfag og teknologi,diamant,1
-2024,ABM,Realfag og teknologi,gull,2
-2024,ABM,Realfag og teknologi,grønn,2
-2024,ABM,Samfunnsvitenskap,gull,1
-2024,ABM,Samfunnsvitenskap,grønn,1
-2024,Alle,Alle,diamant,1741
-2024,Alle,Alle,gull,8211
-2024,Alle,Alle,hybrid,3812
-2024,Alle,Alle,hybrid_avtale,5124
-2024,Alle,Alle,grønn,2604
-2024,Alle,Alle,deponert,97
-2024,Alle,Alle,lukket,3515
-2024,Alle,Humaniora,diamant,430
-2024,Alle,Humaniora,gull,196
-2024,Alle,Humaniora,hybrid,122
-2024,Alle,Humaniora,hybrid_avtale,328
-2024,Alle,Humaniora,grønn,144
-2024,Alle,Humaniora,deponert,8
-2024,Alle,Humaniora,lukket,249
-2024,Alle,Medisin og helsefag,diamant,214
-2024,Alle,Medisin og helsefag,gull,3103
-2024,Alle,Medisin og helsefag,hybrid,1364
-2024,Alle,Medisin og helsefag,hybrid_avtale,1511
-2024,Alle,Medisin og helsefag,grønn,631
-2024,Alle,Medisin og helsefag,deponert,8
-2024,Alle,Medisin og helsefag,lukket,805
-2024,Alle,Realfag og teknologi,diamant,478
-2024,Alle,Realfag og teknologi,gull,4082
-2024,Alle,Realfag og teknologi,hybrid,1632
-2024,Alle,Realfag og teknologi,hybrid_avtale,1954
-2024,Alle,Realfag og teknologi,grønn,1104
-2024,Alle,Realfag og teknologi,deponert,57
-2024,Alle,Realfag og teknologi,lukket,1462
-2024,Alle,Samfunnsvitenskap,diamant,619
-2024,Alle,Samfunnsvitenskap,gull,795
-2024,Alle,Samfunnsvitenskap,hybrid,593
-2024,Alle,Samfunnsvitenskap,hybrid_avtale,1330
-2024,Alle,Samfunnsvitenskap,grønn,439
-2024,Alle,Samfunnsvitenskap,deponert,12
-2024,Alle,Samfunnsvitenskap,lukket,618
-2024,Helse,Alle,diamant,120
-2024,Helse,Alle,gull,2138
-2024,Helse,Alle,hybrid,720
-2024,Helse,Alle,hybrid_avtale,923
-2024,Helse,Alle,grønn,363
-2024,Helse,Alle,deponert,6
-2024,Helse,Alle,lukket,491
-2024,Helse,Humaniora,diamant,1
-2024,Helse,Humaniora,hybrid,1
-2024,Helse,Humaniora,hybrid_avtale,6
-2024,Helse,Humaniora,lukket,1
-2024,Helse,Medisin og helsefag,diamant,103
-2024,Helse,Medisin og helsefag,gull,1682
-2024,Helse,Medisin og helsefag,hybrid,667
-2024,Helse,Medisin og helsefag,hybrid_avtale,853
-2024,Helse,Medisin og helsefag,grønn,327
-2024,Helse,Medisin og helsefag,deponert,5
-2024,Helse,Medisin og helsefag,lukket,450
-2024,Helse,Realfag og teknologi,diamant,5
-2024,Helse,Realfag og teknologi,gull,401
-2024,Helse,Realfag og teknologi,hybrid,40
-2024,Helse,Realfag og teknologi,hybrid_avtale,27
-2024,Helse,Realfag og teknologi,grønn,25
-2024,Helse,Realfag og teknologi,lukket,24
-2024,Helse,Samfunnsvitenskap,diamant,11
-2024,Helse,Samfunnsvitenskap,gull,54
-2024,Helse,Samfunnsvitenskap,hybrid,9
-2024,Helse,Samfunnsvitenskap,hybrid_avtale,37
-2024,Helse,Samfunnsvitenskap,grønn,10
-2024,Helse,Samfunnsvitenskap,lukket,11
-2024,Institutt,Alle,diamant,233
-2024,Institutt,Alle,gull,1878
-2024,Institutt,Alle,hybrid,889
-2024,Institutt,Alle,hybrid_avtale,1162
-2024,Institutt,Alle,grønn,465
-2024,Institutt,Alle,deponert,11
-2024,Institutt,Alle,lukket,575
-2024,Institutt,Humaniora,diamant,24
-2024,Institutt,Humaniora,gull,7
-2024,Institutt,Humaniora,hybrid,3
-2024,Institutt,Humaniora,hybrid_avtale,17
-2024,Institutt,Humaniora,grønn,4
-2024,Institutt,Humaniora,deponert,1
-2024,Institutt,Humaniora,lukket,12
-2024,Institutt,Medisin og helsefag,diamant,44
-2024,Institutt,Medisin og helsefag,gull,522
-2024,Institutt,Medisin og helsefag,hybrid,219
-2024,Institutt,Medisin og helsefag,hybrid_avtale,257
-2024,Institutt,Medisin og helsefag,grønn,78
-2024,Institutt,Medisin og helsefag,deponert,2
-2024,Institutt,Medisin og helsefag,lukket,57
-2024,Institutt,Realfag og teknologi,diamant,79
-2024,Institutt,Realfag og teknologi,gull,1200
-2024,Institutt,Realfag og teknologi,hybrid,476
-2024,Institutt,Realfag og teknologi,hybrid_avtale,669
-2024,Institutt,Realfag og teknologi,grønn,245
-2024,Institutt,Realfag og teknologi,deponert,4
-2024,Institutt,Realfag og teknologi,lukket,348
-2024,Institutt,Samfunnsvitenskap,diamant,86
-2024,Institutt,Samfunnsvitenskap,gull,148
-2024,Institutt,Samfunnsvitenskap,hybrid,152
-2024,Institutt,Samfunnsvitenskap,hybrid_avtale,218
-2024,Institutt,Samfunnsvitenskap,grønn,62
-2024,Institutt,Samfunnsvitenskap,deponert,1
-2024,Institutt,Samfunnsvitenskap,lukket,81
-2024,OTHER,Alle,diamant,1
-2024,OTHER,Alle,gull,10
-2024,OTHER,Alle,hybrid,5
-2024,OTHER,Alle,hybrid_avtale,13
-2024,OTHER,Alle,grønn,2
-2024,OTHER,Alle,lukket,11
-2024,OTHER,Medisin og helsefag,diamant,1
-2024,OTHER,Medisin og helsefag,gull,4
-2024,OTHER,Medisin og helsefag,hybrid,1
-2024,OTHER,Medisin og helsefag,hybrid_avtale,1
-2024,OTHER,Realfag og teknologi,gull,4
-2024,OTHER,Realfag og teknologi,hybrid,1
-2024,OTHER,Realfag og teknologi,hybrid_avtale,2
-2024,OTHER,Realfag og teknologi,lukket,1
-2024,OTHER,Samfunnsvitenskap,gull,2
-2024,OTHER,Samfunnsvitenskap,hybrid,3
-2024,OTHER,Samfunnsvitenskap,hybrid_avtale,10
-2024,OTHER,Samfunnsvitenskap,grønn,2
-2024,OTHER,Samfunnsvitenskap,lukket,10
-2024,UH,Alle,diamant,1563
-2024,UH,Alle,gull,6986
-2024,UH,Alle,hybrid,2992
-2024,UH,Alle,hybrid_avtale,4732
-2024,UH,Alle,grønn,2258
-2024,UH,Alle,deponert,95
-2024,UH,Alle,lukket,2931
-2024,UH,Humaniora,diamant,404
-2024,UH,Humaniora,gull,193
-2024,UH,Humaniora,hybrid,118
-2024,UH,Humaniora,hybrid_avtale,316
-2024,UH,Humaniora,grønn,141
-2024,UH,Humaniora,deponert,7
-2024,UH,Humaniora,lukket,235
-2024,UH,Medisin og helsefag,diamant,172
-2024,UH,Medisin og helsefag,gull,2669
-2024,UH,Medisin og helsefag,hybrid,1024
-2024,UH,Medisin og helsefag,hybrid_avtale,1436
-2024,UH,Medisin og helsefag,grønn,489
-2024,UH,Medisin og helsefag,deponert,8
-2024,UH,Medisin og helsefag,lukket,611
-2024,UH,Realfag og teknologi,diamant,420
-2024,UH,Realfag og teknologi,gull,3383
-2024,UH,Realfag og teknologi,hybrid,1295
-2024,UH,Realfag og teknologi,hybrid_avtale,1724
-2024,UH,Realfag og teknologi,grønn,982
-2024,UH,Realfag og teknologi,deponert,57
-2024,UH,Realfag og teknologi,lukket,1202
-2024,UH,Samfunnsvitenskap,diamant,567
-2024,UH,Samfunnsvitenskap,gull,707
-2024,UH,Samfunnsvitenskap,hybrid,482
-2024,UH,Samfunnsvitenskap,hybrid_avtale,1255
-2024,UH,Samfunnsvitenskap,grønn,398
-2024,UH,Samfunnsvitenskap,deponert,11
-2024,UH,Samfunnsvitenskap,lukket,556
-2025,ABM,Alle,diamant,12
-2025,ABM,Alle,gull,6
-2025,ABM,Alle,hybrid,6
-2025,ABM,Alle,hybrid_avtale,3
-2025,ABM,Alle,grønn,9
-2025,ABM,Alle,deponert,1
-2025,ABM,Alle,lukket,14
-2025,ABM,Humaniora,diamant,11
-2025,ABM,Humaniora,gull,3
-2025,ABM,Humaniora,hybrid,5
-2025,ABM,Humaniora,hybrid_avtale,1
-2025,ABM,Humaniora,grønn,6
-2025,ABM,Humaniora,lukket,13
-2025,ABM,Medisin og helsefag,hybrid,1
-2025,ABM,Medisin og helsefag,grønn,1
-2025,ABM,Realfag og teknologi,gull,3
-2025,ABM,Realfag og teknologi,hybrid_avtale,1
-2025,ABM,Realfag og teknologi,grønn,2
-2025,ABM,Realfag og teknologi,deponert,1
-2025,ABM,Samfunnsvitenskap,diamant,1
-2025,ABM,Samfunnsvitenskap,hybrid_avtale,1
-2025,ABM,Samfunnsvitenskap,lukket,1
-2025,Alle,Alle,diamant,1849
-2025,Alle,Alle,gull,8410
-2025,Alle,Alle,hybrid,4153
-2025,Alle,Alle,hybrid_avtale,4467
-2025,Alle,Alle,grønn,2731
-2025,Alle,Alle,deponert,750
-2025,Alle,Alle,lukket,3364
-2025,Alle,Humaniora,diamant,394
-2025,Alle,Humaniora,gull,257
-2025,Alle,Humaniora,hybrid,196
-2025,Alle,Humaniora,hybrid_avtale,327
-2025,Alle,Humaniora,grønn,235
-2025,Alle,Humaniora,deponert,89
-2025,Alle,Humaniora,lukket,250
-2025,Alle,Medisin og helsefag,diamant,217
-2025,Alle,Medisin og helsefag,gull,3162
-2025,Alle,Medisin og helsefag,hybrid,1477
-2025,Alle,Medisin og helsefag,hybrid_avtale,1235
-2025,Alle,Medisin og helsefag,grønn,745
-2025,Alle,Medisin og helsefag,deponert,157
-2025,Alle,Medisin og helsefag,lukket,900
-2025,Alle,Realfag og teknologi,diamant,556
-2025,Alle,Realfag og teknologi,gull,4033
-2025,Alle,Realfag og teknologi,hybrid,1860
-2025,Alle,Realfag og teknologi,hybrid_avtale,1709
-2025,Alle,Realfag og teknologi,grønn,1216
-2025,Alle,Realfag og teknologi,deponert,326
-2025,Alle,Realfag og teknologi,lukket,1608
-2025,Alle,Samfunnsvitenskap,diamant,682
-2025,Alle,Samfunnsvitenskap,gull,958
-2025,Alle,Samfunnsvitenskap,hybrid,620
-2025,Alle,Samfunnsvitenskap,hybrid_avtale,1196
-2025,Alle,Samfunnsvitenskap,grønn,535
-2025,Alle,Samfunnsvitenskap,deponert,178
-2025,Alle,Samfunnsvitenskap,lukket,606
-2025,Helse,Alle,diamant,121
-2025,Helse,Alle,gull,2238
-2025,Helse,Alle,hybrid,874
-2025,Helse,Alle,hybrid_avtale,730
-2025,Helse,Alle,grønn,421
-2025,Helse,Alle,deponert,93
-2025,Helse,Alle,lukket,550
-2025,Helse,Humaniora,gull,3
-2025,Helse,Humaniora,hybrid,4
-2025,Helse,Humaniora,hybrid_avtale,3
-2025,Helse,Humaniora,lukket,1
-2025,Helse,Medisin og helsefag,diamant,92
-2025,Helse,Medisin og helsefag,gull,1765
-2025,Helse,Medisin og helsefag,hybrid,793
-2025,Helse,Medisin og helsefag,hybrid_avtale,663
-2025,Helse,Medisin og helsefag,grønn,375
-2025,Helse,Medisin og helsefag,deponert,84
-2025,Helse,Medisin og helsefag,lukket,506
-2025,Helse,Realfag og teknologi,diamant,10
-2025,Helse,Realfag og teknologi,gull,414
-2025,Helse,Realfag og teknologi,hybrid,60
-2025,Helse,Realfag og teknologi,hybrid_avtale,35
-2025,Helse,Realfag og teknologi,grønn,35
-2025,Helse,Realfag og teknologi,deponert,4
-2025,Helse,Realfag og teknologi,lukket,29
-2025,Helse,Samfunnsvitenskap,diamant,19
-2025,Helse,Samfunnsvitenskap,gull,56
-2025,Helse,Samfunnsvitenskap,hybrid,17
-2025,Helse,Samfunnsvitenskap,hybrid_avtale,29
-2025,Helse,Samfunnsvitenskap,grønn,11
-2025,Helse,Samfunnsvitenskap,deponert,5
-2025,Helse,Samfunnsvitenskap,lukket,14
-2025,Institutt,Alle,diamant,247
-2025,Institutt,Alle,gull,2048
-2025,Institutt,Alle,hybrid,1135
-2025,Institutt,Alle,hybrid_avtale,1096
-2025,Institutt,Alle,grønn,542
-2025,Institutt,Alle,deponert,92
-2025,Institutt,Alle,lukket,725
-2025,Institutt,Humaniora,diamant,21
-2025,Institutt,Humaniora,gull,21
-2025,Institutt,Humaniora,hybrid,16
-2025,Institutt,Humaniora,hybrid_avtale,26
-2025,Institutt,Humaniora,grønn,4
-2025,Institutt,Humaniora,deponert,9
-2025,Institutt,Humaniora,lukket,9
-2025,Institutt,Medisin og helsefag,diamant,42
-2025,Institutt,Medisin og helsefag,gull,523
-2025,Institutt,Medisin og helsefag,hybrid,252
-2025,Institutt,Medisin og helsefag,hybrid_avtale,229
-2025,Institutt,Medisin og helsefag,grønn,125
-2025,Institutt,Medisin og helsefag,deponert,11
-2025,Institutt,Medisin og helsefag,lukket,86
-2025,Institutt,Realfag og teknologi,diamant,87
-2025,Institutt,Realfag og teknologi,gull,1338
-2025,Institutt,Realfag og teknologi,hybrid,716
-2025,Institutt,Realfag og teknologi,hybrid_avtale,628
-2025,Institutt,Realfag og teknologi,grønn,332
-2025,Institutt,Realfag og teknologi,deponert,51
-2025,Institutt,Realfag og teknologi,lukket,507
-2025,Institutt,Samfunnsvitenskap,diamant,97
-2025,Institutt,Samfunnsvitenskap,gull,166
-2025,Institutt,Samfunnsvitenskap,hybrid,151
-2025,Institutt,Samfunnsvitenskap,hybrid_avtale,213
-2025,Institutt,Samfunnsvitenskap,grønn,81
-2025,Institutt,Samfunnsvitenskap,deponert,21
-2025,Institutt,Samfunnsvitenskap,lukket,123
-2025,UH,Alle,diamant,1671
-2025,UH,Alle,gull,7027
-2025,UH,Alle,hybrid,3237
-2025,UH,Alle,hybrid_avtale,4044
-2025,UH,Alle,grønn,2375
-2025,UH,Alle,deponert,713
-2025,UH,Alle,lukket,2673
-2025,UH,Humaniora,diamant,375
-2025,UH,Humaniora,gull,246
-2025,UH,Humaniora,hybrid,178
-2025,UH,Humaniora,hybrid_avtale,309
-2025,UH,Humaniora,grønn,231
-2025,UH,Humaniora,deponert,86
-2025,UH,Humaniora,lukket,234
-2025,UH,Medisin og helsefag,diamant,181
-2025,UH,Medisin og helsefag,gull,2705
-2025,UH,Medisin og helsefag,hybrid,1138
-2025,UH,Medisin og helsefag,hybrid_avtale,1155
-2025,UH,Medisin og helsefag,grønn,592
-2025,UH,Medisin og helsefag,deponert,145
-2025,UH,Medisin og helsefag,lukket,689
-2025,UH,Realfag og teknologi,diamant,495
-2025,UH,Realfag og teknologi,gull,3234
-2025,UH,Realfag og teknologi,hybrid,1400
-2025,UH,Realfag og teknologi,hybrid_avtale,1470
-2025,UH,Realfag og teknologi,grønn,1059
-2025,UH,Realfag og teknologi,deponert,308
-2025,UH,Realfag og teknologi,lukket,1240
-2025,UH,Samfunnsvitenskap,diamant,620
-2025,UH,Samfunnsvitenskap,gull,842
-2025,UH,Samfunnsvitenskap,hybrid,521
-2025,UH,Samfunnsvitenskap,hybrid_avtale,1110
-2025,UH,Samfunnsvitenskap,grønn,493
-2025,UH,Samfunnsvitenskap,deponert,174
-2025,UH,Samfunnsvitenskap,lukket,510
+2013,archives_libraries_museums,all,closed,2
+2013,archives_libraries_museums,humanities,closed,2
+2013,all,all,diamond,472
+2013,all,all,gold,2084
+2013,all,all,hybrid,742
+2013,all,all,green,2351
+2013,all,all,deposited,4
+2013,all,all,closed,10805
+2013,all,humanities,diamond,119
+2013,all,humanities,gold,39
+2013,all,humanities,hybrid,12
+2013,all,humanities,green,101
+2013,all,humanities,deposited,1
+2013,all,humanities,closed,738
+2013,all,health_sciences,diamond,136
+2013,all,health_sciences,gold,888
+2013,all,health_sciences,hybrid,294
+2013,all,health_sciences,green,608
+2013,all,health_sciences,closed,3630
+2013,all,natural_sciences_engineering,diamond,71
+2013,all,natural_sciences_engineering,gold,994
+2013,all,natural_sciences_engineering,hybrid,366
+2013,all,natural_sciences_engineering,green,1120
+2013,all,natural_sciences_engineering,deposited,2
+2013,all,natural_sciences_engineering,closed,3986
+2013,all,social_science,diamond,146
+2013,all,social_science,gold,140
+2013,all,social_science,hybrid,47
+2013,all,social_science,green,398
+2013,all,social_science,deposited,1
+2013,all,social_science,closed,1802
+2013,health,all,diamond,80
+2013,health,all,gold,680
+2013,health,all,hybrid,194
+2013,health,all,green,271
+2013,health,all,closed,2056
+2013,health,humanities,closed,3
+2013,health,health_sciences,diamond,74
+2013,health,health_sciences,gold,471
+2013,health,health_sciences,hybrid,174
+2013,health,health_sciences,green,260
+2013,health,health_sciences,closed,1901
+2013,health,natural_sciences_engineering,diamond,4
+2013,health,natural_sciences_engineering,gold,194
+2013,health,natural_sciences_engineering,hybrid,13
+2013,health,natural_sciences_engineering,green,9
+2013,health,natural_sciences_engineering,closed,104
+2013,health,social_science,diamond,2
+2013,health,social_science,gold,13
+2013,health,social_science,hybrid,4
+2013,health,social_science,green,1
+2013,health,social_science,closed,40
+2013,institute,all,diamond,69
+2013,institute,all,gold,592
+2013,institute,all,hybrid,154
+2013,institute,all,green,596
+2013,institute,all,deposited,1
+2013,institute,all,closed,2312
+2013,institute,humanities,diamond,5
+2013,institute,humanities,gold,2
+2013,institute,humanities,hybrid,1
+2013,institute,humanities,green,10
+2013,institute,humanities,closed,39
+2013,institute,health_sciences,diamond,37
+2013,institute,health_sciences,gold,175
+2013,institute,health_sciences,hybrid,70
+2013,institute,health_sciences,green,105
+2013,institute,health_sciences,closed,661
+2013,institute,natural_sciences_engineering,diamond,17
+2013,institute,natural_sciences_engineering,gold,375
+2013,institute,natural_sciences_engineering,hybrid,64
+2013,institute,natural_sciences_engineering,green,346
+2013,institute,natural_sciences_engineering,deposited,1
+2013,institute,natural_sciences_engineering,closed,1123
+2013,institute,social_science,diamond,10
+2013,institute,social_science,gold,36
+2013,institute,social_science,hybrid,17
+2013,institute,social_science,green,111
+2013,institute,social_science,closed,373
+2013,higher_education,all,diamond,400
+2013,higher_education,all,gold,1694
+2013,higher_education,all,hybrid,653
+2013,higher_education,all,green,2021
+2013,higher_education,all,deposited,4
+2013,higher_education,all,closed,9191
+2013,higher_education,humanities,diamond,115
+2013,higher_education,humanities,gold,38
+2013,higher_education,humanities,hybrid,11
+2013,higher_education,humanities,green,95
+2013,higher_education,humanities,deposited,1
+2013,higher_education,humanities,closed,706
+2013,higher_education,health_sciences,diamond,89
+2013,higher_education,health_sciences,gold,747
+2013,higher_education,health_sciences,hybrid,241
+2013,higher_education,health_sciences,green,515
+2013,higher_education,health_sciences,closed,3000
+2013,higher_education,natural_sciences_engineering,diamond,59
+2013,higher_education,natural_sciences_engineering,gold,772
+2013,higher_education,natural_sciences_engineering,hybrid,340
+2013,higher_education,natural_sciences_engineering,green,969
+2013,higher_education,natural_sciences_engineering,deposited,2
+2013,higher_education,natural_sciences_engineering,closed,3368
+2013,higher_education,social_science,diamond,137
+2013,higher_education,social_science,gold,119
+2013,higher_education,social_science,hybrid,39
+2013,higher_education,social_science,green,329
+2013,higher_education,social_science,deposited,1
+2013,higher_education,social_science,closed,1529
+2014,archives_libraries_museums,all,closed,1
+2014,archives_libraries_museums,humanities,closed,1
+2014,all,all,diamond,691
+2014,all,all,gold,2597
+2014,all,all,hybrid,1103
+2014,all,all,green,2696
+2014,all,all,deposited,3
+2014,all,all,closed,10231
+2014,all,humanities,diamond,215
+2014,all,humanities,gold,68
+2014,all,humanities,hybrid,22
+2014,all,humanities,green,134
+2014,all,humanities,closed,698
+2014,all,health_sciences,diamond,133
+2014,all,health_sciences,gold,1100
+2014,all,health_sciences,hybrid,491
+2014,all,health_sciences,green,691
+2014,all,health_sciences,closed,3416
+2014,all,natural_sciences_engineering,diamond,155
+2014,all,natural_sciences_engineering,gold,1224
+2014,all,natural_sciences_engineering,hybrid,446
+2014,all,natural_sciences_engineering,green,1261
+2014,all,natural_sciences_engineering,deposited,2
+2014,all,natural_sciences_engineering,closed,3659
+2014,all,social_science,diamond,188
+2014,all,social_science,gold,183
+2014,all,social_science,hybrid,114
+2014,all,social_science,green,481
+2014,all,social_science,deposited,1
+2014,all,social_science,closed,1731
+2014,health,all,diamond,80
+2014,health,all,gold,807
+2014,health,all,hybrid,329
+2014,health,all,green,308
+2014,health,all,closed,2045
+2014,health,humanities,gold,1
+2014,health,humanities,green,2
+2014,health,humanities,closed,2
+2014,health,health_sciences,diamond,72
+2014,health,health_sciences,gold,563
+2014,health,health_sciences,hybrid,296
+2014,health,health_sciences,green,282
+2014,health,health_sciences,closed,1872
+2014,health,natural_sciences_engineering,diamond,5
+2014,health,natural_sciences_engineering,gold,222
+2014,health,natural_sciences_engineering,hybrid,20
+2014,health,natural_sciences_engineering,green,13
+2014,health,natural_sciences_engineering,closed,110
+2014,health,social_science,diamond,3
+2014,health,social_science,gold,21
+2014,health,social_science,hybrid,7
+2014,health,social_science,green,4
+2014,health,social_science,closed,34
+2014,institute,all,diamond,78
+2014,institute,all,gold,702
+2014,institute,all,hybrid,279
+2014,institute,all,green,663
+2014,institute,all,closed,2191
+2014,institute,humanities,diamond,7
+2014,institute,humanities,gold,5
+2014,institute,humanities,green,7
+2014,institute,humanities,closed,34
+2014,institute,health_sciences,diamond,40
+2014,institute,health_sciences,gold,239
+2014,institute,health_sciences,hybrid,100
+2014,institute,health_sciences,green,156
+2014,institute,health_sciences,closed,530
+2014,institute,natural_sciences_engineering,diamond,13
+2014,institute,natural_sciences_engineering,gold,427
+2014,institute,natural_sciences_engineering,hybrid,144
+2014,institute,natural_sciences_engineering,green,351
+2014,institute,natural_sciences_engineering,closed,1119
+2014,institute,social_science,diamond,18
+2014,institute,social_science,gold,29
+2014,institute,social_science,hybrid,29
+2014,institute,social_science,green,126
+2014,institute,social_science,closed,338
+2014,higher_education,all,diamond,616
+2014,higher_education,all,gold,2145
+2014,higher_education,all,hybrid,919
+2014,higher_education,all,green,2338
+2014,higher_education,all,deposited,3
+2014,higher_education,all,closed,8624
+2014,higher_education,humanities,diamond,210
+2014,higher_education,humanities,gold,65
+2014,higher_education,humanities,hybrid,22
+2014,higher_education,humanities,green,129
+2014,higher_education,humanities,closed,675
+2014,higher_education,health_sciences,diamond,87
+2014,higher_education,health_sciences,gold,938
+2014,higher_education,health_sciences,hybrid,395
+2014,higher_education,health_sciences,green,579
+2014,higher_education,health_sciences,closed,2789
+2014,higher_education,natural_sciences_engineering,diamond,144
+2014,higher_education,natural_sciences_engineering,gold,959
+2014,higher_education,natural_sciences_engineering,hybrid,380
+2014,higher_education,natural_sciences_engineering,green,1104
+2014,higher_education,natural_sciences_engineering,deposited,2
+2014,higher_education,natural_sciences_engineering,closed,3033
+2014,higher_education,social_science,diamond,175
+2014,higher_education,social_science,gold,162
+2014,higher_education,social_science,hybrid,98
+2014,higher_education,social_science,green,404
+2014,higher_education,social_science,deposited,1
+2014,higher_education,social_science,closed,1504
+2015,archives_libraries_museums,all,diamond,1
+2015,archives_libraries_museums,all,closed,2
+2015,archives_libraries_museums,humanities,diamond,1
+2015,archives_libraries_museums,humanities,closed,2
+2015,all,all,diamond,718
+2015,all,all,gold,2957
+2015,all,all,hybrid,1266
+2015,all,all,green,2965
+2015,all,all,deposited,3
+2015,all,all,closed,10133
+2015,all,humanities,diamond,203
+2015,all,humanities,gold,75
+2015,all,humanities,hybrid,22
+2015,all,humanities,green,145
+2015,all,humanities,deposited,1
+2015,all,humanities,closed,712
+2015,all,health_sciences,diamond,150
+2015,all,health_sciences,gold,1196
+2015,all,health_sciences,hybrid,565
+2015,all,health_sciences,green,753
+2015,all,health_sciences,deposited,1
+2015,all,health_sciences,closed,3269
+2015,all,natural_sciences_engineering,diamond,184
+2015,all,natural_sciences_engineering,gold,1372
+2015,all,natural_sciences_engineering,hybrid,513
+2015,all,natural_sciences_engineering,green,1413
+2015,all,natural_sciences_engineering,deposited,1
+2015,all,natural_sciences_engineering,closed,3718
+2015,all,social_science,diamond,181
+2015,all,social_science,gold,279
+2015,all,social_science,hybrid,140
+2015,all,social_science,green,504
+2015,all,social_science,closed,1726
+2015,health,all,diamond,84
+2015,health,all,gold,892
+2015,health,all,hybrid,376
+2015,health,all,green,344
+2015,health,all,closed,2035
+2015,health,humanities,diamond,1
+2015,health,humanities,gold,1
+2015,health,humanities,green,1
+2015,health,humanities,closed,5
+2015,health,health_sciences,diamond,74
+2015,health,health_sciences,gold,631
+2015,health,health_sciences,hybrid,347
+2015,health,health_sciences,green,314
+2015,health,health_sciences,closed,1858
+2015,health,natural_sciences_engineering,diamond,8
+2015,health,natural_sciences_engineering,gold,236
+2015,health,natural_sciences_engineering,hybrid,19
+2015,health,natural_sciences_engineering,green,23
+2015,health,natural_sciences_engineering,closed,116
+2015,health,social_science,diamond,1
+2015,health,social_science,gold,23
+2015,health,social_science,hybrid,9
+2015,health,social_science,green,5
+2015,health,social_science,closed,35
+2015,institute,all,diamond,90
+2015,institute,all,gold,698
+2015,institute,all,hybrid,317
+2015,institute,all,green,727
+2015,institute,all,deposited,1
+2015,institute,all,closed,1945
+2015,institute,humanities,diamond,8
+2015,institute,humanities,gold,4
+2015,institute,humanities,hybrid,2
+2015,institute,humanities,green,12
+2015,institute,humanities,closed,39
+2015,institute,health_sciences,diamond,39
+2015,institute,health_sciences,gold,211
+2015,institute,health_sciences,hybrid,114
+2015,institute,health_sciences,green,160
+2015,institute,health_sciences,closed,474
+2015,institute,natural_sciences_engineering,diamond,19
+2015,institute,natural_sciences_engineering,gold,424
+2015,institute,natural_sciences_engineering,hybrid,156
+2015,institute,natural_sciences_engineering,green,411
+2015,institute,natural_sciences_engineering,deposited,1
+2015,institute,natural_sciences_engineering,closed,1011
+2015,institute,social_science,diamond,24
+2015,institute,social_science,gold,53
+2015,institute,social_science,hybrid,45
+2015,institute,social_science,green,118
+2015,institute,social_science,closed,292
+2015,higher_education,all,diamond,637
+2015,higher_education,all,gold,2538
+2015,higher_education,all,hybrid,1065
+2015,higher_education,all,green,2534
+2015,higher_education,all,deposited,3
+2015,higher_education,all,closed,8645
+2015,higher_education,humanities,diamond,195
+2015,higher_education,humanities,gold,73
+2015,higher_education,humanities,hybrid,20
+2015,higher_education,humanities,green,135
+2015,higher_education,humanities,deposited,1
+2015,higher_education,humanities,closed,684
+2015,higher_education,health_sciences,diamond,112
+2015,higher_education,health_sciences,gold,1042
+2015,higher_education,health_sciences,hybrid,479
+2015,higher_education,health_sciences,green,630
+2015,higher_education,health_sciences,deposited,1
+2015,higher_education,health_sciences,closed,2703
+2015,higher_education,natural_sciences_engineering,diamond,165
+2015,higher_education,natural_sciences_engineering,gold,1140
+2015,higher_education,natural_sciences_engineering,hybrid,427
+2015,higher_education,natural_sciences_engineering,green,1205
+2015,higher_education,natural_sciences_engineering,deposited,1
+2015,higher_education,natural_sciences_engineering,closed,3099
+2015,higher_education,social_science,diamond,165
+2015,higher_education,social_science,gold,249
+2015,higher_education,social_science,hybrid,113
+2015,higher_education,social_science,green,426
+2015,higher_education,social_science,closed,1523
+2016,archives_libraries_museums,all,closed,1
+2016,archives_libraries_museums,humanities,closed,1
+2016,all,all,diamond,934
+2016,all,all,gold,3581
+2016,all,all,hybrid,1464
+2016,all,all,green,3617
+2016,all,all,deposited,7
+2016,all,all,closed,9648
+2016,all,humanities,diamond,199
+2016,all,humanities,gold,82
+2016,all,humanities,hybrid,29
+2016,all,humanities,green,197
+2016,all,humanities,deposited,1
+2016,all,humanities,closed,677
+2016,all,health_sciences,diamond,158
+2016,all,health_sciences,gold,1485
+2016,all,health_sciences,hybrid,661
+2016,all,health_sciences,green,929
+2016,all,health_sciences,deposited,1
+2016,all,health_sciences,closed,3103
+2016,all,natural_sciences_engineering,diamond,237
+2016,all,natural_sciences_engineering,gold,1688
+2016,all,natural_sciences_engineering,hybrid,581
+2016,all,natural_sciences_engineering,green,1679
+2016,all,natural_sciences_engineering,deposited,2
+2016,all,natural_sciences_engineering,closed,3678
+2016,all,social_science,diamond,340
+2016,all,social_science,gold,305
+2016,all,social_science,hybrid,153
+2016,all,social_science,green,655
+2016,all,social_science,deposited,3
+2016,all,social_science,closed,1705
+2016,health,all,diamond,89
+2016,health,all,gold,1054
+2016,health,all,hybrid,414
+2016,health,all,green,449
+2016,health,all,closed,1894
+2016,health,humanities,gold,1
+2016,health,humanities,hybrid,1
+2016,health,humanities,closed,5
+2016,health,health_sciences,diamond,77
+2016,health,health_sciences,gold,779
+2016,health,health_sciences,hybrid,387
+2016,health,health_sciences,green,418
+2016,health,health_sciences,closed,1718
+2016,health,natural_sciences_engineering,diamond,6
+2016,health,natural_sciences_engineering,gold,246
+2016,health,natural_sciences_engineering,hybrid,24
+2016,health,natural_sciences_engineering,green,19
+2016,health,natural_sciences_engineering,closed,109
+2016,health,social_science,diamond,6
+2016,health,social_science,gold,28
+2016,health,social_science,hybrid,2
+2016,health,social_science,green,12
+2016,health,social_science,closed,49
+2016,institute,all,diamond,114
+2016,institute,all,gold,886
+2016,institute,all,hybrid,412
+2016,institute,all,green,817
+2016,institute,all,deposited,1
+2016,institute,all,closed,1875
+2016,institute,humanities,diamond,10
+2016,institute,humanities,gold,9
+2016,institute,humanities,hybrid,3
+2016,institute,humanities,green,10
+2016,institute,humanities,closed,26
+2016,institute,health_sciences,diamond,32
+2016,institute,health_sciences,gold,260
+2016,institute,health_sciences,hybrid,148
+2016,institute,health_sciences,green,155
+2016,institute,health_sciences,closed,478
+2016,institute,natural_sciences_engineering,diamond,19
+2016,institute,natural_sciences_engineering,gold,549
+2016,institute,natural_sciences_engineering,hybrid,206
+2016,institute,natural_sciences_engineering,green,482
+2016,institute,natural_sciences_engineering,closed,989
+2016,institute,social_science,diamond,53
+2016,institute,social_science,gold,66
+2016,institute,social_science,hybrid,52
+2016,institute,social_science,green,146
+2016,institute,social_science,deposited,1
+2016,institute,social_science,closed,267
+2016,higher_education,all,diamond,840
+2016,higher_education,all,gold,3012
+2016,higher_education,all,hybrid,1205
+2016,higher_education,all,green,3164
+2016,higher_education,all,deposited,7
+2016,higher_education,all,closed,8258
+2016,higher_education,humanities,diamond,192
+2016,higher_education,humanities,gold,78
+2016,higher_education,humanities,hybrid,28
+2016,higher_education,humanities,green,190
+2016,higher_education,humanities,deposited,1
+2016,higher_education,humanities,closed,656
+2016,higher_education,health_sciences,diamond,115
+2016,higher_education,health_sciences,gold,1295
+2016,higher_education,health_sciences,hybrid,555
+2016,higher_education,health_sciences,green,799
+2016,higher_education,health_sciences,deposited,1
+2016,higher_education,health_sciences,closed,2556
+2016,higher_education,natural_sciences_engineering,diamond,226
+2016,higher_education,natural_sciences_engineering,gold,1353
+2016,higher_education,natural_sciences_engineering,hybrid,468
+2016,higher_education,natural_sciences_engineering,green,1450
+2016,higher_education,natural_sciences_engineering,deposited,2
+2016,higher_education,natural_sciences_engineering,closed,3097
+2016,higher_education,social_science,diamond,307
+2016,higher_education,social_science,gold,265
+2016,higher_education,social_science,hybrid,117
+2016,higher_education,social_science,green,578
+2016,higher_education,social_science,deposited,3
+2016,higher_education,social_science,closed,1528
+2017,all,all,diamond,1115
+2017,all,all,gold,4250
+2017,all,all,hybrid,1664
+2017,all,all,green,5866
+2017,all,all,deposited,3
+2017,all,all,closed,7747
+2017,all,humanities,diamond,283
+2017,all,humanities,gold,100
+2017,all,humanities,hybrid,39
+2017,all,humanities,green,324
+2017,all,humanities,deposited,1
+2017,all,humanities,closed,456
+2017,all,health_sciences,diamond,182
+2017,all,health_sciences,gold,1635
+2017,all,health_sciences,hybrid,714
+2017,all,health_sciences,green,1442
+2017,all,health_sciences,deposited,1
+2017,all,health_sciences,closed,2631
+2017,all,natural_sciences_engineering,diamond,249
+2017,all,natural_sciences_engineering,gold,2160
+2017,all,natural_sciences_engineering,hybrid,679
+2017,all,natural_sciences_engineering,green,2638
+2017,all,natural_sciences_engineering,closed,2931
+2017,all,social_science,diamond,401
+2017,all,social_science,gold,322
+2017,all,social_science,hybrid,189
+2017,all,social_science,green,1079
+2017,all,social_science,deposited,1
+2017,all,social_science,closed,1224
+2017,health,all,diamond,104
+2017,health,all,gold,1202
+2017,health,all,hybrid,434
+2017,health,all,green,700
+2017,health,all,deposited,1
+2017,health,all,closed,1649
+2017,health,humanities,diamond,3
+2017,health,humanities,green,5
+2017,health,humanities,closed,3
+2017,health,health_sciences,diamond,88
+2017,health,health_sciences,gold,870
+2017,health,health_sciences,hybrid,407
+2017,health,health_sciences,green,628
+2017,health,health_sciences,deposited,1
+2017,health,health_sciences,closed,1527
+2017,health,natural_sciences_engineering,diamond,7
+2017,health,natural_sciences_engineering,gold,312
+2017,health,natural_sciences_engineering,hybrid,20
+2017,health,natural_sciences_engineering,green,46
+2017,health,natural_sciences_engineering,closed,85
+2017,health,social_science,diamond,6
+2017,health,social_science,gold,20
+2017,health,social_science,hybrid,6
+2017,health,social_science,green,16
+2017,health,social_science,closed,31
+2017,institute,all,diamond,167
+2017,institute,all,gold,1028
+2017,institute,all,hybrid,516
+2017,institute,all,green,1359
+2017,institute,all,deposited,1
+2017,institute,all,closed,1425
+2017,institute,humanities,diamond,19
+2017,institute,humanities,gold,4
+2017,institute,humanities,hybrid,7
+2017,institute,humanities,green,26
+2017,institute,humanities,closed,19
+2017,institute,health_sciences,diamond,43
+2017,institute,health_sciences,gold,267
+2017,institute,health_sciences,hybrid,173
+2017,institute,health_sciences,green,268
+2017,institute,health_sciences,closed,404
+2017,institute,natural_sciences_engineering,diamond,38
+2017,institute,natural_sciences_engineering,gold,694
+2017,institute,natural_sciences_engineering,hybrid,251
+2017,institute,natural_sciences_engineering,green,733
+2017,institute,natural_sciences_engineering,closed,724
+2017,institute,social_science,diamond,67
+2017,institute,social_science,gold,60
+2017,institute,social_science,hybrid,70
+2017,institute,social_science,green,194
+2017,institute,social_science,deposited,1
+2017,institute,social_science,closed,201
+2017,higher_education,all,diamond,976
+2017,higher_education,all,gold,3609
+2017,higher_education,all,hybrid,1335
+2017,higher_education,all,green,5179
+2017,higher_education,all,deposited,3
+2017,higher_education,all,closed,6507
+2017,higher_education,humanities,diamond,271
+2017,higher_education,humanities,gold,97
+2017,higher_education,humanities,hybrid,34
+2017,higher_education,humanities,green,311
+2017,higher_education,humanities,deposited,1
+2017,higher_education,humanities,closed,442
+2017,higher_education,health_sciences,diamond,132
+2017,higher_education,health_sciences,gold,1424
+2017,higher_education,health_sciences,hybrid,584
+2017,higher_education,health_sciences,green,1284
+2017,higher_education,health_sciences,deposited,1
+2017,higher_education,health_sciences,closed,2080
+2017,higher_education,natural_sciences_engineering,diamond,216
+2017,higher_education,natural_sciences_engineering,gold,1768
+2017,higher_education,natural_sciences_engineering,hybrid,546
+2017,higher_education,natural_sciences_engineering,green,2298
+2017,higher_education,natural_sciences_engineering,closed,2436
+2017,higher_education,social_science,diamond,357
+2017,higher_education,social_science,gold,287
+2017,higher_education,social_science,hybrid,137
+2017,higher_education,social_science,green,973
+2017,higher_education,social_science,deposited,1
+2017,higher_education,social_science,closed,1093
+2018,archives_libraries_museums,all,diamond,2
+2018,archives_libraries_museums,all,closed,1
+2018,archives_libraries_museums,humanities,diamond,2
+2018,archives_libraries_museums,humanities,closed,1
+2018,all,all,diamond,1286
+2018,all,all,gold,4404
+2018,all,all,hybrid,1967
+2018,all,all,green,6660
+2018,all,all,deposited,11
+2018,all,all,closed,7090
+2018,all,humanities,diamond,342
+2018,all,humanities,gold,91
+2018,all,humanities,hybrid,36
+2018,all,humanities,green,328
+2018,all,humanities,deposited,5
+2018,all,humanities,closed,447
+2018,all,health_sciences,diamond,157
+2018,all,health_sciences,gold,1738
+2018,all,health_sciences,hybrid,782
+2018,all,health_sciences,green,1577
+2018,all,health_sciences,deposited,3
+2018,all,health_sciences,closed,2523
+2018,all,natural_sciences_engineering,diamond,316
+2018,all,natural_sciences_engineering,gold,2175
+2018,all,natural_sciences_engineering,hybrid,870
+2018,all,natural_sciences_engineering,green,3264
+2018,all,natural_sciences_engineering,deposited,2
+2018,all,natural_sciences_engineering,closed,2499
+2018,all,social_science,diamond,471
+2018,all,social_science,gold,380
+2018,all,social_science,hybrid,258
+2018,all,social_science,green,1139
+2018,all,social_science,deposited,1
+2018,all,social_science,closed,1186
+2018,health,all,diamond,94
+2018,health,all,gold,1236
+2018,health,all,hybrid,475
+2018,health,all,green,887
+2018,health,all,deposited,3
+2018,health,all,closed,1553
+2018,health,humanities,diamond,4
+2018,health,humanities,gold,1
+2018,health,humanities,hybrid,1
+2018,health,humanities,green,3
+2018,health,humanities,closed,3
+2018,health,health_sciences,diamond,78
+2018,health,health_sciences,gold,916
+2018,health,health_sciences,hybrid,443
+2018,health,health_sciences,green,810
+2018,health,health_sciences,deposited,3
+2018,health,health_sciences,closed,1436
+2018,health,natural_sciences_engineering,diamond,6
+2018,health,natural_sciences_engineering,gold,292
+2018,health,natural_sciences_engineering,hybrid,20
+2018,health,natural_sciences_engineering,green,56
+2018,health,natural_sciences_engineering,closed,85
+2018,health,social_science,diamond,6
+2018,health,social_science,gold,27
+2018,health,social_science,hybrid,9
+2018,health,social_science,green,16
+2018,health,social_science,closed,26
+2018,institute,all,diamond,176
+2018,institute,all,gold,945
+2018,institute,all,hybrid,546
+2018,institute,all,green,1436
+2018,institute,all,deposited,2
+2018,institute,all,closed,1097
+2018,institute,humanities,diamond,19
+2018,institute,humanities,gold,6
+2018,institute,humanities,hybrid,5
+2018,institute,humanities,green,27
+2018,institute,humanities,deposited,1
+2018,institute,humanities,closed,28
+2018,institute,health_sciences,diamond,45
+2018,institute,health_sciences,gold,293
+2018,institute,health_sciences,hybrid,169
+2018,institute,health_sciences,green,273
+2018,institute,health_sciences,deposited,1
+2018,institute,health_sciences,closed,292
+2018,institute,natural_sciences_engineering,diamond,60
+2018,institute,natural_sciences_engineering,gold,574
+2018,institute,natural_sciences_engineering,hybrid,269
+2018,institute,natural_sciences_engineering,green,847
+2018,institute,natural_sciences_engineering,closed,554
+2018,institute,social_science,diamond,52
+2018,institute,social_science,gold,69
+2018,institute,social_science,hybrid,99
+2018,institute,social_science,green,204
+2018,institute,social_science,closed,149
+2018,higher_education,all,diamond,1161
+2018,higher_education,all,gold,3823
+2018,higher_education,all,hybrid,1597
+2018,higher_education,all,green,5972
+2018,higher_education,all,deposited,10
+2018,higher_education,all,closed,6005
+2018,higher_education,humanities,diamond,328
+2018,higher_education,humanities,gold,88
+2018,higher_education,humanities,hybrid,32
+2018,higher_education,humanities,green,309
+2018,higher_education,humanities,deposited,5
+2018,higher_education,humanities,closed,424
+2018,higher_education,health_sciences,diamond,111
+2018,higher_education,health_sciences,gold,1510
+2018,higher_education,health_sciences,hybrid,637
+2018,higher_education,health_sciences,green,1396
+2018,higher_education,health_sciences,deposited,2
+2018,higher_education,health_sciences,closed,2013
+2018,higher_education,natural_sciences_engineering,diamond,283
+2018,higher_education,natural_sciences_engineering,gold,1865
+2018,higher_education,natural_sciences_engineering,hybrid,723
+2018,higher_education,natural_sciences_engineering,green,2916
+2018,higher_education,natural_sciences_engineering,deposited,2
+2018,higher_education,natural_sciences_engineering,closed,2110
+2018,higher_education,social_science,diamond,439
+2018,higher_education,social_science,gold,343
+2018,higher_education,social_science,hybrid,185
+2018,higher_education,social_science,green,1035
+2018,higher_education,social_science,deposited,1
+2018,higher_education,social_science,closed,1073
+2019,archives_libraries_museums,all,diamond,5
+2019,archives_libraries_museums,all,gold,2
+2019,archives_libraries_museums,all,green,6
+2019,archives_libraries_museums,all,closed,8
+2019,archives_libraries_museums,humanities,diamond,5
+2019,archives_libraries_museums,humanities,gold,2
+2019,archives_libraries_museums,humanities,green,2
+2019,archives_libraries_museums,humanities,closed,2
+2019,archives_libraries_museums,natural_sciences_engineering,green,2
+2019,archives_libraries_museums,social_science,green,1
+2019,all,all,diamond,1314
+2019,all,all,gold,5543
+2019,all,all,hybrid,2007
+2019,all,all,hybrid_agreement,1235
+2019,all,all,green,6810
+2019,all,all,deposited,7
+2019,all,all,closed,5793
+2019,all,humanities,diamond,371
+2019,all,humanities,gold,139
+2019,all,humanities,hybrid,49
+2019,all,humanities,hybrid_agreement,25
+2019,all,humanities,green,394
+2019,all,humanities,deposited,1
+2019,all,humanities,closed,386
+2019,all,health_sciences,diamond,175
+2019,all,health_sciences,gold,2108
+2019,all,health_sciences,hybrid,772
+2019,all,health_sciences,hybrid_agreement,370
+2019,all,health_sciences,green,1755
+2019,all,health_sciences,deposited,4
+2019,all,health_sciences,closed,1795
+2019,all,natural_sciences_engineering,diamond,311
+2019,all,natural_sciences_engineering,gold,2800
+2019,all,natural_sciences_engineering,hybrid,897
+2019,all,natural_sciences_engineering,hybrid_agreement,649
+2019,all,natural_sciences_engineering,green,3083
+2019,all,natural_sciences_engineering,deposited,1
+2019,all,natural_sciences_engineering,closed,2191
+2019,all,social_science,diamond,457
+2019,all,social_science,gold,433
+2019,all,social_science,hybrid,259
+2019,all,social_science,hybrid_agreement,189
+2019,all,social_science,green,1215
+2019,all,social_science,deposited,1
+2019,all,social_science,closed,1035
+2019,health,all,diamond,116
+2019,health,all,gold,1424
+2019,health,all,hybrid,453
+2019,health,all,hybrid_agreement,209
+2019,health,all,green,1072
+2019,health,all,deposited,3
+2019,health,all,closed,1138
+2019,health,humanities,diamond,3
+2019,health,humanities,gold,3
+2019,health,humanities,green,1
+2019,health,humanities,closed,5
+2019,health,health_sciences,diamond,100
+2019,health,health_sciences,gold,1055
+2019,health,health_sciences,hybrid,416
+2019,health,health_sciences,hybrid_agreement,188
+2019,health,health_sciences,green,977
+2019,health,health_sciences,deposited,3
+2019,health,health_sciences,closed,1014
+2019,health,natural_sciences_engineering,diamond,6
+2019,health,natural_sciences_engineering,gold,327
+2019,health,natural_sciences_engineering,hybrid,28
+2019,health,natural_sciences_engineering,hybrid_agreement,13
+2019,health,natural_sciences_engineering,green,67
+2019,health,natural_sciences_engineering,closed,76
+2019,health,social_science,diamond,7
+2019,health,social_science,gold,37
+2019,health,social_science,hybrid,8
+2019,health,social_science,hybrid_agreement,8
+2019,health,social_science,green,25
+2019,health,social_science,closed,34
+2019,institute,all,diamond,176
+2019,institute,all,gold,1265
+2019,institute,all,hybrid,496
+2019,institute,all,hybrid_agreement,342
+2019,institute,all,green,1310
+2019,institute,all,deposited,1
+2019,institute,all,closed,947
+2019,institute,humanities,diamond,16
+2019,institute,humanities,gold,6
+2019,institute,humanities,hybrid,7
+2019,institute,humanities,hybrid_agreement,3
+2019,institute,humanities,green,8
+2019,institute,humanities,closed,16
+2019,institute,health_sciences,diamond,36
+2019,institute,health_sciences,gold,350
+2019,institute,health_sciences,hybrid,140
+2019,institute,health_sciences,hybrid_agreement,65
+2019,institute,health_sciences,green,296
+2019,institute,health_sciences,deposited,1
+2019,institute,health_sciences,closed,206
+2019,institute,natural_sciences_engineering,diamond,56
+2019,institute,natural_sciences_engineering,gold,822
+2019,institute,natural_sciences_engineering,hybrid,259
+2019,institute,natural_sciences_engineering,hybrid_agreement,249
+2019,institute,natural_sciences_engineering,green,737
+2019,institute,natural_sciences_engineering,closed,500
+2019,institute,social_science,diamond,68
+2019,institute,social_science,gold,84
+2019,institute,social_science,hybrid,86
+2019,institute,social_science,hybrid_agreement,25
+2019,institute,social_science,green,170
+2019,institute,social_science,closed,170
+2019,other,all,diamond,7
+2019,other,all,gold,3
+2019,other,all,hybrid,3
+2019,other,all,hybrid_agreement,5
+2019,other,all,green,21
+2019,other,all,closed,14
+2019,other,humanities,green,1
+2019,other,health_sciences,gold,1
+2019,other,health_sciences,green,2
+2019,other,health_sciences,closed,1
+2019,other,natural_sciences_engineering,gold,1
+2019,other,natural_sciences_engineering,green,3
+2019,other,social_science,diamond,7
+2019,other,social_science,gold,1
+2019,other,social_science,hybrid,3
+2019,other,social_science,hybrid_agreement,5
+2019,other,social_science,green,15
+2019,other,social_science,closed,13
+2019,higher_education,all,diamond,1176
+2019,higher_education,all,gold,4775
+2019,higher_education,all,hybrid,1634
+2019,higher_education,all,hybrid_agreement,1120
+2019,higher_education,all,green,6157
+2019,higher_education,all,deposited,7
+2019,higher_education,all,closed,4783
+2019,higher_education,humanities,diamond,354
+2019,higher_education,humanities,gold,135
+2019,higher_education,humanities,hybrid,46
+2019,higher_education,humanities,hybrid_agreement,24
+2019,higher_education,humanities,green,388
+2019,higher_education,humanities,deposited,1
+2019,higher_education,humanities,closed,369
+2019,higher_education,health_sciences,diamond,133
+2019,higher_education,health_sciences,gold,1847
+2019,higher_education,health_sciences,hybrid,619
+2019,higher_education,health_sciences,hybrid_agreement,351
+2019,higher_education,health_sciences,green,1583
+2019,higher_education,health_sciences,deposited,4
+2019,higher_education,health_sciences,closed,1367
+2019,higher_education,natural_sciences_engineering,diamond,282
+2019,higher_education,natural_sciences_engineering,gold,2354
+2019,higher_education,natural_sciences_engineering,hybrid,742
+2019,higher_education,natural_sciences_engineering,hybrid_agreement,564
+2019,higher_education,natural_sciences_engineering,green,2736
+2019,higher_education,natural_sciences_engineering,deposited,1
+2019,higher_education,natural_sciences_engineering,closed,1801
+2019,higher_education,social_science,diamond,407
+2019,higher_education,social_science,gold,378
+2019,higher_education,social_science,hybrid,198
+2019,higher_education,social_science,hybrid_agreement,179
+2019,higher_education,social_science,green,1124
+2019,higher_education,social_science,deposited,1
+2019,higher_education,social_science,closed,903
+2020,archives_libraries_museums,all,diamond,8
+2020,archives_libraries_museums,all,hybrid,1
+2020,archives_libraries_museums,all,hybrid_agreement,1
+2020,archives_libraries_museums,all,green,2
+2020,archives_libraries_museums,all,closed,8
+2020,archives_libraries_museums,humanities,diamond,7
+2020,archives_libraries_museums,humanities,hybrid,1
+2020,archives_libraries_museums,humanities,green,1
+2020,archives_libraries_museums,humanities,closed,2
+2020,archives_libraries_museums,social_science,diamond,1
+2020,archives_libraries_museums,social_science,hybrid_agreement,1
+2020,archives_libraries_museums,social_science,closed,2
+2020,all,all,diamond,1475
+2020,all,all,gold,6600
+2020,all,all,hybrid,2261
+2020,all,all,hybrid_agreement,3820
+2020,all,all,green,5417
+2020,all,all,deposited,34
+2020,all,all,closed,4838
+2020,all,humanities,diamond,396
+2020,all,humanities,gold,160
+2020,all,humanities,hybrid,58
+2020,all,humanities,hybrid_agreement,202
+2020,all,humanities,green,253
+2020,all,humanities,deposited,2
+2020,all,humanities,closed,338
+2020,all,health_sciences,diamond,187
+2020,all,health_sciences,gold,2470
+2020,all,health_sciences,hybrid,854
+2020,all,health_sciences,hybrid_agreement,1171
+2020,all,health_sciences,green,1304
+2020,all,health_sciences,deposited,2
+2020,all,health_sciences,closed,1417
+2020,all,natural_sciences_engineering,diamond,317
+2020,all,natural_sciences_engineering,gold,3369
+2020,all,natural_sciences_engineering,hybrid,1021
+2020,all,natural_sciences_engineering,hybrid_agreement,1611
+2020,all,natural_sciences_engineering,green,2522
+2020,all,natural_sciences_engineering,deposited,12
+2020,all,natural_sciences_engineering,closed,1854
+2020,all,social_science,diamond,575
+2020,all,social_science,gold,498
+2020,all,social_science,hybrid,297
+2020,all,social_science,hybrid_agreement,836
+2020,all,social_science,green,876
+2020,all,social_science,deposited,4
+2020,all,social_science,closed,819
+2020,health,all,diamond,94
+2020,health,all,gold,1686
+2020,health,all,hybrid,507
+2020,health,all,hybrid_agreement,723
+2020,health,all,green,710
+2020,health,all,deposited,2
+2020,health,all,closed,826
+2020,health,humanities,diamond,2
+2020,health,humanities,gold,1
+2020,health,humanities,hybrid_agreement,1
+2020,health,humanities,closed,2
+2020,health,health_sciences,diamond,88
+2020,health,health_sciences,gold,1285
+2020,health,health_sciences,hybrid,461
+2020,health,health_sciences,hybrid_agreement,669
+2020,health,health_sciences,green,641
+2020,health,health_sciences,deposited,1
+2020,health,health_sciences,closed,750
+2020,health,natural_sciences_engineering,diamond,2
+2020,health,natural_sciences_engineering,gold,358
+2020,health,natural_sciences_engineering,hybrid,40
+2020,health,natural_sciences_engineering,hybrid_agreement,29
+2020,health,natural_sciences_engineering,green,52
+2020,health,natural_sciences_engineering,closed,45
+2020,health,social_science,diamond,2
+2020,health,social_science,gold,42
+2020,health,social_science,hybrid,6
+2020,health,social_science,hybrid_agreement,24
+2020,health,social_science,green,7
+2020,health,social_science,closed,19
+2020,institute,all,diamond,230
+2020,institute,all,gold,1453
+2020,institute,all,hybrid,575
+2020,institute,all,hybrid_agreement,899
+2020,institute,all,green,1013
+2020,institute,all,deposited,2
+2020,institute,all,closed,871
+2020,institute,humanities,diamond,24
+2020,institute,humanities,gold,4
+2020,institute,humanities,hybrid,6
+2020,institute,humanities,hybrid_agreement,10
+2020,institute,humanities,green,20
+2020,institute,humanities,closed,20
+2020,institute,health_sciences,diamond,53
+2020,institute,health_sciences,gold,389
+2020,institute,health_sciences,hybrid,144
+2020,institute,health_sciences,hybrid_agreement,196
+2020,institute,health_sciences,green,208
+2020,institute,health_sciences,closed,137
+2020,institute,natural_sciences_engineering,diamond,85
+2020,institute,natural_sciences_engineering,gold,977
+2020,institute,natural_sciences_engineering,hybrid,329
+2020,institute,natural_sciences_engineering,hybrid_agreement,585
+2020,institute,natural_sciences_engineering,green,522
+2020,institute,natural_sciences_engineering,deposited,1
+2020,institute,natural_sciences_engineering,closed,499
+2020,institute,social_science,diamond,68
+2020,institute,social_science,gold,77
+2020,institute,social_science,hybrid,92
+2020,institute,social_science,hybrid_agreement,108
+2020,institute,social_science,green,139
+2020,institute,social_science,deposited,1
+2020,institute,social_science,closed,124
+2020,other,all,diamond,3
+2020,other,all,gold,1
+2020,other,all,hybrid,6
+2020,other,all,hybrid_agreement,13
+2020,other,all,green,14
+2020,other,all,closed,23
+2020,other,health_sciences,hybrid_agreement,2
+2020,other,health_sciences,green,2
+2020,other,natural_sciences_engineering,hybrid,1
+2020,other,natural_sciences_engineering,hybrid_agreement,1
+2020,other,natural_sciences_engineering,green,4
+2020,other,natural_sciences_engineering,closed,3
+2020,other,social_science,diamond,3
+2020,other,social_science,gold,1
+2020,other,social_science,hybrid,5
+2020,other,social_science,hybrid_agreement,10
+2020,other,social_science,green,8
+2020,other,social_science,closed,19
+2020,higher_education,all,diamond,1317
+2020,higher_education,all,gold,5662
+2020,higher_education,all,hybrid,1811
+2020,higher_education,all,hybrid_agreement,3502
+2020,higher_education,all,green,4853
+2020,higher_education,all,deposited,34
+2020,higher_education,all,closed,3913
+2020,higher_education,humanities,diamond,377
+2020,higher_education,humanities,gold,158
+2020,higher_education,humanities,hybrid,54
+2020,higher_education,humanities,hybrid_agreement,197
+2020,higher_education,humanities,green,242
+2020,higher_education,humanities,deposited,2
+2020,higher_education,humanities,closed,320
+2020,higher_education,health_sciences,diamond,145
+2020,higher_education,health_sciences,gold,2159
+2020,higher_education,health_sciences,hybrid,688
+2020,higher_education,health_sciences,hybrid_agreement,1094
+2020,higher_education,health_sciences,green,1109
+2020,higher_education,health_sciences,deposited,2
+2020,higher_education,health_sciences,closed,1075
+2020,higher_education,natural_sciences_engineering,diamond,265
+2020,higher_education,natural_sciences_engineering,gold,2796
+2020,higher_education,natural_sciences_engineering,hybrid,811
+2020,higher_education,natural_sciences_engineering,hybrid_agreement,1417
+2020,higher_education,natural_sciences_engineering,green,2288
+2020,higher_education,natural_sciences_engineering,deposited,12
+2020,higher_education,natural_sciences_engineering,closed,1470
+2020,higher_education,social_science,diamond,530
+2020,higher_education,social_science,gold,448
+2020,higher_education,social_science,hybrid,227
+2020,higher_education,social_science,hybrid_agreement,794
+2020,higher_education,social_science,green,805
+2020,higher_education,social_science,deposited,4
+2020,higher_education,social_science,closed,713
+2021,archives_libraries_museums,all,diamond,20
+2021,archives_libraries_museums,all,gold,4
+2021,archives_libraries_museums,all,hybrid_agreement,3
+2021,archives_libraries_museums,all,green,5
+2021,archives_libraries_museums,all,closed,13
+2021,archives_libraries_museums,humanities,diamond,16
+2021,archives_libraries_museums,humanities,gold,1
+2021,archives_libraries_museums,humanities,hybrid_agreement,1
+2021,archives_libraries_museums,humanities,green,3
+2021,archives_libraries_museums,humanities,closed,6
+2021,archives_libraries_museums,health_sciences,diamond,1
+2021,archives_libraries_museums,health_sciences,gold,2
+2021,archives_libraries_museums,natural_sciences_engineering,diamond,1
+2021,archives_libraries_museums,natural_sciences_engineering,gold,1
+2021,archives_libraries_museums,natural_sciences_engineering,hybrid_agreement,2
+2021,archives_libraries_museums,natural_sciences_engineering,green,1
+2021,archives_libraries_museums,social_science,diamond,2
+2021,archives_libraries_museums,social_science,green,1
+2021,all,all,diamond,1508
+2021,all,all,gold,8055
+2021,all,all,hybrid,2994
+2021,all,all,hybrid_agreement,4638
+2021,all,all,green,4783
+2021,all,all,deposited,32
+2021,all,all,closed,4779
+2021,all,humanities,diamond,432
+2021,all,humanities,gold,178
+2021,all,humanities,hybrid,65
+2021,all,humanities,hybrid_agreement,280
+2021,all,humanities,green,256
+2021,all,humanities,deposited,1
+2021,all,humanities,closed,297
+2021,all,health_sciences,diamond,193
+2021,all,health_sciences,gold,3151
+2021,all,health_sciences,hybrid,1061
+2021,all,health_sciences,hybrid_agreement,1397
+2021,all,health_sciences,green,1098
+2021,all,health_sciences,deposited,5
+2021,all,health_sciences,closed,1404
+2021,all,natural_sciences_engineering,diamond,335
+2021,all,natural_sciences_engineering,gold,3988
+2021,all,natural_sciences_engineering,hybrid,1455
+2021,all,natural_sciences_engineering,hybrid_agreement,1876
+2021,all,natural_sciences_engineering,green,2213
+2021,all,natural_sciences_engineering,deposited,19
+2021,all,natural_sciences_engineering,closed,1843
+2021,all,social_science,diamond,548
+2021,all,social_science,gold,696
+2021,all,social_science,hybrid,366
+2021,all,social_science,hybrid_agreement,1085
+2021,all,social_science,green,820
+2021,all,social_science,deposited,1
+2021,all,social_science,closed,838
+2021,health,all,diamond,122
+2021,health,all,gold,2059
+2021,health,all,hybrid,614
+2021,health,all,hybrid_agreement,911
+2021,health,all,green,552
+2021,health,all,deposited,2
+2021,health,all,closed,831
+2021,health,humanities,diamond,6
+2021,health,humanities,gold,4
+2021,health,humanities,hybrid,1
+2021,health,humanities,hybrid_agreement,3
+2021,health,humanities,green,2
+2021,health,humanities,closed,2
+2021,health,health_sciences,diamond,99
+2021,health,health_sciences,gold,1595
+2021,health,health_sciences,hybrid,559
+2021,health,health_sciences,hybrid_agreement,834
+2021,health,health_sciences,green,500
+2021,health,health_sciences,deposited,2
+2021,health,health_sciences,closed,778
+2021,health,natural_sciences_engineering,diamond,7
+2021,health,natural_sciences_engineering,gold,406
+2021,health,natural_sciences_engineering,hybrid,48
+2021,health,natural_sciences_engineering,hybrid_agreement,34
+2021,health,natural_sciences_engineering,green,36
+2021,health,natural_sciences_engineering,closed,28
+2021,health,social_science,diamond,10
+2021,health,social_science,gold,54
+2021,health,social_science,hybrid,6
+2021,health,social_science,hybrid_agreement,40
+2021,health,social_science,green,10
+2021,health,social_science,closed,23
+2021,institute,all,diamond,189
+2021,institute,all,gold,1862
+2021,institute,all,hybrid,717
+2021,institute,all,hybrid_agreement,1089
+2021,institute,all,green,869
+2021,institute,all,deposited,4
+2021,institute,all,closed,782
+2021,institute,humanities,diamond,16
+2021,institute,humanities,gold,5
+2021,institute,humanities,hybrid,5
+2021,institute,humanities,hybrid_agreement,13
+2021,institute,humanities,green,15
+2021,institute,humanities,closed,11
+2021,institute,health_sciences,diamond,41
+2021,institute,health_sciences,gold,529
+2021,institute,health_sciences,hybrid,162
+2021,institute,health_sciences,hybrid_agreement,252
+2021,institute,health_sciences,green,157
+2021,institute,health_sciences,deposited,3
+2021,institute,health_sciences,closed,128
+2021,institute,natural_sciences_engineering,diamond,64
+2021,institute,natural_sciences_engineering,gold,1186
+2021,institute,natural_sciences_engineering,hybrid,447
+2021,institute,natural_sciences_engineering,hybrid_agreement,665
+2021,institute,natural_sciences_engineering,green,455
+2021,institute,natural_sciences_engineering,deposited,1
+2021,institute,natural_sciences_engineering,closed,455
+2021,institute,social_science,diamond,68
+2021,institute,social_science,gold,140
+2021,institute,social_science,hybrid,92
+2021,institute,social_science,hybrid_agreement,159
+2021,institute,social_science,green,128
+2021,institute,social_science,closed,117
+2021,other,all,diamond,2
+2021,other,all,gold,4
+2021,other,all,hybrid,5
+2021,other,all,hybrid_agreement,19
+2021,other,all,green,22
+2021,other,all,closed,5
+2021,other,humanities,green,1
+2021,other,health_sciences,gold,1
+2021,other,health_sciences,hybrid,1
+2021,other,health_sciences,hybrid_agreement,2
+2021,other,natural_sciences_engineering,hybrid_agreement,1
+2021,other,natural_sciences_engineering,green,2
+2021,other,social_science,diamond,2
+2021,other,social_science,gold,3
+2021,other,social_science,hybrid,4
+2021,other,social_science,hybrid_agreement,16
+2021,other,social_science,green,19
+2021,other,social_science,closed,5
+2021,higher_education,all,diamond,1355
+2021,higher_education,all,gold,6838
+2021,higher_education,all,hybrid,2425
+2021,higher_education,all,hybrid_agreement,4247
+2021,higher_education,all,green,4263
+2021,higher_education,all,deposited,31
+2021,higher_education,all,closed,3836
+2021,higher_education,humanities,diamond,409
+2021,higher_education,humanities,gold,174
+2021,higher_education,humanities,hybrid,62
+2021,higher_education,humanities,hybrid_agreement,277
+2021,higher_education,humanities,green,247
+2021,higher_education,humanities,deposited,1
+2021,higher_education,humanities,closed,282
+2021,higher_education,health_sciences,diamond,149
+2021,higher_education,health_sciences,gold,2733
+2021,higher_education,health_sciences,hybrid,825
+2021,higher_education,health_sciences,hybrid_agreement,1307
+2021,higher_education,health_sciences,green,946
+2021,higher_education,health_sciences,deposited,4
+2021,higher_education,health_sciences,closed,1001
+2021,higher_education,natural_sciences_engineering,diamond,288
+2021,higher_education,natural_sciences_engineering,gold,3281
+2021,higher_education,natural_sciences_engineering,hybrid,1203
+2021,higher_education,natural_sciences_engineering,hybrid_agreement,1642
+2021,higher_education,natural_sciences_engineering,green,1989
+2021,higher_education,natural_sciences_engineering,deposited,19
+2021,higher_education,natural_sciences_engineering,closed,1477
+2021,higher_education,social_science,diamond,509
+2021,higher_education,social_science,gold,608
+2021,higher_education,social_science,hybrid,295
+2021,higher_education,social_science,hybrid_agreement,1021
+2021,higher_education,social_science,green,736
+2021,higher_education,social_science,deposited,1
+2021,higher_education,social_science,closed,746
+2022,archives_libraries_museums,all,diamond,14
+2022,archives_libraries_museums,all,gold,2
+2022,archives_libraries_museums,all,hybrid,3
+2022,archives_libraries_museums,all,hybrid_agreement,1
+2022,archives_libraries_museums,all,green,6
+2022,archives_libraries_museums,all,closed,17
+2022,archives_libraries_museums,humanities,diamond,12
+2022,archives_libraries_museums,humanities,hybrid,1
+2022,archives_libraries_museums,humanities,hybrid_agreement,1
+2022,archives_libraries_museums,humanities,green,6
+2022,archives_libraries_museums,humanities,closed,8
+2022,archives_libraries_museums,natural_sciences_engineering,gold,1
+2022,archives_libraries_museums,natural_sciences_engineering,hybrid,1
+2022,archives_libraries_museums,natural_sciences_engineering,closed,1
+2022,archives_libraries_museums,social_science,diamond,2
+2022,archives_libraries_museums,social_science,gold,1
+2022,archives_libraries_museums,social_science,closed,1
+2022,all,all,diamond,1494
+2022,all,all,gold,8302
+2022,all,all,hybrid,3228
+2022,all,all,hybrid_agreement,4419
+2022,all,all,green,3795
+2022,all,all,deposited,47
+2022,all,all,closed,4042
+2022,all,humanities,diamond,406
+2022,all,humanities,gold,171
+2022,all,humanities,hybrid,87
+2022,all,humanities,hybrid_agreement,297
+2022,all,humanities,green,205
+2022,all,humanities,deposited,7
+2022,all,humanities,closed,289
+2022,all,health_sciences,diamond,174
+2022,all,health_sciences,gold,3275
+2022,all,health_sciences,hybrid,1119
+2022,all,health_sciences,hybrid_agreement,1311
+2022,all,health_sciences,green,898
+2022,all,health_sciences,deposited,2
+2022,all,health_sciences,closed,971
+2022,all,natural_sciences_engineering,diamond,331
+2022,all,natural_sciences_engineering,gold,4009
+2022,all,natural_sciences_engineering,hybrid,1416
+2022,all,natural_sciences_engineering,hybrid_agreement,1716
+2022,all,natural_sciences_engineering,green,1720
+2022,all,natural_sciences_engineering,deposited,27
+2022,all,natural_sciences_engineering,closed,1656
+2022,all,social_science,diamond,583
+2022,all,social_science,gold,770
+2022,all,social_science,hybrid,532
+2022,all,social_science,hybrid_agreement,1094
+2022,all,social_science,green,651
+2022,all,social_science,deposited,4
+2022,all,social_science,closed,703
+2022,health,all,diamond,96
+2022,health,all,gold,2109
+2022,health,all,hybrid,636
+2022,health,all,hybrid_agreement,863
+2022,health,all,green,512
+2022,health,all,deposited,2
+2022,health,all,closed,615
+2022,health,humanities,diamond,3
+2022,health,humanities,gold,3
+2022,health,humanities,hybrid,2
+2022,health,humanities,hybrid_agreement,5
+2022,health,humanities,green,3
+2022,health,humanities,closed,1
+2022,health,health_sciences,diamond,78
+2022,health,health_sciences,gold,1650
+2022,health,health_sciences,hybrid,558
+2022,health,health_sciences,hybrid_agreement,787
+2022,health,health_sciences,green,454
+2022,health,health_sciences,deposited,1
+2022,health,health_sciences,closed,558
+2022,health,natural_sciences_engineering,diamond,2
+2022,health,natural_sciences_engineering,gold,410
+2022,health,natural_sciences_engineering,hybrid,64
+2022,health,natural_sciences_engineering,hybrid_agreement,43
+2022,health,natural_sciences_engineering,green,43
+2022,health,natural_sciences_engineering,closed,27
+2022,health,social_science,diamond,13
+2022,health,social_science,gold,45
+2022,health,social_science,hybrid,6
+2022,health,social_science,hybrid_agreement,28
+2022,health,social_science,green,10
+2022,health,social_science,deposited,1
+2022,health,social_science,closed,18
+2022,institute,all,diamond,197
+2022,institute,all,gold,1858
+2022,institute,all,hybrid,748
+2022,institute,all,hybrid_agreement,1035
+2022,institute,all,green,697
+2022,institute,all,deposited,1
+2022,institute,all,closed,646
+2022,institute,humanities,diamond,23
+2022,institute,humanities,gold,9
+2022,institute,humanities,hybrid,6
+2022,institute,humanities,hybrid_agreement,15
+2022,institute,humanities,green,10
+2022,institute,humanities,closed,12
+2022,institute,health_sciences,diamond,35
+2022,institute,health_sciences,gold,584
+2022,institute,health_sciences,hybrid,196
+2022,institute,health_sciences,hybrid_agreement,248
+2022,institute,health_sciences,green,139
+2022,institute,health_sciences,closed,96
+2022,institute,natural_sciences_engineering,diamond,54
+2022,institute,natural_sciences_engineering,gold,1119
+2022,institute,natural_sciences_engineering,hybrid,428
+2022,institute,natural_sciences_engineering,hybrid_agreement,595
+2022,institute,natural_sciences_engineering,green,361
+2022,institute,natural_sciences_engineering,closed,360
+2022,institute,social_science,diamond,85
+2022,institute,social_science,gold,134
+2022,institute,social_science,hybrid,104
+2022,institute,social_science,hybrid_agreement,177
+2022,institute,social_science,green,102
+2022,institute,social_science,deposited,1
+2022,institute,social_science,closed,109
+2022,other,all,diamond,6
+2022,other,all,gold,5
+2022,other,all,hybrid,5
+2022,other,all,hybrid_agreement,10
+2022,other,all,green,18
+2022,other,all,closed,14
+2022,other,health_sciences,gold,2
+2022,other,health_sciences,hybrid_agreement,1
+2022,other,health_sciences,closed,1
+2022,other,natural_sciences_engineering,hybrid,1
+2022,other,natural_sciences_engineering,hybrid_agreement,1
+2022,other,natural_sciences_engineering,green,4
+2022,other,natural_sciences_engineering,closed,2
+2022,other,social_science,diamond,6
+2022,other,social_science,gold,3
+2022,other,social_science,hybrid,3
+2022,other,social_science,hybrid_agreement,8
+2022,other,social_science,green,14
+2022,other,social_science,closed,11
+2022,higher_education,all,diamond,1358
+2022,higher_education,all,gold,7140
+2022,higher_education,all,hybrid,2604
+2022,higher_education,all,hybrid_agreement,4109
+2022,higher_education,all,green,3372
+2022,higher_education,all,deposited,47
+2022,higher_education,all,closed,3321
+2022,higher_education,humanities,diamond,383
+2022,higher_education,humanities,gold,167
+2022,higher_education,humanities,hybrid,80
+2022,higher_education,humanities,hybrid_agreement,293
+2022,higher_education,humanities,green,198
+2022,higher_education,humanities,deposited,7
+2022,higher_education,humanities,closed,277
+2022,higher_education,health_sciences,diamond,136
+2022,higher_education,health_sciences,gold,2848
+2022,higher_education,health_sciences,hybrid,853
+2022,higher_education,health_sciences,hybrid_agreement,1243
+2022,higher_education,health_sciences,green,753
+2022,higher_education,health_sciences,deposited,2
+2022,higher_education,health_sciences,closed,685
+2022,higher_education,natural_sciences_engineering,diamond,301
+2022,higher_education,natural_sciences_engineering,gold,3366
+2022,higher_education,natural_sciences_engineering,hybrid,1159
+2022,higher_education,natural_sciences_engineering,hybrid_agreement,1536
+2022,higher_education,natural_sciences_engineering,green,1550
+2022,higher_education,natural_sciences_engineering,deposited,27
+2022,higher_education,natural_sciences_engineering,closed,1369
+2022,higher_education,social_science,diamond,538
+2022,higher_education,social_science,gold,692
+2022,higher_education,social_science,hybrid,448
+2022,higher_education,social_science,hybrid_agreement,1036
+2022,higher_education,social_science,green,584
+2022,higher_education,social_science,deposited,4
+2022,higher_education,social_science,closed,618
+2023,archives_libraries_museums,all,diamond,25
+2023,archives_libraries_museums,all,gold,5
+2023,archives_libraries_museums,all,hybrid_agreement,4
+2023,archives_libraries_museums,all,green,12
+2023,archives_libraries_museums,all,deposited,1
+2023,archives_libraries_museums,all,closed,16
+2023,archives_libraries_museums,humanities,diamond,24
+2023,archives_libraries_museums,humanities,gold,3
+2023,archives_libraries_museums,humanities,hybrid_agreement,2
+2023,archives_libraries_museums,humanities,green,6
+2023,archives_libraries_museums,humanities,deposited,1
+2023,archives_libraries_museums,humanities,closed,5
+2023,archives_libraries_museums,health_sciences,gold,1
+2023,archives_libraries_museums,natural_sciences_engineering,gold,1
+2023,archives_libraries_museums,natural_sciences_engineering,hybrid_agreement,1
+2023,archives_libraries_museums,natural_sciences_engineering,green,1
+2023,archives_libraries_museums,natural_sciences_engineering,closed,1
+2023,archives_libraries_museums,social_science,diamond,1
+2023,archives_libraries_museums,social_science,hybrid_agreement,1
+2023,archives_libraries_museums,social_science,closed,2
+2023,all,all,diamond,1693
+2023,all,all,gold,8281
+2023,all,all,hybrid,3622
+2023,all,all,hybrid_agreement,4829
+2023,all,all,green,3196
+2023,all,all,deposited,80
+2023,all,all,closed,3597
+2023,all,humanities,diamond,465
+2023,all,humanities,gold,217
+2023,all,humanities,hybrid,135
+2023,all,humanities,hybrid_agreement,283
+2023,all,humanities,green,192
+2023,all,humanities,deposited,2
+2023,all,humanities,closed,293
+2023,all,health_sciences,diamond,166
+2023,all,health_sciences,gold,3098
+2023,all,health_sciences,hybrid,1333
+2023,all,health_sciences,hybrid_agreement,1464
+2023,all,health_sciences,green,693
+2023,all,health_sciences,deposited,2
+2023,all,health_sciences,closed,797
+2023,all,natural_sciences_engineering,diamond,487
+2023,all,natural_sciences_engineering,gold,4106
+2023,all,natural_sciences_engineering,hybrid,1478
+2023,all,natural_sciences_engineering,hybrid_agreement,1845
+2023,all,natural_sciences_engineering,green,1437
+2023,all,natural_sciences_engineering,deposited,54
+2023,all,natural_sciences_engineering,closed,1469
+2023,all,social_science,diamond,575
+2023,all,social_science,gold,778
+2023,all,social_science,hybrid,596
+2023,all,social_science,hybrid_agreement,1236
+2023,all,social_science,green,517
+2023,all,social_science,deposited,8
+2023,all,social_science,closed,583
+2023,health,all,diamond,108
+2023,health,all,gold,2031
+2023,health,all,hybrid,729
+2023,health,all,hybrid_agreement,906
+2023,health,all,green,399
+2023,health,all,closed,449
+2023,health,humanities,diamond,5
+2023,health,humanities,gold,1
+2023,health,humanities,hybrid,1
+2023,health,humanities,hybrid_agreement,2
+2023,health,humanities,closed,3
+2023,health,health_sciences,diamond,82
+2023,health,health_sciences,gold,1587
+2023,health,health_sciences,hybrid,668
+2023,health,health_sciences,hybrid_agreement,845
+2023,health,health_sciences,green,351
+2023,health,health_sciences,closed,404
+2023,health,natural_sciences_engineering,diamond,6
+2023,health,natural_sciences_engineering,gold,385
+2023,health,natural_sciences_engineering,hybrid,46
+2023,health,natural_sciences_engineering,hybrid_agreement,24
+2023,health,natural_sciences_engineering,green,35
+2023,health,natural_sciences_engineering,closed,24
+2023,health,social_science,diamond,15
+2023,health,social_science,gold,58
+2023,health,social_science,hybrid,14
+2023,health,social_science,hybrid_agreement,35
+2023,health,social_science,green,9
+2023,health,social_science,closed,13
+2023,institute,all,diamond,208
+2023,institute,all,gold,1846
+2023,institute,all,hybrid,818
+2023,institute,all,hybrid_agreement,1107
+2023,institute,all,green,603
+2023,institute,all,deposited,14
+2023,institute,all,closed,559
+2023,institute,humanities,diamond,22
+2023,institute,humanities,gold,19
+2023,institute,humanities,hybrid,10
+2023,institute,humanities,hybrid_agreement,15
+2023,institute,humanities,green,9
+2023,institute,humanities,closed,10
+2023,institute,health_sciences,diamond,38
+2023,institute,health_sciences,gold,476
+2023,institute,health_sciences,hybrid,208
+2023,institute,health_sciences,hybrid_agreement,285
+2023,institute,health_sciences,green,98
+2023,institute,health_sciences,closed,73
+2023,institute,natural_sciences_engineering,diamond,62
+2023,institute,natural_sciences_engineering,gold,1197
+2023,institute,natural_sciences_engineering,hybrid,435
+2023,institute,natural_sciences_engineering,hybrid_agreement,622
+2023,institute,natural_sciences_engineering,green,330
+2023,institute,natural_sciences_engineering,deposited,8
+2023,institute,natural_sciences_engineering,closed,327
+2023,institute,social_science,diamond,86
+2023,institute,social_science,gold,138
+2023,institute,social_science,hybrid,149
+2023,institute,social_science,hybrid_agreement,185
+2023,institute,social_science,green,74
+2023,institute,social_science,deposited,3
+2023,institute,social_science,closed,84
+2023,other,all,gold,6
+2023,other,all,hybrid,4
+2023,other,all,hybrid_agreement,21
+2023,other,all,green,16
+2023,other,all,closed,7
+2023,other,humanities,hybrid_agreement,1
+2023,other,health_sciences,gold,3
+2023,other,health_sciences,hybrid,1
+2023,other,health_sciences,hybrid_agreement,1
+2023,other,health_sciences,green,1
+2023,other,natural_sciences_engineering,gold,1
+2023,other,natural_sciences_engineering,hybrid_agreement,3
+2023,other,natural_sciences_engineering,green,1
+2023,other,social_science,gold,2
+2023,other,social_science,hybrid,3
+2023,other,social_science,hybrid_agreement,16
+2023,other,social_science,green,13
+2023,other,social_science,closed,7
+2023,higher_education,all,diamond,1524
+2023,higher_education,all,gold,7092
+2023,higher_education,all,hybrid,2898
+2023,higher_education,all,hybrid_agreement,4462
+2023,higher_education,all,green,2821
+2023,higher_education,all,deposited,80
+2023,higher_education,all,closed,3036
+2023,higher_education,humanities,diamond,433
+2023,higher_education,humanities,gold,210
+2023,higher_education,humanities,hybrid,128
+2023,higher_education,humanities,hybrid_agreement,273
+2023,higher_education,humanities,green,182
+2023,higher_education,humanities,deposited,2
+2023,higher_education,humanities,closed,282
+2023,higher_education,health_sciences,diamond,130
+2023,higher_education,health_sciences,gold,2717
+2023,higher_education,health_sciences,hybrid,1037
+2023,higher_education,health_sciences,hybrid_agreement,1387
+2023,higher_education,health_sciences,green,579
+2023,higher_education,health_sciences,deposited,2
+2023,higher_education,health_sciences,closed,612
+2023,higher_education,natural_sciences_engineering,diamond,437
+2023,higher_education,natural_sciences_engineering,gold,3405
+2023,higher_education,natural_sciences_engineering,hybrid,1175
+2023,higher_education,natural_sciences_engineering,hybrid_agreement,1643
+2023,higher_education,natural_sciences_engineering,green,1287
+2023,higher_education,natural_sciences_engineering,deposited,54
+2023,higher_education,natural_sciences_engineering,closed,1231
+2023,higher_education,social_science,diamond,524
+2023,higher_education,social_science,gold,687
+2023,higher_education,social_science,hybrid,487
+2023,higher_education,social_science,hybrid_agreement,1158
+2023,higher_education,social_science,green,464
+2023,higher_education,social_science,deposited,8
+2023,higher_education,social_science,closed,512
+2024,archives_libraries_museums,all,diamond,17
+2024,archives_libraries_museums,all,gold,4
+2024,archives_libraries_museums,all,hybrid,3
+2024,archives_libraries_museums,all,hybrid_agreement,2
+2024,archives_libraries_museums,all,green,9
+2024,archives_libraries_museums,all,closed,8
+2024,archives_libraries_museums,humanities,diamond,16
+2024,archives_libraries_museums,humanities,gold,1
+2024,archives_libraries_museums,humanities,hybrid,3
+2024,archives_libraries_museums,humanities,hybrid_agreement,1
+2024,archives_libraries_museums,humanities,green,3
+2024,archives_libraries_museums,humanities,closed,5
+2024,archives_libraries_museums,health_sciences,hybrid_agreement,1
+2024,archives_libraries_museums,natural_sciences_engineering,diamond,1
+2024,archives_libraries_museums,natural_sciences_engineering,gold,2
+2024,archives_libraries_museums,natural_sciences_engineering,green,2
+2024,archives_libraries_museums,social_science,gold,1
+2024,archives_libraries_museums,social_science,green,1
+2024,all,all,diamond,1741
+2024,all,all,gold,8211
+2024,all,all,hybrid,3812
+2024,all,all,hybrid_agreement,5124
+2024,all,all,green,2604
+2024,all,all,deposited,97
+2024,all,all,closed,3515
+2024,all,humanities,diamond,430
+2024,all,humanities,gold,196
+2024,all,humanities,hybrid,122
+2024,all,humanities,hybrid_agreement,328
+2024,all,humanities,green,144
+2024,all,humanities,deposited,8
+2024,all,humanities,closed,249
+2024,all,health_sciences,diamond,214
+2024,all,health_sciences,gold,3103
+2024,all,health_sciences,hybrid,1364
+2024,all,health_sciences,hybrid_agreement,1511
+2024,all,health_sciences,green,631
+2024,all,health_sciences,deposited,8
+2024,all,health_sciences,closed,805
+2024,all,natural_sciences_engineering,diamond,478
+2024,all,natural_sciences_engineering,gold,4082
+2024,all,natural_sciences_engineering,hybrid,1632
+2024,all,natural_sciences_engineering,hybrid_agreement,1954
+2024,all,natural_sciences_engineering,green,1104
+2024,all,natural_sciences_engineering,deposited,57
+2024,all,natural_sciences_engineering,closed,1462
+2024,all,social_science,diamond,619
+2024,all,social_science,gold,795
+2024,all,social_science,hybrid,593
+2024,all,social_science,hybrid_agreement,1330
+2024,all,social_science,green,439
+2024,all,social_science,deposited,12
+2024,all,social_science,closed,618
+2024,health,all,diamond,120
+2024,health,all,gold,2138
+2024,health,all,hybrid,720
+2024,health,all,hybrid_agreement,923
+2024,health,all,green,363
+2024,health,all,deposited,6
+2024,health,all,closed,491
+2024,health,humanities,diamond,1
+2024,health,humanities,hybrid,1
+2024,health,humanities,hybrid_agreement,6
+2024,health,humanities,closed,1
+2024,health,health_sciences,diamond,103
+2024,health,health_sciences,gold,1682
+2024,health,health_sciences,hybrid,667
+2024,health,health_sciences,hybrid_agreement,853
+2024,health,health_sciences,green,327
+2024,health,health_sciences,deposited,5
+2024,health,health_sciences,closed,450
+2024,health,natural_sciences_engineering,diamond,5
+2024,health,natural_sciences_engineering,gold,401
+2024,health,natural_sciences_engineering,hybrid,40
+2024,health,natural_sciences_engineering,hybrid_agreement,27
+2024,health,natural_sciences_engineering,green,25
+2024,health,natural_sciences_engineering,closed,24
+2024,health,social_science,diamond,11
+2024,health,social_science,gold,54
+2024,health,social_science,hybrid,9
+2024,health,social_science,hybrid_agreement,37
+2024,health,social_science,green,10
+2024,health,social_science,closed,11
+2024,institute,all,diamond,233
+2024,institute,all,gold,1878
+2024,institute,all,hybrid,889
+2024,institute,all,hybrid_agreement,1162
+2024,institute,all,green,465
+2024,institute,all,deposited,11
+2024,institute,all,closed,575
+2024,institute,humanities,diamond,24
+2024,institute,humanities,gold,7
+2024,institute,humanities,hybrid,3
+2024,institute,humanities,hybrid_agreement,17
+2024,institute,humanities,green,4
+2024,institute,humanities,deposited,1
+2024,institute,humanities,closed,12
+2024,institute,health_sciences,diamond,44
+2024,institute,health_sciences,gold,522
+2024,institute,health_sciences,hybrid,219
+2024,institute,health_sciences,hybrid_agreement,257
+2024,institute,health_sciences,green,78
+2024,institute,health_sciences,deposited,2
+2024,institute,health_sciences,closed,57
+2024,institute,natural_sciences_engineering,diamond,79
+2024,institute,natural_sciences_engineering,gold,1200
+2024,institute,natural_sciences_engineering,hybrid,476
+2024,institute,natural_sciences_engineering,hybrid_agreement,669
+2024,institute,natural_sciences_engineering,green,245
+2024,institute,natural_sciences_engineering,deposited,4
+2024,institute,natural_sciences_engineering,closed,348
+2024,institute,social_science,diamond,86
+2024,institute,social_science,gold,148
+2024,institute,social_science,hybrid,152
+2024,institute,social_science,hybrid_agreement,218
+2024,institute,social_science,green,62
+2024,institute,social_science,deposited,1
+2024,institute,social_science,closed,81
+2024,other,all,diamond,1
+2024,other,all,gold,10
+2024,other,all,hybrid,5
+2024,other,all,hybrid_agreement,13
+2024,other,all,green,2
+2024,other,all,closed,11
+2024,other,health_sciences,diamond,1
+2024,other,health_sciences,gold,4
+2024,other,health_sciences,hybrid,1
+2024,other,health_sciences,hybrid_agreement,1
+2024,other,natural_sciences_engineering,gold,4
+2024,other,natural_sciences_engineering,hybrid,1
+2024,other,natural_sciences_engineering,hybrid_agreement,2
+2024,other,natural_sciences_engineering,closed,1
+2024,other,social_science,gold,2
+2024,other,social_science,hybrid,3
+2024,other,social_science,hybrid_agreement,10
+2024,other,social_science,green,2
+2024,other,social_science,closed,10
+2024,higher_education,all,diamond,1563
+2024,higher_education,all,gold,6986
+2024,higher_education,all,hybrid,2992
+2024,higher_education,all,hybrid_agreement,4732
+2024,higher_education,all,green,2258
+2024,higher_education,all,deposited,95
+2024,higher_education,all,closed,2931
+2024,higher_education,humanities,diamond,404
+2024,higher_education,humanities,gold,193
+2024,higher_education,humanities,hybrid,118
+2024,higher_education,humanities,hybrid_agreement,316
+2024,higher_education,humanities,green,141
+2024,higher_education,humanities,deposited,7
+2024,higher_education,humanities,closed,235
+2024,higher_education,health_sciences,diamond,172
+2024,higher_education,health_sciences,gold,2669
+2024,higher_education,health_sciences,hybrid,1024
+2024,higher_education,health_sciences,hybrid_agreement,1436
+2024,higher_education,health_sciences,green,489
+2024,higher_education,health_sciences,deposited,8
+2024,higher_education,health_sciences,closed,611
+2024,higher_education,natural_sciences_engineering,diamond,420
+2024,higher_education,natural_sciences_engineering,gold,3383
+2024,higher_education,natural_sciences_engineering,hybrid,1295
+2024,higher_education,natural_sciences_engineering,hybrid_agreement,1724
+2024,higher_education,natural_sciences_engineering,green,982
+2024,higher_education,natural_sciences_engineering,deposited,57
+2024,higher_education,natural_sciences_engineering,closed,1202
+2024,higher_education,social_science,diamond,567
+2024,higher_education,social_science,gold,707
+2024,higher_education,social_science,hybrid,482
+2024,higher_education,social_science,hybrid_agreement,1255
+2024,higher_education,social_science,green,398
+2024,higher_education,social_science,deposited,11
+2024,higher_education,social_science,closed,556
+2025,archives_libraries_museums,all,diamond,12
+2025,archives_libraries_museums,all,gold,6
+2025,archives_libraries_museums,all,hybrid,6
+2025,archives_libraries_museums,all,hybrid_agreement,3
+2025,archives_libraries_museums,all,green,9
+2025,archives_libraries_museums,all,deposited,1
+2025,archives_libraries_museums,all,closed,14
+2025,archives_libraries_museums,humanities,diamond,11
+2025,archives_libraries_museums,humanities,gold,3
+2025,archives_libraries_museums,humanities,hybrid,5
+2025,archives_libraries_museums,humanities,hybrid_agreement,1
+2025,archives_libraries_museums,humanities,green,6
+2025,archives_libraries_museums,humanities,closed,13
+2025,archives_libraries_museums,health_sciences,hybrid,1
+2025,archives_libraries_museums,health_sciences,green,1
+2025,archives_libraries_museums,natural_sciences_engineering,gold,3
+2025,archives_libraries_museums,natural_sciences_engineering,hybrid_agreement,1
+2025,archives_libraries_museums,natural_sciences_engineering,green,2
+2025,archives_libraries_museums,natural_sciences_engineering,deposited,1
+2025,archives_libraries_museums,social_science,diamond,1
+2025,archives_libraries_museums,social_science,hybrid_agreement,1
+2025,archives_libraries_museums,social_science,closed,1
+2025,all,all,diamond,1849
+2025,all,all,gold,8410
+2025,all,all,hybrid,4153
+2025,all,all,hybrid_agreement,4467
+2025,all,all,green,2731
+2025,all,all,deposited,750
+2025,all,all,closed,3364
+2025,all,humanities,diamond,394
+2025,all,humanities,gold,257
+2025,all,humanities,hybrid,196
+2025,all,humanities,hybrid_agreement,327
+2025,all,humanities,green,235
+2025,all,humanities,deposited,89
+2025,all,humanities,closed,250
+2025,all,health_sciences,diamond,217
+2025,all,health_sciences,gold,3162
+2025,all,health_sciences,hybrid,1477
+2025,all,health_sciences,hybrid_agreement,1235
+2025,all,health_sciences,green,745
+2025,all,health_sciences,deposited,157
+2025,all,health_sciences,closed,900
+2025,all,natural_sciences_engineering,diamond,556
+2025,all,natural_sciences_engineering,gold,4033
+2025,all,natural_sciences_engineering,hybrid,1860
+2025,all,natural_sciences_engineering,hybrid_agreement,1709
+2025,all,natural_sciences_engineering,green,1216
+2025,all,natural_sciences_engineering,deposited,326
+2025,all,natural_sciences_engineering,closed,1608
+2025,all,social_science,diamond,682
+2025,all,social_science,gold,958
+2025,all,social_science,hybrid,620
+2025,all,social_science,hybrid_agreement,1196
+2025,all,social_science,green,535
+2025,all,social_science,deposited,178
+2025,all,social_science,closed,606
+2025,health,all,diamond,121
+2025,health,all,gold,2238
+2025,health,all,hybrid,874
+2025,health,all,hybrid_agreement,730
+2025,health,all,green,421
+2025,health,all,deposited,93
+2025,health,all,closed,550
+2025,health,humanities,gold,3
+2025,health,humanities,hybrid,4
+2025,health,humanities,hybrid_agreement,3
+2025,health,humanities,closed,1
+2025,health,health_sciences,diamond,92
+2025,health,health_sciences,gold,1765
+2025,health,health_sciences,hybrid,793
+2025,health,health_sciences,hybrid_agreement,663
+2025,health,health_sciences,green,375
+2025,health,health_sciences,deposited,84
+2025,health,health_sciences,closed,506
+2025,health,natural_sciences_engineering,diamond,10
+2025,health,natural_sciences_engineering,gold,414
+2025,health,natural_sciences_engineering,hybrid,60
+2025,health,natural_sciences_engineering,hybrid_agreement,35
+2025,health,natural_sciences_engineering,green,35
+2025,health,natural_sciences_engineering,deposited,4
+2025,health,natural_sciences_engineering,closed,29
+2025,health,social_science,diamond,19
+2025,health,social_science,gold,56
+2025,health,social_science,hybrid,17
+2025,health,social_science,hybrid_agreement,29
+2025,health,social_science,green,11
+2025,health,social_science,deposited,5
+2025,health,social_science,closed,14
+2025,institute,all,diamond,247
+2025,institute,all,gold,2048
+2025,institute,all,hybrid,1135
+2025,institute,all,hybrid_agreement,1096
+2025,institute,all,green,542
+2025,institute,all,deposited,92
+2025,institute,all,closed,725
+2025,institute,humanities,diamond,21
+2025,institute,humanities,gold,21
+2025,institute,humanities,hybrid,16
+2025,institute,humanities,hybrid_agreement,26
+2025,institute,humanities,green,4
+2025,institute,humanities,deposited,9
+2025,institute,humanities,closed,9
+2025,institute,health_sciences,diamond,42
+2025,institute,health_sciences,gold,523
+2025,institute,health_sciences,hybrid,252
+2025,institute,health_sciences,hybrid_agreement,229
+2025,institute,health_sciences,green,125
+2025,institute,health_sciences,deposited,11
+2025,institute,health_sciences,closed,86
+2025,institute,natural_sciences_engineering,diamond,87
+2025,institute,natural_sciences_engineering,gold,1338
+2025,institute,natural_sciences_engineering,hybrid,716
+2025,institute,natural_sciences_engineering,hybrid_agreement,628
+2025,institute,natural_sciences_engineering,green,332
+2025,institute,natural_sciences_engineering,deposited,51
+2025,institute,natural_sciences_engineering,closed,507
+2025,institute,social_science,diamond,97
+2025,institute,social_science,gold,166
+2025,institute,social_science,hybrid,151
+2025,institute,social_science,hybrid_agreement,213
+2025,institute,social_science,green,81
+2025,institute,social_science,deposited,21
+2025,institute,social_science,closed,123
+2025,higher_education,all,diamond,1671
+2025,higher_education,all,gold,7027
+2025,higher_education,all,hybrid,3237
+2025,higher_education,all,hybrid_agreement,4044
+2025,higher_education,all,green,2375
+2025,higher_education,all,deposited,713
+2025,higher_education,all,closed,2673
+2025,higher_education,humanities,diamond,375
+2025,higher_education,humanities,gold,246
+2025,higher_education,humanities,hybrid,178
+2025,higher_education,humanities,hybrid_agreement,309
+2025,higher_education,humanities,green,231
+2025,higher_education,humanities,deposited,86
+2025,higher_education,humanities,closed,234
+2025,higher_education,health_sciences,diamond,181
+2025,higher_education,health_sciences,gold,2705
+2025,higher_education,health_sciences,hybrid,1138
+2025,higher_education,health_sciences,hybrid_agreement,1155
+2025,higher_education,health_sciences,green,592
+2025,higher_education,health_sciences,deposited,145
+2025,higher_education,health_sciences,closed,689
+2025,higher_education,natural_sciences_engineering,diamond,495
+2025,higher_education,natural_sciences_engineering,gold,3234
+2025,higher_education,natural_sciences_engineering,hybrid,1400
+2025,higher_education,natural_sciences_engineering,hybrid_agreement,1470
+2025,higher_education,natural_sciences_engineering,green,1059
+2025,higher_education,natural_sciences_engineering,deposited,308
+2025,higher_education,natural_sciences_engineering,closed,1240
+2025,higher_education,social_science,diamond,620
+2025,higher_education,social_science,gold,842
+2025,higher_education,social_science,hybrid,521
+2025,higher_education,social_science,hybrid_agreement,1110
+2025,higher_education,social_science,green,493
+2025,higher_education,social_science,deposited,174
+2025,higher_education,social_science,closed,510
