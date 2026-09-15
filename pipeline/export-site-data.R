@@ -22,11 +22,11 @@ library("tidyverse")
 #
 #  counting semantics:
 #  publications are counted uniquely WITHIN each cell of
-#  the national cube. the "Alle" levels are computed as
+#  the national cube. the "all" levels are computed as
 #  their own deduplicated aggregations - NOT as sums of
 #  the finer cells - so a publication with authors from
 #  several sectors counts once in each sector cell, but
-#  only once in the "Alle" cell. sums across sectors /
+#  only once in the "all" cell. sums across sectors /
 #  institutions will therefore exceed the national total;
 #  that is expected and documented on the site.
 #
@@ -38,18 +38,35 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
   fs::dir_create(site_data_folder)
 
 
-  # display names used on the site (Norwegian)
-  sector_labels = c(
-    UHI = "UH",
-    INSTITUTE = "Institutt",
-    HEALTH = "Helse"
+  # The exported data is English and ASCII-only throughout: stable keys that
+  # never change when wording on the site does, and no a-ring / o-slash / ae to
+  # survive a round trip through Excel or a third-party tool. The site holds the
+  # Norwegian display labels for these keys in assets/js/oa-chart.js.
+
+  sector_levels = c(
+    UHI       = "higher_education",
+    INSTITUTE = "institute",
+    HEALTH    = "health",
+    ABM       = "archives_libraries_museums",
+    OTHER     = "other"
   )
 
-  discipline_labels = c(
-    "Natural Sciences and Engineering" = "Realfag og teknologi",
-    "Health Sciences" = "Medisin og helsefag",
-    "Social Science" = "Samfunnsvitenskap",
-    "Humanities" = "Humaniora"
+  discipline_levels = c(
+    "Natural Sciences and Engineering" = "natural_sciences_engineering",
+    "Health Sciences"                  = "health_sciences",
+    "Social Science"                   = "social_science",
+    "Humanities"                       = "humanities"
+  )
+
+  # calculated_oa_status arrives from the pipeline in Norwegian
+  status_levels = c(
+    diamant       = "diamond",
+    gull          = "gold",
+    hybrid        = "hybrid",
+    hybrid_avtale = "hybrid_agreement",
+    "grønn"       = "green",
+    deponert      = "deposited",
+    lukket        = "closed"
   )
 
 
@@ -64,8 +81,9 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
       npi_academic_discipline
     ) %>%
     mutate(
-      sector = recode(nva_inst_sector, !!!sector_labels),
-      discipline = recode(npi_academic_discipline, !!!discipline_labels)
+      status = recode(status, !!!status_levels),
+      sector = recode(nva_inst_sector, !!!sector_levels),
+      discipline = recode(npi_academic_discipline, !!!discipline_levels)
     ) %>%
     select(-nva_inst_sector, -npi_academic_discipline) %>%
     distinct()
@@ -83,28 +101,28 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
 
   #################################################
   ### national cube:
-  ###   (sector | "Alle") x (discipline | "Alle") x year x status
+  ###   (sector | "all") x (discipline | "all") x year x status
   ### every cell is exactly deduplicated for its own filter
   ### combination - see counting semantics above
 
   bind_rows(
 
-    # Alle x Alle (national)
+    # all x all (national)
     base %>%
       count_cells() %>%
-      mutate(sector = "Alle", discipline = "Alle"),
+      mutate(sector = "all", discipline = "all"),
 
-    # sector x Alle
+    # sector x all
     base %>%
       filter(!is.na(sector)) %>%
       count_cells(sector) %>%
-      mutate(discipline = "Alle"),
+      mutate(discipline = "all"),
 
-    # Alle x discipline
+    # all x discipline
     base %>%
       filter(!is.na(discipline)) %>%
       count_cells(discipline) %>%
-      mutate(sector = "Alle"),
+      mutate(sector = "all"),
 
     # sector x discipline
     base %>%
@@ -114,7 +132,7 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
   ) %>%
     select(year, sector, discipline, status, total) %>%
     arrange(year, sector, discipline, status) %>%
-    write_csv(paste0(site_data_folder, "/oa_national_cube.csv"))
+    write_csv(paste0(site_data_folder, "/oa_national_aggregated.csv"))
 
 
   #################################################
@@ -128,6 +146,13 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
       nva_inst_top_name,
       nva_year_reported,
       calculated_oa_status
+    ) %>%
+    mutate(
+      # institution names are proper nouns and stay Norwegian, but they arrive
+      # with stray padding - one carried a trailing zero-width space (U+200B),
+      # which silently breaks exact-name matching in the site's search box
+      nva_inst_top_name = str_squish(str_remove_all(nva_inst_top_name, "​")),
+      calculated_oa_status = recode(calculated_oa_status, !!!status_levels)
     ) %>%
     distinct() %>%
     group_by(

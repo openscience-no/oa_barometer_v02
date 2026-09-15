@@ -8,27 +8,64 @@
 // (ggplot2 + bbplot::bbc_style()): horizontal gridlines only, no axis titles,
 // top-left legend, thick baseline at y = 0, and the original R colors.
 
+// The data (data/*.csv, written by pipeline/export-site-data.R) is English and
+// ASCII throughout; everything the reader sees is Norwegian. The keys below are
+// the data values, and the *_LABELS maps are the only place the two meet - so
+// rewording the site never touches the data, and vice versa.
+
 // Category order = stacking order, bottom to top (matches the R factor levels)
 export const OA_ORDER = [
-  "diamant",
-  "gull",
+  "diamond",
+  "gold",
   "hybrid",
-  "hybrid_avtale",
-  "grønn",
-  "deponert",
-  "lukket",
+  "hybrid_agreement",
+  "green",
+  "deposited",
+  "closed",
 ];
 
 // Hex equivalents of the R color names used by the pipeline
 export const OA_COLORS = {
-  diamant: "#00CDCD",        // cyan3
-  gull: "#FFD700",           // gold
-  hybrid: "#CDAD00",         // gold3
-  hybrid_avtale: "#B8860B",  // darkgoldenrod
-  "grønn": "#3CB371",        // mediumseagreen
-  deponert: "#919191",       // grey57
-  lukket: "#B3B3B3",         // grey70
+  diamond: "#00CDCD",           // cyan3
+  gold: "#FFD700",              // gold
+  hybrid: "#CDAD00",            // gold3
+  hybrid_agreement: "#B8860B",  // darkgoldenrod
+  green: "#3CB371",             // mediumseagreen
+  deposited: "#919191",         // grey57
+  closed: "#B3B3B3",            // grey70
 };
+
+// Norwegian display labels for the data values above
+export const OA_LABELS = {
+  diamond: "diamant",
+  gold: "gull",
+  hybrid: "hybrid",
+  hybrid_agreement: "hybrid avtale",
+  green: "grønn",
+  deposited: "deponert",
+  closed: "lukket",
+};
+
+export const SECTOR_LABELS = {
+  all: "Alle",
+  higher_education: "UH",
+  institute: "Institutt",
+  health: "Helse",
+  archives_libraries_museums: "ABM",
+  other: "OTHER",
+};
+
+export const DISCIPLINE_LABELS = {
+  all: "Alle",
+  natural_sciences_engineering: "Realfag og teknologi",
+  health_sciences: "Medisin og helsefag",
+  social_science: "Samfunnsvitenskap",
+  humanities: "Humaniora",
+};
+
+// Label lookup that falls back to the raw key, so a new level coming out of the
+// pipeline shows up on the site (untranslated) instead of rendering as blank
+export const labelFor = (labels) => (key) => labels[key] ?? key;
 
 export const fmtNo = new Intl.NumberFormat("nb-NO");
 export const fmtPct1 = new Intl.NumberFormat("nb-NO", {
@@ -121,6 +158,7 @@ function oaPlot(Plot, {
       domain: cats,
       range: cats.map((c) => OA_COLORS[c]),
       legend: true,
+      tickFormat: labelFor(OA_LABELS),   // English keys in, Norwegian legend out
     },
     ...(facet ? { fx: { label: null, domain: groups } } : {}),
     marks: [
@@ -131,7 +169,8 @@ function oaPlot(Plot, {
         ...(facet ? { fx: "group" } : {}),
         tip: true,
         title: (d) =>
-          `${d.year}${d.group ? " · " + d.group : ""}\n${d.status}: ` +
+          `${d.year}${d.group ? " · " + d.group : ""}\n` +
+          `${labelFor(OA_LABELS)(d.status)}: ` +
           `${fmtNo.format(d.total)} artikler (${fmtPct1.format(d.share)} %)`,
       }),
       ...(showLabels
