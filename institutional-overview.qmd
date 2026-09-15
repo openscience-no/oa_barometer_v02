@@ -199,5 +199,5 @@ Inputs.table(instTable, {
 
 :::
 
-Datagrunnlaget kan lastes ned her:
+Hele datagrunnlaget aggregert til institusjonsnivå kan lastes ned her:
 [oa_institutions.csv](data/oa_institutions.csv).

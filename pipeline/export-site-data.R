@@ -132,7 +132,7 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
   ) %>%
     select(year, sector, discipline, status, total) %>%
     arrange(year, sector, discipline, status) %>%
-    write_csv(paste0(site_data_folder, "/oa_national_cube.csv"))
+    write_csv(paste0(site_data_folder, "/oa_national_aggregated.csv"))
 
 
   #################################################

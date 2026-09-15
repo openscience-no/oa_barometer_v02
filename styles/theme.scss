@@ -581,6 +581,20 @@ $oa-label-gap: 6.5px;     // margin Observable leaves after the label
 }
 
 .oa-table {
+  // the "last ned datagrunnlaget" line sits right below the table and would
+  // otherwise read as part of it
+  margin-bottom: 2rem;
+
+  // Inputs.table runs with layout: "auto", so the table is only as wide as its
+  // content. In the wide .column-page wrapper the leftover width all lands on
+  // the right and the table reads as shifted left - centre it instead. The
+  // narrower national table is left alone so its left edge stays flush with the
+  // controls box above it.
+  &.column-page table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   form {
     font-family: $font-family-sans-serif;
   }

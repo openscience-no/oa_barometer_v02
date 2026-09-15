@@ -22,7 +22,7 @@ detaljer.
 ```{ojs}
 //| echo: false
 oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
-cube = FileAttachment("data/oa_national_cube.csv").csv({typed: true})
+cube = FileAttachment("data/oa_national_aggregated.csv").csv({typed: true})
 cubeYears = [...new Set(cube.map((d) => d.year))].sort((a, b) => a - b)
 // options derived from the data: known levels in preferred order first,
 // then anything new the pipeline export may add
@@ -215,5 +215,5 @@ Inputs.table(natTable, {
 
 :::
 
-Datagrunnlaget kan lastes ned her:
-[oa_national_cube.csv](data/oa_national_cube.csv).
+Hele datagrunnlaget aggregert til nasjonalt nivå kan lastes ned her:
+[oa_national_aggregated.csv](data/oa_national_aggregated.csv).

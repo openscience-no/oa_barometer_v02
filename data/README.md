@@ -13,7 +13,7 @@ are the one exception: they are proper nouns and stay as they are.
 
 | File | Schema | Status |
 |---|---|---|
-| `oa_national_cube.csv` | year, sector, discipline, status, total | **Real** - exported from the OA pipeline |
+| `oa_national_aggregated.csv` | year, sector, discipline, status, total | **Real** - exported from the OA pipeline |
 | `oa_institutions.csv` | institution, year, status, total | **Real** - exported from the OA pipeline |
 
 ## National cube
