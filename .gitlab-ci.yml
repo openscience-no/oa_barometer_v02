@@ -1,11 +1,20 @@
 # Builds and publishes the OA-barometer to GitLab Pages.
 # Requires GitLab Pages to be enabled on the instance (check with the platform team).
+#
+# The site is static and self-contained: the container needs Quarto and nothing
+# else - no R, no node, no package install step - because the figures are built
+# in the reader's browser from the CSVs in data/.
+#
+# Pin the image tag to the same Quarto version used locally; a mismatch is the
+# usual cause of "renders here but not in CI".
 image: ghcr.io/quarto-dev/quarto:1.10.18
 
 pages:
   stage: deploy
   script:
     - quarto render
+    # GitLab Pages publishes whatever lands in `public/`, while Quarto is
+    # configured to output to _site/ (see _quarto.yml) - hence the rename
     - mv _site public
   artifacts:
     paths:

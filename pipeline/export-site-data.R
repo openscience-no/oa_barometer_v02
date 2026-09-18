@@ -33,6 +33,18 @@ library("tidyverse")
 #//////////////////////////////////////////////////////#
 
 
+# Write the site's two CSVs.
+#
+#   tilstandsrapport   publication-level df from the annual pipeline. One row
+#                      per nva_id x institution x discipline, so it must be
+#                      deduplicated per output grain (count_cells does this).
+#                      Columns used: nva_id, nva_year_reported,
+#                      calculated_oa_status, nva_inst_sector,
+#                      npi_academic_discipline, nva_inst_top_name.
+#   site_data_folder   this repo's data/ directory.
+#
+# Writes oa_national_aggregated.csv and oa_institutions.csv, overwriting both.
+# Returns nothing - run it for the side effect, then commit the CSVs.
 export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
 
   fs::dir_create(site_data_folder)
@@ -89,7 +101,12 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
     distinct()
 
 
-  # helper: deduplicated count per cell for a given grouping
+  # Deduplicated article count per cell, for whatever grouping is passed in
+  # via `...` (nothing = national totals, `sector` = per sector, and so on).
+  #
+  # The distinct() + n_distinct(nva_id) pair is the whole point: an article
+  # with authors at three institutions appears three times in the input, and
+  # must still count once within any single cell.
   count_cells = function(df, ...) {
     df %>%
       select(nva_id, year, status, ...) %>%
@@ -139,6 +156,9 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
   ### institutions: institution x year x oa status
   ### (per-institution deduplication - sums across
   ### institutions exceed the national total)
+  ###
+  ### Built straight from tilstandsrapport rather than from `base`, because
+  ### this grain needs the institution name, which `base` drops.
 
   tilstandsrapport %>%
     select(
@@ -151,7 +171,7 @@ export_oa_site_data = function(tilstandsrapport, site_data_folder = "./data") {
       # institution names are proper nouns and stay Norwegian, but they arrive
       # with stray padding - one carried a trailing zero-width space (U+200B),
       # which silently breaks exact-name matching in the site's search box
-      nva_inst_top_name = str_squish(str_remove_all(nva_inst_top_name, "​")),
+      nva_inst_top_name = str_squish(str_remove_all(nva_inst_top_name, "\u200b")),
       calculated_oa_status = recode(calculated_oa_status, !!!status_levels)
     ) %>%
     distinct() %>%

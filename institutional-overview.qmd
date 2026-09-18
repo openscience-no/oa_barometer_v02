@@ -25,8 +25,43 @@ deponert og lukket).
 
 ```{ojs}
 //| echo: false
+// How this page works
+// ...................
+// Same shape as national-overview.qmd: everything runs client-side in the
+// reader's browser via Observable JS (OJS), and the cells are REACTIVE rather
+// than sequential - block order on the page is layout, not execution order.
+// See the header comment in national-overview.qmd for the fuller explanation.
+//
+// The dataflow:
+//
+//     instRaw (the CSV)
+//       |.. instNames ...............> instQuery     (autocomplete options)
+//       '.. instYearsAll ............> instYears     (slider bounds)
+//
+//     instQuery ...> selectedInst                    (exact match, or null)
+//
+//     selectedInst + instYears + instMode + instCats + instLabels
+//       '..> the figure   (only once an institution is chosen)
+//
+//     instQuery + instYears + instMode + instCats
+//       '..> instTable ...> the table
+//                      '...> the CSV export button
+//
+// The search box does double duty: typing filters the table by substring, while
+// picking a name from the suggestion list also draws that institution's figure.
+//
+// Counting: each row is deduplicated per institution, so a co-authored article
+// counts once for every institution involved. Summing across institutions
+// therefore exceeds the national total - that is expected, not a bug. See
+// data/README.md.
+//
+// Shared helpers (chart, custom inputs, CSV export). See assets/js/oa-chart.js
+// for why the import is wrapped in `new Function`.
 oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
+// typed: true makes d3 coerce year/total to numbers instead of strings
 instRaw = FileAttachment("data/oa_institutions.csv").csv({typed: true})
+// Institution names are Norwegian proper nouns, so sort with a nb collator -
+// a plain sort() would put "Ås" and "Ørsta" after "Zürich" by code point.
 instNames = [...new Set(instRaw.map((d) => d.institution))].sort((a, b) => a.localeCompare(b, "nb"))
 instYearsAll = [...new Set(instRaw.map((d) => d.year))].sort((a, b) => a - b)
 ```
@@ -35,6 +70,8 @@ instYearsAll = [...new Set(instRaw.map((d) => d.year))].sort((a, b) => a - b)
 
 ```{ojs}
 //| echo: false
+// Free-text search with autocomplete. The value is whatever is typed, so it
+// both filters the table (substring) and selects the figure (exact match).
 viewof instQuery = oa.comboboxInput({
   options: instNames,
   label: "Institusjon",
@@ -46,6 +83,7 @@ viewof instQuery = oa.comboboxInput({
 
 ```{ojs}
 //| echo: false
+// Absolute counts vs 100 % stacked shares - drives figure, table and export.
 viewof instMode = Inputs.radio(
   new Map([["Antall", "abs"], ["Prosent", "pct"]]),
   {value: "abs", label: "Visning"}
@@ -56,6 +94,8 @@ viewof instMode = Inputs.radio(
 
 ```{ojs}
 //| echo: false
+// Custom two-ended slider; bounds follow the data, so the range extends by
+// itself after an annual update.
 viewof instYears = oa.yearRangeInput({
   min: instYearsAll[0],
   max: instYearsAll.at(-1),
@@ -89,11 +129,15 @@ instCats = oa.OA_ORDER
 
 ```{ojs}
 //| echo: false
+// The figure needs one specific institution, so only an exact (case-insensitive)
+// name counts - a partial search term filters the table but leaves this null,
+// and the page shows the "pick one" hint instead of a chart.
 selectedInst = instNames.find((n) => n.toLowerCase() === instQuery.toLowerCase()) ?? null
 ```
 
 ```{ojs}
 //| echo: false
+// No institution chosen yet -> hint text instead of an empty chart
 selectedInst
   ? oa.oaChartCard(Plot, {
       data: instRaw.filter((d) => d.institution === selectedInst),
@@ -114,6 +158,9 @@ selectedInst
 
 ```{ojs}
 //| echo: false
+// The table mirrors the figure, but is not limited to the selected institution:
+// it lists every institution matching the search text, one row per year.
+// Pivots the long CSV rows (one per institution x year x status) into wide rows.
 instTable = {
   // tidy format: one row per institution + year
   const cats = oa.OA_ORDER.filter((c) => instCats.includes(c));
@@ -132,6 +179,8 @@ instTable = {
   }
   return [...m.values()]
     .map((r) => {
+      // "open" = every category except closed and deposited; deposited is a
+      // waiting room (uploaded but not yet released), so it is not open access
       const total = cats.reduce((s, c) => s + r[c], 0);
       const open = total - (r.closed ?? 0) - (r.deposited ?? 0);
       const out = {year: r.year, institution: r.institution};
@@ -144,6 +193,7 @@ instTable = {
       out.open_share = total ? (open / total) * 100 : 0;
       return out;
     })
+    // institution A-Z (Norwegian collation), then newest year first within each
     .sort((a, b) =>
       a.institution.localeCompare(b.institution, "nb") || b.year - a.year);
 }
@@ -153,6 +203,8 @@ instTable = {
 
 ```{ojs}
 //| echo: false
+// Exports exactly what the table currently shows (search text, year range and
+// Antall/Prosent all apply). Column names are English; see oa.downloadCsv.
 viewof instTblDownload = Inputs.button("Last ned CSV", {
   label: "Eksport",
   reduce: () => oa.downloadCsv(
@@ -181,6 +233,8 @@ viewof instTblDownload = Inputs.button("Last ned CSV", {
 
 ```{ojs}
 //| echo: false
+// Keys stay English (they come from the data); `header` supplies the Norwegian
+// column names, and `format` renders each cell.
 Inputs.table(instTable, {
   columns: ["year", "institution", ...oa.OA_ORDER.filter((c) => instCats.includes(c)), "total", "open_share"],
   header: {

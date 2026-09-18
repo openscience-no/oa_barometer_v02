@@ -1,12 +1,33 @@
-// Client-side chart and table helpers for the OA-barometer.
+// ---------------------------------------------------------------------------
+// Client-side chart, input and table helpers for the OA-barometer.
+// ---------------------------------------------------------------------------
 //
-// Loaded from OJS cells via dynamic import(). The Observable Plot instance is
-// passed in from the Quarto/Observable runtime, so this module has no
-// dependencies of its own.
+// HOW THIS IS LOADED
+// Each explorer page (.qmd) pulls this in from its first OJS cell:
 //
-// The chart replicates the look of the previous static plots
+//   oa = (new Function("u", "return import(u)"))(
+//          new URL("assets/js/oa-chart.js", document.baseURI).href)
+//
+// The indirect `new Function` wrapper is there because Quarto rewrites a bare
+// import(), and the dynamic import keeps everything client-side: there is no
+// bundler, no npm install and no build step. Edit this file and reload.
+//
+// Observable Plot is NOT imported here - the page passes its own `Plot` in as
+// the first argument to the drawing helpers. That keeps this module free of
+// dependencies and avoids loading a second copy of Plot beside Quarto's.
+//
+// WHAT LIVES HERE
+//   OA_ORDER / OA_COLORS / *_LABELS   data vocabulary + Norwegian display names
+//   oaChartCard()                     the stacked bar figure, with header/footer
+//   yearRangeInput() / comboboxInput() custom inputs usable as OJS `viewof`
+//   pctBarCell()                      a table cell rendered as a mini bar
+//   downloadCsv()                     client-side CSV export
+//
+// CHART LOOK
+// The figure deliberately replicates the previous static R plots
 // (ggplot2 + bbplot::bbc_style()): horizontal gridlines only, no axis titles,
-// top-left legend, thick baseline at y = 0, and the original R colors.
+// top-left legend, a thick baseline at y = 0, and the original R colours - so
+// the site and the annual report stay visually consistent.
 
 // The data (data/*.csv, written by pipeline/export-site-data.R) is English and
 // ASCII throughout; everything the reader sees is Norwegian. The keys below are
@@ -67,13 +88,32 @@ export const DISCIPLINE_LABELS = {
 // pipeline shows up on the site (untranslated) instead of rendering as blank
 export const labelFor = (labels) => (key) => labels[key] ?? key;
 
+// Norwegian number formatting: comma as the decimal mark, non-breaking space as
+// the thousands separator ("16 458", "34,3"). Used for every number the reader
+// sees, and for the CSV export so the files open cleanly in a Norwegian Excel.
 export const fmtNo = new Intl.NumberFormat("nb-NO");
 export const fmtPct1 = new Intl.NumberFormat("nb-NO", {
   minimumFractionDigits: 1,
   maximumFractionDigits: 1,
 });
 
-// Build the Plot figure. Rows: {year, status, total, group?}.
+// ---------------------------------------------------------------------------
+// The figure: one stacked bar per year, segments in OA_ORDER.
+//
+// Internal - callers use oaChartCard() instead, which wraps this in the
+// title/source/logo frame.
+//
+//   Plot        Observable Plot, handed in by the calling page (see header)
+//   data        rows of {year, status, total, group?} - straight from the CSVs
+//   mode        "abs" = article counts, "pct" = 100 % stacked shares
+//   categories  which OA statuses to include (order is ignored; OA_ORDER wins)
+//   yearFrom/To inclusive year filter
+//   facet       draw one panel per row.group (unused today; kept for the
+//               planned comparison page)
+//   showLabels  print the value inside each bar segment
+//
+// Returns a detached SVG element.
+// ---------------------------------------------------------------------------
 function oaPlot(Plot, {
   data,
   mode = "abs",              // "abs" | "pct"
@@ -86,6 +126,8 @@ function oaPlot(Plot, {
   height = 480,
 }) {
   const isPct = mode === "pct";
+  // Intersect with OA_ORDER rather than using `categories` directly: the caller
+  // may pass the selection in any order, but stacking order must stay fixed.
   const cats = OA_ORDER.filter((c) => categories.includes(c));
 
   const rows = data
@@ -103,12 +145,16 @@ function oaPlot(Plot, {
     d.value = isPct ? d.share : d.total;
   }
 
-  // fixed stacking order: Plot stacks in input order
+  // Plot stacks in *input* order, so sorting the rows is what actually pins the
+  // segment order - the `cats` array above only decides which ones are drawn.
   rows.sort(
     (a, b) => a.year - b.year || cats.indexOf(a.status) - cats.indexOf(b.status)
   );
 
-  // segment midpoints for optional in-bar value labels
+  // Optional in-bar labels: walk each stack bottom-up, remembering the running
+  // height so a label can be placed at each segment's midpoint. Segments under
+  // 3 % of the tallest stack are skipped - the text would not fit and would
+  // collide with its neighbours.
   const maxStack = isPct ? 100 : Math.max(0, ...totals.values());
   const labelRows = [];
   if (showLabels) {
@@ -162,6 +208,7 @@ function oaPlot(Plot, {
     },
     ...(facet ? { fx: { label: null, domain: groups } } : {}),
     marks: [
+      // tip: true turns the `title` channel below into a hover tooltip
       Plot.barY(rows, {
         x: "year",
         y: "value",
@@ -181,6 +228,8 @@ function oaPlot(Plot, {
               ...(facet ? { fx: "group" } : {}),
               text: (d) =>
                 isPct ? fmtPct1.format(d.share) : fmtNo.format(d.total),
+              // white stroke under dark text = a halo, so labels stay readable
+              // on top of any segment colour
               fill: "#222222",
               stroke: "#ffffff",
               strokeWidth: 3,
@@ -189,13 +238,23 @@ function oaPlot(Plot, {
             }),
           ]
         : []),
+      // the thick baseline at y = 0 is a bbplot signature
       Plot.ruleY([0], { stroke: "#222222", strokeWidth: 2 }),
     ],
   });
 }
 
-// Chart with bbplot-style header (bold title + subtitle) and a footer with
-// source text and the openscience.no logo, like finalise_plot() produced.
+// ---------------------------------------------------------------------------
+// PUBLIC: the figure as a finished card - bold title, subtitle, the plot, then
+// a footer with the source line and the openscience.no logo. Mirrors what
+// bbplot's finalise_plot() produced for the static R charts.
+//
+// Any option not listed here is forwarded to oaPlot() (data, mode, categories,
+// yearFrom/To, showLabels, width, height).
+//
+// Returns a detached <figure>; the OJS cell that calls this returns it and
+// Observable inserts it into the page.
+// ---------------------------------------------------------------------------
 export function oaChartCard(Plot, {
   title = "",
   subtitle = "",
@@ -236,8 +295,20 @@ export function oaChartCard(Plot, {
   return card;
 }
 
-// Dual-thumb year range slider (NVI reporting year). Works as an OJS viewof:
-// element.value = [from, to], emits bubbling "input" events on change.
+// ---------------------------------------------------------------------------
+// PUBLIC: dual-thumb year range slider over the NVI reporting year.
+//
+// Usable directly as an OJS input - `viewof natYears = oa.yearRangeInput(...)`
+// - because it honours Observable's two-part contract: the element exposes a
+// `.value` (here [from, to]) and fires a bubbling "input" event when it
+// changes. Built by hand rather than with Inputs.range because Observable has
+// no two-ended range input.
+//
+// Implementation: two overlaid <input type=range> with pointer-events disabled
+// except on the thumbs, drawn over a shared track plus a fill div marking the
+// selected span. Either thumb may be dragged past the other, so the value is
+// always read as [min, max] of the two rather than [lo, hi].
+// ---------------------------------------------------------------------------
 export function yearRangeInput({ min, max, value = [min, max], label = "År" } = {}) {
   const wrap = document.createElement("div");
   wrap.className = "oa-year-slider";
@@ -287,8 +358,17 @@ export function yearRangeInput({ min, max, value = [min, max], label = "År" } =
   return wrap;
 }
 
-// Search/autocomplete combobox (input + datalist). Works as an OJS viewof:
-// element.value = current text (trimmed), emits bubbling "input" events.
+// ---------------------------------------------------------------------------
+// PUBLIC: search box with autocomplete, backed by a native <datalist>.
+//
+// Another OJS `viewof` input: `.value` is the trimmed text, and the native
+// "input" event bubbles on its own. A datalist (rather than a custom dropdown)
+// gives free keyboard handling and filtering, and degrades to a plain text
+// field in browsers that do not render suggestions.
+//
+// Note the value is whatever is typed, not a validated choice - the page
+// decides what counts as a match (see `selectedInst` in the institution page).
+// ---------------------------------------------------------------------------
 export function comboboxInput({ options, label = "", placeholder = "" } = {}) {
   const wrap = document.createElement("div");
   wrap.className = "oa-combobox";
@@ -321,7 +401,12 @@ export function comboboxInput({ options, label = "", placeholder = "" } = {}) {
   return wrap;
 }
 
-// Table cell for "andel åpen": percent text over a proportional mini-bar
+// ---------------------------------------------------------------------------
+// PUBLIC: table cell for "Andel åpen" - the percentage printed on top of a
+// proportional bar, so a column of them reads as a mini chart. The bar is a
+// hard-stop linear-gradient rather than a nested element, which keeps it to one
+// DOM node per cell in tables that can run to thousands of rows.
+// ---------------------------------------------------------------------------
 export function pctBarCell(pct) {
   const div = document.createElement("div");
   div.className = "oa-pct-bar";
@@ -331,9 +416,22 @@ export function pctBarCell(pct) {
   return div;
 }
 
-// Download rows as a semicolon-separated CSV (Norwegian Excel convention),
-// with a BOM so æ/ø/å survive the Excel import.
-// columns: [{key, header, value?}] where value is an optional accessor fn.
+// ---------------------------------------------------------------------------
+// PUBLIC: export rows as a CSV file, built and downloaded entirely in the
+// browser - there is no server to ask.
+//
+//   rows     array of row objects (the same objects the table renders)
+//   columns  [{key, header, value?}] - `header` is the column name written out,
+//            `value` an optional accessor for formatting (e.g. Norwegian
+//            decimals); without it the raw row[key] is written
+//   filename suggested download name
+//
+// Two Norwegian-Excel conventions matter here and are easy to break:
+//   - semicolon separator, because Excel in a nb-NO locale treats comma as the
+//     decimal mark and would otherwise put every row in one cell
+//   - a UTF-8 BOM, without which Excel guesses the legacy codepage and mangles
+//     the a-ring / o-slash / ae in institution names
+// ---------------------------------------------------------------------------
 export function downloadCsv(rows, columns, filename) {
   const esc = (v) => {
     const s = String(v ?? "");
