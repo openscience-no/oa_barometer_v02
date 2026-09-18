@@ -1,6 +1,12 @@
 # Builds and publishes the OA-barometer to GitHub Pages.
-# Only used if the repo is hosted on GitHub; GitLab uses .gitlab-ci.yml.
-# Requires repo Settings -> Pages -> Source: "GitHub Actions".
+#
+# The project's home is GitLab (see .gitlab-ci.yml, which is the pipeline that
+# actually runs). This file is the equivalent for a GitHub mirror; the two
+# coexist because each platform only reads its own config. Requires repo
+# Settings -> Pages -> Source: "GitHub Actions".
+#
+# Keep the Quarto version below in step with .gitlab-ci.yml so both platforms
+# build the same output.
 name: Publish to GitHub Pages
 
 on:
@@ -8,11 +14,14 @@ on:
     branches: [main]
   workflow_dispatch:
 
+# Least privilege: read the repo, publish Pages, and mint the OIDC token that
+# actions/deploy-pages exchanges for its deployment credentials.
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Only one publish at a time; a newer push supersedes one still running
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -30,6 +39,8 @@ jobs:
         with:
           version: 1.10.18
 
+      # No dependency install step: the site is static and the figures are
+      # built client-side from the CSVs in data/
       - run: quarto render
 
       - uses: actions/configure-pages@v5

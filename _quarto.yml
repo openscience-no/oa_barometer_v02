@@ -1,10 +1,19 @@
+# Site configuration for the OA-barometer.
+# Build with `quarto render`; preview with `quarto preview`. Everything here is
+# static HTML - the figures are assembled in the browser (see the explorer
+# pages), so no R or Python runs at build time.
+
 project:
   type: website
   output-dir: _site
+  # Copied verbatim into _site. `data/**` is deliberate: the CSVs are both the
+  # figures' data source and a public download. Keep unused material (design
+  # originals, screenshots) OUT of assets/ or it ships with the site.
   resources:
     - assets/**
     - data/**
 
+# Norwegian: sets the html lang attribute and Quarto's own UI strings
 lang: nb
 
 # Shown as "Endret <date>" on every page, taken from the file's modification time
@@ -12,8 +21,13 @@ date-modified: last-modified
 
 website:
   title: "OA-barometeret"
+  # Browser-tab icon: the orange openscience.no keyhole
   favicon: assets/icons/favicon-keyhole.svg
   navbar:
+    # The brand block (logo + title) links out to openscience.no; the site's own
+    # home link is the first entry under `left:` below. Raw HTML is allowed in
+    # `title` and in each item's `text`, which is how the two-line brand and the
+    # icon on the home link are done.
     title: '<span class="os-brand"><span class="os-brand-name">openscience.no</span><span class="os-brand-sub">åpenforskning.no | openforsking.no</span></span>'
     logo: assets/openscience-icon.svg
     logo-alt: "openscience.no – åpenforskning.no | openforsking.no"
@@ -38,6 +52,7 @@ website:
 
 format:
   html:
+    # All site styling lives in one file; see its header for the layout rules
     theme: [styles/theme.scss]
     toc: true
     toc-title: "På denne siden"
@@ -46,7 +61,11 @@ format:
     link-external-newwindow: true
     title-block-banner: "#E5EDEF"
     title-block-banner-color: "#000000"
+    # Sikt sender identity, appended to every page
     include-after-body: partials/footer.html
+    # Content column widths. body-width is what the controls box, figures and
+    # the national table are sized against; the institution table opts into the
+    # wider `.column-page` span because it has far more columns.
     grid:
       sidebar-width: 220px
       body-width: 950px

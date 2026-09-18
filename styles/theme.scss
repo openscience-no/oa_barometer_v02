@@ -1,7 +1,36 @@
+// ===========================================================================
+// OA-barometer theme - the site's only stylesheet.
+//
+// Quarto compiles this on top of Bootstrap, and the two marker comments below
+// are significant, not decoration:
+//
+//   /*-- scss:defaults --*/   Bootstrap/Quarto VARIABLES, read before Bootstrap
+//                             is compiled. Setting $navbar-bg here restyles
+//                             every navbar; overriding .navbar in rules would
+//                             instead fight Bootstrap's own selectors.
+//   /*-- scss:rules --*/      ordinary CSS, emitted after Bootstrap.
+//
+// Anything defined in `rules` cannot be seen from `defaults`, so a value used
+// in both places has to be a variable declared up top.
+//
+// CLASS PREFIXES
+//   .os-*   openscience.no design system - the look this site borrows from the
+//           parent site (cards, notes, bands, footer, brand type).
+//   .oa-*   OA-barometer's own interactive pieces - the control box, chart card,
+//           tables and the hand-built inputs in assets/js/oa-chart.js.
+//   others  Bootstrap's or Quarto's own classes, restyled in place.
+//
+// A recurring theme below: Observable Inputs injects its own stylesheet AT
+// RUNTIME, so its rules land after this file and win ties. Several overrides
+// here therefore need one extra class of specificity to take effect - each is
+// commented where it happens.
+// ===========================================================================
+
 /*-- scss:defaults --*/
 
 // ---------------------------------------------------------------------------
 // openscience.no design palette (from openscience_font_fargekoder_2021-10-05.txt)
+// The four brand colours; everything else on the site derives from these.
 // ---------------------------------------------------------------------------
 $os-gray:      #424242;   // Gray   - header, footer, body text
 $os-orange:   #F68213;   // Orange - accent color
@@ -253,6 +282,9 @@ h3 {
 // Card grid with arrow link cards (like "Snarveier" on openscience.no)
 // ---------------------------------------------------------------------------
 .os-cards {
+  // auto-fit + minmax reflows the cards by itself: as many per row as fit at
+  // 260px minimum, dropping to one column on a phone. No media query needed,
+  // and adding a card to a page needs no style change.
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.25rem;
@@ -441,7 +473,8 @@ body:has(.os-band--flush) {
   }
 }
 
-// Quarto elements that should not compete with the custom footer
+// Quarto renders its own footer; hidden so only the Sikt footer from
+// partials/footer.html shows (see include-after-body in _quarto.yml)
 .nav-footer {
   display: none;
 }
@@ -453,7 +486,8 @@ body:has(.os-band--flush) {
   font-weight: 500;
 }
 
-// Tables: Barlow, some breathing room, orange top border
+// Plain Markdown tables (e.g. in the method page). The interactive tables the
+// OJS pages render are styled separately under .oa-table further down.
 table.table {
   font-size: 0.95rem;
 

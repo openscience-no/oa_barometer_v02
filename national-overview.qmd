@@ -21,11 +21,44 @@ detaljer.
 
 ```{ojs}
 //| echo: false
+// How this page works
+// ...................
+// Everything below runs in the reader's browser via Observable JS (OJS). There
+// is no R at build or serve time - `quarto render` only emits HTML, and the
+// figures assemble themselves from the CSV when the page loads.
+//
+// OJS cells are REACTIVE, not sequential: a cell re-runs whenever any value it
+// names changes, so the order of the blocks on this page is a layout decision,
+// not an execution order. `natTable` may be written above the input that feeds
+// it and still be correct. Each name may be defined only once per page.
+//
+// The dataflow:
+//
+//     cube (the CSV)
+//       |.. cubeYears ...............> natYears      (slider bounds)
+//       |.. sectorOptions ...........> natSector     (dropdown options)
+//       '.. disciplineOptions .......> natDisc       (dropdown options)
+//
+//     natSector + natDisc ..........> natRows        (rows for one cell)
+//
+//     natRows + natYears + natMode + natCats + natLabels
+//       |..> the figure   (oa.oaChartCard)
+//       '..> natTable ....> the table   (Inputs.table)
+//                      '...> the CSV export button
+//
+// Counting: `cube` is pre-aggregated so that each (sector | all) x
+// (discipline | all) cell is separately deduplicated. Never sum across sector
+// or discipline levels - pick exactly one of each. See data/README.md.
+//
+// Shared helpers (chart, custom inputs, CSV export). See assets/js/oa-chart.js
+// for why the import is wrapped in `new Function`.
 oa = (new Function("u", "return import(u)"))(new URL("assets/js/oa-chart.js", document.baseURI).href)
+// typed: true makes d3 coerce year/total to numbers instead of strings
 cube = FileAttachment("data/oa_national_aggregated.csv").csv({typed: true})
 cubeYears = [...new Set(cube.map((d) => d.year))].sort((a, b) => a - b)
-// options derived from the data: known levels in preferred order first,
-// then anything new the pipeline export may add
+// Filter options come from the data, not a hardcoded list, so a new sector or
+// discipline out of the pipeline appears by itself. `known` only fixes the
+// display order of the levels we already know; anything else is appended.
 sectorOptions = {
   const known = ["all", "higher_education", "institute", "health", "archives_libraries_museums"];
   const inData = [...new Set(cube.map((d) => d.sector))];
@@ -44,6 +77,8 @@ disciplineOptions = {
 
 ```{ojs}
 //| echo: false
+// Filter inputs. Each `viewof` defines the named value used elsewhere on the
+// page; `format` keeps the English data values behind Norwegian labels.
 viewof natSector = Inputs.select(sectorOptions, {
   value: "all",
   label: "Sektor",
@@ -64,6 +99,8 @@ viewof natDisc = Inputs.select(disciplineOptions, {
 
 ```{ojs}
 //| echo: false
+// Absolute counts vs 100 % stacked shares. Drives the figure, the table cells
+// and the CSV export together, so the two always agree.
 viewof natMode = Inputs.radio(
   new Map([["Antall", "abs"], ["Prosent", "pct"]]),
   {value: "abs", label: "Visning"}
@@ -74,6 +111,8 @@ viewof natMode = Inputs.radio(
 
 ```{ojs}
 //| echo: false
+// Custom two-ended slider (Observable has no built-in range input). Bounds
+// follow the data, so the range extends by itself after an annual update.
 viewof natYears = oa.yearRangeInput({
   min: cubeYears[0],
   max: cubeYears.at(-1),
@@ -107,7 +146,10 @@ natCats = oa.OA_ORDER
 
 ```{ojs}
 //| echo: false
+// Exactly one sector level and one discipline level - see the counting note in
+// the header block. natRows re-computes whenever either filter changes.
 natRows = cube.filter((d) => d.sector === natSector && d.discipline === natDisc)
+// Subtitle names the active filters, omitting the ones left at "all"
 natSubtitle = [
   `NVI ${natYears[0]}–${natYears[1]}`,
   natSector === "all" ? null : `Sektor: ${oa.SECTOR_LABELS[natSector] ?? natSector}`,
@@ -136,6 +178,8 @@ oa.oaChartCard(Plot, {
 
 ```{ojs}
 //| echo: false
+// The table mirrors the figure: same filters, same numbers, one row per year.
+// Pivots the long CSV rows (one per year x status) into one wide row per year.
 natTable = {
   const cats = oa.OA_ORDER.filter((c) => natCats.includes(c));
   const byYear = new Map();
@@ -150,6 +194,8 @@ natTable = {
   }
   return [...byYear.values()]
     .map((r) => {
+      // "open" = every category except closed and deposited; deposited is a
+      // waiting room (uploaded but not yet released), so it is not open access
       const total = cats.reduce((s, c) => s + r[c], 0);
       const open = total - (r.closed ?? 0) - (r.deposited ?? 0);
       const out = {year: r.year};
@@ -170,6 +216,8 @@ natTable = {
 
 ```{ojs}
 //| echo: false
+// Exports exactly what the table currently shows (filters, year range and
+// Antall/Prosent all apply). Column names are English; see oa.downloadCsv.
 viewof natTblDownload = Inputs.button("Last ned CSV", {
   label: "Eksport",
   reduce: () => oa.downloadCsv(
@@ -197,6 +245,8 @@ viewof natTblDownload = Inputs.button("Last ned CSV", {
 
 ```{ojs}
 //| echo: false
+// Keys stay English (they come from the data); `header` supplies the Norwegian
+// column names, and `format` renders each cell.
 Inputs.table(natTable, {
   columns: ["year", ...oa.OA_ORDER.filter((c) => natCats.includes(c)), "total", "open_share"],
   header: {
